@@ -148,7 +148,7 @@ The backend MCP server (not included unless you add it) bridges MCP tool calls t
   Whether the backend services are initialized and reachable.
 
 ## Quick Start
-## Create a virtual environment with `uv` and install `requirements.txt`
+Create a virtual environment with `uv` and install `requirements.txt`
 
 ```bash
 # 1) Install uv
