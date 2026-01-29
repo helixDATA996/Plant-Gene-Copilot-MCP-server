@@ -1,0 +1,25 @@
+# Full Dependencies (Development)
+# ================================
+# Includes both client and server dependencies
+
+# FastMCP framework
+fastmcp>=0.1.0
+
+# Web framework (async) - for http_server.py
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# HTTP client (async)
+httpx>=0.25.0
+
+# Database (async) - for http_server.py
+aiomysql>=0.2.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Visualization - for http_server.py
+matplotlib>=3.7.0
+
+# Data processing
+numpy>=1.24.0
