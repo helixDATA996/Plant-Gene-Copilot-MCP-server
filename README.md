@@ -178,4 +178,6 @@ uv pip install -r requirements.txt
 python -V
 python -c "import sys; print(sys.executable)"
 
-# 6)python mcp_server.py
+# 7)Config your NCBI api key
+
+# 7)python mcp_server.py
