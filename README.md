@@ -148,3 +148,34 @@ The backend MCP server (not included unless you add it) bridges MCP tool calls t
   Whether the backend services are initialized and reachable.
 
 ## Quick Start
+## Create a virtual environment with `uv` and install `requirements.txt`
+
+```bash
+# 1) Install uv
+# macOS / Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+# Windows (PowerShell)
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+#Using pip
+pip install uv
+
+# 2) Go to your project directory
+cd /path/to/your/project
+
+# 3) Create a virtual environment (defaults to .venv)
+uv venv
+
+# 4) Activate the environment
+# macOS / Linux
+source .venv/bin/activate
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# 5) Install dependencies
+uv pip install -r requirements.txt
+
+# 6) Verify
+python -V
+python -c "import sys; print(sys.executable)"
+
+# 6)python mcp_server.py
