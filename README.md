@@ -15,7 +15,7 @@ It connects to a backend MCP server that provides unified function-style tools f
 
 ## Architecture
 
-This repository provides the MCP frontend (tool client + UI/agent integration).  
+This repository provides the MCP frontend (MCP tool client).  
 The backend MCP server (not included unless you add it) bridges MCP tool calls to an intermediary API service and underlying MySQL repositories.
 
 ### High-level flow
