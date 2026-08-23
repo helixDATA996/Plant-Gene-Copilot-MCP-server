@@ -183,3 +183,11 @@ Config your NCBI api key
 
 # 8)Run
 python mcp_server.py
+
+<p>
+  本项目的 AI API 支持由
+  <a href="https://tokeness.io">
+    Tokeness.io
+  </a>
+  赞助提供。
+</p>
