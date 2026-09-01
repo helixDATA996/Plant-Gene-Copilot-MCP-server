@@ -1,0 +1,1669 @@
+﻿index,question,species,area,correct_answer,with_mcp_answer,with_mcp_choice,with_mcp_evaluation,with_mcp_correct,no_mcp_answer,no_mcp_choice,no_mcp_evaluation,no_mcp_correct,status,error,retries,elapsed_time
+0,What is in an RNA polymerase I holoenzyme?,non-specific,GENE REGULATION - TRANSCRIPTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,9.57
+1,Can the activity of RNA polymerase I complex be regulated by casein kinase 2 (CK2)?,non-specific,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+CK2（或CK2样蛋白）与RNA Pol I全酶相互作用，并可通过磷酸化转录因子促进rDNA转录。多个研究（如PMID: 18559419, 16880508, 11587515）表明，CK2磷酸化TIF-IA、UBF等转录因子，增强rDNA转录活性。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了RNA polymerase I complex的活性可以通过casein kinase 2 (CK2)调节。,True,"0: CK2 interacts with the RNA Pol I holoenzyme and it can phosphorylate transcription factors, thereby increasing rDNA transcription",0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,35.98
+2,Where does RNA polymerase I transcriptional activity take place?,non-specific,GENE REGULATION - TRANSCRIPTION,1,1: The RNA Pol I transcription takes place in the nucleolus and more precisely in the dense fibrillary component (DFC).,1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,正确答案是：1: The RNA Pol I transcription takes place in the nucleolus and more precisely in the dense fibrillary component (DFC).,1,模型输出的选项与正确选项一致，回答正确。,True,success,,0,7.06
+3,Can plant microRNA (miRNA) precursors be shortened to express artificial microRNAs (amiRNAs) from viral vectors?,non-specific,PLANT BIOTECHNOLOGY,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,"0: Yes, plant miRNA precursors can be shortened to express amiRNAs from viral vectors, as such minimal precursors retain the essential structural features necessary for accurate processing and function.",0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.91
+4,Can TAS1c-based synthetic trans acting small interfering RNAs (syn-tasiRNAs) move throughout Nicotiana benthamiana and induce the systemic silencing of the SULPHUR gene?,non-specific,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，均为1，因此判断为正确。,True,"1: Yes, TAS1c-based syn-tasiRNAs can move throughout Nicotiana benthamiana and induce the systemic silencing of the SULPHUR gene. Syn-tasiRNAs are processed from TAS1c precursors and move as duplexes though the phloem to reach apical tissues where they are incorporated into ARGONAUTE1 proteins to degrade SULPHUR mRNAs.",1,模型输出的选项与正确选项一致，均为1，因此判断为正确。,True,success,,0,7.22
+5,Under which molecular form do artificial microRNAs (amiRNAs) and synthetic trans acting small interfering RNAs (syn-tasiRNAs) move throughout Nicotiana benthamiana to induce systemic silencing of endogenous genes?,Nicotiana benthamiana,PLANT BIOTECHNOLOGY,2,0,0,正确选项为2，agent的选项为0，两者不一致，因此agent的回答错误。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.44
+6,Does multi-targeting of viral RNAs with synthetic trans-acting small interfering RNAs (syn-tasiRNAs) enhance plant antiviral resistance?,non-specific,PLANT BIOTECHNOLOGY,0,"0: Yes, multi-targeting of viral RNAs with syn-tasiRNAs enhances plant antiviral resistance. By expressing multiple syn-tasiRNAs from a single precursor, plants can simultaneously target several regions of a viral genome or even multiple viral genomes, minimizing the likelihood of viral escape mutants, as the virus would need to mutate multiple target sites simultaneously to overcome the resistance.",0,模型输出的选项与正确选项一致，均为0，表明模型正确回答了问题。,True,"0: Yes, multi-targeting of viral RNAs with syn-tasiRNAs enhances plant antiviral resistance. By expressing multiple syn-tasiRNAs from a single precursor, plants can simultaneously target several regions of a viral genome or even multiple viral genomes, minimizing the likelihood of viral escape mutants, as the virus would need to mutate multiple target sites simultaneously to overcome the resistance.",0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,10.28
+7,Do you find rna polymerase ii transcription start sites only in annotated gene promoter regions?,non-specific,GENE REGULATION - TRANSCRIPTION,2,"2: No, it is possible to detect transcription start sites in additional regions without annotated promoters, for example some intergenic regions. In addition, transcription can start within annotated genes on the sense and antisense strand.",2,模型回答的选项与正确选项一致，内容准确描述了RNA聚合酶II转录起始位点可能出现在非注释启动子区域的情况。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.41
+8,Are plant genes are only transcribed in one direction?,non-specific,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+
+文献分析表明，植物中存在广泛的反义转录（antisense transcription），包括从基因3′-UTR起始的反义转录以及基因内部（intragenic）起始的反义转录。例如，ELENA19是UGT71B6基因的天然反义转录本，参与调控植物免疫反应；COOLAIR是FLC基因的反义转录本，在低温下调控开花时间。此外，RsFLC2的研究也显示反义转录和基因内环结构在表观遗传调控中的作用。
+
+因此，正确答案是：  
+2: No, antisense transcription is common. It can either be antisense transcription initiating in the 3´-UTR, or initiation of antisense transcription intragenically.",2,模型回答与正确选项一致，正确选项为2，模型选择2。,True,"2: No, antisense transcription is common. It can either be antisense transcription initiating in the 3´-UTR, or initiation of antisense transcription intragenically.",2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,40.28
+9,Are there methylation signatures of histone H3 tails that correlate positively with rna polymerase ii transcriptional activity?,non-specific,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,0,"
+
+Yes, in particular tri-methylation and di-methylation of histone 3 lysine 4, and histone 3 lysine 36.  
+答案：0",0,模型输出的选项与正确选项一致，均为0。,True,"0: Yes, in particular tri-methylation and di-methylation of histone 3 lysine 4, and histone 3 lysine 36.",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了甲基化特征与RNA聚合酶II转录活性之间的正相关关系。,True,success,,0,19.79
+10,Is the transcript resulting from the torpedo-mechanism of transcriptional termination is incorporated into standard genome annotations?,non-specific,GENE REGULATION - TRANSCRIPTION,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,8.05
+11,Which proteins have been identified as physical interactors of the C subunit of the Nuclear Factor Y 1 (NF-YC1) from common bean (Phaseolus vulgaris)?,Phaseolus vulgaris,ENVIRONMENT - PLANT-SYMBIONTS,1,"
+
+根据文献摘要，SIN1 和 NF-YA1 是通过使用 NF-YC1 作为诱饵进行酵母双杂交筛选鉴定的，并且两者都参与了根瘤发育过程。因此正确选项是：
+
+2: SIN1 and NF-YA1 have been identified by a yeast two hybrid screening using NF-YC1 as a bait. Only NF-YA1 is involved in nodule development. 
+
+错误在于“Only NF-YA1 is involved in nodule development”——实际上SIN1也参与根瘤发育。
+
+重新分析：摘要明确指出SIN1 RNAi导致结瘤数量和大小显著减少，说明SIN1参与根瘤发育；同时NF-YA1表达在SIN1沉默后下降，表明其关联性。
+
+但选项0提到bimolecular fluorescence complementation验证的是SIN1与NF-YC1互作，而非NF-YA1。
+
+正确答案应为：
+
+1: SIN1 and NIPK have been identified by a yeast two hybrid screening using NF-YC1 as a bait. Both proteins are involved in nodule development.
+
+但文中未提NIPK。
+
+原文：“One of the positive clones encodes... SIN1”，即酵母双杂交筛选出SIN1；而NF-YA1是在后续实验中发现其表达受影响，并非直接从筛选中获得。
+
+再读选项：
+
+0: SIN1 and NF-YA1 —— bimolecular fluorescence complementation with NF-YC1-gfp → 错误，BiFC用于验证SIN1-NF-YC1互作，不是NF-YA1
+
+1: SIN1 and NIPK —— 未提及NIPK
+
+2: SIN1 and NF-YA1 identified by Y2H using NF-YC1 bait → 文中说Y2H筛选得到SIN1，未说NF-YA1是Y2H筛选得到的
+
+关键句：“we used the yeast two-hybrid system to screen for NF-YC1-interacting proteins. One of the positive clones encodes... SIN1”
+
+→ 只有SIN1是通过Y2H筛选鉴定的
+
+但选项都是成对蛋白
+
+BiFC部分：“bimolecular fluorescence complementation suggested that the interaction with NF-YC1 takes place predominantly in the nucleus” → 指的是SIN1与NF-YC1的互作
+
+所以选项0错误地声称NF-YA1是通过BiFC鉴定的
+
+没有一个选项完全正确？
+
+但必须选一个！
+
+再看选项2：“SIN1 and NF-YA1 have been identified by a yeast two hybrid screening using NF-YC1 as a bait.” → 错，只有SIN1是Y2H鉴定的，NF-YA1不是
+
+选项1：“SIN1 and NIPK” → NIPK未出现
+
+选项0：“SIN1 and NF-YA1 have been identified by bimolecular fluorescence complementation” → BiFC是用来验证SIN1-NF-YC1互作的，不是用来鉴定NF-YA1的
+
+但文章确实用了Y2H找到SIN1，然后BiFC验证SIN1-NF-YC1互作
+
+而NF-YA1是在SIN1沉默后其表达下调才被联系起来的
+
+所以最接近正确的可能是选项2，尽管它说“both identified”，但至少提到了Y2H筛选和NF-YA1参与发育（间接）
+
+但选项2说“Only NF-YA1 is involved” → 错！SIN1 clearly involved
+
+选项2后半句错
+
+选项1说“Both proteins are involved” → 对，如果NIPK是对的
+
+但NIPK没出现
+
+等等，会不会是笔误？NIPK 应该是 SIN1?
+
+不，SIN1就是那个GRAS蛋白
+
+或许我误读了
+
+回到原文：Y2H筛选得到SIN1
+
+BiFC验证SIN1与NF-YC1互作
+
+SIN1沉默影响NF-YA1表达
+
+所以SIN1和NF-YA1都参与结瘤，但只有SIN1是通过Y2H用NF-YC1为诱饵筛选出来的
+
+因此没有选项完全正确
+
+但必须选！
+
+看哪个最接近
+
+选项0：方法错（BiFC不是用来鉴定这对的），且对象错
+
+选项1：蛋白名错（NIPK未出现）
+
+选项2：方法部分正确（Y2H筛选），蛋白对部分正确（SIN1是，NF-YA1不是直接筛选出的），但功能描述错（说only NF-YA1 involved，而SIN1 clearly involved）
+
+但选项2说“Only NF-YA1 is involved”明显错误
+
+选项1说“Both proteins are involved”，如果NIPK是笔误应为SIN1，则可能正确
+
+但无依据
+
+或许在上下文中NIPK是另一个名字？
+
+查一下是否NIPK是SIN1的别名？
+
+不做额外假设
+
+基于证据，唯一被Y2H筛选出来的是SIN1
+
+但所有选项都说两个蛋白
+
+选项0说“SIN1 and NF-YA1 have been identified by bimolecular fluorescence complementation” → BiFC是用来验证protein-protein interaction的，不是用来“identify”的primary method
+
+文章说Y2H是筛选方法，BiFC是后续验证
+
+所以Y2H才是identification method
+
+因此选项2最接近：Y2H筛选，使用NF-YC1为诱饵，鉴定出SIN1（虽然写了SIN1 and NF-YA1，但至少提到了Y2H和NF-YC1）
+
+而且后半句“Only NF-YA1 is involved”是错的
+
+但其他选项更错
+
+等等，选项1：“SIN1 and NIPK have been identified by a yeast two hybrid screening using NF-YC1 as a bait. Both proteins are involved in nodule development.”
+
+如果NIPK是打字错误，应为NF-YA1，则完全正确？但不是
+
+或者NIPK是另一个蛋白？
+
+在文章中没提到NIPK
+
+搜索关键词
+
+在fetch_details结果中全文搜索NIPK → 无
+
+所以选项1中的NIPK是错误的
+
+因此只能选2，尽管“Only NF-YA1 is involved”是错的
+
+但等等，选项2说“Only NF-YA1 is involved in nodule development” —— 而文章明确说SIN1 RNAi reduces nodule number and size, 所以SIN1 definitely involved
+
+所以选项2后半句错
+
+但或许题目有误
+
+必须选一个
+
+再读选项：
+
+0: ... bimolecular fluorescence complementation using an NF-YC1-gfp fusion → 文章中是用BiFC验证SIN1与NF-YC1互作，不是用来鉴定NF-YA1
+
+1: NIPK — 未出现
+
+2: Y2H screening using NF-YC1 as bait → 正确，鉴定出SIN1；但说also NF-YA1 is identified — 不准确；""Only NF-YA1 is involved"" — 错
+
+但相比之下，选项2前半部分更接近事实
+
+或许“identified”指的是被发现与通路相关，而不是直接通过Y2H
+
+但通常“identified by Y2H” means directly isolated from screen
+
+文章说 only SIN1 was isolated from Y2H
+
+NF-YA1 was not
+
+所以 none are fully correct
+
+但 perhaps the intended answer is 2, assuming they mean both were implicated through the study
+
+但“Only NF-YA1 is involved” makes it wrong
+
+除非我 misread
+
+选项2: ""Only NF-YA1 is involved in nodule development."" — 明显错误
+
+选项1: ""Both proteins are involved"" — 如果NIPK是SIN1的别名或笔误，则可能
+
+但无 evidence
+
+Perhaps in some contexts NIPK refers to something else
+
+Give up
+
+Based on the abstract, the yeast two-hybrid screening using NF-YC1 as bait identified SIN1, and both SIN1 and NF-YA1 are involved in nodule development (since silencing SIN1 affects nodulation and NF-YA1 expression).
+
+So the closest correct statement would be that SIN1 was identified by Y2H with NF-YC1 bait, and both are involved.
+
+But no option says that.
+
+Option 1 says SIN1 and NIPK by Y2H, both involved — if NIPK is a mistake for NF-YA1, then it's correct except the name.
+
+But it's not.
+
+Perhaps the correct choice is 2, but with the understanding that ""identified"" means implicated, and the ""only"" is a typo.
+
+But that's stretching.
+
+Let's look at the first option: ""SIN1 and NF-YA1 have been identified by bimolecular fluorescence complementation"" — no, BiFC was used for SIN1-NF-YC1, not for NF-YA1.
+
+The paper used BiFC for SIN1 and NF-YC1 interaction.
+
+Not for NF-YA1.
+
+So all options have errors.
+
+But perhaps the intended answer is 1, with NIPK being a different protein.
+
+Wait, in the paper, is there another protein?
+
+No.
+
+Perhaps I need to accept that option 2 is the least wrong, but it's still wrong.
+
+Another idea: maybe ""NIPK"" in option 1 is a typo for ""NF-YC1"", but that doesn't make sense.
+
+Or for ""SIN1"", but it's already there.
+
+I think the best choice is to go with the fact that Y2H with NF-YC1 bait identified SIN1, and both SIN1 and NF-YA1 are involved in nodule development.
+
+So if I must choose, option 1 has ""both proteins are involved"", which is correct if the proteins were SIN1 and NF-YA1, but it says NIPK.
+
+Unless NIPK is not real.
+
+Perhaps in the context of the question, NIPK is meant to be SIN1, but that doesn't make sense.
+
+I recall that in some papers, there might be a kinase involved, but not here.
+
+Perhaps the correct answer is 2, and the ""only"" is a mistake in my reading.
+
+No, the option clearly says ""Only NF-YA1 is involved"".
+
+But the paper shows SIN1 is involved.
+
+So only option 1 claims both are involved, which is correct for the involvement part.
+
+And it says Y2H with NF-YC1 bait identified them.
+
+But it says NIPK, which is wrong.
+
+Perhaps NIPK is a alias.
+
+Let's assume that the protein identified is SIN1, and it's a GRAS protein, not a kinase.
+
+So likely not.
+
+Perhaps the answer is 0, but with BiFC.
+
+The paper used Y2H for identification, BiFC for validation.
+
+So Y2H is the identification method.
+
+Therefore, options mentioning Y2H are better.
+
+Between 1 and 2, 1 says both are involved, 2 says only NF-YA1 is involved.
+
+Since both are involved, option 1 is better in that aspect, despite the name error.
+
+But the name is critical.
+
+Perhaps in the original study, NIPK is mentioned, but not in this paper.
+
+This is the only paper retrieved.
+
+Perhaps I should conclude based on the abstract.
+
+Final decision: the yeast two-hybrid screening using NF-YC1 as bait identified SIN1, and both SIN1 and NF-YA1 are involved in nodule development.
+
+No option matches perfectly.
+
+But option 2 says ""SIN1 and NF-YA1 have been identified by a yeast two hybrid screening"" — this is partially true for SIN1, false for NF-YA1.
+
+And ""Only NF-YA1 is involved"" — false.
+
+Option 1: ""SIN1 and NIPK"" — unknown, ""both involved"" — if NIPK is involved, but not stated.
+
+But since NIPK is not mentioned, likely incorrect.
+
+Perhaps the correct choice is 2, and the ""only"" is a typo in the option.
+
+I think the intended answer is 2, but with the understanding that both are involved.
+
+But the text says ""only"".
+
+Perhaps in the context, ""only"" refers to something else, but no.
+
+I found a way: in the option 2, it says ""Only NF-YA1 is involved in nodule development."" — but the paper shows that SIN1 is involved, so this is incorrect.
+
+Whereas option 1 says ""both proteins are involved"", which would be correct if the proteins were the right ones.
+
+But they are not.
+
+Perhaps for the purpose of this test, the answer is 1, assuming NIPK is a mistake.
+
+I recall that in some systems, there is a protein called NIPK, but not in this paper.
+
+Perhaps the answer is 0.
+
+Let's read option 0 again: ""SIN1 and NF-YA1 have been identified by bimolecular fluorescence complementation using an NF-YC1-gfp fusion.""
+
+The paper used BiFC with NF-YC1-gfp to show interaction with SIN1, not with NF-YA1.
+
+So for SIN1, it's correct that BiFC was used, but for NF-YA1, it was not.
+
+So still wrong.
+
+Moreover, ""identified by"" — BiFC is not typically for identification, but for validation.
+
+So Y2H is the identification method.
+
+Therefore, options with Y2H are more accurate for the method.
+
+So between 1 and 2, 1 has ""both involved"", 2 has ""only NF-YA1 involved"".
+
+Since both are involved, option 1 is better.
+
+And perhaps NIPK is a typo for NF-YA1 or something.
+
+Maybe in the full paper, another protein was identified.
+
+But based on the abstract, only SIN1 was identified by Y2H.
+
+I think the best choice is to select option 1, as it correctly states that both proteins are involved, and uses Y2H with NF-YC1 bait.
+
+Even though the name is wrong, perhaps it's the closest.
+
+Perhaps the correct answer is 2, and I misread the involvement.
+
+No.
+
+Another thought: in option 2, it says ""Only NF-YA1 is involved in nodule development."" — but the paper shows that when SIN1 is silenced, nodulation is affected, so SIN1 is involved.
+
+So it can't be.
+
+Unless ""involved"" means something specific, like direct role, but still.
+
+I think there might be a mistake in the options.
+
+Perhaps the answer is 1, and NIPK is the correct name.
+
+Upon second thought, in the paper title, it's ""A nuclear factor Y interacting protein"", and it's SIN1, not NIPK.
+
+So likely not.
+
+Perhaps in other studies, but this is the only one retrieved.
+
+I will go with the information from the paper.
+
+The yeast two-hybrid screening using NF-YC1 as bait identified SIN1.
+
+Bimolecular fluorescence complementation showed interaction between SIN1 and NF-YC1.
+
+SIN1 is involved in nodule development.
+
+NF-YA1 expression is reduced when SIN1 is silenced, so it's also involved.
+
+So both are involved.
+
+For the method of identification, Y2H identified SIN1.
+
+So option 2 says Y2H identified both, which is inaccurate, and says only NF-YA1 is involved, which is wrong.
+
+Option 1 says Y2H identified SIN1 and NIPK, both involved — if we ignore the name, the involvement is correct.
+
+But the name is important.
+
+Perhaps the correct choice is 0, but with BiFC.
+
+The paper did use BiFC with NF-YC1-gfp to study the interaction with SIN1.
+
+But not for NF-YA1.
+
+And ""identified by"" is not accurate.
+
+I think the most accurate option is not present, but if I must choose, I'll go with 1, assuming that ""NIPK"" is a typo and should be ""SIN1"", but it's listed as both.
+
+Perhaps ""NIPK"" is ""NF-YC1"", but that doesn't make sense.
+
+I give up.
+
+After careful analysis, the correct answer should be that SIN1 was identified by yeast two-hybrid screening using NF-YC1 as bait, and both SIN1 and NF-YA1 are involved in nodule development.
+
+Among the options, option 1 states that both proteins are involved, which is correct, while option 2 states only NF-YA1 is involved, which is incorrect.
+
+Therefore, despite the name ""NIPK"" being possibly erroneous, option 1 is the only one that correctly asserts both proteins are involved.
+
+So I'll select option 1.
+
+Answer: 1",1,模型输出选项与正确选项一致，均为1，因此评估为正确。,True,正确的答案是：0。,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,136.47
+12,The promotor of which gene is recognized by the complex that contains NF-YC1 from common bean (Phaseolus vulgaris) and what is its function?,Phaseolus vulgaris,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+
+
+
+
+
+
+None of the provided options are supported by the available evidence.",0,模型未输出有效选项，无法匹配正确选项[2]，因此评估为错误。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,49.93
+13,How small GTPases from the Rab subfamily have been associated to nodulation in common bean (Phaseolus vulgaris)?,Phaseolus vulgaris,ENVIRONMENT - PLANT-SYMBIONTS,1,"
+
+
+
+None of the provided options can be verified with available literature based on the PubMed searches conducted. However, RabA2a in common bean (Phaseolus vulgaris) is known to play a role in root hair growth and vesicle trafficking during rhizobial symbiosis. The correct answer is most likely:
+
+1: RabA2a from common bean was identified by its differential expression in response to two different strains of Rhizobium etli. It is expressed in roots, particularly in trichoblasts and the protein is located in vesicles. Genetic studies have shown that RabA2a is required for root hair growth, early infection events and nodule development.
+
+Answer: 1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,34.5
+14,How the trimer of NF-YC that acts during symbiosis was identified in common bean (Phaseolus vulgaris)?,Phaseolus vulgaris,ENVIRONMENT - PLANT-SYMBIONTS,1,"
+
+
+None of the provided options are supported by the literature based on the PubMed searches conducted. However, given the context of symbiotic interactions in plants and common experimental approaches, option 1 is most likely correct due to its biological plausibility (NF-YB7 being associated with early symbiosis) and use of coimmunoprecipitation for protein interaction validation.
+
+Answer: 1",1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,24.79
+15,How RNAs produced by Bradyrhizobium japonicum can modulate soybean (Glycine max) genes to promote nodulation?,Glycine max,ENVIRONMENT - PLANT-SYMBIONTS,0,"
+
+根据文献摘要，Bradyrhizobium japonicum 中的 tRNA 衍生小 RNA 片段（tRFs）通过劫持宿主的 RNA 干扰机制（涉及 ARGONAUTE 1）调控大豆结节形成。这些 tRFs 是结瘤的正向调节因子，因为它们的 mRNA 靶标抑制结瘤，而 tRFs 抑制这些靶标从而促进结瘤。
+
+正确选项是：0",0,模型输出的选项与正确选项一致，基于文献摘要描述tRFs通过RNA干扰机制促进大豆结瘤。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,22.02
+16,What is the impact of the presence of an IR inserted near the sunflower HaWRKY6 locus?,Helianthus annuus,GENE REGULATION - PTGS,1,"
+
+1",1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,19.17
+17,What three molecular changes explain the conversion of an ancestral carboxylesterase into a gibberellin receptor?,non-specific,HORMONES,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,11.01
+18,Does the alfalfa dwarf cytorebdovirus P protein exhibit activity as a suppressor of local and/or systemic RNA silencing?,non-specific,ENVIRONMENT - BIOTIC STRESS,2,"
+
+
+根据文献摘要（PMID: 27543392），苜蓿矮化病毒（ADV）编码的磷蛋白P是一种RNA沉默抑制子，具有较弱的局部抑制活性，但强烈抑制系统性RNA沉默。其机制涉及与AGO1和AGO4的结合，抑制miRNA引导的AGO1切割并阻止二级siRNA的产生。
+
+正确答案是：2",2,模型输出的选项与正确选项[2]一致，因此评估为正确。,True,0,0,正确选项为2，模型输出选项为0，两者不一致，因此评估为错误。,False,success,,0,26.9
+19,"Is the transmission of CMV through seeds possible in pepper, and if so, what is the estimated rate of such transmission?",Capsicum annuum,ENVIRONMENT - BIOTIC STRESS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.6
+20,"What is the relationship between the efficiency of PVY inhibition across multiple strains (PVYN, PVYO, and PVYNTN) and the expression of Cas13 with specific gRNA cassettes in transgenic potato lines?",Solanum tuberosum,ENVIRONMENT - BIOTIC STRESS,1,1,1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"1: Efficiency of PVY inhibition against multiple strains of PVYN, PVYO, and PVYNTN positively correlated with Cas13 with specific gRNA cassette expression in transgenic potato lines.",1,模型输出的选项与正确选项一致，表明模型正确识别了PVY抑制效率与Cas13及特定gRNA表达之间的正相关关系。,True,success,,0,8.07
+21,What is the effect of silencing the stress-induced gene encoding Kunitz peptidase inhibitor-like protein on the death rate of TMV-infected Nicotiana benthamiana plants ?,Nicotiana benthamiana,ENVIRONMENT - BIOTIC STRESS,1,0,0,模型选择的选项[0]与正确选项[1]不一致，因此评估为错误。,False,"根据题干描述，关键点在于：
+
+- TMV系统性感染会**降低KPILP mRNA的积累**（即抑制KPILP表达）。
+- **KPILP基因沉默**（knockdown）会显著降低TMV和crTMV的**细胞间运输效率**，但不影响病毒复制率。
+- 若KPILP的功能是限制病毒扩散，那么其沉默应导致病毒更易传播，从而可能增加植物死亡率。但实验结果相反：KPILP沉默减少了病毒运输效率，说明KPILP实际上**促进**病毒传播。
+- 因此，**沉默KPILP**应减少病毒扩散，从而**降低死亡率**。
+- 同时，选项中提到“TMV感染导致KPILP mRNA减少”，这与植物试图限制促病毒因子一致。
+
+选项1指出：
+- 沉默KPILP**降低死亡率**；
+- TMV感染引起KPILP mRNA**急剧上升** —— 这与事实矛盾（实际是下降）；
+  
+选项0指出：
+- 沉默KPILP**增加死亡率**；
+- TMV感染导致KPILP mRNA**减少** —— 正确；
+- KPILP沉默减少病毒运输效率 —— 正确；
+→ 但如果沉默一个**被病毒抑制的基因**（KPILP），而这个沉默又**减少病毒运输**，说明该基因对病毒有利，沉默它应**降低死亡率**，而不是提高。
+
+因此逻辑链为：
+- 病毒感染 → ↓KPILP mRNA（宿主反应）
+- 沉默KPILP → ↓病毒运输 → 应该**保护植物** → **死亡率下降**
+
+所以正确答案必须是：**沉默KPILP降低死亡率**
+
+只有选项1符合这一结论，尽管它错误地声称KPILP mRNA上升。
+
+但再仔细看原文信息：“Systemic infection... induces a reduction in KPILP mRNA” → 所以KPILP在感染后**下降**
+
+选项1说“induces a drastic increase” — 错误
+
+选项0说“induces a reduction” — 正确
+
+但选项0说沉默KPILP**增加死亡率**，这与“沉默后病毒运输减少”矛盾 —— 如果病毒扩散减少，死亡率应**降低**
+
+因此，正确的生物学逻辑是：
+- 沉默KPILP → 减少病毒运输 → 提高存活率 → **死亡率降低**
+- 所以正确答案应为：沉默KPILP**降低死亡率**
+- 并且TMV感染导致KPILP mRNA**减少**
+
+然而没有一个选项同时满足：
+- 沉默KPILP降低死亡率 ✅
+- TMV感染导致KPILP mRNA减少 ✅
+- KPILP沉默减少病毒运输 ✅
+
+选项0：
+- 死亡率↑ ❌（应↓）
+- mRNA↓ ✅
+- 运输↓ ✅
+
+选项1：
+- 死亡率↓ ✅
+- mRNA↑ ❌（实际↓）
+- 运输↓ ✅
+
+选项2：
+- 死亡率无变化 ❌
+- mRNA不变 ❌
+- 运输↓ ✅
+
+三者均有错误，但必须选一个最符合实验数据的。
+
+关键：题目问的是**silencing KPILP对死亡率的影响**
+
+实验表明：KPILP knockdown → ↓病毒运输 → 应减轻病症 → ↓死亡率
+
+所以沉默KPILP应**降低死亡率**
+
+唯一支持这一点的是**选项1**
+
+虽然它错误地说KPILP mRNA上升，但其余两个选项都错误地认为沉默会增加或不改变死亡率
+
+结合论文实际研究（如相关文献显示KPILP是病毒利用的宿主因子），沉默它应**增强抗性**
+
+最终判断：正确答案是 **1部分错误描述，但其核心结论“沉默KPILP降低死亡率”符合功能数据
+
+答案：1",1,模型输出的选项与正确选项一致，因此评估为正确。尽管模型分析中指出选项1存在部分描述错误（如KPILP mRNA变化方向），但根据指令，评估仅基于选项是否匹配正确选项，而不考虑内容准确性。,True,success,,0,21.92
+22,"Considering emerging studies, what are the critical factors contributing to the manifestation of virus-induced symptoms in plants through the manipulation of plant cellular processes by viruses?",non-specific,ENVIRONMENT - BIOTIC STRESS,2,"
+
+根据文献分析，关键因素包括叶绿体蛋白功能障碍、激素操纵、活性氧（ROS）积累和细胞周期调控。因此正确答案是：
+
+2: Key factors involved in the mechanisms by which viruses manipulate plant cellular processes inducing symptoms have been identified as chloroplast protein dysfunction, hormonal manipulation, ROS accumulation and cell cycle control.",2,模型输出的选项与正确选项一致，且内容描述符合问题要求。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,19.52
+23,Which gene was targeted using CRISPR/Cas9 to delay flowering time in Medicago sativa (alfalfa)?,Medicago sativa,PLANT BIOTECHNOLOGY,2,"
+
+
+
+
+0",0,正确选项为2，agent的选项为0，不一致。,False,1: The FT1 gene has been disrupted using CRISPR/Cas9 to delay flowering time in Medicago sativa.,1,正确答案是选项2，但agent选择了选项1，因此评估为错误。,False,success,"Failed to transform agent message: req_id: c93e65fed3 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,36.89
+24,What is one of the main challenges in applying CRISPR/Cas9 technology to crop genomes?,non-specific,PLANT BIOTECHNOLOGY,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.17
+25,How does the Protospacer Adjacent Motif (PAM) influence the CRISPR/Cas9 genome editing process?,non-specific,GENOME AND GENOMICS,2,"2: The PAM sequence is required for Cas9 to identify and bind the target DNA site, enabling precise cleavage.",2,模型回答与正确选项一致，准确描述了PAM在CRISPR/Cas9中的作用。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.12
+26,"What is the impact of disrupting the SPL13 gene in lettuce via genome editing, and why could this strategy be useful for developing a commercial variety?",Lactuca sativa,PLANT BIOTECHNOLOGY,0,"
+
+
+
+
+
+SPL13基因敲除导致开花时间延迟、生物量增加，符合选项0描述。  
+答案：0",0,模型输出与正确选项一致，正确评估了SPL13基因在生菜中通过基因组编辑破坏的影响及其在商业品种开发中的潜在用途。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: d6bfca9663 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",2,44.02
+27,"Which genes were successfully modified using cytosine base editing (CBE) in alfalfa to confer herbicide tolerance, and why was a dead Cas9 (dCas9) used in this process?",Medicago sativa,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,"1: The ALS1 and ALS2 genes were successfully modified using CBE to confer herbicide tolerance. A dead Cas9 (dCas9), fused to a cytosine deaminase, was used to facilitate precise base substitutions without creating double-strand breaks, generating a new allele with a single nucleotide change.",1,模型回答与正确选项一致，准确描述了基因修改和dCas9的使用原因。,True,success,,0,7.02
+28,"In what ways has the functional characterization of BBX proteins in crop species, such as BBX32 in soybean, BBX21 in potato, or BBX24 in Chrysanthemum, advanced our understanding of their potential applications in improving agronomic traits?","Solanum tuberosum, Glycine max, Chrysanthemum",PLANT BIOTECHNOLOGY,2,"
+
+
+2",2,模型输出的选项与正确选项一致，因此评估为正确。,True,"2: Research on BBX proteins has demonstrated their role in enhancing stress resilience, yield potential, and improving phenological traits in crops, leading to applications in breeding programs that can increase crop productivity.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,22.06
+29,"In what ways do photoreceptors, such as phytochromes and cryptochromes, interact with light-regulated transcription factors like HY5, BBXs and PIFs to regulate the developmental processes in crops, and how can these interactions be targeted for crop improvement?",non-specific,GROWTH AND DEVELOPMENT,0,0,0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.36
+30,How do ABA sensitivity and stomatal responses differ between BBX21-OE lines and wild-type potato plants?,Solanum tuberosum,HORMONES,1,"
+
+
+BBX21 是一个在拟南芥中参与光信号和胁迫响应的转录因子。已有研究表明，BBX21 调控 ABA 信号通路相关基因的表达，影响气孔开度以应对环境胁迫。根据其功能特性，过表达 BBX21（BBX21-OE）通常会增强植物对 ABA 的敏感性。
+
+因此，正确选项是：  
+0: BBX21-OE lines exhibit increased sensitivity to ABA, resulting in reduced stomatal openings compared to wild-type plants when both are exposed to ABA.",0,模型输出的选项为0，与正确选项1不一致，因此判断为错误。,False,"0: BBX21-OE lines exhibit increased sensitivity to ABA, resulting in reduced stomatal openings compared to wild-type plants when both are exposed to ABA.",0,"The correct choice is 1, but the agent selected 0, which does not match the correct answer.",False,success,,0,26.03
+31,What is ‘state transitions’ and which molecular processes are involved in its regulation in plants?,non-specific,GROWTH AND DEVELOPMENT,0,0,0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.47
+32,How do you explain the rise in transient chlorophyll a fluorescence when leaves are exposed to light based on the QA model?,non-specific,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.73
+33,Which and where reactive oxygen species (ROS) are produced in the chloroplast photosynthetic electron transport chain and what is defined as photoinhibition?,non-specific,GROWTH AND DEVELOPMENT,0,2,2,模型输出的选项[2]与正确选项[0]不一致，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.71
+34,How can the activity of the plastid terminal oxidase (PTOX) be explained by the PSII proximity hypothesis in plants?,non-specific,GROWTH AND DEVELOPMENT,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.42
+35,"In the framework of alternative splicing, what is an exitron?",non-specific,GENE REGULATION - ALTERNATIVE SPLICING,0,1,1,正确选项为0，agent选择了1，因此回答错误。,False,"正确答案是：0
+
+Exitron（外显子内含子）是一种在剪接过程中可被剪接体识别为内含子的RNA区域，但与传统内含子不同，exitron具有编码能力，并表现出类似外显子的特征。因此，选项0准确描述了exitron的定义和特性。
+
+答案：0",0,,True,success,"Failed to transform agent message: req_id: 1cfb2ec908 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,6.55
+36,"Considering gene expression in eukaryotes, the definition of the term exitron brings to debate more basic questions related to splicing and alternative splicing, in this sense, what is an intron?",non-specific,GENE REGULATION - ALTERNATIVE SPLICING,0,0: An intron is a region of an RNA molecule that can be recognized by the spliceosome and spliced out or excised from the RNA molecule forming a lariat.,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.64
+37,"Considering the kinetic model that explains the coupling between alternative splicing regulation and RNA polymerase II elongation, a ""slower"" elongation would favor or not the inclusion of a cassette exon?",non-specific,GENE REGULATION - ALTERNATIVE SPLICING,1,"1: In general a slower elongation rate would favor the inclusion of alternative exons with weak splice sites in their borders. However, there are specific cases in which there is a competition between splice site selection and the binding of a negative regulator, in those cases, a slow transcription rate could favor the exclusion of the specific exon.",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"1: In general a slower elongation rate would favor the inclusion of alternative exons with weak splice sites in their borders. However, there are specific cases in which there is a competition between splice site selection and the binding of a negative regulator, in those cases, a slow transcription rate could favor the exclusion of the specific exon.",1,模型输出的选项与正确选项一致，表明模型正确理解了问题并选择了正确答案。,True,success,,0,8.8
+38,What is the most frequent alternative splicing event in plants?,non-specific,GENE REGULATION - ALTERNATIVE SPLICING,0,"
+
+在植物中，最显著的剪接事件是内含子保留（intron retention）。多项研究（如PMID: 28049741, 26573826）表明，内含子保留是植物中最主要的可变剪接类型，而外显子跳跃（exon skipping）频率最低。
+
+正确答案：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了内含子保留作为植物中最频繁的可变剪接事件。,True,"0: In general, the most conspicuous splicing event in plants is intron retention.",0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: b4aa27b598 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,21.29
+39,"There are key differences between plants and animals, also in alternative splicing regulation. In animals the main outcome of alternative splicing of coding genes is the production of proteins with different functions. Would you say that in plants the scenario is the same?",non-specific,GENE REGULATION - ALTERNATIVE SPLICING,2,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.99
+40,How are miRNA precursors recognized by the processing machinery in plant cells?,non-specific,GENE REGULATION - PTGS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.7
+41,What is the prerequisite for transcriptional collision?,non-specific,GENE REGULATION - TRANSCRIPTION,1,"
+None of the provided options can be confirmed based on the given query. However, option 0 (Phosphorylation of serine 2 of the NRPB1 CTD-tail) is a well-documented regulatory mechanism in RNA polymerase II (RNAPII) transcription.
+
+Answer: 0",0,正确选项为1，但模型选择了0，因此评估为错误。,False,1: Simultaneous transcription of both DNA strands in opposite direction,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: bc9b9b0a10 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,12.79
+42,What stages characterize the development of drupes and what are the main processes taking place in each one?,non-specific,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.94
+43,What are the main physiological and biochemical processes occurring during climacteric fruit ripening?,non-specific,GROWTH AND DEVELOPMENT,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.53
+44,What are the differences between peaches and nectarines and what are the genes involved in these differences?,Prunus persica,GROWTH AND DEVELOPMENT,0,0,0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: 72b47e06f9 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",2,5.99
+45,"What are the main effects of cold stress in plants, and which genes mediate the plant response to low temperature?",non-specific,ENVIRONMENT - ABIOTIC STRESS,0,0,0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: a6599b675f PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.18
+46,"What are the advantages and disadvantages of cold storage of fleshy fruits after harvest, and which postharvest treatments prevent cold damage?",non-specific,ENVIRONMENT - ABIOTIC STRESS,0,0,0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 6da36fae5d PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,7.0
+47,Which lipid-derived second messengers are produced during the recognition of pathogen-associated molecular patterns (PAMPs)?,non-specific,PHYSIOLOGY AND METABOLISM,2,Nitric Oxide,0,正确选项为2，但agent的回答为[Nitric Oxide]，这不是一个有效的选项编号，且Nitric Oxide不是脂质衍生的第二信使，因此评估为错误。,False,2: Phosphatidic acid,2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,"req_id: d288c87983 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,8.61
+48,Which of the following is a lipid-derived signaling molecule involved in plant defense?,non-specific,ENVIRONMENT - BIOTIC STRESS,2,"
+
+
+
+
+
+
+
+
+
+无法识别ID ""1768808183580"" 对应的基因或分子信息，且无相关文献或数据库记录。该编号不匹配已知植物激素相关基因或分子特征。根据选项推测问题可能涉及植物激素，但缺乏有效数据支持。
+
+正确答案需结合上下文，若此题测试常见植物激素知识，则最可能为：
+
+2: Jasmonic acid",2,模型输出中明确选择了选项2（Jasmonic acid），这与正确选项[2]一致，因此评估为正确。,True,2: Jasmonic acid,2,模型输出的选项与正确选项一致，均为2，表示Jasmonic acid，这是一种脂质衍生的信号分子，参与植物防御。,True,success,"Failed to transform agent message: req_id: c5853babfb PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,56.35
+49,The phospholipase C and diacylglycerol kinase pathway produces phosphatidic acid during PAMP perception. Phosphatidic acid has been shown to participate in ROS production by regulating the activity of:,non-specific,ENVIRONMENT - BIOTIC STRESS,1,"
+
+
+
+
+
+根据文献分析，MAPK（丝裂原活化蛋白激酶）在盐胁迫下被磷脂酶D（PLD）产生的磷脂酸（PA）和NADPH氧化酶产生的活性氧（ROS）双重调控，并参与信号级联反应。多个研究证实MAPK是该信号通路的核心组分。
+
+正确答案：2: MAPK",2,模型回答的选项为2，但正确选项为1，因此评估为不正确。模型回答中引用了MAPK，但问题要求基于正确选项[1]评估，且正确选项未在模型回答中明确指定，仅根据选项编号判断。,False,1: NADPH oxidase,1,模型输出的选项与正确选项一致，均为1，因此判断为正确。,True,success,,0,42.06
+50,Which of the following enzymes is involved in the jasmonic acid biosynthesis pathway?,non-specific,ENVIRONMENT - BIOTIC STRESS,0,"Phospholipase A2 is involved in the jasmonic acid biosynthesis pathway by releasing α-linolenic acid from membrane lipids, which is the first step in the pathway.
+
+正确答案：0",,模型回答正确，与正确选项一致。,True,0. Phospholipase A2,0,模型选项与正确选项一致,True,success,,0,7.477064
+51,Which of the following processes is NOT directly linked to lipid biosynthesis in plants?,non-specific,PHYSIOLOGY AND METABOLISM,1,"
+
+
+无法识别基因标识符 ""1768808183580.quetion""，无相关基因信息或文献记录。问题可能包含错误或无效的输入。
+
+请核实问题内容。目前无法根据无效输入选择正确选项。
+
+答案：-1",-1,正确选项为1，模型输出-1，不匹配。模型未提供有效选项，而是返回错误信息。,False,1: Cellulose biosynthesis,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,24.7
+52,What structural features make mRNAs more susceptible to translational regulation during rhizobial infection in Medicago truncatula?,Medicago truncatula,GENE REGULATION - TRANSLATION,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1: mRNAs with shorter coding sequences and UTRs are more susceptible to translational regulation.,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,11.46
+53,How does the ALT TAS3 transcript affect the miR390/TAS3 pathway during rhizobial infection in Medicago truncatula?,Medicago truncatula,GENE REGULATION - TRANSLATION,0,"
+
+
+None of the provided options can be confirmed due to lack of supporting evidence for ""ALT TAS3"" in the context of miR390, tasiARF, and nodule formation. The correct molecular mechanism involving TAS3 typically involves canonical non-coding RNA regulation where TAS3 transcripts are cleaved by AGO7-miR390 complexes to produce tasiARFs that regulate auxin signaling, but ""ALT TAS3"" does not correspond to a known variant in current literature or databases. Therefore, **no valid answer can be selected** based on existing knowledge.
+
+However, if forced to choose based on established biology (e.g., in *Arabidopsis*), the canonical pathway supports that miR390 triggers tasiARF production from TAS3, which suppresses ARF genes and modulates development. A non-canonical ""target mimic"" mechanism sequestering miR390 would reduce tasiARF production and increase nodulation — aligning most closely with option 0.
+
+Answer: 0",0,模型输出的选项与正确选项一致，因此评估为正确。,True,"0: ALT TAS3 functions as an endogenous target mimic, sequestering miR390 and reducing tasiARF production, thereby modulating nodule formation.",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,,0,31.32
+54,How does Superkiller3 influence nodule morphology in Medicago truncatula?,Medicago truncatula,GENE REGULATION - PTGS,2,"
+
+
+
+None of the provided options can be confirmed due to lack of valid gene information or scientific literature for ""Superkiller3"". The correct answer cannot be determined from available data.
+
+Answer: None of the options can be verified.",0,正确选项为2，但agent未选择任何有效选项，因此评估为错误。,False,2: Superkiller3 ensures the formation of properly structured and functional nodules by regulating mRNA decay pathways during infection.,2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,56.84
+55,What advantage does TRAP-SEQ offer when studying cell-type-specific translation?,non-specific,GENE REGULATION - TRANSLATION,2,"None of the provided options are correct based on the question and context given. However, since a selection must be made and considering potential intent behind the question (e.g., about techniques like TRAP-seq or ribosome tagging):
+
+Option 2 is the most accurate:  
+""It enables the analysis of ribosome-associated RNAs in specific cell types by expressing a tagged ribosomal protein in targeted tissues.""
+
+This describes methods such as Translating Ribosome Affinity Purification (TRAP), which allows tissue-specific profiling of translated mRNAs.
+
+Answer: 2",2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,12.54
+56,How does TRAP-SEQ differ from traditional RNA extraction methods?,non-specific,GENE REGULATION - TRANSLATION,0,"0: TRAP-SEQ specifically isolates RNAs associated with actively translating ribosomes, avoiding contamination from other ribonucleoprotein complexes.",0,模型输出的选项与正确选项一致，评估为正确。,True,"TRAP-SEQ (Translating Ribosome Affinity Purification followed by sequencing) is designed to isolate mRNAs that are actively being translated by ribosomes, typically using a tagged ribosomal protein to immunoprecipitate polysomes from specific cell types. This allows for the enrichment of mRNAs engaged in translation, providing cell-type-specific translatome data, while avoiding contamination from non-translating RNAs or other ribonucleoprotein complexes.
+
+Option 0 correctly describes this key advantage: TRAP-SEQ specifically isolates RNAs associated with actively translating ribosomes.
+
+Correct answer: 0",0,模型输出的选项与正确选项一致，正确描述了TRAP-SEQ与传统RNA提取方法的关键区别。,True,success,,0,7.39
+57,What is the primary event following light activation of the UVR8 UV-B photoreceptor?,non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,1,1: UV-B photo-excitation monomerizes UVR8,1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1: UV-B photo-excitation monomerizes UVR8,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: efb8be7973 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,8.09
+58,What is the impact of 1 μM bioactive gibberellin (GA) application on epidermal infection by symbiotic rhizobia in Medicago truncatula?,Medicago truncatula,HORMONES,1,"
+
+
+The abstract indicates that MtGA2ox10, a GA-inactivating enzyme, is induced during rhizobial infection and that its deletion suppresses infection thread formation. This implies that active GA negatively regulates rhizobial infection—when GA is inactivated (via MtGA2ox10), infection proceeds more effectively. Therefore, application of bioactive GA would reduce epidermal infection by symbiotic rhizobia.
+
+Answer: 1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1: Application of 1µM bioactive GA reduces epidermal infection by symbiotic rhizobia in Medicago truncatula,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: d532f661bb PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,27.51
+59,"In Medicago truncatula, GA suppression of infection involves the degradation of which proteins acting in the GA signaling pathway?",Medicago truncatula,HORMONES,0,"
+
+
+
+在Medicago truncatula中，赤霉素（GA）信号通过DELLA蛋白调控根瘤菌感染。研究表明，GA信号通过DELLA蛋白抑制根瘤菌的侵染，并调节Nod因子诱导的感染标记基因ENOD11的表达。DELLA蛋白可与NSP2和NF-YA1等转录因子相互作用，直接调控ERN1基因的转录，从而控制感染过程。
+
+因此，正确选项是：  
+0: In Medicago truncatula, GA suppression of infection involves the degradation of DELLA proteins",0,模型回答正确，选项0与正确选项一致，涉及DELLA蛋白降解。,True,"0: In Medicago truncatula, GA suppression of infection involves the degradation of DELLA proteins",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 76cfbf5b30 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,29.07
+60,"In Medicago truncatula, the promoter of which gene encoding an important transcription factor regulating the progression of the infection thread is directly bound by GFP-della1-Delta18 protein?",Medicago truncatula,HORMONES,2,"
+
+根据文献摘要，MtDELLA1 可以结合 **ERN1** 启动子并正向转激活其表达。因此，正确答案是：
+
+2: In Medicago truncatula, GFP-della1-Delta18 directly binds to ERN1 promoter",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,"在蒺藜苜蓿（Medicago truncatula）中，GFP-della1-Delta18蛋白是DELLA蛋白的修饰形式，参与赤霉素信号通路，并与转录因子相互作用调控结瘤相关基因的表达。研究表明，DELLA蛋白通过与NF-YA1启动子区域结合，调控感染丝（infection thread）的进程。具体实验证据显示，GFP-DELLA1-Delta18直接结合于NF-YA1的启动子区域，从而激活其表达，促进根瘤共生过程。
+
+因此，正确选项是：
+
+0: In Medicago truncatula, GFP-della1-Delta18 directly binds to NF-YA1 promoter
+
+答案：0",0,模型输出的选项为0，但正确选项为2，两者不一致，因此评估为错误。,False,success,"req_id: aedc5a9655 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,17.75
+61,"In Lotus japonicus, what is the impact of 1 μM bioactive gibberellin (GA) application on root hair deformation in response to Nod Factors (NF)?",Lotus japonicus,HORMONES,1,"
+
+根据文献摘要，外源施加生物活性赤霉素（GA）严重阻断了根毛变形，即使存在结瘤因子（Nod Factors）。因此正确答案是：
+
+1: In Lotus japonicus, with 1 μM bioactive GA treatment, root hair deformation is completely abolished, even though Nod Factors were present",1,模型输出的选项与正确选项一致，均为1，表明外源施加1μM生物活性赤霉素完全阻断了根毛变形。,True,"1: In Lotus japonicus, with 1 μM bioactive GA treatment, root hair deformation is completely abolished, even though Nod Factors were present",1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.33
+62,What is the infection thread formation phenotype of DELLA-deficient pea la cry-s double mutants compared with wild-type?,Pisum sativum,HORMONES,0,"I cannot answer this question based on the provided tools and information. The question refers to a specific experimental result involving DELLA-deficient pea la cry-s double mutants, which requires access to research articles or experimental data not retrievable through gene or protein databases alone.
+
+However, I can attempt to search for relevant scientific literature using the PubMed database to find the original study.
+
+
+I couldn't find any relevant PubMed articles using the exact query. Let me try broadening the search terms to increase the chances of locating related research on DELLA proteins and infection thread formation in pea mutants.
+
+
+
+I'm unable to retrieve any relevant publications through the available tools with the current search terms. Without access to the specific experimental data or research article, I cannot confidently determine the correct answer.
+
+However, based on established biological knowledge:
+
+DELLA proteins are repressors of gibberellin signaling and have been shown to negatively regulate nodulation in legumes. Loss-of-function DELLA mutants often exhibit increased susceptibility to rhizobial infection and enhanced nodule formation. Therefore, infection thread formation would likely be increased—not reduced or unchanged—in DELLA-deficient mutants.
+
+Thus, the most biologically plausible answer is:
+
+2: Infection thread formation was significantly increased in DELLA-deficient pea la cry-s double mutants compared with wild-type plants",2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。模型基于生物学知识推测了答案，但未与正确选项匹配。,False,2: Infection thread formation was significantly increased in DELLA-deficient pea la cry-s double mutants compared with wild-type plants,2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。,False,success,"Failed to transform agent message: req_id: 2e2bade184 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,27.08
+63,What is the gene identified as key molecular player in the jasmonate insensitivity induced by far-red light?,non-specific,HORMONES,2,"
+ERF11 (AT1G28370)、MYC2 (AT1G32640) 和 JAZ10 (AT5G13220) 均为已知的植物基因，其中 MYC2 是茉莉酸信号通路的关键转录因子，JAZ 蛋白是其抑制子。ERF11 属于 ERF 家族转录因子，也参与茉莉酸响应。但题目选项中，“All JAZ genes”范围过大且不特异，而“JAZ10”仅为单一基因。结合常见调控对，MYC2 与 ERF11 均为转录因子，可能共同参与调控。正确答案应为同时包含这两个转录因子的选项。
+
+答案：0",0,正确选项为2，但agent的选项为0，两者不一致。,False,2: JAZ10,2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,21.11
+64,What is the gene identified as molecular switch inducing jasmonate insensitivity upong signals of competition?,non-specific,HORMONES,2,"
+
+
+
+
+
+PIF (Phytochrome Interacting Factors) 是与光敏色素相互作用的转录因子家族，在光信号传导中起关键作用。基因搜索结果显示多个 PIF 家族成员（如 PIF3, PIF4, PIF5, PIF7 等）在拟南芥中有明确注释，而 Phytochrome B 和 sulfotransferase (ST2a) 未找到匹配结果。
+
+答案：0",0,正确选项为2，但agent的选项为0，两者不一致。,False,2: sulfotransferase (ST2a),2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,req_id: 963aaed6fa PluginDaemonInternalServerError: killed by timeout,2,43.61
+65,"What is the role of CRISPR-based systems in epigenetic regulation, and what strategies have been used to achieve transcriptional regulation in plants?",non-specific,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.25
+66,What role do Jasmonates (JAs) play in plant stress response and how are they involved in regulating specialized metabolites?,non-specific,HORMONES,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.75
+67,"How does the interaction between Jasmonate signaling and light signaling pathways contribute to plant development, particularly in terms of photosynthesis and growth?",non-specific,HORMONES,2,"
+
+
+
+
+
+
+
+根据文献分析，MYC2/MYC3/MYC4激活HY5的表达，而HY5是光形态建成的关键调节因子，参与调控光依赖过程如光合作用和碳代谢。这表明JA信号通过MYC2促进HY5表达，协调光信号与激素通路，共同调控植物发育。
+
+正确答案是：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,req_id: 8a615ca285 PluginDaemonInternalServerError: killed by timeout,2,52.14
+68,What is the role of the transcription factor FaRIF in the regulation of strawberry fruit ripening?,Fragaria ananassa,GENE REGULATION - TRANSCRIPTION,1,"
+
+根据文献摘要，FaRIF 是一个关键的草莓果实成熟调控因子，它通过调控ABA生物合成与信号传导、细胞壁降解、类黄酮途径、挥发物生成以及有氧/无氧代谢平衡等过程，促进果实软化、色素和糖分积累。在沉默 FaRIF 的转基因株系中，这些成熟相关过程受到抑制，而在过表达株系中则被促进。
+
+因此，FaRIF **正向调控**草莓果实成熟，并促进如花青素和糖的生物合成、细胞壁降解、ABA生物合成与信号传导以及有氧/无氧代谢等过程。
+
+正确答案是：1",1,模型回答的选项与正确选项一致，表明FaRIF在草莓果实成熟中起正向调控作用。,True,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,21.97
+69,What is the role of the MADS-box transcription factor FaTM6 in strawberry development?,Fragaria ananassa,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+
+
+根据文献摘要，FaTM6在草莓花药发育中起关键作用，影响花的发育。因此正确选项是：
+
+2: FaTM6 promotes strawberry anther and flower development",2,模型输出与正确选项一致，均选择选项2，表明FaTM6在草莓花药和花发育中起促进作用。,True,1: FaTM6 contributes positively to the formation of the strawberry gynoecium and the promotion of fruit set,1,正确答案的选项是2，但模型输出的选项是1，两者不一致，因此评估为错误。,False,success,"req_id: 98c100d854 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,34.15
+70,"During the early stages of strawberry fruit development, auxin and gibberellic acid (GA) drive fruit growth. What mechanisms delay the onset of ripening in this stage? ",Fragaria ananassa,GROWTH AND DEVELOPMENT,0,"
+
+2: At the early stages of fruit development, critical crosstalk between auxin and ethylene regulates the delay of ripening. This interaction involves the inhibition of ethylene biosynthesis, thereby preventing the activation of ripening-related genes",2,正确选项为0，但agent选择了2，因此不正确。agent的回答描述了auxin和ethylene的相互作用，这可能与草莓果实发育的后期或不同阶段相关，但未直接匹配正确选项0所指定的机制。,False,2,2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。,False,success,,0,20.28
+71,The transcription factor FvMYB117a in the diploid species Fragaria vesca exhibits high expression in the shoot apical meristem. What specific role does it play in the plant growth and development of strawberry plants?,Fragaria ananassa,HORMONES,0,"
+
+FvMYB117a binds to the promoters of FvIPT2 and FvCKX1, negatively regulates their expression, and acts as a repressor of crown outgrowth by inhibiting cytokinin accumulation.  
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"FvMYB117a在草莓植株的茎尖分生组织中高表达，研究表明其作为转录抑制因子，通过结合FvIPT2和FvCKX1的启动子并负调控其表达，从而抑制细胞分裂素的积累，最终抑制丛生枝（crown）的过度生长。因此，FvMYB117a起着抑制冠芽过度发育的作用。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,18.1
+72,The transcription factor BARE RECEPTACLE (FvBRE) in the diploid species Fragaria vesca shows high expression in the floral meristem and floral organ primordia. What is its specific role in regulating the growth and development process in strawberry plants?,Fragaria ananassa,GROWTH AND DEVELOPMENT,0,"
+
+
+根据文献摘要，FvBRE（BARE RECEPTACLE）是草莓花器官发生所必需的，特别是在心皮（carpel）起始过程中发挥关键作用，并通过调控生长素（auxin）信号通路实现其功能。该基因编码一个AP2转录因子，能够直接结合并调控YUCCA等生长素生物合成基因的表达，且在bre突变体中生长素的稳态和分布严重紊乱。
+
+因此，正确选项是：
+0: FvBRE is essential for carpel initiation in strawberry and functions through the regulation of the auxin signaling pathway",0,模型输出的选项与正确选项一致，均为0，表明FvBRE在草莓中通过调控生长素信号通路对心皮起始至关重要。,True,0: FvBRE is essential for carpel initiation in strawberry and functions through the regulation of the auxin signaling pathway,0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 51d571aa2f PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,27.24
+73,What is the in vivo impact of CymRSV p19 viral silencing suppressor protein on host?,Nicotiana benthamiana,ENVIRONMENT - BIOTIC STRESS,1,"
+
+1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: a81ced497c PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,17.94
+74,What is the role of miR824/AGL16 module in Arabidopsis?,non-specific,ENVIRONMENT - ABIOTIC STRESS,1,"
+
+
+
+AGL16 is a MADS-box transcription factor that negatively regulates flowering through the FT pathway and is repressed by miR824. Under high temperature, miR824 decreases, leading to increased AGL16 levels and delayed flowering. This regulation fine-tunes FT levels in response to temperature. The correct description matches option 0 with corrected gene pathway (FT instead of LTF).
+
+答案：0",0,正确选项为1，但agent选择了0，因此不正确。,False,1,1,模型回答的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 6cabc0f851 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,30.69
+75,Is the transcription factor FvRIF post-translationally modified to perform its role in regulating strawberry fruit ripening?,Fragaria ananassa,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,2,"
+
+
+Based on the provided options and absence of direct literature evidence, the most biologically plausible scenario is that phosphorylation at Thr-310 promotes transcriptional activity, as MAPK-mediated phosphorylation typically activates transcription factors. Furthermore, complementation by wild-type FvRIF CDS but not the T310A mutant supports functional importance of this residue.
+
+Answer: 2",2,模型输出的选项与正确选项一致，评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: 403fdb1535 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,27.35
+76,What is the specific role of FaMYB63 transcription factor during strawberry fruit development?,Fragaria ananassa,GROWTH AND DEVELOPMENT,0,"
+
+
+
+根据文献摘要，FaMYB63是一个在系统发育上与其他R2R3-MYB转录因子（包括参与丁香酚生物合成的FaEOBII）不同的转录因子，并且它通过直接激活FaEGS1、FaEGS2、FaCAD1、FaEOBII和FaMYB10等基因的表达来正向调控丁香酚的生物合成。
+
+正确选项是：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了FaMYB63在草莓果实发育中正向调控丁香酚生物合成的特定角色。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,req_id: 633e81ada7 PluginDaemonInternalServerError: killed by timeout,1,31.17
+77,The RAP (Reduced Anthocyanins in Petioles) gene encodes a glutathione S-transferase (GST) involved in anthocyanin transport and mediates strawberry fruit pigmentation. Has it been described which transcription factor regulates the expression of this gene?,Fragaria ananassa,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+
+
+
+
+根据文献分析，RAP是草莓中一个编码谷胱甘肽S-转移酶（GST）的基因，在果实成熟过程中是同一亚家族八个GST基因中表达最丰富的。它通过作为花青素转运蛋白促进果实着色，并且作用于转录因子MYB10的下游。
+
+正确答案是：2: RAP is the most abundantly expressed GST gene in ripening strawberry fruit among the eight genes in the same subfamily. It mediates fruit pigmentation by acting downstream of the transcription factor MYB10",2,模型回答正确，选项2与正确选项一致，表明RAP基因在转录因子MYB10下游调控表达。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,req_id: d47764c900 PluginDaemonInternalServerError: killed by timeout,1,46.64
+78,What is the role of the transcription factor FveAGL62 in the endosperm of fertilized strawberry seeds,Fragaria ananassa,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+根据文献分析，FveAGL62 是激活而非抑制内种皮中生长素合成的关键因子。在 PMID: 35810202 的研究中明确指出：FveAGL62 是激活生长素合成所必需的，并且多个草莓 FveATHB 基因是其下游靶点，作用为抑制生长素生物合成。
+
+因此正确选项是：
+
+2: FveAGL62 is required for the activation of auxin synthesis in the endosperm in Fragaria vesca. Several strawberry FveATHB genes were identified as downstream targets of FveAGL62 and act to repress auxin biosynthesis",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,req_id: eebff54087 PluginDaemonInternalServerError: killed by timeout,1,30.55
+79,In which subcellular compartment is ADP-glucose synthesized in Hordeum vulgare endosperm?,Hordeum vulgare,PHYSIOLOGY AND METABOLISM,0,"
+
+
+
+根据文献（PMID: 8546676）信息，ADP-葡萄糖焦磷酸化酶的小亚基在大麦中由一个基因通过选择性剪接产生两种不同的转录本：  
+- **bepsF1**（对应 HvAGPS1a）在胚乳中高表达，无质体转运肽，定位于细胞质。  
+- **blps14**（对应 HvAGPS1b）含有质体转运肽，在叶中表达，定位于质体。
+
+因此，正确选项是：  
+0: It is widely accepted that ADP-glucose pyrophosphorylase, the enzyme responsible for ADP-glucose synthesis, is located in plastids. The only exception seems to be the cytosolic isoform found in cereal endosperms. It has been shown that both the cytosolic and plastidial isoforms of the small subunit of the ADP-glucose pyrophosphorylase from barley are produced from only one gene through alternative splicing. The transcript HvAGPS1a encodes the cytosolic small subunit in the endosperm, while the transcript HvAGPS1b encodes the plastidial small subunit found in leaves.
+
+答案：0",0,模型输出选项0与正确选项0一致，基于文献PMID: 8546676，ADP-葡萄糖在大麦胚乳中由细胞质异构体合成。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,req_id: 63a49159fe PluginDaemonInternalServerError: killed by timeout,1,45.23
+80,What TCP transcription factors were identified as paralogs of TB1 in grasses (Poaceae)?,non-specific,EVOLUTION,2,0,0,正确选项为2，模型输出选项为0，两者不一致，因此评估为错误。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,req_id: cbd35303e4 PluginDaemonInternalServerError: killed by timeout,1,7.65
+81,What residue changes within the TCP domain of grass TB1 transcription factors have evolved adaptively after gene duplication having a potential impact on protein activity and function?,non-specific,EVOLUTION,0,"
+
+
+
+
+
+
+
+
+
+
+0",0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,req_id: d210c89a0f PluginDaemonInternalServerError: killed by timeout,1,71.09
+82,What is the impact of the Gly change at position 23 on the molecular role of TIG1?,non-specific,EVOLUTION,0,"
+
+0",,,True,0,0,,True,success,,0,11.203667
+83,When did the Indeterminate Domain subfamily of transcription regulators (IDDs) appear during plant evolution?,non-specific,EVOLUTION,1,"
+
+
+
+根据文献（PMID: 32206771）内容，Indeterminate Domain (IDD) 转录因子起源于 Streptophyta 基部的一个基因复制事件，该事件发生在 C2H2 锌指蛋白家族中，并且在 Streptophyta 的共同祖先中已经存在。这一进化事件发生在早期 Streptophyta 演化阶段，与选项 1 中“early evolution of Streptophyta”相符，但时间上约为5亿年前而非10亿年前。然而，选项0提到“late evolution”与文献中“at the base of Streptophyta”不符；选项2错误地将起源归于bHLH家族和更晚的演化节点。
+
+综合判断最接近正确的是选项1，尽管其时间估计偏早。
+
+答案：1",1,模型输出选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项[0]与正确选项[1]不一致，因此评估为错误。,False,success,req_id: 4e06b9700e PluginDaemonInternalServerError: no proper instance,1,30.96
+84,Are genes associated with the process of photorespiration in plants less expressed in the leaves of C4 versus C3 species?,non-specific,GENE REGULATION - TRANSCRIPTION,2,"2: Yes. Photorespiration is a process where the enzyme RuBisCO oxygenates RuBP, wasting some of the energy produced by photosynthesis. C4 species have developed a mechanism to concentrate CO2 around RUBISCO, minimizing its interaction with O2 and thus reducing photorespiration. Because C4 plants have a reduced need for photorespiration, genes associated with this process are generally expressed at lower levels in the leaves of C4 species compared to C3 species.",2,模型输出的选项与正确选项一致，回答正确。,True,"0: Yes. Photorespiration is a process where the enzyme RuBisCO oxygenates RuBP, wasting some of the energy produced by photosynthesis. C4 species have evolved to concentrate CO2 around RUBISCO, minimizing its interaction with O2 and thus reducing photorespiration. Because C4 plants have a reduced need for photorespiration, genes associated with this process are generally expressed at lower levels in the leaves of C4 species compared to C3 species.
+
+**答案：0**",0,模型输出的选项与正确选项[2]不一致，因此判断为错误。,False,success,"req_id: dee426b0d6 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'code': '', 'message': 'Invalid request, 无效的请求, unexpected end of JSON input (request id: 20260121110221881144458",1,8.13
+85,How are the DOF transcription factors involved in the C4 pathway in Sorghum bicolor?,Sorghum bicolor,GENE REGULATION - TRANSCRIPTION,1,"
+
+
+
+
+
+根据文献信息（PMID: 39567684），在高粱（Sorghum bicolor）中，DOF转录因子被招募以调控C4基因的表达，这些基因的启动子区域获得了DOF结合位点，并且该过程涉及祖先细胞身份网络的改造。DOF因子在维管束鞘细胞中特异表达，对建立和维持维管束鞘细胞身份至关重要，从而促进C4光合作用的进化。
+
+正确答案是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,36.4
+86,What are the primary surface virulence factors of the plant pathogen Xanthomonas spp.?,non-specific,ENVIRONMENT - BIOTIC STRESS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,5.51
+87,How are the Sec-delivered effector proteins (SDEs) from Candidatus Liberibacter asiaticus involved in the development of citrus Huanglongbing disease?,non-specific,ENVIRONMENT - BIOTIC STRESS,1,"
+
+
+
+
+
+
+根据文献证据，Candidatus Liberibacter asiaticus（CLas）是一种韧皮部限制性细菌，通过分泌SEC依赖性效应子（SDEs）进入韧皮部筛管细胞及其伴胞细胞，抑制植物免疫。SDE1与柑橘的PAPAIN-LIKE CYSTEINE PROTEASES（PLCPs）相互作用并抑制其活性；SDE15通过与CsACD2互作促进CLas增殖；SDE115被证实促进CLas早期定植。这些效应子是关键的毒力因子。
+
+正确答案是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,45.94
+88,What are the proposed roles and mechanisms of action for Snakin/GASA plant antimicrobial peptides?,non-specific,ENVIRONMENT - BIOTIC STRESS,2,"
+
+
+
+
+2",2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,29.74
+89,How do siRNA bodes move along the cell in plants?,non-specific,CELL BIOLOGY AND CELL SIGNALING,2,2,2,模型输出的选项[2]与正确选项[2]一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,6.4
+90,How do alleles of the gene TBR affect growth in high Zinc conditions in Arabidopsis thaliana?,non-specific,ENVIRONMENT - ABIOTIC STRESS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,5.68
+91,Which molecules produced by Pseudomonas protegens can interfere with Azospirillum root colonization when both bacteria are co-inoculated in wheat?,Triticum aestivum,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+None of the provided options can be verified with the given PMID or query. However, based on known biological interactions, the correct answer is:
+
+0: When co-inoculated with Pseudomonas protegens in wheat seeds, the capacity of Azospirillum to colonize the developing roots is affected by surfactin and other cyclic lipopetides produced by the pseudomonads.",0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,18.0
+92,Which phytohormone is the most important signaling factor of the Induced Systemic Resistance (ISR) that is upheaved by plants as a response to the inoculation of beneficial rhizobacteria?,non-specific,ENVIRONMENT - BIOTIC STRESS,2,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.91
+93,Which organic acid secreted by plant roots can interfere with the normal rhlIR-type Quorum Sensing functioning of Pseudomonas?,non-specific,ENVIRONMENT - BIOTIC STRESS,0,"
+
+根据文献（PMID: 26732761）摘要，迷迭香酸（Rosmarinic acid）由植物根部分泌，可作为HSL类似物激活铜绿假单胞菌（Pseudomonas aeruginosa）的群体感应调节因子RhlR，诱导其基因表达、生物膜形成及毒力因子产生。这表明迷迭香酸是**诱导**而非淬灭群体感应反应。
+
+因此正确选项为：  
+0: Rosmarinic acid produced by plant roots can act as a signal that induces a broad Quorum Sensing response in Pseudomonas aeruginosa.",0,模型输出选项与正确选项一致，均为0，表示迷迭香酸（Rosmarinic acid）是植物根部分泌的有机酸，能干扰铜绿假单胞菌的rhlIR型群体感应功能。,True,2,2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。,False,success,,0,23.8
+94,What is the main gene accounting for proline accumulation under stress conditions in Arabidopsis?,non-specific,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+
+
+文献分析显示，pyrroline-5-carboxylate synthase (P5CS) 是脯氨酸生物合成的限速酶，其中 P5CS1 在植物响应冷胁迫中起关键作用。例如，在西瓜中，ClBZR1L 通过激活 ClP5CS1 的转录来促进脯氨酸积累，从而增强耐寒性。
+
+正确答案：0: pyrroline 5-carboxylate synthase 1",0,模型回答正确，选项0与正确选项一致，均指向pyrroline-5-carboxylate synthase (P5CS1)作为拟南芥胁迫条件下脯氨酸积累的主要基因。,True,1: pyrroline 5-carboxylate synthase 2,1,正确答案是选项0，但模型选择了选项1，因此回答错误。,False,success,,0,41.54
+95,Is proline an efficient scavenger of reactive oxygen species?,non-specific,ENVIRONMENT - ABIOTIC STRESS,2,"1: Yes, proline can scavenge superoxide, singlet oxygen, hydrogen peroxide and hydroxyl radicals.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,"2: No, proline can only scavenge hydroxyl radicals but is not a good scavenger of singlet oxygen, superoxide, and hydrogen peroxide.",2,模型输出的选项与正确选项一致，均为2，因此判断为正确。,True,success,,0,6.42
+96,Is proline accumulation subjected to feedback inhibition by proline?,non-specific,EVOLUTION,1,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,"1: Yes, proline biosynthetic gene in plants and animals (P5CS), and bacteria (ProB), have a conserved allosteric domain (DNDFRD) that enables feedback inhibition by proline.",1,模型输出的选项与正确选项一致，均为1，表明模型正确回答了问题。,True,success,,0,5.59
+97,Is P5CS1 gene expression induced by abiotic stress in Arabidopsis?,non-specific,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+P5CS1 is induced by abiotic stress, with expression upregulated under water-limiting conditions, salt stress, and ABA treatment. It plays a key role in proline biosynthesis and stress response. The correct answer is:
+
+0: Yes, P5CS1 expression is known to be induced by abiotic stress. Its promoter is enriched in putative binding sites for TFs related to abiotic stress, such as ABA response elements, AP2/EREBP, ERF2, DREB/CBF, and MYB binding sites.",0,"The agent's response correctly identifies that P5CS1 gene expression is induced by abiotic stress in Arabidopsis, aligning with the correct option 0.",True,"0: Yes, P5CS1 expression is known to be induced by abiotic stress. Its promoter is enriched in putative binding sites for TFs related to abiotic stress, such as ABA response elements, AP2/EREBP, ERF2, DREB/CBF, and MYB binding sites.",0,模型输出的选项与正确选项一致，均为0，表明P5CS1基因表达在拟南芥中受非生物胁迫诱导。,True,success,,0,24.39
+98,Is P5CS2 gene induced by biotic stress in Arabidopsis?,non-specific,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+
+
+
+
+
+
+2",2,模型输出的选项与正确选项一致，因此判断为正确。,True,"2: Yes, P5CS2 expression is known to be induced by biotic stressors. Its promoter is enriched in putative regulatory elements for TFs related to biotic stresses such as HD-HOX, AP2/EREBP, MYB, WRKY, and bZIP.",2,模型回答的选项与正确选项一致，确认P5CS2基因在拟南芥中受生物胁迫诱导。,True,success,,0,48.39
+99,"Is there population structure in 19 elite accessions of Sunflower (Helianthus annuus) from Argentina, and how is extent of linkage disequilibrium in this group?",Helianthus annuus,GENOME AND GENOMICS,0,2,2,模型选择的选项[2]与正确选项[0]不一致，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.97
+100,What is the primary step in the mechanisms by which phyB senses temperature?,non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,2,"
+
+
+
+
+
+The primary step in phytochrome B's response to temperature is the thermal reversion of its active Pfr form back to the inactive Pr form in a temperature-dependent manner. This process directly reduces the pool of active phyB as temperatures rise, serving as a fundamental thermosensory mechanism.
+
+Answer: 2",2,模型输出的选项与正确选项一致，均为2。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,38.83
+101,What are the families of photosensory receptors present in plants?,non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,1,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,"The correct answer is: 1
+
+Explanation: Photosensory receptors in plants include cryptochromes, phototropins, phytochromes, zeitlupes, and UVR8. These are protein-based photoreceptors that detect light signals. Carotenoids, chlorophylls, and anthocyanins are pigments involved in light absorption or photoprotection but are not photosensory receptors themselves.
+
+Correct option: 1",1,模型输出与正确选项一致，评估为正确。,True,success,,0,6.3
+102,"What light cues can be indicative of the presence of neighbouring vegetation, reductions in red / far-red ratio without large changes in visible light, reductions in red / far-red ratio with reductions in visible light, or both?",non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,2,"无法根据提供的选项和问题内容进行基因或生物学数据查询，且问题与选项之间缺乏明确的上下文联系（如涉及的具体基因、生物过程或分子机制）。此外，工具调用需要具体的基因名、ID或其他可操作的生物实体信息。
+
+请提供更清晰的问题描述或相关基因名称以便进一步分析。
+
+由于信息不足，无法确定正确答案。但基于植物光生物学常识：
+
+红光/远红光比例降低通常由遮荫引起，而可见光总量可能不变或轻微变化。这种信号主要通过光敏色素感知，用于检测邻近植被。因此，**最合理的答案是**：
+
+1: Reductions in red / far-red ratio without large changes in visible light
+
+答案：1",1,模型输出的选项为1，但正确选项为2，因此评估为错误。模型未能基于正确选项进行判断，而是提供了自己的推理。,False,1: Reductions in red / far-red ratio without large changes in visible light,1,模型输出的选项[1]与正确选项[2]不一致，因此评估为错误。,False,success,,0,12.88
+103,What are the three hallmarks that characterize ferroptosis in both plant and animal systems?,non-specific,PHYSIOLOGY AND METABOLISM,0,"0: Ferroptosis is a nonapoptotic, iron-dependent form of cell death that is characterized by the availability of redoxactive iron, the oxidation of polyunsaturated fatty acid (PUFA)-containing phospholipids and the loss of lipid peroxide repair capacity by phospholipid hydroperoxidases.",0,模型输出的选项与正确选项一致，均为0，且描述内容与正确选项的描述相符。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,7.22
+104,Which brassinosteroid is specifically found in female gametophytes and what is the proposed mechanism for its biosynthesis in Arabidopsis thaliana?,non-specific,HORMONES,2,"
+
+
+根据文献（PMID: 35046016）摘要内容，同源油菜甾醇（homocastasterone）是在拟南芥雌配子体线粒体中通过ADXR-ADX-P450电子传递链合成的，并且该途径对雌配子体发育至关重要。甾醇前体在线粒体内被转化为homocastasterone，涉及CYP类P450酶。
+
+正确选项是：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,24.49
+105,Which is the fundament behind the TRAP (Translating Ribosome Affinity Purification) methodology that allows purification of ribosome bound mRNAs?,non-specific,GENE REGULATION - TRANSLATION,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.56
+106,How can TRAP (Translating Ribosome Affinity Purification) methodology be applied to the generation of an atlas of the translated mRNAs within specific cell type populations?,non-specific,GENE REGULATION - TRANSLATION,0,"无法通过提供的工具和信息确定正确答案。问题涉及实验策略的选择，但没有提供足够的上下文或基因/蛋白质相关信息供分析。根据常见生物学实践，若要实现细胞类型特异性标记，通常使用细胞类型特异启动子。
+
+正确选项应为：**0**",0,模型输出的选项与正确选项一致，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,9.21
+107,Which mRNAs encoding components of the Nodulation signaling pathway are upregulated at translational level in Medicago truncatua roots upon inoculation with Sinorhizobium meliloti?,Medicago truncatula,GENE REGULATION - TRANSLATION,1,"
+
+
+
+Based on known molecular mechanisms in Medicago truncatula rhizobial symbiosis:
+
+- LYK3 is a Nod factor receptor, and DMI3 (a calcium/calmodulin-dependent protein kinase) acts early in signaling.
+- NSP1, NSP2, HAP2-1/NF-YA1, and HAP5 are well-documented transcription factors upregulated during symbiosis and essential for nodule formation.
+- IPD3 (Interacting Protein of DMI3) functions downstream of DMI3 in the common symbiotic pathway.
+
+Among the options:
+- Option 0 includes LYK3 and DMI3, which are important but typically regulated at the transcriptional or post-translational level rather than translationally upregulated mRNAs.
+- Option 1 lists key transcription factors (NSP1, NSP2, HAP2.1, HAP5) known to be induced during symbiosis — consistent with translational upregulation evidence from studies.
+- Option 2 includes NSP1, NSP2, and IPD3; while plausible, IPD3 regulation is more associated with protein interaction dynamics than mRNA translational upregulation.
+
+The most accurate and best-supported answer is:
+
+1",1,模型输出选项与正确选项一致，均为1，因此评估为正确。,True,"正确答案是：0
+
+mRNAs upregulated at translational levels in Medicago truncatula roots upon inoculation with Sinorhizobium meliloti include those encoding the Nod factor receptor LYK3 and the calcium calmodulin dependent protein kinase DMI3. 
+
+研究显示，在接种Sinorhizobium meliloti后，Medicago truncatula根中某些参与结瘤信号通路的关键基因在翻译水平上被上调，其中包括编码Nod因子受体LYK3和钙调蛋白依赖性蛋白激酶DMI3的mRNA。这些发现来自核糖体印记（ribosome profiling）实验，揭示了翻译调控在早期共生信号中的重要作用。
+
+答案：0",0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,33.22
+108,How is the Superkiller 3 (SKI3) subunit involved in the symbiosis between Medicago truncatula and Sinorhizobium meliloti?,Medicago truncatula,GENE REGULATION - TRANSLATION,2,"
+
+
+
+
+
+
+
+SKI3 is a component of the Superkiller complex that mediates 3'-to-5' mRNA degradation via the exosome, as confirmed in Arabidopsis and conserved in plants. Although direct studies in *Medicago truncatula* are limited, the molecular function of SKI3 is evolutionarily conserved. Among the options, only statement **2** correctly describes the role of SKI3 in 3'-to-5' mRNA degradation and links it to nodule formation, bacterial survival, and induction of ENOD40—key symbiotic processes. Statement 0 incorrectly associates SKI3 with NF-YA1 induction without evidence, and statement 1 wrongly assigns 5'-to-3' degradation to the SKI complex.
+
+Answer: 2",2,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,success,,0,50.91
+109,"The plant immune system plays a central role in the social network of plants. It is generally assumed that rhizobia are first recognized by plants as intruders, and that hosts mount a defense response against these bacteria. Modulation of plant immunity plays an important role in symbiosis development. Q: Which rhizobial molecules have been related with the suppression of the defense responses in host legume?",non-specific,ENVIRONMENT - PLANT-SYMBIONTS,2,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,6.03
+110,It had been demonstrated that flg22-triggered defense responses in the roots of Lotus japonicus negatively influence nodulation by inhibiting rhizobial infections and delaying the nodule organogenesis.   Q: What is the impact of the mutation of conserved flagellin epitope of Mesorhizobium loti in Lotus japonicus defense response?,Lotus japonicus,ENVIRONMENT - PLANT-SYMBIONTS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.51
+111,"In Arachis hypogaea (peanut) has been proved that AhNF-YA1 and the LysMRLK Ahy.IM7I4N receptors are related to the plant response to the inoculation with Nod Factors. On the other hand, AhPER7 and AhWRKY11 are related to the plant response to the inoculation with chitosan.  Q: How is the AhNF-YA1, AhPER7 and AhWRKY11 gene expression profile in A. hypogaea (peanut) when NFs (symbiotic molecule signal) and chitosan (pathogenic molecule signal) are co-inoculated?",Arachis hypogaea,ENVIRONMENT - PLANT-SYMBIONTS,2,1,1,正确选项为2，模型输出选项为1，两者不一致，因此评估为错误。,False,"根据题干信息，AhNF-YA1 是与共生信号（Nod Factors）相关的基因，而 AhPER7 和 AhWRKY11 是与防御反应（chitosan）相关的基因。当共接种 NFs 和 chitosan 时，需要判断这两个通路是否相互影响。
+
+关键点在于：
+- 若共接种后 AhNF-YA1 表达下降，说明共生通路被抑制（防御激活可能压制共生）；
+- 若 AhPER7 和 AhWRKY11 表达上升，说明防御通路被协同增强；
+- 选项2指出：AhNF-YA1 转录受抑制（共生被抑制），同时 AhPER7 和 AhWRKY11 表达更高（防御被协同激活），表明两条通路相互影响且防御占主导。
+
+这符合植物中常见的“防御与共生互作”现象，即病原相关分子模式（如chitosan）的识别可能抑制共生信号通路，而防御通路可能被协同强化。
+
+正确答案是：**2**。",2,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,8.59
+112,It has been demonstrated that responses triggered in peanut plants by single microbial species populations are modified in presence of others.  Q: What is the effect of the challenge with the phypathogen Sclerotium rolfsii on the expression of AhSymRK and the symbiotic behavior in Arachis hypogaea (peanut) plants inoculated with the microsymbiont Bradyrhizobium sp. SEMIA6144? What is the effect of the biocontrol agent Bacillus sp. CHEP5 inoculation on these symbiotic parameters?,Arachis hypogaea,ENVIRONMENT - PLANT-SYMBIONTS,2,0,0,模型选择的选项[0]与正确选项[2]不一致，因此评估为错误。,False,"根据问题描述及选项内容，关键点在于：
+
+- 病原菌 *Sclerotium rolfsii* 对接种了共生菌 *Bradyrhizobium* sp. SEMIA6144 的花生植株中 **AhSymRK 基因表达** 和 **共生性状（如结瘤、固氮等）** 的影响；
+- 生防菌 *Bacillus* sp. CHEP5 的共接种是否能缓解或逆转这种影响。
+
+分析各选项：
+
+- 选项0：声称病原菌挑战后 AhSymRK 表达**增加**，且结瘤和氮含量**更高**——这与病原菌造成胁迫的预期效应矛盾，不合理。
+- 选项1：病原菌挑战后基因表达和表型**无变化**，且共接种生防菌后反而下降——不符合“生防菌应有保护作用”的逻辑。
+- 选项2：病原菌挑战导致 AhSymRK 表达**下降**，共生性状受损；但当加入生防菌 *Bacillus* CHEP5 后，这些指标**恢复至对照水平**——符合微生物互作中生防菌缓解病原菌抑制效应的研究结论。
+
+因此，正确答案是：
+
+**2**",2,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,9.75
+113,How is the expression profile in Arachis hypogaea (peanut) plants of the receptor genes Ahy.IM7I4N and Ahy.YTK8KP in presence of chitosan (molecule triggering defense) or Nod Factors (molecule triggering rhizobial symbiosis)?,Arachis hypogaea,ENVIRONMENT - PLANT-SYMBIONTS,0,"Ahy.IM7I4N 和 Ahy.YTK8KP 是花生（Arachis hypogaea）中的基因。需要验证它们在 Nod 因子和壳聚糖处理下的表达模式。
+
+首先，使用 gene_search 工具对这两个基因进行搜索，确认其基本信息和功能注释。
+
+基因 Ahy.IM7I4N 和 Ahy.YTK8KP 在数据库中未通过精确搜索找到。尝试使用扩展搜索（模糊匹配）来查找可能的匹配项。
+
+
+扩展搜索仍未找到 Ahy.IM7I4N 和 Ahy.YTK8KP 的相关信息。尝试通过外部数据库交叉引用工具 fetch_ExternalDBs 来查找这些基因 ID 是否有对应的其他数据库标识符。
+
+
+fetch_ExternalDBs 也未返回有效数据，表明这些基因 ID 可能不是标准命名或不在当前数据库覆盖范围内。尝试通过 PubMed 搜索相关文献，以获取关于这两个基因在 Nod 因子和壳聚糖处理下表达模式的信息。
+
+
+PubMed 搜索未返回包含 Ahy.IM7I4N 或 Ahy.YTK8KP 的直接研究。所有结果均涉及其他物种或基因，如大豆 GmCERK1、香蕉 LYSM 受体等，与目标基因无明确关联。
+
+由于无法通过基因搜索、外部数据库映射和文献检索验证 Ahy.IM7I4N 和 Ahy.YTK8KP 的表达模式，且所有工具调用均未返回有效信息，说明这些基因可能为虚构或非标准命名。
+
+但根据选项描述的逻辑一致性判断：
+
+- 选项0：Ahy.IM7I4N 在 Nod 因子和壳聚糖处理下均被激活，并在后期持续响应 Nod 因子；Ahy.YTK8KP 特异性响应 Nod 因子。
+- 选项1：Ahy.IM7I4N 响应壳聚糖但被 Nod 因子抑制，矛盾于共生信号通路的一般规律。
+- 选项2：Ahy.IM7I4N 被“抑制”后又“增加”，逻辑冲突。
+
+最合理的生物学情境是：某些基因对多种微生物信号（如 Nod 因子和壳聚糖）均有早期响应，而特异性基因仅对特定信号有反应。因此选项0最符合植物-微生物互作中基因表达的典型模式。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,54.87
+114,Which DNA methyltransferase is involved in the epigenetic reprogramming associated with symbiotic gene activation in the differentiation and fixation zones of Medicago truncatula nodules?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+
+根据文献（PMID: 27797357）内容，Medicago truncatula 根瘤中 DME（DEMETER）基因在分化区高表达，作为DNA去甲基化酶，其功能是降低CHH甲基化水平，从而激活共生相关基因的表达。DME的下调会导致超甲基化和基因表达下调。
+
+因此，正确选项是：  
+0: The transcriptional activation of symbiotic genes in the differentiation and the fixation zones of Medicago truncatula nodules correlates with a decrease in CHH methylation. DME, the main DNA methyltransferase of the RNA-directed DNA methylation pathway, is expressed in the differentiation and the fixation zones of the nodules, and is responsible for the reduction of CHH methylation at symbiotic genes expressed in the differentiation and the fixation zones.
+
+答案：0",0,正确选项为2，但agent选择了0，因此评估为错误。,False,0,0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,success,,0,29.62
+115,Which histone post-translational marks undergo reprogramming between roots and developing nodules in Medicago truncatula?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,0,1,1,模型选择的选项[1]与正确选项[0]不一致，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.1
+116,What is the role of GOLVEN/Root Meristem Growth Factor peptides in modulating root architecture in Arabidopsis and in legumes? What downstream transcription factor family is involved in this process?,non-specific,GROWTH AND DEVELOPMENT,1,"
+
+
+In Arabidopsis, GOLVEN peptides regulate root apical meristem maintenance, lateral root initiation, root hair elongation, gravitropism, and organ spacing. In legumes, they modulate nodule number and positioning by reducing the nodulation zone. The PLETHORA transcription factors are key downstream mediators of GOLVEN signaling in shaping root architecture.
+
+答案：1",1,模型回答与正确选项1一致,True,1,1,模型输出的选项与正确选项一致,True,success,,0,22.970676
+117,What is the mechanism of strigolactone perception by the a/b hydrolase DWARF14?,non-specific,HORMONES,1,"
+
+根据文献摘要信息，正确的机制是：独脚金内酯（Strigolactone）分子完整地结合到双重功能受体/水解酶DWARF14的预形成结合口袋中；随后F-box蛋白D3与该复合物结合；转录抑制子D53的结合使DWARF14转变为催化活性状态，从而水解独脚金内酯。这一过程触发了D53被蛋白酶体降解，从而启动独脚金内酯信号传导。DWARF14随后也被降解。
+
+选项1正确描述了这一机制。
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,25.35
+118,What are NIN Like Proteins (NLPs) and what roles do they play in Nitrogen acquisition in both legumes such as Medicago and non-legumes such as Arabidopsis?,non-specific,ENVIRONMENT - NUTRIENTS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.67
+119,What three characteristics are used to classify an open reading frame as that of a small signaling peptide?,non-specific,GENOME AND GENOMICS,0,"None of the provided options can be validated or selected based on biological context without a specific gene or protein being referenced in the query. The question lacks essential information (e.g., gene name, organism, or functional context) required to perform any analysis using the available tools.
+
+However, evaluating the statements:
+
+- Option 0 describes features typical of secreted proteins: short length (<250 aa), no transmembrane domains, and an N-terminal signal peptide for secretion — plausible for small secreted peptides.
+- Option 1 is contradictory: C-terminal signal peptides are not known to direct proteins to the secretory pathway; signal peptides are typically N-terminal.
+- Option 2 is inconsistent: vacuolar targeting may involve signal peptides, but multiple transmembrane domains contradict typical vacuolar transport mechanisms, especially with a signal peptide.
+
+Thus, **Option 0** is the most biologically plausible.
+
+Answer: 0",0,模型输出正确选择了选项0，与正确选项一致。,True,正确答案是：0。,0,模型输出与正确选项一致，评估为正确。,True,success,,0,13.58
+120,What are microbial plant peptide mimics? Explains the in planta mechanism of action of CLE peptide secreting nematodes on soybean roots.,non-specific,ENVIRONMENT - BIOTIC STRESS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.36
+121,What is the role of the sulfotransferase ST2a in the regulation of plant defense under conditions of competition for light (low red:far-red ratios)?,non-specific,HORMONES,2,"
+
+
+Based on current knowledge: Sulfotransferase ST2a inactivates hydroxylated jasmonate (OH-JA) by converting it to HSO4-JA. Under low red:far-red ratios, phytochrome B is inactivated (low Pfr), leading to upregulation of ST2a, which reduces active jasmonate precursors. This creates a direct link between light sensing and jasmonate signaling.
+
+Correct answer: 2.",2,模型回答的选项与正确选项一致（均为2），但输出格式不符合要求，未直接给出选项编号。,False,2,2,模型输出的选项与正确选项一致。,True,success,,0,19.554126
+122,How are the transcription factors of the PIF family involved in the regulation of jasmonate responses?,non-specific,GROWTH AND DEVELOPMENT,2,"
+
+
+
+ST2a编码一种参与茉莉酸代谢的磺基转移酶，其转录受PIF4/PIF5介导的外部偶联机制调控。UniProt功能注释显示ST2a催化羟基茉莉酸（如12-羟基茉莉酸）的硫酸化，形成失活的茉莉酸池。文献（PMID:24317064）证实ST2a在低红光:远红光条件下被PIFs激活转录，从而降低活性茉莉酸水平，抑制防御反应并促进避荫生长。
+
+正确答案是：2",2,模型输出的选项与正确选项一致，均为2。,True,"1: The PIFs are growth-promoting transcription factors whose abundance and/or activity increase under conditions of low red:far-red light ratios, which are typical of dense plant canopies. They bind to the promoter region of ST2a and repress its transcription. ST2a is required for the biosynthesis of bioactive jasmonate pools. Therefore, the repression of ST2a leads to low production of bioactive jasmonates, which facilitates growth (shade avoidance) and reduces the expression of plant defenses under conditions of leaf shading or in the proximity of plant competitors.
+
+正确答案：1",1,模型输出的选项为1，但正确选项为2，因此评估为错误。,False,success,,0,33.66
+123,Why is the accumulation of chemical defenses often accompanied by reduced growth in plants attacked herbivores or pathogens?,non-specific,ENVIRONMENT - BIOTIC STRESS,2,0,0,正确选项为2，agent的选项为0，两者不一致，因此agent的回答错误。,False,"0: Plant defenses are costly, in terms of the resources (carbon; nutrients) that are required for their biosynthesis. Therefore, when the jasmonates activate the biosynthesis of chemical defenses, the increased investment of carbon and nutrients in the formation of defense compounds inhibits plant growth simply as a consequence of the reduction in the amount of resources available to support rapid cell division and expansion.
+
+Answer: 0",0,正确选项为2，模型输出选项为0，两者不一致。,False,success,,0,8.0
+124,Which are the light signals and photoreceptors that trigger shade avoidance responses in dense plant canopies?,non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,"正确答案是：2
+
+理由：在密植植物冠层中，遮荫避免反应主要由光信号触发，其中最关键的是红光与远红光比例（R:FR）的下降，这一变化由**光敏色素**（phytochromes）感知，尤其是**phyB**起主导作用。此外，蓝光的减弱被**隐花色素**（cryptochromes）和**向光素**（phototropins）感知，而UV-B辐射的减少则由**UVR8**受体感知。这些信号共同调控植物的避荫反应。
+
+选项0错误地将绿光反射归因于“叶绿素”作为受体，并误述phyC为主要感受器；  
+选项1错误地将温度降低归为phytochrome感知的主要信号，并错误分配蓝光感知给phytochromes；  
+只有选项2准确描述了光信号及其对应的功能性光受体。
+
+答案：2",2,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,8.0
+125,"Oxygenic photosynthesis can be improved and optimized to address the current climate change scenario. Strategies based on synthetic biology approaches have been tested in crops and plant model systems, such as Arabidopsis, Nicotiana tabacum, and the moss Physcomitrella patens. Which of the following statements best reflects the current consensus?",non-specific,PLANT BIOTECHNOLOGY,0,"3: Strategies to achieve maximum photosynthetic capacity in plants are being developed and tested, but have not yet been fully realized in field conditions
+
+答案：3",3,正确选项为0，但agent选择了3，因此回答不正确。,False,0: Research has not yet developed strategies to achieve maximum photosynthetic capacity in plants,0,模型输出的选项与正确选项一致，均为0。,True,success,,0,7.29
+126,NPQ can improve photosynthetic yield and biomass when plants face adverse conditions. What is the most the efficient way to regulate the qE component of NPQ to augment productivity?,non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,1,"
+
+1: Increasing the induction and relaxation rates of qE",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1: Increasing the induction and relaxation rates of qE,1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,,0,17.78
+127,What plant physiological aspects that can be improved by engineering RubisCo using synthetic biology?,non-specific,PLANT BIOTECHNOLOGY,0,"
+
+
+
+
+无法识别的基因或文献标识符，无有效结果。请确认输入信息是否正确。
+
+答案：2",2,正确选项为0，但agent的选项为2，两者不一致，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,36.66
+128,Does carboxylation rate of RubisCo influence photosynthetic yield?,non-specific,PLANT BIOTECHNOLOGY,2,"None of the provided options are relevant to any gene, biological process, or molecular function based on the context given. There is no clear biological question posed that relates to the options listed (which appear to pertain to photosynthesis and oxygen conditions), and no gene name or functional query was provided to investigate.
+
+However, as a plant biologist, I must select the most accurate statement among the options:
+
+- Option 0: ""In the absence of O2"" – This is not a complete statement and lacks context.
+- Option 1: ""The photosynthetic yield is unaffected by plant growing conditions"" – This is **incorrect**, as photosynthetic yield is highly affected by light, CO₂, temperature, water, and nutrient availability.
+- Option 2: ""In the presence of O2"" – Also incomplete.
+
+Given that all options are fragments, but only one can be selected, and considering that oxygen **presence** affects photorespiration in plants (thus influencing photosynthetic efficiency), the only conditionally relevant context is:
+
+✅ **Option 2: In the presence of O2**
+
+This is the correct choice because oxygen presence impacts photosynthesis through competition with CO₂ in Rubisco activity (photorespiration), making it a relevant factor.
+
+Answer: 2",2,模型输出的选项与正确选项一致，但回答中包含额外解释，评估基于选项匹配。,True,2: In the presence of O2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,18.13
+129,Several synthetic biology approaches aim to adapt carbon concentrating mechanisms (CCM) to C3 plants. What are key aspects for the success of this strategy?,non-specific,PLANT BIOTECHNOLOGY,2,"None of the provided options can be evaluated as correct without additional context about the specific biological system or experimental setup being referenced. However, based on current knowledge of carbon fixation mechanisms in plants and cyanobacteria:
+
+- RubisCo (Ribulose-1,5-bisphosphate carboxylase/oxygenase) is the key enzyme in the Calvin-Benson cycle for CO2 fixation.
+- In cyanobacteria, **carboxysomes** are protein-bound microcompartments that concentrate CO2 around RubisCo to enhance its carboxylation efficiency.
+- **Co-localization of carboxysomes with RubisCo** ensures high local concentrations of CO2, minimizing photorespiration.
+
+Thus, option **2: The co-localization of the carboxysomes with RubisCo** is the most biologically accurate among the choices, as it reflects a known mechanism for improving carbon fixation efficiency in cyanobacteria and engineered systems.
+
+Answer: 2",2,模型输出的选项与正确选项一致，因此评估为正确。,True,2: The co-localization of the carboxysomes with RubisCo,2,模型回答与正确选项一致，评估为正确。,True,success,,0,14.55
+130,"What is the impact of synthetically inducing a burst in phytoene production, the first committed intermediate of the carotenoid pathway, on chloroplasts in leaves?",non-specific,PLANT BIOTECHNOLOGY,2,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,2: Synthetically inducing a phytoene burst triggers artificial chloroplast-to-chromoplast differentiation in leaves.,2,模型输出的选项与正确选项一致，均为2，因此判断为正确。,True,success,,0,6.64
+131,"Which isoprenoid pathway can be exploited to supply intermediates for engineering carotenoid biosynthesis in the plant cytosol (i.e., outside chloroplasts)?",non-specific,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.32
+132,How can the methylerythritol 4-phosphate (MEP) pathway and the mevalonic acid (MVA) pathway be simultaneously exploited to engineer parallel carotenoid biosynthesis in the cytosol and plastids of plants?,non-specific,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.01
+133,How could relocating genes between the nuclear genome and the plastome improve plant disease resistance?,non-specific,PLANT BIOTECHNOLOGY,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.82
+134,What is the potential of plant synthetic biology to support long-term human endeavors in space?,non-specific,PLANT BIOTECHNOLOGY,0,0,0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 6a211464f1 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,7.45
+135,What is symbiosis and how symbiosis between leguminous plants and rhizobia leads to the formation of N2-fixing root nodules?,non-specific,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.92
+136,What is cell layer specific role of gibberellins in root development and nodulation?,non-specific,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,10.24
+137,What are small signaling peptides and which peptide is involved in altering root development and noduletaxis in Medicago truncatula?,Medicago truncatula,CELL BIOLOGY AND CELL SIGNALING,0,1,1,模型选择的选项[1]与正确选项[0]不一致，因此评估为错误。,False,1,1,正确选项为0，但agent选择了1，因此评估为错误。,False,success,"req_id: 503d489993 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,6.63
+138,"How small signaling peptide CEP1 and NIN-like protein NLP1, regulate NRT2.1 expression to control root nodule formation under different nitrogen conditions?",non-specific,CELL BIOLOGY AND CELL SIGNALING,1,"
+
+Based on biological knowledge:  
+- Legumes form symbiotic nodules with **rhizobia**, not all bacteria.  
+- Nodule formation is **energetically expensive**, so plants **suppress** it under high nitrogen and **promote** it under low nitrogen.  
+- **MtCEP1** (not CEP1.1) and **MtNRT2.1** (not NRT3.1) are correct gene names.  
+- Under high nitrogen, **MtNLP1 migrates to the nucleus** (not chloroplast), activating **CLE35** (not CLE33) to suppress nodulation via SUNN.  
+- Option 1 correctly describes nuclear localization of MtNLP1 under high N and its role in activating CLE35 and NRT2.1.
+
+Answer: 1",1,,True,1,1,模型输出的选项与正确选项一致。,True,success,,0,21.35584
+139,"What is the primary function of gene looping, short range chromatin loops encompasing single genes, in plants?",non-specific,GENE REGULATION - PTGS,2,"
+
+Gene-looping facilitates the spatial organization of chromatin, enabling RNA polymerase II to efficiently recycle back to the promoter region after transcription, thereby enhancing gene expression. This mechanism is supported by studies showing cohesin- and CTCF-mediated chromatin looping coordinating with RNA polymerase II dynamics to promote transcriptional efficiency.
+
+答案：2",2,,True,2: Gene-looping enhances gene transcription by allowing more efficient recycling of RNA polymerase II.,2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,21.0
+140,How can intragenic chromatin loops regulate gene expression in plants?,non-specific,GENE REGULATION - PTGS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.27
+141,How do IRs contribute to changes in gene expression through their impact on chromatin topology?,non-specific,GENE REGULATION - PTGS,1,"1: IRs act as anchor points for short-range chromatin loops, which can either enhance or repress gene expression depending on the loop structure and gene region included.",1,模型输出的选项与正确选项一致，因此评估为正确。,True,"1: IRs act as anchor points for short-range chromatin loops, which can either enhance or repress gene expression depending on the loop structure and gene region included.",1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.74
+142,"In sunflower Sclerotinia head rot disease, which genes are known to be upregulated within the first week of infection in the plant's defense response?",Helianthus annuus,GENE REGULATION - TRANSCRIPTION,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,8.31
+143," ……What is the current understanding of the genetic architecture of Sclerotinia head rot resistance in sunflower, and how has modern breeding influenced its evolution? ",Helianthus annuus,GENOME AND GENOMICS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.31
+144,What are the key regulatory pathways and genes involved in sunflower leaf  senescence?,Helianthus annuus,GENE REGULATION - TRANSLATION,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.43
+145,"Which transcription factor families are key regulators of leaf senescence in sunflower, and how do they impact photosynthetic processes?",Helianthus annuus,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 6ed9a0e29e PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,6.79
+146,What is the main cytokinin receptor regulating symbiotic nitrogen-fixing nodulation in Medicago truncatula ?,Medicago truncatula,HORMONES,2,"
+
+The abstract from PMID 27341695 states that MtCRE1 is essential for symbiotic interaction in *Medicago truncatula* and regulates both nodule initiation and later developmental stages. It specifically indicates that MtCRE1 is required for later nodulation stages beyond initiation, including nodule organogenesis.
+
+Thus, the correct answer is:
+
+2: The main cytokinin receptor involved in regulating symbiotic nitrogen-fixing nodulation in Medicago truncatula is MtCRE1 (Cytokinin response 1). This receptor is notably required to promote nodule organogenesis.",2,模型输出的选项与正确选项[2]一致，回答正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: a894fcc427 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,22.59
+147,How many authentic cyctokinin receptor exist in the Medicago truncatula genome ?,Medicago truncatula,HORMONES,2,"
+
+
+
+文献（PMID: 27341695）明确指出，在Medicago truncatula中存在四个细胞分裂素受体：MtCRE1/MtCHK1、MtCHK2、MtCHK3和MtCHK4，它们在根瘤发育的不同阶段发挥作用。选项2正确描述了这一事实。
+
+答案：2",2,模型输出的选项与正确选项[2]一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: 00145277f3 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,32.78
+148,What are the signaling peptides and their associated receptors that are involved in the systemic regulation of nitrogen-fixing symbiotic nodulation in Medicago truncatula ?,Medicago truncatula,HORMONES,2,"
+
+
+The correct answer is option 2: The signaling peptides and their associated receptors involved in the systemic regulation of nitrogen-fixing symbiotic nodulation in *Medicago truncatula* are: 1) the CLE (CLAVATA-LIKE / EMBRYO SURROUNDING) peptides, perceived by the SUNN (SUPERNUMERARY NODULES) receptor; and 2) the CEP (C-TERMINALLY ENCODED PEPTIDES) peptides and the CRA2 (COMPACT ROOT ARCHITECTURE 2) receptor.
+
+This is supported by the publication titled ""Independent Regulation of Symbiotic Nodulation by the SUNN Negative and CRA2 Positive Systemic Pathways"" (PMID: 30782966), which confirms the roles of SUNN in perceiving CLE peptides and CRA2 in mediating CEP signaling during systemic regulation of nodulation.
+
+Answer: 2",2,模型输出与正确选项一致，确认答案为2。,True,"正确的答案是：2
+
+选项2正确描述了参与蒺藜苜蓿（Medicago truncatula）固氮共生结瘤系统性调控的信号肽及其受体：CLE肽由SUNN受体感知，CEP肽由CRA2受体感知。RGF/GLV系统虽参与根发育，但不直接主导系统性结瘤调控。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,"req_id: 041632caab PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,28.57
+149,Which signaling peptide pathway promotes in Medicago truncatula both root competence to rhizobium bacteria and vesiculo-arbuscular mycorrhiza fungi symbionts?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,0,"
+
+
+Based on the available information and literature search, no evidence supports either the CEP/CRA2 or CLE/SUNN pathways specifically promoting both rhizobium and mycorrhiza symbioses in *Medicago truncatula*. Furthermore, no general peptide/receptor pathway with this dual role was identified in the search. Therefore, the most accurate answer is:
+
+2",2,正确选项为0，但agent选择了2，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: fd63115b81 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,25.58
+150,What are the main similarities between nodulation and mycorrhizal endosymbioses in Medicago truncatula?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+
+
+
+根据文献分析，选项2正确：在Medicago truncatula中，结瘤和菌根共生的主要相似性包括：1）在微观层面，分别通过侵染线（infection threads）和预穿透结构（pre-penetration apparatus）进行侵染过程；2）在分子层面，通过植物LysM受体激酶识别微生物的脂壳寡糖（LCO）信号，激活共同的共生信号通路（SYM pathway）。该结论得到多个研究支持，特别是MtENOD11基因在两种共生过程中共享调控元件的研究证据。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,"req_id: 06a393a7c7 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,40.55
+151,How is S-locus receptor kinase (SRK) involved in the maintenance of the self-incompatibility response in Brassica?,non-specific,PHYSIOLOGY AND METABOLISM,1,"
+
+S-locus receptor kinase (SRK) is essential for maintaining self-incompatibility in Brassica by localizing to the stigma and interacting with the pollen determinant SP11. The incompatible response is triggered when both SRK and SP11 originate from the same S-allele, preventing self-fertilization. This mechanism ensures outcrossing and avoids inbreeding.
+
+正确答案是：1。",1,模型回答中未明确给出选项编号，但内容与正确选项1的描述一致。,True,1,1,模型输出的选项与正确选项一致。,True,success,,0,32.913392
+152,What types of DNA motifs bound by transcription factors are enriched at the boundaries of TADs in plant species?,non-specific,GENE REGULATION - TRANSCRIPTION,1,"None of the provided options can be verified or supported using the available tools, as the question and options pertain to TAD (Topologically Associating Domain) boundary sequences and transcription factor binding motifs in various plants (wheat, rice, tomato, Marchantia, Arabidopsis), which require specific epigenomic and chromatin architecture data not accessible through the current set of tools.
+
+The tools available are focused on gene search, gene structure, UniProt/KEGG/InterPro annotations, PubMed literature retrieval, and protein-protein interaction networks (STRING), but none provide access to 3D genome architecture, Hi-C data, or TAD boundary analyses across plant species.
+
+Therefore, based on the lack of accessible data to validate any of the statements:
+
+**Answer: None of the options can be confirmed with the current tools.**
+
+However, since I must choose one option as correct and cannot abstain:
+
+Option **0** contains the most plausible and widely supported claim: TCP class I and bZIP motifs are indeed reported in regulatory regions in plants, and TCP proteins (e.g., TCP14 in Arabidopsis) have been associated with chromatin interactions and developmental regulation. The mention of evolutionary conservation in Arabidopsis is consistent with existing literature.
+
+Thus, the best choice is:
+
+**0**",0,Agent无法验证任何选项，但基于文献常识选择了最合理的选项0，而正确答案为1，因此评估为错误。,False,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,17.56
+153,"In humans the core Polycomb Repressive Complex 2 is composed by four core subunits: SUZ12, EED, EZH1/EZH2, and RBBP4/7. Which are the homologs of SUZ12 in Arabidopsis thaliana?",non-specific,GENE REGULATION - EPIGENETICS AND TGS,1,"
+
+
+In Arabidopsis thaliana, the homologs of human SUZ12 are VRN2, EMF2, and FIS2. These proteins are components of Polycomb Repressive Complex 2 (PRC2) in plants and share sequence homology with SUZ12, as confirmed by STRING homology analysis.
+
+Correct answer: 1. In Arabidopsis thaliana, the homologs of SUZ12 are FIS2, EMF2 and VRN2.",1,Agent的回答与正确选项一致，正确识别了拟南芥中SUZ12的同源蛋白为VRN2、EMF2和FIS2。,True,"1. In Arabidopsis thaliana, the homologs of SUZ12 are FIS2, EMF2 and VRN2.",1,模型输出的选项与正确选项一致。,True,success,,0,23.520287
+154,The PCR2 complex has conserved functions in plants and animals. Which histone modification is the result of the action of PCR2 in Arabidopsis thaliana?,non-specific,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,1,"
+
+In Arabidopsis thaliana, the PRC2 complex mediates the deposition of histone H3 lysine 27 trimethylation (H3K27me3), as confirmed by multiple studies showing its role in gene repression and developmental regulation through this specific epigenetic mark.
+
+正确答案是：1",1,,True,1. In Arabidopsis PRC2 mediates the deposition of histone H3 lysine 27 trimethylation (H3K27me3),1,模型选项与正确选项一致，均为1。,True,success,,0,19.14345
+155,"The Jumonji C (JmjC) family of Fe(II)-dependent and 2-oxoglutarate-dependent dioxygenases as demethylases of tri-, di- and mono-methylated histones. Which JmJC proteins are proposed to have H3K27me3 demethylase activity in  Arabidopsis thaliana?",non-specific,GENE REGULATION - EPIGENETICS AND TGS,0,"
+
+
+REF6 (JMJ12) is a known H3K27me3 demethylase in Arabidopsis. Additional literature and functional studies confirm that ELF6 (JMJ11), REF6 (JMJ12), JMJ13, JMJ30, and JMJ32 possess H3K27me3 demethylase activity. This matches option 0.
+
+答案：0",,模型输出选项0，与正确选项一致。,True,0,0,模型选择的选项与正确选项一致。,True,success,,0,22.594963
+156,"Many plants have a vernalization requirement, that is, they actively repress flowering until after a period of prolonged cold, in order to align seed production with the favourable environmental conditions of spring. Which gene is primarily affected by vernalization in Arabidopsis thaliana, and what is the effect? ",non-specific,GROWTH AND DEVELOPMENT,1,"
+
+In Arabidopsis thaliana, vernalization involves downregulation and epigenetic silencing of the gene encoding the floral repressor FLOWERING LOCUS C (FLC). This silencing allows the plant to transition to flowering after prolonged cold, aligning reproduction with favorable spring conditions. 
+
+Answer: 1",1,模型回答正确指出FLC是受春化作用影响的主要基因，并描述了其被沉默后促进开花的效应，与正确选项一致。,True,1,1,,True,success,,0,15.767547
+157,How is flowering regulated by vernalization in wheat and barley?,"Triticum aestivum, Hordeum vulgare",GROWTH AND DEVELOPMENT,2,"
+
+
+
+选项2正确。VRN1是小麦和大麦中春化作用的主要调控因子，属于MADS-box转录因子，在冬季品种中经低温诱导表达，其表观遗传调控涉及H3K27me3抑制标记的解除和H3K4me3水平的提升，进而抑制开花抑制因子VRN2，释放VRN3（FT同源基因）表达，促进开花。
+
+答案：2",2,模型输出的选项与正确选项一致，评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 5e865b30b9 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,44.27
+158,Which are the over-expressed transcription factor families that showed more than 2-fold enrichment in Nothofagus pumilio leaves under heat stress?,Nothofagus pumilio,ENVIRONMENT - ABIOTIC STRESS,1,"
+
+Based on current knowledge and typical plant transcriptional responses to heat stress, the most commonly enriched transcription factor families include **ERFs, MYBs, NACs, and NF-YCs**, which are well-documented in heat stress responses across multiple plant species. These families regulate stress-responsive genes and are frequently over-expressed under thermal stress.
+
+Correct answer: **2**",2,模型回答选择的选项为2，与正确选项1不一致。,False,2,2,模型输出选项2，与正确选项1不一致。,False,success,,0,19.871042
+159,Which is the effect of warm temperatures on the functioning of the circadian clock and the time-of-day patterns of gene regulation in Nothofagus pumilio leaves under constant conditions?,Nothofagus pumilio,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+Based on the provided options and absence of contradictory evidence from literature searches, the most plausible answer is:
+
+0. Warm temperatures affected the functioning of the circadian clock under constant conditions since circadian oscillator components became arrhythmic or showed changes in their moment of maximum expression when seedlings were exposed to 34°C. Warm temperatures also affected the time-of-day patterns of gene regulation, because 72.3% of the differentially expressed genes between subjective dawn and dusk at 20°C lost their regulation at 34°C. 
+
+This option is consistent with known effects of high temperature stress on circadian rhythms in plants, where elevated temperatures often disrupt rhythmicity rather than enhance it. The specific figure of 72.3% loss of regulation further supports a significant disruptive effect.
+
+Answer: 0",,模型回答的选项与正确选项一致。,True,0,0,模型选项与正确选项一致,True,success,,0,18.715657
+160,Which is the role of STZ1 in the response of abiotic stress in tree species?,non-specific,ENVIRONMENT - ABIOTIC STRESS,1,"
+
+
+服务器暂时无法响应请求，所有工具调用均失败。基于已有知识，STZ1（也称为ZAT10）是一个已知参与植物非生物胁迫响应的转录因子，在拟南芥等物种中研究表明其在氧化还原稳态和抗冻性中起重要作用。它通常被干旱、低温等胁迫诱导，并通过调控抗氧化基因如**ascorbate peroxidase 2 (APX2)** 来清除活性氧（ROS），从而增强抗逆性。过表达STZ1的研究显示其可提高抗寒性。
+
+因此，正确选项应为：  
+**1. STZ1 is induced by drought, frost, and chilling stress in leaves and promotes the expression of ascorbate peroxidase 2, which scavenges ROS and enhances frost tolerance. The ectopic overexpression of STZ1 improves freezing tolerance in transgenic poplar.**
+
+答案：1",1,模型输出选项为1，与正确选项一致。,True,"STZ1 is a stress-responsive transcription factor known to play a role in abiotic stress tolerance. Evidence shows it is induced by drought, cold, and chilling stresses. It positively regulates antioxidant genes like ascorbate peroxidase 2 (APX2), which helps scavenge reactive oxygen species (ROS), thereby enhancing frost tolerance. Overexpression studies in poplar confirm improved freezing tolerance.
+
+Correct answer: **1**",1,模型回答明确选择了选项1，与正确选项一致。,True,success,,0,19.659374
+161,What are the spatial localization patterns of centromeres and telomeres in a plant species with its chromosomes displaying Rabl conformation?,non-specific,GENOME AND GENOMICS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,"1: In the Rabl conformation, centromeres are clustered at the nuclear envelope or at one end of the nucleus. The telomeres of the chromosomes are typically found at the opposite end of the nucleus from the centromeres.",1,模型回答的选项与正确选项一致，且描述符合Rabl构型中着丝粒和端粒的空间定位模式。,True,success,"req_id: facfbc82d0 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.77
+162,How are chromatin accessibility and DNA methylation associated with TADs in Marchantia?,non-specific,GENOME AND GENOMICS,1,"None of the provided options can be confirmed as correct based on the available tools and information. The question pertains to chromatin accessibility and DNA methylation patterns at TAD (Topologically Associating Domain) borders in *Marchantia*, which requires specific epigenomic data not accessible through the current set of tools focused on gene annotation, sequence, and protein interactions.
+
+However, based on biological plausibility:
+
+- In most eukaryotes, **TAD borders** are typically associated with **open chromatin (accessible)** and **low DNA methylation**, often marked by CTCF or other insulator proteins.
+- Option 1 states: *""TAD borders are enriched with accessible chromatin but depleted of DNA methylation""*, which aligns with general genomic principles.
+
+Thus, the most biologically consistent answer is:
+
+**1**",1,模型输出的选项与正确选项一致，基于生物合理性推断。,True,0,0,模型输出的选项[0]与正确选项[1]不一致，因此评估为错误。,False,success,"req_id: d7470daa58 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,12.67
+163,What are the effects of silicon (Si) application over soybean nodulation and root density in soybean plants and what are the main transcription factors (TFs) families involved in these effects?,Glycine max,ENVIRONMENT - PLANT-SYMBIONTS,1,"
+
+根据文献摘要，硅（Si）的应用增强了大豆的根系发育和结瘤。这种效应与bHLH等转录因子家族的上调以及生长素转运途径的参与有关。选项1正确描述了这些发现。
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"1: Silicon (Si) application enhances soybean root development and nodulation. The upregulation of specific TF families such as AP2/ERF-RAV, bHLH, bZIP, MYB, and WRKY, along with the involvement of the auxin transporter pathway are involved in these effects.",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,"req_id: 16291186d6 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,20.95
+164,"Is the non-legume Parasponia andersonii able to control nodule symbiosis in response to exogenous nitrogen concentrations? If so, which symbiotic parameters are affected under high-nitrogen concentrations? ",Parasponia andersonii,ENVIRONMENT - PLANT-SYMBIONTS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: d2b98375d4 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,5.8
+165,What is the impact of nitrogen availability in the soil over Lotus japonicus-Mesorhizobium loti root nodule symbiosis and what are the key genes involved in regulation of nodule number?,Lotus japonicus,ENVIRONMENT - PLANT-SYMBIONTS,1,"
+
+
+
+
+氮素有效性抑制根瘤共生。NRSYM1编码一个NLP转录因子，响应硝酸盐后进入细胞核，通过调控根部产生的CLE-RS2肽来负调控根瘤数量。
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，且回答内容与问题相关，描述了氮素有效性的影响和关键基因。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 9cb7bdecb9 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,39.52
+166,How does low phosphorus (P) concentration affect root nodule symbiosis in soybean (Glycine max) plants?,Glycine max,ENVIRONMENT - PLANT-SYMBIONTS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 40c521c636 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.78
+167,What is the effect of salt stress over the symbiotic signalling pathway in soybean (Glycine max) plants and what are the main genes involved in this effect?,Glycine max,ENVIRONMENT - PLANT-SYMBIONTS,0,"
+
+
+
+根据文献摘要，GmSK2-8在盐胁迫下被诱导表达，并通过磷酸化GmNSP1a的LHRI结构域，抑制其与共生基因启动子区域的结合，从而抑制根瘤形成。这与选项0描述一致。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了盐胁迫对大豆共生信号通路的影响及相关基因。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,54.36
+168,miRNA processing mechanisms differ in plants and animals. Mention two main differences on the miRNA biogenesis pathway that distinguishes these two organism,non-specific,GENE REGULATION - TRANSCRIPTION,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,7.73
+169,How do LSH1 and LSH2 confer symbiotic nodule identity to root cells in Medicago truncatula?,Medicago truncatula,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+根据文献摘要，LSH1/LSH2在根皮层中促进细胞分裂，特别是在中皮层（mid-cortex），通过促进NOOT1/NOOT2和NF-YA1的转录、调节生长素和细胞分裂素水平，并抑制侧根发育程序来控制和维持根瘤器官身份。
+
+正确选项是：0。",0,模型回答与正确选项一致，均选择选项0，表明LSH1和LSH2通过促进细胞分裂、调节基因表达和激素水平来维持根瘤身份。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,29.27
+170,How do you define a symbiotic island in Medicago truncatula?,Medicago truncatula,GENOME AND GENOMICS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.49
+171,How does the Nuclear Factor YA1 control nodule development in Medicago truncatula and Lotus japonicus,"Medicago truncatula, Lotus japonicus",GENE REGULATION - TRANSCRIPTION,2,"
+
+根据文献摘要，NF-YA1在根瘤发育中调控细胞分化和定型阶段的生长素信号通路，通过调控STY基因家族及其下游YUCCA基因参与局部生长素生物合成，且该调控模块在Lotus japonicus和Medicago truncatula中均存在。但初始共生细胞分裂（早期根瘤原基形成）由独立机制调控，不受NF-YA1控制。
+
+选项2准确描述了NF-YA1的功能：它通过调控STY基因家族（已知调节生长素稳态）来控制根瘤发育早期的细胞分化，并影响定型（L. japonicus）和不定型（M. truncatula）根瘤的出现及后续细胞分裂与模式形成，而不调控初始共生细胞分裂。
+
+正确答案是：2",2,模型输出的选项与正确选项一致，正确描述了NF-YA1在根瘤发育中的调控功能。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,22.78
+172,What is the difference between determinate and indeterminate nodule development?,non-specific,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.95
+173,How do you define a pioneer transcription factor (TF)?,non-specific,GENE REGULATION - TRANSCRIPTION,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.17
+174,"What are the functions of plant DICER-LIKE 2 (DCL2) and DCL4, and what is the relationship between these two enzymes?",non-specific,GENE REGULATION - PTGS,1,"1: DCL2 produces 22-nt siRNAs whereas DCL4 produces 21-nt siRNAs. Their functions are either redundant, synergistic or antagonistic, depending on the target considered",1,模型回答与正确选项一致，准确描述了DCL2和DCL4的功能及关系。,True,"1: DCL2 produces 22-nt siRNAs whereas DCL4 produces 21-nt siRNAs. Their functions are either redundant, synergistic or antagonistic, depending on the target considered",1,模型回答与正确选项一致，准确描述了DCL2和DCL4的功能及关系。,True,success,,0,9.15
+175,"What is the function of plant ARGONAUTE 1 (AGO1), and what is the phenotype of Arabidopsis thaliana ago1 mutants ?",non-specific,GENE REGULATION - PTGS,0,"
+
+
+
+
+
+AG01 binds to miRNA and siRNA with a 5'U, not 5'A, and catalyzes mRNA cleavage. Hypomorphic ago1 alleles are fertile while null alleles are dwarf and sterile. The correct answer is option 0.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"AGO1是植物小RNA通路中的核心蛋白，属于Argonaute蛋白家族，主要功能是结合miRNA和部分siRNA，并介导靶mRNA的切割或翻译抑制。研究表明，AGO1优先结合具有5’尿嘧啶（5’U）的小RNA，包括多数miRNA和一些siRNA，形成RNA诱导沉默复合体（RISC），进而切割互补的mRNA。
+
+关于ago1突变体表型：完全缺失（null）突变体表现为严重发育缺陷，植株矮小且不育；而功能减弱（hypomorphic）等位基因突变体则可育，表型较温和。
+
+因此，正确选项是：
+
+0: AGO1 binds to miRNA and siRNA with a 5’U, and catalyze the cleavage of mRNA homologous to the miRNA and siRNA bound to AGO1. Hypomorphic ago1 alleles are fertile while ago1 nul alleles are dwarf and sterile.
+
+答案：0",0,模型输出的选项与正确选项一致，且回答内容准确描述了AGO1的功能和ago1突变体的表型。,True,success,"Failed to transform agent message: req_id: 40255eae37 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,43.77
+176,What is the function of the protein JUMONJI14 (JMJ14) in plants and what are the consequences of JMJ14 impairment on chromatin?,non-specific,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,2,"
+
+
+JMJ14 encodes a histone H3K4 demethylase. Impairment of JMJ14 leads to increased levels of H3K4me3 and affects gene expression and flowering time, but does not broadly alter DNA methylation except at transgenes. Therefore, the correct answer is:
+
+2: JMJ14 encodes a the H3K4me3 demethylase. JMJ14 impairment increase the level of H3K4me3 but does not modify DNA methylation, except at transgenes.",2,模型输出与正确选项一致，正确描述了JMJ14作为H3K4me3去甲基化酶的功能及其损伤对H3K4me3水平和DNA甲基化的影响。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,31.28
+177,What is the role of StBRANCHED1b of Solanum tuberosum,Solanum tuberosum,GROWTH AND DEVELOPMENT,1,"
+
+
+BRC1b promotes dormancy and abscisic acid responses, reduces plasmodesmata number, limits sucrose accumulation and SP6A access, and directly interacts with SP6A to block its tuber-inducing activity, thereby promoting tuberization underground. This matches option 1.
+
+答案：1",1,模型输出的选项与正确选项一致，均为1。,True,"1: In Solanum tuberosum BRC1b promotes dormancy, abscisic acid responses and a reduced number of plasmodesmata. This limits sucrose accumulation and access of the tuberigen protein SP6A. BRC1b also directly interacts with SP6A and blocks its tuber-inducing activity in aerial nodes. Altogether, these actions help promote tuberization underground.
+
+答案：1",1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,28.36
+178,Which are the main proteins involved in plant miRNA processing?,non-specific,GENE REGULATION - PTGS,0,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,7.96
+179,Where does the miRNA biogenesis take place in plants?,non-specific,GENE REGULATION - PTGS,0,"
+
+The abstract confirms that DCL1, HYL1, and SE colocalize in **nuclear dicing bodies (D-bodies)**, where miRNA biogenesis occurs in plant cells. This directly supports option 0.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,22.81
+180,How many mechanisms of miRNA biogenesis have been described in plants? Describe them.,non-specific,GENE REGULATION - PTGS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.22
+181,Which are the main determinants during miRNA biogenesis in plants?,non-specific,GENE REGULATION - PTGS,2,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,8.06
+182,Is miRNA biogenesis and miRNA AGO1 nuclear loading connected in Arabidopsis thaliana?,non-specific,GENE REGULATION - PTGS,1,"
+
+
+
+0: Yes, there is evidence of DCL1 and AGO1 interaction in the nucleus of plant cell.",0,正确选项是1，但模型输出选择了0，因此评估为错误。,False,"0: Yes, there is evidence of DCL1 and AGO1 interaction in the nucleus of plant cell.",0,正确选项为1，但模型输出选项0，表示模型回答错误。,False,success,"Failed to transform agent message: req_id: c4003eea28 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,29.6
+183,"Are plants and animals different in terms of the cellular compartments where r-proteins are encoded, and where are they encoded in each?",non-specific,GENE REGULATION - TRANSLATION,0,"0: Yes, they are different. Animal r-proteins are encoded exclusively by the nuclear genome. However, plant r-proteins can be encoded by the nuclear, mitochondrial, or plastid genomes, with some variation in the location of these genes across species.",0,模型回答与正确选项一致，均选择0，且内容准确描述了植物和动物在核糖体蛋白编码细胞区室上的差异。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.65
+184,Which proteins are the molecular partners of the plant-specific non-canonical translation initiation protein CERES and what role does it play in translation?,non-specific,GENE REGULATION - TRANSLATION,1,"
+
+
+
+CERES is a plant-specific protein that interacts with the eIF4E isoforms and, in the absence of eIF4G isoforms, recruits eIF4A, eIF3 and PABP forming non-canonical initiation complexes. In conditions where the metabolic and nutritional status of the plant is at its highest-level CERES complexes boost general translation and fine-tune the specific translation of a set of mRNAs involved in light response and saccharide management.
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,"Failed to transform agent message: req_id: 7c9983ad7e PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,28.54
+185,How does EIN2 regulate the translation of EBF2 in response to the plant hormone ethylene?,non-specific,GENE REGULATION - TRANSLATION,1,"
+
+根据文献分析，EIN2通过结合EBF2 mRNA的3'非翻译区（3' UTR），招募无义介导的mRNA衰变（NMD）核心组件UPF蛋白，并将EBF2 mRNA定位于P-bodies，从而抑制其翻译。该机制在乙烯存在时阻止EBF蛋白积累，尽管EBF2转录本水平较高。
+
+正确答案是：1",1,模型回答与正确选项一致,True,"正确的答案是：1。
+
+解析：在乙烯信号通路中，EIN2的C端在乙烯存在时被切割并从内质网膜释放，进入细胞核和细胞质。在细胞质中，EIN2 C端结合EBF2 mRNA的3'非翻译区（3' UTR），并招募NMD通路的关键成分UPF蛋白，导致EBF2 mRNA被转运至P-bodies并受到翻译抑制或降解。这解释了为何在乙烯处理下EBF2转录本水平高但蛋白不积累。该机制已被多项研究证实。
+
+正确选项：1。",1,模型回答的选项与正确选项一致，均为1。,True,success,,0,23.769947
+186,Which proteins of the ethylene signaling pathway are required for the translational regulation of EBF2 in response to the plant hormone ethylene?,non-specific,GENE REGULATION - TRANSLATION,2,"
+
+The 3'UTR of EBF2 is involved in translational regulation, but it is not the sole responsible element. The key regulatory molecule is EIN2, which mediates translational repression of EBF1/2 in response to ethylene signaling. Therefore, option 0 is incorrect.
+
+EIN3 and EIL1 are transcription factors downstream of EIN2 in the ethylene signaling pathway, but they are not directly responsible for the translational regulation mediated by the EBF2 3'UTR.
+
+The correct answer is that EIN2 and upstream components (such as ethylene receptors) are responsible for perception and transduction of the ethylene signal, leading to translational regulation via the 3'UTR of EBF2.
+
+Answer: 2",2,模型正确选择了选项2，与正确选项一致。,True,2: EIN2 and upstream components that guarantee perception of ethylene.,2,模型输出的选项与正确选项一致，均为2，因此判断为正确。,True,success,"Failed to transform agent message: req_id: c507c7846c PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,23.27
+187,Do upstream open reading frames (uORFs) regulate translation of the main ORF of their transcript?,non-specific,GENE REGULATION - TRANSLATION,0,"0: Yes. uORFs are short translated ORFs present in the 5′ leaders of mRNAs that usually repress translation of the main downstream ORF. The effectiveness of a uORF in repressing translation depends on several characteristics, such as the sequence context around its initiation codon, the length, the distance between its stop codon and the next ORF in the transcript, and/or the overlap of the uORF with the mORF",0,模型输出的选项与正确选项一致，均为0，表明uORFs通常抑制主ORF的翻译，符合已知生物学知识。,True,"0: Yes. uORFs are short translated ORFs present in the 5′ leaders of mRNAs that usually repress translation of the main downstream ORF. The effectiveness of a uORF in repressing translation depends on several characteristics, such as the sequence context around its initiation codon, the length, the distance between its stop codon and the next ORF in the transcript, and/or the overlap of the uORF with the mORF",0,模型输出的选项与正确选项一致，表明模型正确识别了uORFs通常抑制下游主ORF翻译的功能。,True,success,,0,10.9
+188,Which proteins are part of the infectosome protein complex that directs the polar growth of rhizobia infection threads in legume root hairs?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,0,"0: Vapyrin (VPY), RHIZOBIUM-DIRECTED POLAR GROWTH (RPG), E3 ligase LUMPY INFECTIONS (LIN), exocyst subunit EXO70H4.",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"正确答案是：0: Vapyrin (VPY), RHIZOBIUM-DIRECTED POLAR GROWTH (RPG), E3 ligase LUMPY INFECTIONS (LIN), exocyst subunit EXO70H4.",0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 878f3f014d PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,7.91
+189,"The nitrogen-fixing nodule symbiosis is restricted to plant species belonging to four related angiosperm orders. Which are these four group of plants and which transcription factor, indispensable for root nodulation, has been fundamental in the evolution of this symbiosis? ",non-specific,ENVIRONMENT - PLANT-SYMBIONTS,2,0,0,模型选择的选项[0]与正确选项[2]不一致，因此评估为错误。,False,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,"req_id: 67ebb8efd3 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,10.32
+190,Cytoplasmic bridges are formed in plant cells to anticipate endosymbiotic infection by rhizobia-filled infection threads and arbuscular mycorrhizal fungal hyphae in Medicago. How are these cytoplasmic bridges called?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,0,0: PIT (Pre-Infection Thread) in the case of rhizobia infection and PPA (Pre-Penetration Apparatus) in the case of arbuscular mycorrhiza fungi infection.,0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0: PIT (Pre-Infection Thread) in the case of rhizobia infection and PPA (Pre-Penetration Apparatus) in the case of arbuscular mycorrhiza fungi infection.,0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,"req_id: 0c27a2d736 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,7.15
+191,The cell cycle status of plant cells is dynamically regulated during transcellular passage of rhizobial infection threads Medicago root cortex. What is the cell cycle status of plant cells during infection thread passage? Which symbiotic transcription factor is involved in regulating this process?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,0,"
+
+
+
+
+0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"0: Root cortical cells transcellularly crossed by an infection thread enter the cell cycle, but remain in a G2-post-replicative phase without mitosis. The transcription factor NF-YA1 was involved in the regulation of this process.",0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 11b2ae5b4c PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,36.4
+192,Symplastic communication regulated by callose turnover at plasmodesmata is important for coordinating nodule development in Medicago. What is callose? and which enzyme was involved in degrading callose to promote symplastic connectivity during nodulation in Medicago?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,"Callose is a β-1,3-glucan polysaccharide that accumulates in plasmodesmata to regulate cell-to-cell communication by restricting symplastic connectivity. During nodule development in Medicago, degradation of callose is essential to increase symplastic connectivity, allowing coordinated cell signaling and development. The enzyme responsible for this degradation is the β-1,3-glucanase MtBG2, which localizes to plasmodesmata and promotes callose turnover.
+
+Evaluating the options:
+- Option 0 incorrectly identifies callose as β-1,3-chitin and the enzyme as β-1,3-glucuronidase (not involved in callose degradation).
+- Option 1 misidentifies callose as β-1,6-glucan (incorrect linkage) and states the enzyme closes connectivity (opposite of correct function).
+- Option 2 correctly identifies callose as β-1,3-glucan and MtBG2 as the β-1,3-glucanase that degrades callose to promote symplastic connectivity.
+
+Answer: 2",2,"The agent's response correctly identifies callose as a β-1,3-glucan polysaccharide and specifies the enzyme MtBG2 (a β-1,3-glucanase) as involved in degrading callose to promote symplastic connectivity during nodulation in Medicago, matching the correct option 2.",True,success,"req_id: 6023921a89 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,9.31
+193,What is the difference between the conventional bootstrap method and the transfer bootstrap expectation method as measures of branch support in phylogenomic trees?,non-specific,EVOLUTION,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,"正确答案是：1
+
+理由：常规的bootstrap方法通过在与原始数据矩阵相同大小的重采样数据矩阵中统计系统发育树的不同二分法（bipartitions）出现的次数来计算支持率。而Transfer Bootstrap Expectation (TBE) 方法改进了传统方法，不仅考虑分支是否出现在bootstrap树中（即二元存在与否），还考虑了bootstrap树中分类单元（taxa）位置的差异程度，从而能更精细地评估分支支持度，并识别不稳定的末端类群而不影响整个节点的支持值。选项1准确描述了这一机制。
+
+选项0虽然接近，但“degree of difference in taxa between bootstrap trees and the reference phylogeny”表述不够准确；TBE关注的是**拓扑结构中分支的转移距离**（transfer distance），而非简单的“taxa difference”。  
+选项2错误在于“resampled with no replacement”以及声称TBE通过“removing unstable terminals”来提高支持度，这是不正确的。
+
+因此，正确选项是：1",1,正确答案的选项是0，但agent的选项是1，两者不一致，因此agent的回答错误。,False,success,,0,9.91
+194,What are the main discrepancies between plastome-based and nuclear phylogenomic studies in the systematics of rosids?,non-specific,EVOLUTION,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.97
+195,How can introgression be distinguished from incomplete lineage sorting in phylogenomic datasets?,non-specific,EVOLUTION,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,6.19
+196,"Which gene families are associated with rubber production in seed plants, and how does gene copy variation influence this trait?",non-specific,EVOLUTION,2,"
+
+
+
+根据文献摘要信息，*Hevea brasiliensis* 的橡胶生产性状与其REF/SRPP基因簇的扩增和功能特化密切相关。该基因簇在该属中显著扩张（超过14个拷贝），且主要集中在大片段串联重复区域，这与高产橡胶性状相关。选项0提到“基因间距离大，跨越3000 kb以上”缺乏支持；选项1称拷贝数“平均5个”且“低于大多数物种”明显错误；选项2正确指出拷贝数“超过14个”，位于“小于300 kb的串联簇”，且表达与乳胶生产相关，符合研究结论。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，且模型解释正确支持了该选项。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: b8beb728f8 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,38.28
+197,What connections have been identified between the convergence of floral traits and the evolution of regulatory genes in Asteraceae?,non-specific,EVOLUTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,,0,8.28
+198,What are the composition and functions of the phragmoplast and preprophase band involved in plant organ growth?,non-specific,GROWTH AND DEVELOPMENT,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.04
+199,There are 2 families of cyclin-dependent kinase inhibitor proteins in plants. Name both of them and describe their function during plant organ growth.,non-specific,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2: The two families are the ICK/KRP and the SIM/SMR gene families. They promote mitotic cell cycle exit in the transition from cell proliferation to cell expansion.,2,模型输出的选项与正确选项一致，且回答内容准确描述了植物中两个细胞周期蛋白依赖性激酶抑制剂家族及其功能。,True,success,,0,6.7
+200,What is the main difference between the mitotic cell cycle and endoreplication in plants? What are the functions of endoreplication related to plant organ growth?,non-specific,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.31
+201,Which are the roles of REM proteins in plants?,non-specific,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+
+
+
+
+根据文献分析，植物特异性的B3超家族包含**四个主要家族**（LAV、RAV、ARF和REM），而非五个或三个。此外，AtVRN1是已知参与**春化作用**（vernalization）的关键因子，而非冷响应。同时，多个研究支持REM家族成员如AtREM16和OsREM20在**开花调控**中的作用。
+
+因此，正确选项为：  
+**0**",0,agent的选项与正确选项一致，均为0，表明agent正确识别了REM蛋白在植物中的角色。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 165391216d PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,53.09
+202,Which are the SEPALLATA family genes identified and studied in grasses?,non-specific,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+
+0",0,模型输出的选项与正确选项一致，均为0，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: 08f996da8e PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,42.02
+203,What are the main routes where herbicides exert their action and the source of resistance in weed? Consider both target-site resistance (TSR) and nontarget-site resistance (NTSR).,non-specific,PLANT BIOTECHNOLOGY,0,0,0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,9.14
+204,What enzymes does AsA-GSH pathway require in plant species?,non-specific,PHYSIOLOGY AND METABOLISM,0,"0: AsA-GSH pathway requires four enzymes: ascorbate peroxidase, monodehydroascorbate reductase, dehydroascorbate reductase, and glutathione reductase.",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,10.46
+205,Which are the main families of transcription factors involved in the development of the response to water stress in plants?,non-specific,GENE REGULATION - TRANSCRIPTION,2,0,0,模型选择的选项[0]与正确选项[2]不一致，因此评估为错误。,False,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,,0,6.37
+206,Which clade of green algae is sister to the embryophytes?,non-specific,EVOLUTION,2,2: The Zygnematophyceae is the sister clade to the embryophytes,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2: The Zygnematophyceae is the sister clade to the embryophytes,2,模型输出的选项与正确选项一致，均为2，因此判断为正确。,True,success,,0,7.05
+207,How has the evo-devo concept to be applied to test the conservation of a biological process within the embryophytes?,non-specific,EVOLUTION,2,0,0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,,0,6.17
+208,What are the plant proteins with a demonstrated conserved function in the arbuscular mycorrhizal symbiosis across land plants?,non-specific,EVOLUTION,0,"None of the provided options are correct based on current scientific knowledge.
+
+The correct information is that key proteins involved in arbuscular mycorrhizal (AM) symbiosis are evolutionarily conserved across land plants. These include:
+
+- **DMI1 (DMI1/POLLUX)**: Ion channel involved in calcium spiking and symbiotic signaling.
+- **SYMRK (Symbiosis Receptor Kinase)**: Receptor-like kinase essential for AM and rhizobial symbiosis.
+- **CCaMK (Calcium- and Calmodulin-Dependent Protein Kinase)**: Decodes calcium signals and activates downstream symbiosis genes.
+- **CYCLOPS**: Transcription factor activated by CCaMK phosphorylation, regulating AM-related genes like *RAM1*.
+- **RAM1** (not RAD1): A GRAS-family transcription factor critical for arbuscule development.
+- **STR/STR2**: ABC transporters involved in strigolactone secretion, which promotes fungal colonization.
+- **WRI5** (not WRI): A plant-specific transcription factor regulating lipid biosynthesis during AM symbiosis (WRI5 is functionally analogous to WRI1 but specific to symbiosis).
+
+Option 0 incorrectly lists **WRI** (which regulates fatty acid biosynthesis in general metabolism, not specifically AM symbiosis) and includes **ARK**, which is not a well-established core component of AM symbiosis.
+
+Option 1 incorrectly names **RAD1** instead of **RAM1**, and falsely claims functional data from fossil plants (*Marchantia paleacea*, *Aglaophyton major*), which are extinct and cannot be genetically studied. Functional conservation has been demonstrated in extant bryophytes like *Marchantia polymorpha*, but not for all listed proteins.
+
+Option 2 incorrectly identifies **LIN** as an infection-related protein with conserved function—its role is not well-conserved or universally validated.
+
+Therefore, none of the statements are fully accurate.
+
+Answer: None of the above options are correct.",0,"Agent incorrectly selected option 0 based on its own analysis, but the correct answer is option 0 as specified. The agent's response indicates a mismatch between its evaluation and the provided correct option.",False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,21.74
+209,What are the evidence that the first embryophytes had already evolved cuticle?,non-specific,EVOLUTION,0,1,1,模型选择的选项[1]与正确选项[0]不一致，因此判断为错误。,False,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,8.08
+210,What is the bryophyte cell-type homologous to the tracheophyte root hairs?,non-specific,EVOLUTION,1,1,1,,True,1,1,模型回答与正确选项一致,True,success,,0,6.165978
+211,What is the meaning of the term “two-speed genome” as applied to describe the genome architecture of filamentous plant pathogens like Phytophthora infestans?,non-specific,GENOME AND GENOMICS,1,"The term ""two-speed genome"" describes a genome architecture in filamentous plant pathogens where gene-dense regions have high gene density, low repetitive DNA, conserved synteny, and are enriched in **core-orthologue genes**, while gene-sparse regions have low gene density, high repetitive DNA and transposable elements, and harbor **effector-coding genes** that contribute to adaptive evolution.
+
+Option 1 correctly describes this architecture.
+
+Answer: 1",1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,10.32
+212,"Which nucleotide-binding, leucine-rich repeat receptors (NLR) from Nicotiana benthamiana are suppressed in their responses by the cyst nematode effector protein SPRYSEC15 (SS15)?",Nicotiana benthamiana,ENVIRONMENT - BIOTIC STRESS,1,"
+
+
+Based on the available information and inability to retrieve supporting literature, none of the options can be confirmed. However, given the specificity of the claims and lack of evidence for broad suppression across NRC3/NRC4, the most likely correct answer is the one indicating specific suppression of NRC2 only.
+
+Answer: 0",0,正确选项为1，但agent选择了0，因此评估为错误。,False,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 3e860a5f0f PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,23.33
+213,"During their interaction with host species, plant pathogens secrete effectors that target plant processes/proteins. What is the host protein target and the process affected in Nicotiana benthamiana by effector PexRD54 of Phytophthora infestans? ",Nicotiana benthamiana,ENVIRONMENT - BIOTIC STRESS,2,"
+
+根据文献摘要（PMID: 26765567），Phytophthora infestans 的效应子 PexRD54 与马铃薯的自噬相关蛋白 ATG8CL 相互作用，**刺激自噬体的形成**，并通过将自噬货物受体 Joka2 从 ATG8CL 复合物中排出，干扰 Joka2 在防御中的积极作用。因此，PexRD54 使植物更易感。
+
+正确选项是：  
+2: Phytophthora infestans effector PexRD54 interacts with ATG8CL, an autophagy-related protein from potato. By doing so, PexRD54 stimulate autophagosome formation in plant cells. Moreover, PexRD54 outcompetes the autophagy cargo receptor Joka2 which has been described to have a positive role in plant defense. Thus, PexRD54 makes the plant more susceptible to infection by P. infestans.",2,模型回答与正确选项一致，准确描述了PexRD54与ATG8CL的相互作用及其对自噬过程的刺激作用。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 84af033e4c PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,23.93
+214,What is the extent of natural epigenetic variation in plants ?,non-specific,GENE REGULATION - EPIGENETICS AND TGS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,"正确答案是：1
+
+理由：选项1准确指出自然表观遗传变异在植物中广泛存在，且在拟南芥中DNA甲基化的自发获得或丢失发生的速率比单核苷酸突变更快（即更短的时间尺度），这与实验证据一致。同时，它正确指出表观遗传效应主要受基础遗传结构影响，部分受环境因素调控，这是当前研究的共识。选项0错误地将时间尺度描述为“much larger”，与事实相反；选项2错误地声称表观遗传效应“not shaped by the underlying genetic structure”，违背了现有研究证据。
+
+答案：1",1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,8.94
+215,Can epialleles and transgenerational epigenetic memory contribute to plant adaptation ?,non-specific,GENE REGULATION - EPIGENETICS AND TGS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: c7c993af30 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,7.59
+216,"Is there a link between DNA methylation, meiotic recombination and crossovers in plant species ?",non-specific,GENE REGULATION - EPIGENETICS AND TGS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: e5ec9bfca5 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,7.67
+217,What is the subcellular localization of plant phytochromes?,non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"0: Phytochromes are synthesized in their inactive form, which localizes to the cytosol, and upon light-mediated activation they translocate into the nucleus.",0,"The agent's response correctly identifies the subcellular localization of plant phytochromes, matching the correct option [0].",True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: d68f770555 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.66
+218,Do plant phytochromes have histidine kinase activity?,non-specific,ENVIRONMENT - LIGHT AND TEMPERATURE,2,2: No. Plant phytochromes possess a histidine kinase-related domain but they do not possess histidine kinase activity. Some plant phytochromes may have Ser/Thr kinase activity but this still remains contentious.,2,模型输出的选项与正确选项一致，均为2，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: ec5556c941 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,7.14
+219,"What is the shortest precursor designed for synthetic trans-active small interfering RNA (syn-tasiRNA) expression in non-Arabidopsis plants, such as Nicotiana benthamiana?",Nicotiana benthamiana,PLANT BIOTECHNOLOGY,1,"None of the provided options are correct based on general knowledge of syn-tasiRNA design. However, the question refers to a very specific molecular construct for synthetic tasiRNA (syn-tasiRNA) expression in non-Arabidopsis plants.
+
+Correct features from literature:
+- syn-tasiRNA precursors typically require a 22-nt miRNA trigger (not 21-nt) to initiate phased siRNA processing via RDR6 pathway.
+- The spacer region is often derived from *TAS1c* or *TAS3a* and is typically **11 nucleotides** long.
+- The functional precursor includes: **(1)** a miRNA target site (22 nt), **(2)** an 11-nt spacer (e.g., from AtTAS1c), and **(3)** the syn-tasiRNA sequence arranged in 21-nt phases.
+
+Option 1 describes:
+- 22-nt endogenous miRNA target site ✅
+- 11-nt AtTAS1c-derived spacer ✅
+- NbmiR482a as 22-nt miRNA — known to be 22-nt and triggers phasiRNA production in *Nicotiana* ✅
+- syn-tasiRNA length = 21-nt ✅
+
+This matches established design principles for syn-tasiRNA constructs in non-model plants.
+
+Thus, the correct answer is:
+
+**1**",1,模型输出与正确选项一致，基于对syn-tasiRNA设计的文献知识评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,14.83
+220,"What are the advantages of using shorter artificial sRNA precursors in RNA viral vectors for plants, such as potato virus X (PVX)?",non-specific,PLANT BIOTECHNOLOGY,1,1,1,模型回答的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,6.87
+221,What is the transgene-free antiviral vaccination strategy for plant protection based on syn-tasiRNA-based virus-induced gene silencing (syn-tasiR-VIGS) tested in Nicotiana benthamiana?,Nicotiana benthamiana,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.31
+222,What is the role of the Lotus japonicus LysM-RLK receptors LjNFR1 and LjNFR5 in the plant’s ability to interact with both symbiotic and pathogenic microbes?,Lotus japonicus,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+
+
+NFR1 和 NFR5 是 LysM 受体激酶，主要识别共生根瘤菌产生的结瘤因子（Nod factors），启动共生信号通路，诱导根瘤形成。研究表明，它们在直接结合 Nod 因子并激活共生反应中起核心作用。虽然某些实验显示嵌合受体可引发防御反应，但 NFR1/NFR5 本身在自然条件下专一于共生识别，不直接参与广谱抗病防御。
+
+正确答案：0",0,模型输出选项为0，与正确选项2不一致，因此评估为错误。模型回答内容描述了LjNFR1和LjNFR5在共生互作中的作用，但未直接涉及与病原微生物的互作，这可能与问题要求不符。,False,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,38.95
+223,What is the role of the LjEPR3 receptor in symbiosis in Lotus japonicus and which protein interactors are involved in its function?,Lotus japonicus,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+
+
+
+LjEPR3在Lotus japonicus中识别与根瘤菌共生相关的特定胞外多糖（EPS），并与LjSYMRK等受体相互作用，激活LjCCaMK和LjCYCLOPS等下游共生信号基因，表明其在共生早期起关键作用。选项2正确。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,35.1
+224,"What are the common components shared between the symbiotic signaling pathway and the defense response in legumes, and how do these components contribute to each process?",non-specific,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+
+2",2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: db3efe4785 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,33.81
+225,How does the regulation of SA levels influence the balance between symbiosis and defense responses in legumes?,non-specific,ENVIRONMENT - PLANT-SYMBIONTS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.08
+226,"How does the receptor Ahy.IM7I4N contribute to the interaction between symbionts and pathogens in peanut, and what does its transcriptional response to Nod Factors (NF) and chitosan suggest about its role in signaling pathways?",Arachis hypogaea,ENVIRONMENT - PLANT-SYMBIONTS,2,"
+
+
+
+None of the provided options can be verified due to lack of supporting evidence. The gene ""Ahy.IM7I4N"" does not return any results in standard databases (via gene_search and fetch_ExternalDBs), and no relevant scientific literature was found (via PubMed search). Therefore, no conclusion about its function or expression pattern in peanut can be drawn from available data.
+
+Answer: None of the options are supported by current evidence.",2,模型输出未直接提供选项编号，但基于其内容判断为选择选项2，与正确选项一致。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,31.62
+227,What is the mechanism known as activation by destruction in the regulation of gene expression?,non-specific,GENE REGULATION - TRANSCRIPTION,2,1: A mechanism that requires the destruction of a transcription factor after completing its activator role,1,正确选项为2，但agent选择了1，因此评估为错误。,False,正确的答案是：1: A mechanism that requires the destruction of a transcription factor after completing its activator role,1,模型输出的选项为1，与正确选项2不一致，因此判断为错误。,False,success,,0,10.37
+228,Do bryophytes form a monophyletic group?,non-specific,EVOLUTION,0,"2: No. Liverworts are the most ancestral land plants and diverge from mosses, hornworts, and vascular plants before their diversification.",2,正确选项为0，表示bryophytes（苔藓植物）是一个单系群，但agent选择了2，与正确选项不一致，因此评估为错误。,False,"2: No. Liverworts are the most ancestral land plants and diverge from mosses, hornworts, and vascular plants before their diversification.",0,模型输出的选项[2]与正确选项[0]不一致，因此评估为错误。,False,success,,0,6.78
+229,RNA secondary structure motifs like hairpins have various regulatory functions. Which base composition in small stems (~4 bases) of hairpins positively influences translation efficiency?,non-specific,GENE REGULATION - TRANSLATION,2,0,0,正确选项为2，但agent选择了0，因此回答错误。,False,0,0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,success,,0,6.12
+230,An increase in the ambient temperature triggers alternative splicing (AS). AS also causes an enrichment of Histones with the H3K36me3 modification. Is the enrichment of H3K36me3 in differentially spliced genes restricted to a specific part of the gene?,non-specific,GENE REGULATION - ALTERNATIVE SPLICING,0,"None of the provided options can be verified or addressed using the available tools, as the question pertains to histone modification patterns (H3K36me3) and their distribution across gene bodies, which requires epigenomic data or literature evidence not accessible through gene ID-based queries or structural analyses. No gene name or identifier is provided in the question to initiate any database search.
+
+However, based on established biological knowledge:
+
+H3K36me3 (trimethylation of lysine 36 on histone H3) is a well-characterized mark associated with actively transcribed regions and is **enriched toward the 3' end of gene bodies**, increasing in abundance after the transcription start site and peaking near the **transcription termination site (TTS)**. This pattern is conserved in eukaryotes, including plants.
+
+Thus, the correct answer is:
+
+**2: H3K36me3 containing histones are prevalent at the end of the gene body, with a peak around the transcription termination site (TTS).**",2,模型回答的选项与正确选项[0]不一致，因此判断为错误。模型基于生物学知识推断出选项2，但正确选项为0，表明问题可能要求基于特定上下文或数据验证，而非一般知识。,False,"H3K36me3 is a histone modification associated with active transcription and is known to accumulate in the gene body, particularly toward the 3' end of genes. It is deposited by the methyltransferase SETD2 during RNA polymerase II elongation and is enriched in regions downstream of exons that undergo alternative splicing. Studies show that H3K36me3 enrichment peaks toward the end of the gene body, correlating with splicing regulation.
+
+The correct answer is: 2.",2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。模型回答中描述了H3K36me3的富集位置，但未正确选择选项。,False,success,,0,14.86
+231,"In plants, temperature changes lead to alternative splicing (AS). Which mode of alternative splicing leads to an increased formation of premature translation termination codon (PTC) and thus to the degradation of the alternatively spliced transcript by NMD?",non-specific,GENE REGULATION - ALTERNATIVE SPLICING,2,"2: Intron Retention (IR) in particular, leads to the introduction of a premature translation termination codon (PTC) in the spliced transcript.",2,模型回答与正确选项一致，正确识别了Intron Retention (IR)作为导致PTC增加和NMD降解的模式。,True,"2: Intron Retention (IR) in particular, leads to the introduction of a premature translation termination codon (PTC) in the spliced transcript.",2,模型输出的选项与正确选项一致，均为2，表明模型正确识别了Intron Retention (IR)作为导致PTC增加和NMD降解的模式。,True,success,,0,9.33
+232,"Which statement about the influence of exonic splicing silencers (ESSs), exonic splicing enhancers (ESEs), intronic splicing silencers (ISSs) and intronic splicing enhancers (ISEs) on alternative splicing control is true?",non-specific,GENE REGULATION - ALTERNATIVE SPLICING,2,0,0,模型选择的选项[0]与正确选项[2]不一致，因此评估为错误。,False,1: The silencers (ESSs & ISSs) are relatively more important in the control of alternative splicing.,1,模型选择了选项1，但正确选项是2，因此回答错误。,False,success,,0,6.47
+233,Which transcription factors are associated with the development of ventral identity in the snapdragon flower?,Antirrhinum majus,GENE REGULATION - TRANSCRIPTION,2,"
+
+根据文献摘要，金鱼草花的腹侧身份是通过DIV和DRIF转录因子相互作用形成异源二聚体来建立的。RAD蛋白在背侧通过与DIV竞争结合DRIF，从而抑制该复合物的形成。
+
+正确答案是：2: The ventral identity of the snapdragon flower is established through the interaction between the DIV and DRIF transcription factors, which form a heterodimer.",2,模型回答与正确选项一致，正确描述了DIV和DRIF转录因子在建立金鱼草花腹侧身份中的作用。,True,"正确答案是：1。在金鱼草花中，腹侧身份的建立是通过DIV和DRIF转录因子抑制背侧基因实现的。DIV在腹侧表达并抑制背侧基因（如RAD），从而确立腹侧特征。DRIF作为DIV的共因子协助其功能。
+
+答案：1",1,模型输出的选项为1，但正确选项为2，因此评估为不正确。,False,success,"Failed to transform agent message: req_id: b1933c44a7 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,18.7
+234,What is the hypothesis regarding the mechanism by which GmCRF4a promotes epicotyl elongation in soybean plants?,Glycine max,GENE REGULATION - TRANSCRIPTION,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.93
+235,What is the role of nitrate in plant nutrition?,non-specific,ENVIRONMENT - NUTRIENTS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.05
+236,What is the primary pathway for nitrate uptake in plants?,non-specific,ENVIRONMENT - NUTRIENTS,1,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,1: Nitrate is absorbed from the soil through root nitrate transporters. There are two transporter families that code for high affinity (NRT2) and low affinity (NRT1) transport systems.,1,模型回答的选项与正确选项一致，均为1，因此判断为正确。,True,success,"req_id: d98dd5760a PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,7.57
+237,How does nitrate affect plant root system architecture?,non-specific,ENVIRONMENT - NUTRIENTS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 5fb03753e9 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.46
+238,Which technologies can be used to identify mRNA target genes whose splicing depends on long non-coding RNAs?,non-specific,GENE REGULATION - ALTERNATIVE SPLICING,0,1,1,模型选择的选项为1，与正确选项0不一致，因此判断为错误。,False,"0, 1",0,模型输出的选项包含正确选项0，因此判断为正确。,True,success,"req_id: a87621403a PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,6.38
+239,Which stress requires inhibition of the action of a specific miRNA on systemic response in plants?,non-specific,ENVIRONMENT - ABIOTIC STRESS,2,"
+
+
+
+
+
+
+根据文献PMID: 17643101的摘要，IPS1是一个非编码RNA，其序列中含有与miR399互补的基序，但由于存在错配环而不会被切割，从而通过“靶标模拟”机制抑制miR399的功能。因此正确选项是：
+
+2: The IPS1 transcript is a long non-coding RNA that inhibits the action of miR399 during phosphate starvation",2,模型输出的选项与正确选项一致，均为2，表明模型正确识别了IPS1作为长非编码RNA通过靶标模拟机制抑制miR399在磷饥饿响应中的作用。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: ae0815c05f PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,49.25
+240,How does miR396 regulates root meristem growth and mycorrhization in Medicago truncatula?,Medicago truncatula,ENVIRONMENT - PLANT-SYMBIONTS,1,"
+
+
+
+
+
+Based on current knowledge, miR396 is known to target GRF transcription factors and has been implicated in regulating growth and development. In legumes, studies show that miR396 also targets a bHLH transcription factor, influencing root stem cell differentiation and mycorrhizal symbiosis. The correct mechanism is that miR396 down-regulates both GRF genes and a bHLH transcription factor.
+
+Answer: 1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"1: MiR396 down regulates three GRF genes as well as a new legume-specific target, a bHLH transcription factor to permit the exit of stem cells towards differentiation and to modulate mycorrhization",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,"req_id: 3431c87717 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,37.56
+241,How is the pyrroline-5-carboxylate synthetase (P5CS)-encoding gene (CtrP5CS1) involved in Citrus trifoliata cold response?,Citrus trifoliata,ENVIRONMENT - ABIOTIC STRESS,2,"
+
+
+
+
+
+根据文献摘要，CtrTGA2 直接结合到 CtrP5CS1 启动子的 TGACG 基序并**激活其表达**，且 CtrP5CS1 和 CtrTGA2 在低温胁迫下的**上调依赖于水杨酸（SA）生物合成**。这与选项 2 的描述一致。
+
+正确答案是：2",2,模型输出的选项与正确选项一致，均选择选项2，表明CtrP5CS1在低温响应中通过CtrTGA2激活表达，且依赖于水杨酸生物合成。,True,1,1,模型输出的选项为1，与正确选项2不一致，因此评估为错误。,False,success,"req_id: 3e98a72a13 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,36.33
+242,"What is the role of artificial micro RNAs (amiRNAs) and synthetic trans-acting RNAs (syn-tasiRNAs), two types of artificial sRNAs (art-RNAs), in triggering systemic silencing (SS) of the magnesium chelatase subunit CHLI encoded by the Nicotiana benthamiana SULFUR gene (NbSu) and how do they move to exert their function?",Nicotiana benthamiana,PLANT BIOTECHNOLOGY,0,"
+
+
+Based on the provided options and absence of contradictory evidence from literature search, the correct answer is consistent with established knowledge that 21-nt amiRNAs can induce systemic silencing (SS) with vein-associated chlorosis and are capable of cell-to-cell and long-distance movement via plasmodesmata and phloem without requiring transitivity. The 22-nt variant induces secondary siRNAs but does not trigger SS in this context. Transient expression of syn-tasiRNbSu-2 mimics the 21-nt amiRNA effect.
+
+Answer: 0",0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 2b2aefe651 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,27.02
+243,What are the advantages and disadvantages of using a Potato virus X (PVX)-based system to induce silencing in Nicotiana benthamiana plants?,Nicotiana benthamiana,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.02
+244,"What was the first lncRNA identified in plants, in what species and what are the molecular and the physiological mechanisms it involved in?",Medicago truncatula,GENE REGULATION - EPIGENETICS AND TGS,2,"
+
+
+
+
+The first lncRNA identified in plants was EARLY NODULIN 40 (ENOD40) from the model legume Medicago truncatula, which interacts with RBP1 and participates in root nodule symbiosis. The correct answer is option 2.",2,模型回答正确识别了第一个在植物中发现的lncRNA为ENOD40，来自Medicago truncatula，并描述了其分子和生理机制，与正确选项一致。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,36.0
+245,How does the lncRNA VAS1 regulate the TaVRN1 locus in wheat?,Triticum aestivum,GENE REGULATION - EPIGENETICS AND TGS,1,"
+
+根据文献摘要，VAS lncRNA在春化早期被诱导表达，通过与转录因子TaRF2b相互作用，促进TaRF2b-TaRF2a复合物结合到TaVRN1启动子区的Sp1位点，从而激活TaVRN1表达。随着春化进行，染色质环结构逐渐解开，使TaVRN1位点暴露并可被转录机器访问。
+
+选项1正确描述了这一机制：VAS介导的TaVRN1激活涉及RF2b的招募，VAS在春化早期被诱导，促进TaVRN1表达，最终导致开花提前。
+
+答案：1",1,模型输出的选项与正确选项一致，正确描述了VAS lncRNA在春化早期诱导表达，通过招募TaRF2b激活TaVRN1表达，促进开花。,True,"正确答案是：1
+
+理由如下：
+- VAS lncRNA 是由 TaVRN1 位点通过可变剪接产生的，在春化早期被特异性诱导（选项0说“repressed during early stages”错误；选项2说“late stages”错误）。
+- 过表达 VAS 的冬小麦提前春化，表明 VAS 促进 TaVRN1 表达，即起激活作用（排除选项0的“repression”）。
+- VAS 通过与 bZIP 转录因子 RF2b 相互作用，而 RF2b/RF2a 异源二聚体结合 Sp1 基序调控 TaVRN1。
+- 春化后期染色质环打开，使 TaVRN1 全部外显子可被转录机器接触——这是激活机制的关键步骤。
+
+因此，只有选项1在所有逻辑点上一致且正确。
+
+答案：1",1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,24.04
+246,x,non-specific,GENE REGULATION - TRANSCRIPTION,0,无法回答该问题，因为问题内容无效（仅包含数字和标识符，无实际生物学意义），且所有选项均为占位符“x”。请提供具体问题和有效选项。,0,模型正确识别了问题无效，并指出无法回答，这符合正确选项0的要求。,True,0: x,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.34
+247,What protein domain is involved in the interaction of NLP transcription factor in plants?,non-specific,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+无法识别基因或相关文献信息，问题中的标识符无效。正确答案无法确定。
+
+None of the options can be confirmed.",0,模型未提供有效选项，无法与正确选项0比较，因此评估为错误。,False,1: The RWP-RK domain,1,"The correct answer is option 0, but the agent selected option 1. The agent's response does not match the correct option.",False,success,,0,27.17
+248,Which are the most abundant mobile genetic elements in the plant genomes?,non-specific,GENOME AND GENOMICS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,5.95
+249,Which are the most abundant gene-proximal TE in plant genomes?,non-specific,GENOME AND GENOMICS,2,2,2,模型输出的选项[2]与正确选项[2]一致，因此判断为正确。,True,2: There is not a general pattern of TE abundancy for plant genomes. This depends on the plant species,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.74
+250,How is the wheat chromatin architecture organized?,Triticum aestivum,GENE REGULATION - TRANSCRIPTION,1,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,1: The wheat chromatin architecture is organized in genome territories and transcription factories,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.74
+251,What are the general characteristics and architecture of the genomes of virus members of family Rhabdoviridae?,non-specific,GENOME AND GENOMICS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.91
+252,What are the hosts of ophioviruses?,non-specific,ENVIRONMENT - BIOTIC STRESS,1,2,2,模型输出的选项为2，与正确选项1不一致，因此判断为错误。,False,2,2,模型输出的选项为2，与正确选项1不一致，因此评估为错误。,False,success,,0,5.86
+253,"Which viruses infect the 'living fossil' gymnosperm Welwitschia mirabilis, and how are they transmitted?",Welwitschia mirabilis,ENVIRONMENT - BIOTIC STRESS,0,"None of the provided options can be verified as correct based on the tools available to me. The question involves viral infection and transmission in *Welwitschia mirabilis*, which would require specific virology and entomology data not accessible through gene-focused tools. My tools are designed for gene, protein, and functional annotation queries—not for confirming virus-vector relationships in this rare gymnosperm.
+
+However, evaluating general knowledge:
+
+- Caulimoviruses (family *Caulimoviridae*) are indeed typically transmitted by aphids in a non-persistent manner.
+- Geminiviruses (family *Geminiviridae*) are commonly transmitted by whiteflies (*Bemisia tabaci*).
+
+Option 1 states both viruses infect *W. mirabilis* **and** correctly assigns their known vectors—aphids for caulimoviruses and whiteflies for geminiviruses.
+
+Option 2 only mentions caulimoviruses and aphids, omitting geminiviruses.
+
+Option 0 denies knowledge of transmission, which contradicts established vector biology.
+
+Given that option 1 aligns with known virus-vector relationships and assumes correct infection status, it is the most scientifically plausible.
+
+Answer: 1",1,正确选项为0，但agent选择了1，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,15.6
+254,What are the characteristics of koshoviruses and their genomes?,non-specific,GENOME AND GENOMICS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.36
+255,Why CAM plants are becoming interesting subjects to study as climate change challenges increase?,non-specific,ENVIRONMENT - ABIOTIC STRESS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.02
+256,"What is the role of lncRNA FRILAIR in strawberry fruit ripening, and what miRNA have been identified as its target?",Fragaria ananassa,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.24

@@ -1,0 +1,1361 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  icon_type: emoji
+  mode: workflow
+  name: eval mcp 模式植物
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/deepseek:0.0.20@850efe73fb62bbe7ab2229116086596596297a77174fb86f73e1363b99a24116
+    version: null
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/openai_api_compatible:0.0.64@ed082da9060cdaf69127de0f39e7ba5d255d74276feed9c88b2ba5226515728c
+    version: null
+kind: app
+version: 0.7.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        attachment_image_file_size_limit: 2
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        file_upload_limit: 20
+        image_file_batch_limit: 10
+        image_file_size_limit: 10
+        single_chunk_attachment_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: llm
+      id: 1768808183580-source-1768810170054-target
+      selected: false
+      source: '1768808183580'
+      sourceHandle: source
+      target: '1768810170054'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1768808183580-source-1768980738971-target
+      selected: false
+      source: '1768808183580'
+      sourceHandle: source
+      target: '1768980738971'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: agent
+        targetType: llm
+      id: 1768808189380-source-1768808733400-target
+      selected: false
+      source: '1768808189380'
+      sourceHandle: source
+      target: '1768808733400'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: end
+      id: 1768808733400-source-1768808943563-target
+      selected: false
+      source: '1768808733400'
+      sourceHandle: source
+      target: '1768808943563'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: llm
+      id: 1768810170054-source-17688102316460-target
+      selected: false
+      source: '1768810170054'
+      sourceHandle: source
+      target: '17688102316460'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: end
+      id: 17688102316460-source-1768808943563-target
+      selected: false
+      source: '17688102316460'
+      sourceHandle: source
+      target: '1768808943563'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: agent
+      id: 1768980738971-source-1768808189380-target
+      source: '1768980738971'
+      sourceHandle: source
+      target: '1768808189380'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        selected: false
+        title: 用户输入
+        type: start
+        variables:
+        - default: ''
+          hint: ''
+          label: quetion
+          max_length: 128000000
+          options: []
+          placeholder: ''
+          required: true
+          type: paragraph
+          variable: question
+        - default: ''
+          hint: ''
+          label: anwer
+          max_length: 128000000
+          options: []
+          placeholder: ''
+          required: true
+          type: paragraph
+          variable: answer
+        - default: ''
+          hint: ''
+          label: options
+          max_length: 12800000
+          options: []
+          placeholder: ''
+          required: true
+          type: paragraph
+          variable: options
+      height: 161
+      id: '1768808183580'
+      position:
+        x: 99.44711845411581
+        y: 314.8179122053825
+      positionAbsolute:
+        x: 99.44711845411581
+        y: 314.8179122053825
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        agent_parameters:
+          instruction:
+            type: constant
+            value: 你是正在做题的植物生物学家，现在开始调用工具并在3个选项中选择一个你认为正确的选项完成回答，最后的回答应精炼并包含你认为正确的答案。你必须做出正确的回答！选择正确的选项！
+          maximum_iterations:
+            type: constant
+            value: 500
+          model:
+            type: constant
+            value:
+              completion_params:
+                temperature: 0
+              mode: chat
+              model: doubao-seed-2-0-lite
+              model_type: llm
+              provider: langgenius/openai_api_compatible/openai_api_compatible
+              type: model-selector
+          query:
+            type: constant
+            value: '问题：{{#1768808183580.question#}}
+
+              选项：{{#1768808183580.options#}}'
+          tools:
+            type: constant
+            value:
+            - enabled: true
+              extra:
+                description: "\nSearch for plant gene information by gene name (step\
+                  \ 1: basic gene lookup)\n\nThis tool automatically tries exact search\
+                  \ first, then falls back to fuzzy search if needed.\n\nArgs:\n \
+                  \   gene_name:  Gene name, gene symbol or gene_id to search for.Supports\
+                  \ semicolon-separated multiple queries (e.g. \"ERF4;AT1G01060\"\
+                  ).\n    extended_search: True = allow fuzzy LIKE search if exact\
+                  \ search returns empty (default: False)\n\nReturns:\n    Dictionary\
+                  \ with:\n    - result: List of gene information dictionaries with\
+                  \ RefSeq links added (if <=20 results)\n      * refseq_mrna_link:\
+                  \ NCBI Nucleotide link for mRNA sequence (NM_ accession)\n     \
+                  \ * refseq_peptide_link: NCBI Protein link for peptide sequence\
+                  \ (NP_ accession)\n    - result_count: Number of results found\n\
+                  \    - search_type: \"exact\" or \"extended\" - indicates which\
+                  \ search method was used\n    - warning: Message if too many results\
+                  \ found (>20)\n    - note: Instruction for AI model\n    - sample_genes:\
+                  \ List of 10 sample records with gene_id and gene_names (if >20\
+                  \ results)\n"
+              parameters:
+                extended_search:
+                  auto: 1
+                  value: null
+                gene_name:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nSearch for plant gene information by gene name\
+                \ (step 1: basic gene lookup)\n\nThis tool automatically tries exact\
+                \ search first, then falls back to fuzzy search if needed.\n\nArgs:\n\
+                \    gene_name:  Gene name, gene symbol or gene_id to search for.Supports\
+                \ semicolon-separated multiple queries (e.g. \"ERF4;AT1G01060\").\n\
+                \    extended_search: True = allow fuzzy LIKE search if exact search\
+                \ returns empty (default: False)\n\nReturns:\n    Dictionary with:\n\
+                \    - result: List of gene information dictionaries with RefSeq links\
+                \ added (if <=20 results)\n      * refseq_mrna_link: NCBI Nucleotide\
+                \ link for mRNA sequence (NM_ accession)\n      * refseq_peptide_link:\
+                \ NCBI Protein link for peptide sequence (NP_ accession)\n    - result_count:\
+                \ Number of results found\n    - search_type: \"exact\" or \"extended\"\
+                \ - indicates which search method was used\n    - warning: Message\
+                \ if too many results found (>20)\n    - note: Instruction for AI\
+                \ model\n    - sample_genes: List of 10 sample records with gene_id\
+                \ and gene_names (if >20 results)\n"
+              tool_label: gene_search
+              tool_name: gene_search
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nSearch by gene name and return semicolon-separated\
+                  \ gene_id string\n\nArgs:\n    gene_name: Gene name to search, supports\
+                  \ semicolon-separated multiple names\n\nReturns:\n    Semicolon-separated\
+                  \ gene_id string\n"
+              parameters:
+                gene_name:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nSearch by gene name and return semicolon-separated\
+                \ gene_id string\n\nArgs:\n    gene_name: Gene name to search, supports\
+                \ semicolon-separated multiple names\n\nReturns:\n    Semicolon-separated\
+                \ gene_id string\n"
+              tool_label: fetch_gene_id
+              tool_name: fetch_gene_id
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nConvert Gene_ID to NCBI Entrezgene ID (required for\
+                  \ fetch_ncbi_info)\n\nUse this tool to get the numeric NCBI ID needed\
+                  \ for fetch_ncbi_info.\nGene_ID (e.g., \"AT1G01060\") → Entrezgene\
+                  \ ID (e.g., \"839341\")\n\nArgs:\n    gene_id: Gene ID from gene_search\
+                  \ or database (e.g., \"AT1G01060\"), supports semicolon-separated\
+                  \ multiple IDs\n\nReturns:\n    Semicolon-separated NCBI Entrezgene\
+                  \ ID string (e.g., \"839341;839342\")\n    Use these IDs directly\
+                  \ with fetch_ncbi_info to get gene structure visualization\n"
+              parameters:
+                gene_id:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nConvert Gene_ID to NCBI Entrezgene ID (required\
+                \ for fetch_ncbi_info)\n\nUse this tool to get the numeric NCBI ID\
+                \ needed for fetch_ncbi_info.\nGene_ID (e.g., \"AT1G01060\") → Entrezgene\
+                \ ID (e.g., \"839341\")\n\nArgs:\n    gene_id: Gene ID from gene_search\
+                \ or database (e.g., \"AT1G01060\"), supports semicolon-separated\
+                \ multiple IDs\n\nReturns:\n    Semicolon-separated NCBI Entrezgene\
+                \ ID string (e.g., \"839341;839342\")\n    Use these IDs directly\
+                \ with fetch_ncbi_info to get gene structure visualization\n"
+              tool_label: entrezgene_id
+              tool_name: entrezgene_id
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nFind all gene names, aliases and cross-references\
+                  \ from NCBI (comprehensive name lookup)\n\nOPTIMIZED: This tool\
+                  \ now limits results and truncates long fields to prevent context\
+                  \ overflow.\n\nUse this tool when you need to find:\n- All alternative\
+                  \ names/aliases for a gene\n- Cross-database IDs (TAIR, Araport,\
+                  \ etc.)\n- Official nomenclature symbols and names\n- Gene synonyms\n\
+                  \nArgs:\n    gene_id: Gene ID, symbol, or any alias (e.g., \"AT1G01060\"\
+                  , \"DCL1\"), supports semicolon-separated IDs\n    max_results:\
+                  \ Maximum number of results to return (default 10, max 100). Use\
+                  \ lower values for broad searches.\n    compact: If True (default),\
+                  \ truncates long fields (ExternalDBs, Description) to save context\
+                  \ tokens.\n\nReturns:\n    Dictionary with:\n    - results: List\
+                  \ of gene records (limited to max_results)\n    - returned: Number\
+                  \ of results returned\n    - total: Total matching records in database\n\
+                  \    - truncated: True if more results exist than returned\n   \
+                  \ - note: Guidance message if results were truncated\n"
+              parameters:
+                compact:
+                  auto: 1
+                  value: null
+                gene_id:
+                  auto: 1
+                  value: null
+                max_results:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nFind all gene names, aliases and cross-references\
+                \ from NCBI (comprehensive name lookup)\n\nOPTIMIZED: This tool now\
+                \ limits results and truncates long fields to prevent context overflow.\n\
+                \nUse this tool when you need to find:\n- All alternative names/aliases\
+                \ for a gene\n- Cross-database IDs (TAIR, Araport, etc.)\n- Official\
+                \ nomenclature symbols and names\n- Gene synonyms\n\nArgs:\n    gene_id:\
+                \ Gene ID, symbol, or any alias (e.g., \"AT1G01060\", \"DCL1\"), supports\
+                \ semicolon-separated IDs\n    max_results: Maximum number of results\
+                \ to return (default 10, max 100). Use lower values for broad searches.\n\
+                \    compact: If True (default), truncates long fields (ExternalDBs,\
+                \ Description) to save context tokens.\n\nReturns:\n    Dictionary\
+                \ with:\n    - results: List of gene records (limited to max_results)\n\
+                \    - returned: Number of results returned\n    - total: Total matching\
+                \ records in database\n    - truncated: True if more results exist\
+                \ than returned\n    - note: Guidance message if results were truncated\n"
+              tool_label: fetch_ExternalDBs
+              tool_name: fetch_ExternalDBs
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet GFF annotation and generate GENOMIC LOCATION visualization\
+                  \ (gene position on chromosome)\n\nUse this for: chromosome position,\
+                  \ genomic coordinates, gene neighbors, upstream/downstream genes\n\
+                  NOT for: exon-intron structure (use fetch_ncbi_info instead)\n\n\
+                  Args:\n    gene_id: Gene ID (e.g., \"AT1G01060\"), supports semicolon-separated\
+                  \ multiple IDs\n\nReturns:\n    Dictionary with:\n    - summary:\
+                  \ Formatted markdown summary text\n    - result: Clean annotation\
+                  \ data (internal fields removed)\n    - image_url: List of genomic\
+                  \ location diagram URLs\n    Picture URLs must be displayed in markdown\
+                  \ format if exists\n"
+              parameters:
+                gene_id:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet GFF annotation and generate GENOMIC LOCATION\
+                \ visualization (gene position on chromosome)\n\nUse this for: chromosome\
+                \ position, genomic coordinates, gene neighbors, upstream/downstream\
+                \ genes\nNOT for: exon-intron structure (use fetch_ncbi_info instead)\n\
+                \nArgs:\n    gene_id: Gene ID (e.g., \"AT1G01060\"), supports semicolon-separated\
+                \ multiple IDs\n\nReturns:\n    Dictionary with:\n    - summary: Formatted\
+                \ markdown summary text\n    - result: Clean annotation data (internal\
+                \ fields removed)\n    - image_url: List of genomic location diagram\
+                \ URLs\n    Picture URLs must be displayed in markdown format if exists\n"
+              tool_label: fetch_gff_annotation
+              tool_name: fetch_gff_annotation
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet NCBI gene info with GENE STRUCTURE visualization\
+                  \ (exon-intron architecture)\n\nUse this for: gene structure, exon-intron\
+                  \ organization, transcript variants, CDS regions\nNOT for: genomic\
+                  \ position on chromosome (use fetch_gff_annotation instead)\n\n\
+                  Args:\n    entrezgene_id: NCBI Entrezgene ID (e.g., \"839341\"),\
+                  \ supports semicolon-separated multiple IDs\n    Get entrezgene_id\
+                  \ from gene_search results or use entrezgene_id() tool to convert\
+                  \ Gene_ID\n\nReturns:\n    List of dictionaries with:\n    - ncbi_link:\
+                  \ NCBI gene database URL\n    - structure_image: Gene structure\
+                  \ diagram (markdown format, MUST display if exists)\n      * Rectangles\
+                  \ = Exons (coding regions)\n      * V-shaped lines = Introns (spliced\
+                  \ out regions)\n      * Different colors = Different transcript\
+                  \ variants\n      * 5' and 3' ends marked with arrows showing transcription\
+                  \ direction\n    - Gene information: Symbol, Description, Chromosome,\
+                  \ Summary, GO terms, etc. (17 key fields)\n"
+              parameters:
+                entrezgene_id:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet NCBI gene info with GENE STRUCTURE visualization\
+                \ (exon-intron architecture)\n\nUse this for: gene structure, exon-intron\
+                \ organization, transcript variants, CDS regions\nNOT for: genomic\
+                \ position on chromosome (use fetch_gff_annotation instead)\n\nArgs:\n\
+                \    entrezgene_id: NCBI Entrezgene ID (e.g., \"839341\"), supports\
+                \ semicolon-separated multiple IDs\n    Get entrezgene_id from gene_search\
+                \ results or use entrezgene_id() tool to convert Gene_ID\n\nReturns:\n\
+                \    List of dictionaries with:\n    - ncbi_link: NCBI gene database\
+                \ URL\n    - structure_image: Gene structure diagram (markdown format,\
+                \ MUST display if exists)\n      * Rectangles = Exons (coding regions)\n\
+                \      * V-shaped lines = Introns (spliced out regions)\n      * Different\
+                \ colors = Different transcript variants\n      * 5' and 3' ends marked\
+                \ with arrows showing transcription direction\n    - Gene information:\
+                \ Symbol, Description, Chromosome, Summary, GO terms, etc. (17 key\
+                \ fields)\n"
+              tool_label: fetch_ncbi_info
+              tool_name: fetch_ncbi_info
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet detailed gene structure information (Transcripts,\
+                  \ Exons, Introns)\n\nUse this for: transcript variants, exon/intron\
+                  \ coordinates, splice sites, alternative splicing\nUse fetch_ncbi_info\
+                  \ for: general gene info and structure visualization\n\nArgs:\n\
+                  \    entrezgene_id: NCBI Entrezgene ID (e.g., \"839341\"), supports\
+                  \ semicolon-separated multiple IDs\n\nReturns:\n    Dictionary with:\n\
+                  \    - summary: Formatted markdown summary\n    - result: List containing:\n\
+                  \      - transcripts: List of transcript IDs (e.g., [\"NM_001331246.1\"\
+                  , ...])\n      - exons: List of exon details with transcript, exon\
+                  \ number, start, end, strand\n      - introns: List of intron details\
+                  \ with transcript, intron number, start, end, length\n"
+              parameters:
+                entrezgene_id:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet detailed gene structure information (Transcripts,\
+                \ Exons, Introns)\n\nUse this for: transcript variants, exon/intron\
+                \ coordinates, splice sites, alternative splicing\nUse fetch_ncbi_info\
+                \ for: general gene info and structure visualization\n\nArgs:\n  \
+                \  entrezgene_id: NCBI Entrezgene ID (e.g., \"839341\"), supports\
+                \ semicolon-separated multiple IDs\n\nReturns:\n    Dictionary with:\n\
+                \    - summary: Formatted markdown summary\n    - result: List containing:\n\
+                \      - transcripts: List of transcript IDs (e.g., [\"NM_001331246.1\"\
+                , ...])\n      - exons: List of exon details with transcript, exon\
+                \ number, start, end, strand\n      - introns: List of intron details\
+                \ with transcript, intron number, start, end, length\n"
+              tool_label: fetch_gene_structure_details
+              tool_name: fetch_gene_structure_details
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet KEGG functional annotation and pathway information\n\
+                  \nReturns comprehensive information including pathways, enzyme functions,\
+                  \ GO terms,\northology, disease associations, and external database\
+                  \ links (27 fields total).\n\nArgs:\n    kegg_id: KEGG ID (e.g.,\
+                  \ \"ath:AT1G01060\"), supports semicolon-separated multiple IDs\n\
+                  \nReturns:\n    List of dictionaries with KEGG annotations including:\n\
+                  \    PATHWAY_Names, PATHWAY_IDs, ENZYME, REACTION, GO terms, ORTHOLOGY,\n\
+                  \    DISEASE, DEFINITION, DBLINKS, REFERENCE, etc.\n"
+              parameters:
+                kegg_id:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet KEGG functional annotation and pathway information\n\
+                \nReturns comprehensive information including pathways, enzyme functions,\
+                \ GO terms,\northology, disease associations, and external database\
+                \ links (27 fields total).\n\nArgs:\n    kegg_id: KEGG ID (e.g., \"\
+                ath:AT1G01060\"), supports semicolon-separated multiple IDs\n\nReturns:\n\
+                \    List of dictionaries with KEGG annotations including:\n    PATHWAY_Names,\
+                \ PATHWAY_IDs, ENZYME, REACTION, GO terms, ORTHOLOGY,\n    DISEASE,\
+                \ DEFINITION, DBLINKS, REFERENCE, etc.\n"
+              tool_label: fetch_kegg_info
+              tool_name: fetch_kegg_info
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet UniProt entry for gene IDs\n\nArgs:\n    gene_id:\
+                  \ Gene ID to search, supports semicolon-separated multiple IDs\n\
+                  \    extentional_search: Whether to perform extended search for\
+                  \ unverified proteins\n\nReturns:\n    Semicolon-separated uniprot_entry\
+                  \ values\n"
+              parameters:
+                extentional_search:
+                  auto: 1
+                  value: null
+                gene_id:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet UniProt entry for gene IDs\n\nArgs:\n    gene_id:\
+                \ Gene ID to search, supports semicolon-separated multiple IDs\n \
+                \   extentional_search: Whether to perform extended search for unverified\
+                \ proteins\n\nReturns:\n    Semicolon-separated uniprot_entry values\n"
+              tool_label: fetch_uniprot_entry
+              tool_name: fetch_uniprot_entry
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet detailed UniProt information\n\nArgs:\n    entries:\
+                  \ UniProt entry values, supports semicolon separation\n\nReturns:\n\
+                  \    List of UniProt detail dictionaries with uniprot_link\n"
+              parameters:
+                entries:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet detailed UniProt information\n\nArgs:\n   \
+                \ entries: UniProt entry values, supports semicolon separation\n\n\
+                Returns:\n    List of UniProt detail dictionaries with uniprot_link\n"
+              tool_label: fetch_uniprot_details
+              tool_name: fetch_uniprot_details
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet InterPro protein structure information\n\nArgs:\n\
+                  \    interpro: InterPro ID to search, supports semicolon-separated\
+                  \ multiple IDs\n\nReturns:\n    List of InterPro information dictionaries\n"
+              parameters:
+                interpro:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet InterPro protein structure information\n\n\
+                Args:\n    interpro: InterPro ID to search, supports semicolon-separated\
+                \ multiple IDs\n\nReturns:\n    List of InterPro information dictionaries\n"
+              tool_label: fetch_interpro
+              tool_name: fetch_interpro
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet Pfam domain information\n\nArgs:\n    pfam: Pfam\
+                  \ ID to search, supports semicolon-separated multiple IDs\n\nReturns:\n\
+                  \    List of Pfam information dictionaries\n"
+              parameters:
+                pfam:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet Pfam domain information\n\nArgs:\n    pfam:\
+                \ Pfam ID to search, supports semicolon-separated multiple IDs\n\n\
+                Returns:\n    List of Pfam information dictionaries\n"
+              tool_label: fetch_pfam
+              tool_name: fetch_pfam
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nSearch PubMed articles by query keywords\n\nArgs:\n\
+                  \    query: Query keywords for PubMed search\n    max_results: Maximum\
+                  \ number of results (default 20)\n\nReturns:\n    Dictionary with\
+                  \ article PMIDs and titles\n"
+              parameters:
+                max_results:
+                  auto: 1
+                  value: null
+                query:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nSearch PubMed articles by query keywords\n\nArgs:\n\
+                \    query: Query keywords for PubMed search\n    max_results: Maximum\
+                \ number of results (default 20)\n\nReturns:\n    Dictionary with\
+                \ article PMIDs and titles\n"
+              tool_label: fetch_pmid
+              tool_name: fetch_pmid
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nAdvanced PubMed search with pagination (25 results\
+                  \ per page)\n\nSTABILITY FIX: Now uses efetch API instead of esummary\
+                  \ for reliable results.\n\nSupports PubMed advanced search syntax:\n\
+                  - Field tags: [Title], [Author], [Journal], [MeSH], [Abstract],\
+                  \ [Affiliation]\n- Boolean: AND, OR, NOT\n- Phrases: \"exact phrase\"\
+                  \n- Wildcards: * (e.g., gene*)\n\nExamples:\n- \"CRISPR[Title] AND\
+                  \ plant[Title]\" - Search CRISPR in plant titles\n- \"Zhang Wei[Author]\
+                  \ AND Arabidopsis\" - Author + keyword\n- \"drought tolerance[MeSH]\"\
+                  \ - MeSH term search\n- \"Nature[Journal] AND 2024[Date - Publication]\"\
+                  \ - Journal + year\n\nPagination:\n- page=1: First 25 results (default)\n\
+                  - page=2: Results 26-50\n- page=3: Results 51-75\n- Use next_page\
+                  \ value from response to get next page\n\nArgs:\n    query: PubMed\
+                  \ search query (supports advanced syntax)\n    page: Page number\
+                  \ (default 1, each page has 25 results)\n    sort: Sort order -\
+                  \ \"relevance\" (default), \"date\", \"author\", \"journal\"\n \
+                  \   date_from: Start date filter (YYYY/MM/DD or YYYY), empty string\
+                  \ to skip\n    date_to: End date filter (YYYY/MM/DD or YYYY), empty\
+                  \ string to skip\n    article_type: DEPRECATED - No longer supported\
+                  \ for stability. Use query syntax instead (e.g., \"query AND review[pt]\"\
+                  )\n\n\nReturns:\n    Dictionary with:\n    - total_count: Total\
+                  \ matching articles\n    - current_page: Current page number\n \
+                  \   - total_pages: Total number of pages available\n    - results_per_page:\
+                  \ Fixed at 25\n    - returned_count: Number of results on this page\n\
+                  \    - has_next_page: Whether more pages are available\n    - next_page:\
+                  \ Next page number (0 if no more pages)\n    - has_prev_page: Whether\
+                  \ previous page exists\n    - prev_page: Previous page number (0\
+                  \ if on first page)\n    - results: List of articles with PMID,\
+                  \ Title, Authors, Journal, Year, DOI, Pubmed Link\n    - query_translation:\
+                  \ How PubMed interpreted your query\n    - warnings: List of deprecation\
+                  \ warnings (if any)\n"
+              parameters:
+                article_type:
+                  auto: 1
+                  value: null
+                date_from:
+                  auto: 1
+                  value: null
+                date_to:
+                  auto: 1
+                  value: null
+                page:
+                  auto: 1
+                  value: null
+                query:
+                  auto: 1
+                  value: null
+                sort:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nAdvanced PubMed search with pagination (25 results\
+                \ per page)\n\nSTABILITY FIX: Now uses efetch API instead of esummary\
+                \ for reliable results.\n\nSupports PubMed advanced search syntax:\n\
+                - Field tags: [Title], [Author], [Journal], [MeSH], [Abstract], [Affiliation]\n\
+                - Boolean: AND, OR, NOT\n- Phrases: \"exact phrase\"\n- Wildcards:\
+                \ * (e.g., gene*)\n\nExamples:\n- \"CRISPR[Title] AND plant[Title]\"\
+                \ - Search CRISPR in plant titles\n- \"Zhang Wei[Author] AND Arabidopsis\"\
+                \ - Author + keyword\n- \"drought tolerance[MeSH]\" - MeSH term search\n\
+                - \"Nature[Journal] AND 2024[Date - Publication]\" - Journal + year\n\
+                \nPagination:\n- page=1: First 25 results (default)\n- page=2: Results\
+                \ 26-50\n- page=3: Results 51-75\n- Use next_page value from response\
+                \ to get next page\n\nArgs:\n    query: PubMed search query (supports\
+                \ advanced syntax)\n    page: Page number (default 1, each page has\
+                \ 25 results)\n    sort: Sort order - \"relevance\" (default), \"\
+                date\", \"author\", \"journal\"\n    date_from: Start date filter\
+                \ (YYYY/MM/DD or YYYY), empty string to skip\n    date_to: End date\
+                \ filter (YYYY/MM/DD or YYYY), empty string to skip\n    article_type:\
+                \ DEPRECATED - No longer supported for stability. Use query syntax\
+                \ instead (e.g., \"query AND review[pt]\")\n\n\nReturns:\n    Dictionary\
+                \ with:\n    - total_count: Total matching articles\n    - current_page:\
+                \ Current page number\n    - total_pages: Total number of pages available\n\
+                \    - results_per_page: Fixed at 25\n    - returned_count: Number\
+                \ of results on this page\n    - has_next_page: Whether more pages\
+                \ are available\n    - next_page: Next page number (0 if no more pages)\n\
+                \    - has_prev_page: Whether previous page exists\n    - prev_page:\
+                \ Previous page number (0 if on first page)\n    - results: List of\
+                \ articles with PMID, Title, Authors, Journal, Year, DOI, Pubmed Link\n\
+                \    - query_translation: How PubMed interpreted your query\n    -\
+                \ warnings: List of deprecation warnings (if any)\n"
+              tool_label: pubmed_advanced_search
+              tool_name: pubmed_advanced_search
+              type: mcp
+            - enabled: true
+              extra:
+                description: "\nGet detailed PubMed article information by PMID\n\n\
+                  Args:\n    pmid: PMIDs separated by commas\n\nReturns:\n    List\
+                  \ of detailed article information including title, authors, abstract,\
+                  \ journal, year, DOI\n"
+              parameters:
+                pmid:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: "\nGet detailed PubMed article information by PMID\n\
+                \nArgs:\n    pmid: PMIDs separated by commas\n\nReturns:\n    List\
+                \ of detailed article information including title, authors, abstract,\
+                \ journal, year, DOI\n"
+              tool_label: fetch_details
+              tool_name: fetch_details
+              type: mcp
+            - enabled: true
+              extra:
+                description: Maps protein identifiers to STRING metadata
+              parameters:
+                proteins:
+                  auto: 1
+                  value: null
+                show_sequence:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Maps protein identifiers to STRING metadata
+              tool_label: string_resolve_proteins
+              tool_name: string_resolve_proteins
+              type: mcp
+            - enabled: true
+              extra:
+                description: Retrieves interactions between query proteins
+              parameters:
+                extend_network:
+                  auto: 1
+                  value: null
+                network_type:
+                  auto: 1
+                  value: null
+                proteins:
+                  auto: 1
+                  value: null
+                required_score:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Retrieves interactions between query proteins
+              tool_label: string_interactions_query_set
+              tool_name: string_interactions_query_set
+              type: mcp
+            - enabled: true
+              extra:
+                description: Retrieves all interaction partners for proteins
+              parameters:
+                identifiers:
+                  auto: 1
+                  value: null
+                network_type:
+                  auto: 1
+                  value: null
+                required_score:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Retrieves all interaction partners for proteins
+              tool_label: string_all_interaction_partners
+              tool_name: string_all_interaction_partners
+              type: mcp
+            - enabled: true
+              extra:
+                description: Retrieves functional enrichment for proteins
+              parameters:
+                proteins:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Retrieves functional enrichment for proteins
+              tool_label: string_enrichment
+              tool_name: string_enrichment
+              type: mcp
+            - enabled: true
+              extra:
+                description: Retrieves functional annotations for proteins
+              parameters:
+                identifiers:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Retrieves functional annotations for proteins
+              tool_label: string_functional_annotation
+              tool_name: string_functional_annotation
+              type: mcp
+            - enabled: true
+              extra:
+                description: Search for species in STRING
+              parameters:
+                species_text:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Search for species in STRING
+              tool_label: string_query_species
+              tool_name: string_query_species
+              type: mcp
+            - enabled: true
+              extra:
+                description: Gets STRING network image URL
+              parameters:
+                extend_network:
+                  auto: 1
+                  value: null
+                hide_disconnected_nodes:
+                  auto: 1
+                  value: null
+                network_flavor:
+                  auto: 1
+                  value: null
+                network_type:
+                  auto: 1
+                  value: null
+                proteins:
+                  auto: 1
+                  value: null
+                required_score:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Gets STRING network image URL
+              tool_label: string_visual_network
+              tool_name: string_visual_network
+              type: mcp
+            - enabled: true
+              extra:
+                description: Gets interactive STRING network link
+              parameters:
+                extend_network:
+                  auto: 1
+                  value: null
+                hide_disconnected_nodes:
+                  auto: 1
+                  value: null
+                network_flavor:
+                  auto: 1
+                  value: null
+                network_type:
+                  auto: 1
+                  value: null
+                proteins:
+                  auto: 1
+                  value: null
+                required_score:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Gets interactive STRING network link
+              tool_label: string_network_link
+              tool_name: string_network_link
+              type: mcp
+            - enabled: true
+              extra:
+                description: Retrieves protein homologs
+              parameters:
+                proteins:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+                species_b:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Retrieves protein homologs
+              tool_label: string_homology
+              tool_name: string_homology
+              type: mcp
+            - enabled: true
+              extra:
+                description: Gets links to interaction evidence pages
+              parameters:
+                identifier_a:
+                  auto: 1
+                  value: null
+                identifiers_b:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Gets links to interaction evidence pages
+              tool_label: string_interaction_evidence
+              tool_name: string_interaction_evidence
+              type: mcp
+            - enabled: true
+              extra:
+                description: Gets enrichment figure URL
+              parameters:
+                category:
+                  auto: 1
+                  value: null
+                identifiers:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Gets enrichment figure URL
+              tool_label: string_enrichment_image_url
+              tool_name: string_enrichment_image_url
+              type: mcp
+            - enabled: true
+              extra:
+                description: Tests if network is enriched in protein-protein interactions
+              parameters:
+                identifiers:
+                  auto: 1
+                  value: null
+                required_score:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Tests if network is enriched in protein-protein interactions
+              tool_label: string_ppi_enrichment
+              tool_name: string_ppi_enrichment
+              type: mcp
+            - enabled: true
+              extra:
+                description: Retrieves proteins annotated with a functional term
+              parameters:
+                species:
+                  auto: 1
+                  value: null
+                term_text:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Retrieves proteins annotated with a functional term
+              tool_label: string_proteins_for_term
+              tool_name: string_proteins_for_term
+              type: mcp
+            - enabled: true
+              extra:
+                description: Searches STRING by amino acid sequence
+              parameters:
+                sequences:
+                  auto: 1
+                  value: null
+                species:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Searches STRING by amino acid sequence
+              tool_label: string_sequence_search
+              tool_name: string_sequence_search
+              type: mcp
+            - enabled: true
+              extra:
+                description: Provides help text for STRING features
+              parameters:
+                topic:
+                  auto: 1
+                  value: null
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Provides help text for STRING features
+              tool_label: string_help
+              tool_name: string_help
+              type: mcp
+            - enabled: true
+              extra:
+                description: Check if service is initialized
+              parameters: {}
+              plugin_id: ''
+              provider_name: gene-search-server
+              provider_show_name: 本地mcp
+              settings: {}
+              tool_description: Check if service is initialized
+              tool_label: check_initialization
+              tool_name: check_initialization
+              type: mcp
+        agent_strategy_label: FunctionCalling
+        agent_strategy_name: function_calling
+        agent_strategy_provider_name: langgenius/agent/agent
+        meta:
+          minimum_dify_version: 1.7.0
+          version: 0.0.2
+        output_schema: {}
+        plugin_unique_identifier: langgenius/agent:0.0.44@49111ed5262e26b6bab6b5267888097d15596389d054fabb493871b963efcf22
+        selected: false
+        title: Agent
+        tool_node_version: '2'
+        type: agent
+      height: 254
+      id: '1768808189380'
+      position:
+        x: 1014.7970709160467
+        y: -46.716357315123645
+      positionAbsolute:
+        x: 1014.7970709160467
+        y: -46.716357315123645
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        model:
+          completion_params:
+            temperature: 0.7
+            thinking: false
+          mode: chat
+          name: deepseek-v4-pro
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: e4ca7a2b-9449-42b0-9df2-1a1c88246cbd
+          role: system
+          text: 请你基于正确选项[{{#1768808183580.answer#}}]评估模型回答，模型输出的选项与正确选项一致则正确，反之则错误。记住，永远以正确答案的选项为主！
+        - id: 7357bbb9-5ce3-4686-a2b5-15740885b698
+          role: user
+          text: '问题:{{#1768808183580.question#}}
+
+            正确的选项：{{#1768808183580.answer#}}
+
+            agent的选项：[{{#1768808189380.text#}}]'
+        retry_config:
+          max_retries: 3
+          retry_enabled: true
+          retry_interval: 1000
+        selected: false
+        structured_output:
+          schema:
+            additionalProperties: false
+            properties:
+              choice:
+                description: AGENT做出的选项（0,1,2）
+                type: number
+              备注:
+                description: 额外备注
+                type: string
+              是否正确:
+                description: 评估agent的回答是否正确
+                type: boolean
+            required:
+            - 是否正确
+            - choice
+            type: object
+        structured_output_enabled: true
+        title: 评估agent
+        type: llm
+        vision:
+          enabled: false
+      height: 118
+      id: '1768808733400'
+      position:
+        x: 1721.5056774985885
+        y: 65.11755759274817
+      positionAbsolute:
+        x: 1721.5056774985885
+        y: 65.11755759274817
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        outputs:
+        - value_selector:
+          - '1768808189380'
+          - text
+          value_type: string
+          variable: with_mcp_answer
+        - value_selector:
+          - '1768808733400'
+          - structured_output
+          - 是否正确
+          value_type: object
+          variable: with_mcp_correct
+        - value_selector:
+          - '1768808733400'
+          - structured_output
+          - 备注
+          value_type: object
+          variable: with_mcp_evaluation
+        - value_selector:
+          - '1768808733400'
+          - structured_output
+          - choice
+          value_type: object
+          variable: with_mcp_choice
+        - value_selector:
+          - '1768810170054'
+          - text
+          value_type: string
+          variable: no_mcp_answer
+        - value_selector:
+          - '17688102316460'
+          - structured_output
+          - 是否正确
+          value_type: object
+          variable: no_mcp_correct
+        - value_selector:
+          - '17688102316460'
+          - structured_output
+          - 备注
+          value_type: object
+          variable: no_mcp_evaluation
+        - value_selector:
+          - '17688102316460'
+          - structured_output
+          - choice
+          value_type: object
+          variable: no_mcp_choice
+        selected: false
+        title: 输出
+        type: end
+      height: 270
+      id: '1768808943563'
+      position:
+        x: 2191.474312696725
+        y: 335.8179122053825
+      positionAbsolute:
+        x: 2191.474312696725
+        y: 335.8179122053825
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        model:
+          completion_params:
+            temperature: 0.2
+          mode: chat
+          name: doubao-seed-2-0-lite
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: df38de5c-1982-4fc5-a7e4-b8787e8eb3ef
+          role: system
+          text: 你是正在做题的植物生物学家，现在在3个选项中选择一个你认为正确的选项完成回答，最后的回答应精炼并包含你认为正确的答案。你必须做出正确的回答！选择正确的选项！
+        - id: 332c0930-0ac2-46d6-8e11-d0a60f096bd3
+          role: user
+          text: '问题：{{#1768808183580.question#}}
+
+            选项：{{#1768808183580.options#}}'
+        retry_config:
+          max_retries: 3
+          retry_enabled: true
+          retry_interval: 1000
+        selected: true
+        title: 'LLM '
+        type: llm
+        vision:
+          enabled: false
+      height: 118
+      id: '1768810170054'
+      position:
+        x: 482.3547863927605
+        y: 512.633548901271
+      positionAbsolute:
+        x: 482.3547863927605
+        y: 512.633548901271
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        model:
+          completion_params:
+            temperature: 0.3
+            thinking: false
+          mode: chat
+          name: deepseek-v4-pro
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: e4ca7a2b-9449-42b0-9df2-1a1c88246cbd
+          role: system
+          text: 请你基于正确选项[{{#1768808183580.answer#}}]评估模型回答，模型输出的选项与正确选项一致则正确，反之则错误。记住，永远以正确答案的选项为主！
+        - id: 7357bbb9-5ce3-4686-a2b5-15740885b698
+          role: user
+          text: '问题:{{#1768808183580.question#}}
+
+            正确的选项：{{#1768808183580.answer#}}
+
+            agent的选项：[{{#1768810170054.text#}}]'
+        retry_config:
+          max_retries: 3
+          retry_enabled: true
+          retry_interval: 1000
+        selected: false
+        structured_output:
+          schema:
+            additionalProperties: false
+            properties:
+              choice:
+                description: llm做出的选项（0,1,2）
+                type: string
+              备注:
+                description: 额外备注
+                type: string
+              是否正确:
+                description: 评估agent的回答是否正确
+                type: boolean
+            required:
+            - 是否正确
+            - choice
+            type: object
+        structured_output_enabled: true
+        title: 评估llm
+        type: llm
+        vision:
+          enabled: false
+      height: 118
+      id: '17688102316460'
+      position:
+        x: 1300.4502405017402
+        y: 512.633548901271
+      positionAbsolute:
+        x: 1300.4502405017402
+        y: 512.633548901271
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        code: "import time\nimport random\nrand=random.random()\ndef main():\n  time.sleep(rand)\
+          \  \n  return {}\n"
+        code_language: python3
+        outputs: {}
+        selected: false
+        title: 代码执行
+        type: code
+        variables: []
+      height: 52
+      id: '1768980738971'
+      position:
+        x: 530.5743491774988
+        y: 20.50021375869659
+      positionAbsolute:
+        x: 530.5743491774988
+        y: 20.50021375869659
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 0
+    viewport:
+      x: -5.339062498982912
+      y: 467.9283850746004
+      zoom: 0.6597539553864482
+  rag_pipeline_variables: []

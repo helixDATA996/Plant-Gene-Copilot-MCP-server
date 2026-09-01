@@ -1,0 +1,2166 @@
+﻿index,question,species,area,correct_answer,with_mcp_answer,with_mcp_choice,with_mcp_evaluation,with_mcp_correct,no_mcp_answer,no_mcp_choice,no_mcp_evaluation,no_mcp_correct,status,error,retries,elapsed_time
+0,How many subunits make up the RNA polymerase I complex in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,"
+
+The abstract from PMID 25813043 states that Arabidopsis RNA polymerases I and III share 12 subunits that are structurally and functionally homologous among all nuclear RNA polymerases (Pol I–V), with additional specific subunits differentiating them. This supports the composition described in option 2.
+
+Answer: 2",2,模型输出与正确选项一致，评估为正确。,True,0,0,模型输出的选项[0]与正确选项[2]不一致，因此判断为错误。,False,success,,0,20.49
+1,Which genes are transcribed by RNA polymerase I in Arabidopsis plants?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.99
+2,How is it possible to fine-tune control target RNAi efficacy in Arabidopsis thaliana using syn-tasiRNAs?,Arabidopsis thaliana,PLANT BIOTECHNOLOGY,0,"
+
+根据文献摘要，正确答案是：  
+0: It is possible to fine-tune target gene expression with syn-tasiRNAs in Arabidopsis thaliana through two strategies: i) by modulating the level of accumulation of a syn-tasiRNA if changing its precursor position, and ii) by modifying the degree of base-pairing between the 3' end of the syn-tasiRNA and the 5' end of the target RNA.",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,1,1,正确选项为0，但agent选择了1，因此评估为错误。,False,success,,0,23.28
+3,"When transcription starts in gene promoters, are only possible outcomes the production of mRNA isoforms?",Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,"2: No, initiation of rna polymerase ii transcription from gene promoters often results in the production of short promoter-proximal RNAs.",2,模型输出的选项与正确选项一致，均为选项2，因此评估为正确。,True,success,,0,7.53
+4,How does the UV-B photoreceptor UVR8 regulate gene expression changes in Arabidopsis thaliana plants?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.11
+5,Which are the similitudes and differences between palisade and other photosynthetic cells from Arabidopsis leaves exposed to UV radiation?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,2,2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。,False,2,2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。,False,success,,0,9.87
+6,Which proteins physically interact in the regulation of UV-B tolerance depending on the jasmonic acid signaling pathway in A. thaliana?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,1,"
+
+根据文献摘要，UVR8与TCP4在细胞核中相互作用，增强TCP4的DNA结合活性，并以TCP4依赖的方式上调JA生物合成基因LOX2的表达。因此正确选项是：
+
+1: UV RESISTANCE LOCUS 8 (UVR8) and TEOSINTE BRANCHED1, Cycloidea and PCF 4 (TCP4) physically interacts in the nuclei to increase the DNA binding activity of TCP4 and upregulate the JA biosynthesis gene LOX2.",1,模型输出的选项与正确选项一致，基于文献摘要确认了UVR8和TCP4的物理相互作用。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,20.98
+7,"Which plant photoreceptors participate in the induction of FERULIC ACID 5-HYDROXYLASE 1 (FAH1), leading to the accumulation of UV-absorbing sinapate esters in Arabidopsis?",Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,"
+
+根据文献摘要，UV RESISTANCE LOCUS 8 (UVR8) UV-B、phytochrome 红光和 cryptochrome 蓝光受体共同诱导 FERULIC ACID 5-HYDROXYLASE 1 (FAH1) 的表达，从而导致拟南芥中 UV 吸收性 sinapate 酯的积累。
+
+正确答案是：2",2,模型输出与正确选项一致，均为选项2，表明模型正确识别了参与诱导FAH1的植物光受体。,True,1,1,正确答案的选项是2，但模型输出的选项是1，两者不一致，因此评估为错误。,False,success,,0,24.29
+8,What is the role of the Jumonji27 (JMJ27) protein during the UV-induced DNA damage in Arabidopsis thaliana plants?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"
+
+根据文献摘要，JMJ27在UV-C照射下导致染色中心H3K9me2含量减少，并与光损伤识别因子DDB2形成复合物，调控DDB2在染色质上的动态变化。
+
+正确选项是：0",0,模型输出的选项与正确选项一致，均选择0，表明JMJ27蛋白在UV诱导的DNA损伤中通过调控H3K9me2和DDB2复合物发挥作用。,True,0,0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,21.03
+9,How can the insertion of transposon-derived inverted repeats (IRs) impact transcription in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - PTGS,0,1,1,模型选择的选项[1]与正确选项[0]不一致，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,9.49
+10,How do transposon-derived inverted repeats (IRs) impact the adaptation of Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - PTGS,0,"
+
+
+根据文献摘要，转座子来源的反向重复序列（IRs）在拟南芥不同生态型中存在多态性，影响局部染色质三维结构和基因表达，并导致表型变异。CRISPR-Cas9实验证实破坏IRs会改变基因组拓扑结构、基因表达和表型。因此，IRs是能够促进快速适应的强效进化因子。
+
+正确选项为：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确理解了转座子来源的反向重复序列（IRs）在拟南芥适应中的作用。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,29.45
+11,Is RdDM-dependent silencing of transposable elements always associated with the transcriptional repression of the TEs and their surrounding regions in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - PTGS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.76
+12,Which transposable elements have been identified as capable of regulating the expression of the EFR gene in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - PTGS,0,"
+
+
+
+
+根据文献摘要，Ea-IR是一个位于EFR基因附近的反转座子衍生的反向重复元件，它通过改变染色质拓扑结构形成一个短程染色质环，从而抑制EFR基因表达。该调控机制依赖于其甲基化状态，并在病原体响应中起重要作用。
+
+正确选项是：1",1,正确选项为0，但agent的选项为1，两者不一致，因此agent的回答错误。,False,正确的答案是：0。,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,36.48
+13,What are the two main molecular mechanisms for the co-regulation of hypocotyl growth by auxin and gibberellin (GA) in Arabidopsis?,Arabidopsis thaliana,HORMONES,2,"
+
+
+
+
+
+
+
+Based on literature evidence, auxin promotes gibberellin biosynthesis by upregulating GA20-oxidase and GA3-oxidase genes, increasing GA levels that drive hypocotyl elongation. Additionally, DELLA proteins suppress ARF transcription factors that promote elongation; GAs degrade DELLAs, releasing ARFs to activate elongation-related genes. This supports option 2.
+
+答案：2",2,模型输出的选项与正确选项一致，评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,57.39
+14,What is the impact of gibberellins in the control of flowering time in Arabidopsis and what are the main flowering-time genes involved?,Arabidopsis thaliana,HORMONES,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,"1: Gibberellins are essential to promote flowering under non-inductive short-day conditions. They do it by enhancing the expression of key flowering-time genes, such as LEAFY and SUPPRESSOR OF CONSTANS OVEREXPRESSION (SOC1).",1,模型回答的选项与正确选项一致，且内容准确描述了赤霉素在拟南芥开花时间控制中的作用，涉及了关键基因如LEAFY和SOC1。,True,success,,0,6.95
+15,"What molecular mechanisms regulate DELLA activity in Arabidopsis, beyond the control of cellular DELLA levels?",Arabidopsis thaliana,HORMONES,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.74
+16,What is the experimental evidence for the involvement of NPF3 in gibberellin-dependent regulation of Arabidopsis root growth?,Arabidopsis thaliana,HORMONES,0,"
+
+
+
+NPF3 is a gibberellin influx carrier expressed in the root endodermis. Gibberellin accumulation in the endodermis drives cell expansion in this cell type, from which growth of the whole organ is coordinated. Overexpression of NPF3 causes a phenotype associated to gibberellin hypersensitivity in roots.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此判断为正确。,True,"正确答案是：0
+
+NPF3被证实为在根内皮层表达的赤霉素（gibberellin）流入载体，其介导赤霉素在内皮层的积累，从而促进该细胞类型的细胞伸长，并协调整个器官的生长。NPF3过表达导致根中赤霉素敏感性增强的表型，支持其在赤霉素运输和信号调控中的正向作用。
+
+答案：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,31.27
+17,Which is the master regulator gene involved in branching regulation in Arabidopsis thaliana? And how is it expression regulated?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 68b8934845 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,7.6
+18,How is the long noncoding RNA APOLO involved in the regulation of branching in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+
+
+
+根据文献摘要，长链非编码RNA APOLO通过形成RNA-DNA杂交体（R-loops）并调节局部三维染色质构象，参与调控BRC1基因的表达。在远红光（far-red light）条件下，APOLO的表达与BRC1呈负相关，APOLO积累会促进包含BRC1启动子的抑制性染色质环的形成，从而抑制其转录，影响分枝发育。
+
+这与选项0描述一致：APOLO通过表观遗传调控BRC1表达，在遮荫或高远红光条件下参与分枝调控，并通过调控染色质环的开闭来调节BRC1及其邻近基因的转录。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均选择0，符合文献摘要中描述的APOLO通过表观遗传机制调控BRC1表达以影响分枝发育。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,38.83
+19,In which context does the long noncoding RNA APOLO participate in BRC1 expression modulation in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+根据文献摘要，长链非编码RNA APOLO在远红光（far-red light）条件下通过调节BRC1的表达来调控避荫反应。这与选项0中提到的“shade或高远红光水平”一致。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，表明APOLO在shade或高远红光水平下参与BRC1表达调控。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,20.4
+20,Which are the most important responses of Arabidopsis thaliana plants to the shade avoidance syndrome?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,6.84
+21,How is hyponasty regulated in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.99
+22,Which genes (AGI) encode structural proteins of cytochrome c oxidase in Arabidopsis thaliana? Mention whether there is homology with any yeast and/or mammalian genes?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+The service is initialized, but gene search requests failed due to a server error (502 Bad Gateway). Despite this technical issue, based on established biological knowledge:
+
+- The catalytic core subunits of cytochrome c oxidase in *Arabidopsis thaliana* are encoded by mitochondrial genes: **COX1 (ATMG01360)**, **COX2 (ATMG00160)**, and **COX3 (ATMG01520)**.
+- These core subunits are highly conserved in mammals and yeast.
+- Additional nuclear-encoded assembly factors such as **COX10 (AT2G44520)**, **COX11 (AT1G02410)**, **COX15 (AT5G56090)**, **COX17**, and **COX19** are also conserved across plants, mammals, and yeast.
+- Subunits like **COX5b** have homologs in mammals (COX5B) and yeast (Cox4).
+- Some subunits (e.g., COX5c, COX-X) are plant-specific.
+
+Option 0 correctly identifies the core subunit genes with accurate AGI codes and accurately describes conservation and homology with yeast and mammalian genes.
+
+Answer: 0",,,False,0,0,模型选项为0，与正确选项2不一致，因此错误。,False,success,,0,24.597868
+23,Describe the main phenotypes of the Cytochrome c mutants in Arabidopsis thaliana and the associated molecular pathways that are affected,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+
+
+
+根据文献分析，双敲除CYTC-1和CYTC-2导致胚胎致死，而低水平Cytochrome c的突变体表现出生长迟缓和发育延迟。选项0中提到“early flowering”（早花）与文献报道的“delay in development”不符；选项1和2均提到“late flowering”，但机制描述存在差异。
+
+关键点在于：文献明确指出细胞呼吸率降低、ATP减少，并影响Complex IV稳定性，但未直接提及SnRK2或TOR通路。然而，ATP减少通常抑制TOR通路并诱导自噬以维持能量稳态。此外，ABI4与ABA信号相关，在种子萌发中起作用。
+
+综合现有信息，最符合文献的是选项2：它正确指出**ATP合成减少、TOR通路抑制、自噬增加**，且在萌发过程中CYTC-2被去抑制（de-repressed），促进ATP合成并降低ABA敏感性，这与线粒体功能恢复促进萌发的逻辑一致。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,"Failed to transform agent message: req_id: de79d3a970 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,48.85
+24,"Does the Arabidopsis cytochrome CYT-C2 gene have any function that is not redundant with the CYT-C1 gene? If there is any molecular mechanism described, please explain it.",Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,1,"
+
+
+
+
+
+根据文献（PMID: 35637555）信息，CYTC-2在种子萌发过程中受到ABA和转录因子ABI4的调控。ABA通过ABI4结合到CYTC-2启动子区域抑制其表达；萌发时ABA水平下降，导致对CYTC-2的抑制解除（de-repression），从而增加CYTC-2表达，促进线粒体ATP合成，并降低种子对ABA的敏感性，促进萌发。
+
+选项1正确描述了这一机制。
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,0,0,模型输出的选项[0]与正确选项[1]不一致，因此评估为错误。,False,success,,0,42.35
+25,"In the aerial tissue of plant organisms, both chloroplasts and mitochondria have the capacity to synthesize ATP. In Arabidopsis, do cytoplasmic and nuclear metabolism directly use ATP from both sources equally?",Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+
+
+
+Based on the biological principles of plant energy metabolism:
+
+In light, both chloroplasts (via photosynthesis) and mitochondria (via oxidative phosphorylation) contribute to ATP production. However, cytoplasmic ATP is primarily maintained by mitochondrial ATP under most conditions. Inhibiting mitochondrial ATP synthesis with antimycin A causes a significant drop in cytosolic ATP even in light, indicating strong mitochondrial contribution. In darkness, chloroplasts do not produce ATP, so mitochondria become the sole source.
+
+Thus, option 0 correctly states that about half of cytoplasmic ATP comes from mitochondria in light (with the rest imported or indirectly supported), and almost exclusively from mitochondria in darkness.
+
+Answer: 0",0,正确选项为2，但agent选择了0，因此评估为错误。,False,"正确答案是：0
+
+理由：选项0准确描述了实验结果——在光照条件下，当线粒体ATP合成被抑制时，细胞质ATP水平下降约60%，说明线粒体贡献了约一半以上的ATP；而在黑暗中，ATP几乎完全依赖线粒体。同时，在黑暗中阻断线粒体功能导致ATP下降，而此时叶绿体不进行光合磷酸化，进一步支持线粒体是主要ATP来源。该结论与文献中关于叶绿体ATP难以大量输出到胞质、而线粒体是细胞质ATP主要供应者的共识一致。
+
+因此，正确选项是 0。",0,正确选项为2，但模型输出选择0，因此评估为错误。模型提供的理由与正确选项不符，可能基于错误理解或不同数据源。,False,success,"Failed to transform agent message: req_id: 32b16bded1 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,40.63
+26,"The COX10 and COX15 genes are involved in the biosynthesis of the heme a group, which is essential for the assembly of cytochrome c oxidase (CcO) in humans and yeasts. Are there homologs of these genes in Arabidopsis? Is their function conserved? Is there a molecular mechanism that describes its participation in the biosynthesis of the heme a and assembly of CcO in Arabidopsis?",Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+服务器暂时无法响应请求，但根据已有知识：
+
+COX10 和 COX15 在拟南芥中确实存在同源基因，分别位于 AT2G44520 和 AT5G56090。研究表明这两个基因功能保守，参与细胞色素 c 氧化酶（CcO）的组装和 heme a 的生物合成。突变体显示胚胎致死、CcO活性降低、呼吸速率下降，并积累heme b前体，表明其生化功能在植物中与酵母和人类中相似。
+
+正确答案是：0",,模型输出未明确给出选项编号，但从内容看对应选项0，与正确选项2不一致。,False,0,0,模型输出选项0，与正确选项2不一致。,False,success,,0,17.458894
+27,How LncRNA MSTRG.13420 formed R-loop functions in cold response of rice?,Oryza sativa,GENOME AND GENOMICS,1,"
+
+无法获取LncRNA MSTRG.13420的详细信息，所有查询服务均返回502错误。基于现有知识：MSTRG.13420位于OsDof16启动子区，由反义链转录，在低温处理下显著下调；其通过形成R-loop负调控OsDof16，从而正向参与水稻冷响应。  
+正确答案是：0。",,模型回答的选项为0，与正确选项1不一致。,False,0,0,模型选择的选项0与正确选项1不一致，因此回答错误。,False,success,,0,14.735045
+28,What’s the relationship between DNA G4 intensity and expression levels of G4-overlapping genes in rice genome?,Oryza sativa,GENOME AND GENOMICS,2,1,1,正确选项为2，模型输出选项为1，两者不一致，因此评估为错误。,False,1,1,模型选择的选项[1]与正确选项[2]不一致，因此评估为错误。,False,success,,0,7.33
+29,How 5mC DNA methylation affect i-motif formation under different pH condition in rice genome?,Oryza sativa,GENOME AND GENOMICS,2,"None of the provided options can be verified as correct based on the available tools and information. The question involves i-motif DNA structures and methylation patterns under different pH conditions, which is outside the scope of plant gene analysis tools provided. No relevant gene or database query can resolve this specific biochemical context.
+
+Answer: Cannot determine correct option with given tools.",2,模型输出与正确选项一致，尽管模型声明无法确定，但选择的选项2匹配正确答案。,True,0,0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,success,,0,9.69
+30,In which genomic regions the i-motif structure trend to be present or depleted?,Oryza sativa,GENOME AND GENOMICS,0,"
+
+
+Based on known genomic patterns of non-B DNA structures like i-motifs, which are typically enriched in promoter regions and 5′UTRs due to their role in transcriptional regulation and G-rich/C-rich sequence bias, and depleted in coding regions (exons) and distal intergenic regions, the most biologically plausible option is:
+
+0: The rice genome was divided into seven genomic subregions, including 5′UTRs, 3′UTRs, exons, introns, downstream and distal intergenic regions. The i-motif structure trend to present in promoters and 5′UTRs, and depleted in exons and distal intergenic regions.
+
+Answer: 0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: 86507c68fe PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,30.32
+31,What are the intrinsic sequence feature for Cold-induced R-loop regions.,Oryza sativa,GENOME AND GENOMICS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.68
+32,How does BBX24 influence the interaction between DELLAs and PIF4 in the context of shade avoidance?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,"
+
+BBX24 physically interacts with DELLA proteins and alleviates DELLA-mediated repression of PIF4 activity, thereby promoting shade avoidance responses such as cell elongation. This supports the model that BBX24 sequesters DELLAs, preventing them from inhibiting PIF4.
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,"2: BBX24 sequesters DELLAs, preventing them from inhibiting PIF4, which enhances cell elongation and growth in response to shade.",2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: a29f7c4dbd PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,18.64
+33,How does UV-B radiation impact Arabidopsis BBX29 expression and its role in plant defense?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,0,"
+
+
+
+None of the provided options can be confirmed due to lack of supporting data. However, based on general knowledge of UV-B signaling and BBX transcription factors in Arabidopsis, **option 0** is most consistent with current literature: UV-B radiation typically activates UVR8-mediated signaling, leading to induction of genes like *AtBBX29* that promote phenolic compound accumulation and enhance pathogen resistance.
+
+Answer: 0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"0: UV-B radiation strongly induces AtBBX29 expression in a UVR8-dependent manner, enhancing the accumulation of phenolic compounds that boost plant resistance to pathogens.",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了UV-B辐射对拟南芥BBX29表达的影响及其在植物防御中的作用。,True,success,"Failed to transform agent message: req_id: 610c28d1f7 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,33.27
+34,What role does the trans-acting small interfering RNA (tasiRNA) pathway play in lateral root development in Arabidopsis thaliana and what are the components involved?,Arabidopsis thaliana,GENE REGULATION - PTGS,2,"
+
+2",2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 55f6f49e0a PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,30.94
+35,By which mechanism has the function of the transcription factor LEAFY evolved in land plants?,"Arabidopsis thaliana, Physcomitrella patens",EVOLUTION,0,"
+
+
+
+选项0正确。LEAFY是植物特有的转录因子，在所有陆生植物中通常为单拷贝基因，其DNA结合方式的改变支持了功能演化，而角苔中的泛化中间形式促进了这一进化过渡。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,29.92
+36,Where is the biogenesis of trans-acting siRNA taking place in plant cells?,Arabidopsis thaliana,GENE REGULATION - PTGS,1,"
+
+
+
+根据文献证据（PMID: 22327216），TAS3前体被AGO7/miR390复合物切割，启动其通过RDR6和SGS3转化为双链RNA。AGO7、SGS3和RDR6在细胞质的siRNA小体中积累，这些小体与P-bodies不同，是膜相关的停滞翻译mRNA的聚集位点。AGO7在膜上与miR390和SGS3聚集，且其在细胞质和膜结合的siRNA小体中的存在对TAS3加工至关重要。
+
+因此，正确选项是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,74.98
+37,"In Arabidopsis thaliana, what role does the microtubule network play during lateral root initiation and emergence?",Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,2,"
+
+0",,,False,0,0,模型选择的选项0与正确选项2不一致,False,success,,0,15.707049
+38,"What role does TOR play during lateral root formation in Arabidopsis thaliana, and by which mechanism?",Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+根据文献摘要（PMID: 37021425），TOR激酶在侧根起始过程中被激活，并调控ARF7、ARF19和LBD16的**翻译**而非转录。当TOR活性被抑制时，这些关键转录因子的翻译显著减弱，从而阻断侧根起始。此外，TOR抑制会诱导WOX11的转录，但由于LBD16的翻译受控于TOR，因此不会导致根分支。这表明TOR整合了局部生长素信号与系统代谢信号，调控生长素诱导基因的翻译。
+
+选项2准确描述了这一机制：TOR在侧根区域被激活，调控ARF7、ARF19和LBD16的**翻译**；其抑制会阻断侧根起始并减弱这些因子的翻译，同时诱导WOX11转录但不引起分支，强调了TOR对LBD16翻译的必要性。
+
+答案：2",2,模型输出的选项与正确选项一致，且描述与文献摘要相符。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.42
+39,What is the role of the transporters TPT and PHT2;1 in regulating chloroplastic phosphorus (Pi) homeostasis and photosynthesis in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+服务器暂时无法访问，但根据已有知识：TPT（Triose Phosphate Transporter）和PHT2;1（Phosphate Transporter 2;1）是定位于叶绿体膜的磷酸盐转运蛋白，在拟南芥中负责将无机磷（Pi）从细胞质导入叶绿体基质。TPT通过将Pi与三碳糖磷酸交换来实现协同运输，而PHT2;1主要介导Pi/H+或Pi/Na+共运输。两者共同维持叶绿体基质中的Pi稳态，对光合作用中ATP合成和卡尔文循环至关重要。其中TPT在近轴面叶肉细胞中起主导作用，PHT2;1则在远轴面更活跃。
+
+正确答案是：0。",,模型回答中未明确给出选项编号，但根据描述内容与正确选项一致的可能性存在；然而由于未直接输出选项0，判定为错误。,False,0,0,模型输出的选项与正确选项一致。,True,success,,0,20.877896
+40,What is the magnitude of alternative splicing regulation in rice leaves undergoing heat stress?,Oryza sativa,GENE REGULATION - ALTERNATIVE SPLICING,1,"
+
+1",1,模型输出的选项与正确选项一致，因此判断为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,17.77
+41,How conserved is the regulation of alternative splicing in circadian clock orthologues from barley and Arabidopsis in response to cold?,"Hordeum vulgare, Arabidopsis thaliana",GENE REGULATION - ALTERNATIVE SPLICING,2,"
+
+
+Based on current knowledge, the regulation of alternative splicing in circadian clock orthologues between barley and Arabidopsis shows both conserved mechanisms and species-specific divergences under cold stress. For instance, GI and TOC1 orthologues exhibit conserved alternative splicing events. LHY orthologues also show conserved splicing behavior with cold-induced increases in non-productive transcripts and reduced functional mRNA in both species. However, PRR7 orthologues differ significantly—barley HvPPD-H1 shows temperature-dependent isoform switching, a response not observed in Arabidopsis.
+
+Correct answer: 2.",2,模型回答内容为描述性文本，未明确给出选项编号，且未直接对应正确选项2。,False,2,2,,True,success,,0,26.06766
+42,What is the speed of alternative splicing response to cold stress in Arabidopsis leaves?,Arabidopsis thaliana,GENE REGULATION - ALTERNATIVE SPLICING,1,"
+
+
+
+
+
+
+根据文献PMID: 29764987《Rapid and Dynamic Alternative Splicing Impacts the Arabidopsis Cold Response Transcriptome》的研究结果，拟南芥在低温胁迫下的可变剪接响应是快速且动态的。研究显示，在低温处理后9小时内，超过一半已知发生可变剪接的基因表现出差异性剪接，且大多数冷诱导的同种型转换发生在处理后6小时内。
+
+因此，正确选项为：  
+1",1,模型回答的选项与正确选项一致，均选择选项1，且回答内容基于文献PMID: 29764987，支持快速响应。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: b464c66209 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,50.75
+43,Which is the most comprehensive Reference Transcript Dataset for Arabidopsis thaliana to date?,Arabidopsis thaliana,GENOME AND GENOMICS,0,"None of the provided options can be confirmed as correct based solely on current knowledge up to 2024. However, **TAIR10** is widely recognized as the standard reference genome and transcriptome for *Arabidopsis thaliana*, supported by extensive manual curation and integration of experimental data. While resources like AtRTD (Arabidopsis RNA-Seq Transcript Assembly Database) provide valuable alternative splicing information, **TAIR10 remains the gold standard** for accuracy and comprehensiveness due to its combination of computational and manual curation.
+
+Correct answer: **1**",0,模型回答中明确提到了TAIR10作为标准参考，但agent的选项列表显示为[None... Correct answer: **1**]，这似乎存在矛盾或格式错误。根据正确选项[0]，模型回答应评估为正确，因为正确选项是0，而模型回答未指定数字选项但隐含支持TAIR10，这符合正确选项的意图。,True,"0: AtRTD3 is the most comprehensive and accurate Arabidopsis transcriptome as of 2024. It was constructed from sequencing RNAs from a diverse set of tissues, environmental conditions, and mutants, ensuring transcript diversity. Robust computational methods were used to ensure accuracy of transcript sequences.
+
+正确答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,"req_id: dac4feecb2 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'code': '', 'message': 'Invalid request, 无效的请求, unexpected end of JSON input (request id: 20260121105955830492339",2,12.99
+44,Why is the AtRTD2-QUASI not the most appropriate Reference Transcript Dataset for quantifying Arabidopsis thaliana transcripts with bona fide alternative transcription start site and/or polyadenylation?,Arabidopsis thaliana,GENOME AND GENOMICS,1,1,1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: a70b388a5a PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,9.81
+45,How UV-B radiation impacts in the UVR8 photoreceptor protein structure in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,2,"
+
+
+
+
+After UV-B radiation, UVR8 is activated via a structural change from a dimer to monomer. The amino acids tryptophans Trp-285 and Trp-233, located in the homodimeric interface, act as chromophores which absorb UV-B leading to conformational changes breaking key cross-dimer interactions.
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,37.84
+46,How is the E3 ubiquitin ligase COP1 involved in UV-B perception and signalling in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.95
+47,Which proteins facilitate UVR8 redimerization in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+
+RUP1 and RUP2 are WD40-repeat proteins that facilitate UVR8 redimerization. Their transcripts are UV-B inducible in a UVR8-dependent manner, and they interact with UVR8 (preferentially monomers), promoting its redimerization within 2 hours to balance signaling. They do not sequester COP1 but instead directly interact with UVR8’s C27 domain.
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,27.27
+48,Which is the subcellular localization and activity of UVR8 in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.64
+49,Which role plays the transcription factor HY5 in UV-B signaling in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"HY5 is a well-characterized transcription factor in *Arabidopsis thaliana* that acts as a **positive regulator of photomorphogenesis**. It accumulates in the nucleus under light conditions and directly binds to promoter regions of light-responsive genes (e.g., G-box elements) to activate their expression.
+
+Key molecular mechanisms:
+- HY5 is targeted for degradation by the **COP1/SPA E3 ubiquitin ligase complex** in the dark.
+- Upon **UV-B exposure**, the UVR8 photoreceptor absorbs UV-B light, undergoes monomerization, and interacts with COP1, thereby **inhibiting COP1-mediated degradation of HY5**.
+- This leads to **post-translational stabilization of HY5**, allowing it to accumulate and regulate downstream gene expression.
+- HY5 has a partially redundant function with its homolog HYH (HY5 Homolog), but genetic studies show that HY5 plays the dominant role across all light conditions.
+
+Thus, option **0** correctly describes HY5’s role.
+
+Answer: 0",0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,14.9
+50,"How are GRF transcription factors regulated, and how do they control leaf growth in Arabidopsis thaliana?",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+GRFs are post-transcriptionally regulated by miR396 and form complexes with GIF co-activators, controlling leaf cell proliferation and organ size. Increased miR396 reduces GRF levels, leading to reduced cell proliferation and smaller organs. This is supported by the study showing that miR396-insensitive GRF3 increases leaf cell number and that GRF-GIF complexes synergistically regulate growth.
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 6ed7e9387b PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,32.22
+51,How is the transcription factor ARF2 involved in the control of cell number in Arabidopsis leaves?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+
+根据文献证据，arf2突变体叶片更大且细胞更多，ARF2直接抑制GRF5（一种不受miR396调控的GRF转录因子），而双突变体arf2 grf5的叶细胞数与野生型相似。因此正确选项是：
+
+1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"1: arf2 mutants have larger leaves with more cells. ARF2 directly represses GRF5, a GRF transcription factor that is not regulated by microRNA miR396. A double mutant arf2 grf5 has a similar number of cells as wild-type leaves.",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,req_id: b0c4894c47 PluginDaemonInternalServerError: killed by timeout,2,47.58
+52,What is the function of miR396 in Arabidopsis roots?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+根据文献（PMID: 26645252）的摘要，miR396通过与GROWTH-REGULATING FACTOR (GRF)相互作用，调控拟南芥根中干细胞向过渡扩增细胞（transit-amplifying cells）的转变。GRFs在扩增细胞中表达，但在干细胞中被miR396抑制。该研究表明，miR396调控的是从**干细胞到过渡扩增细胞**的转换，而不是直接控制分化或增殖的终止。
+
+因此，正确选项是：  
+**2: miR396 controls the transition from stem cells to transit-amplifying cells. High levels of miR396 increase the stemness of the root meristem.**",2,模型输出的选项与正确选项一致，均选择选项2，表明miR396调控拟南芥根中干细胞向过渡扩增细胞的转变。,True,1: miR396 controls the transition from cell proliferation to cell differentiation. High levels of miR396 in roots trigger cell differentiation.,1,正确选项为2，但agent选择了1，因此评估为错误。,False,success,"req_id: 8190892ef3 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,37.93
+53,Do mismatches in the miRNA/miRNA* region of the precursor impact miRNA precursor processing in Arabidopsis Thaliana?,Arabidopsis thaliana,GENE REGULATION - PTGS,2,"1: Yes, the number and position of mismatches in the miRNA/miRNA* duplex determine whether the miRNA translationally inhibits its target or guides target cleavage.",1,模型回答的选项为1，与正确选项2不一致，因此判断为错误。,False,"2: Yes, mismatches can reduce the processing efficiency.",2,模型输出的选项与正确选项一致，均为2，表明模型正确识别了问题并选择了匹配的答案。,True,success,"req_id: a3d921dbe5 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,7.55
+54,"In Arabidopsis, the long non-coding RNA, SVALKA, represses CBF1 via which molecular mechanism?",Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,"无法回答该问题，因为提供的信息不足以确定正确选项。没有关于基因、分子机制或相关背景的描述，且工具调用无明确目标。在当前情况下，无法通过已有工具获取与问题相关的数据。
+
+但根据题目要求必须选择一个答案，最接近常见生物学语境的合理选项是：
+
+**1: Transcriptional regulation**",1,正确选项为0，但agent选择了1，因此评估为错误。agent的回答表明缺乏足够信息，但根据题目要求必须选择，其选择与正确答案不符。,False,2: Epigenetic regulation,2,正确选项为0，但agent选择了2，表示答案错误。,False,success,"req_id: 7abacc2e66 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,9.94
+55,What is the hallmark of RNAPII collision in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+根据文献摘要，plaNET-seq技术用于检测拟南芥中RNA聚合酶II（RNAPII）的新生转录动态，并揭示了温度依赖性的RNAPII停滞现象。该研究明确提到了**RNAPII在双链DNA上的停滞**（promoter-proximal RNAPII stalling 和 intragenic stalling），这与选项0完全一致。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，表明RNAPII碰撞的标志是RNAPII在双链DNA上的停滞。,True,0: RNAPII stalling on both DNA strands detected by plaNET-seq,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: e09e07c309 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,27.71
+56,Why cannot two RNAPII complexes pass each other when transcribing on opposite DNA strands?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,"
+None of the provided options can be confirmed as correct based on the given query. However, since a response is required:
+
+Answer: 2: Steric hindrance",2,模型输出的选项与正确选项一致，因此评估为正确。,True,2: Steric hindrance,2,模型输出的选项与正确选项一致，基于正确选项[2]评估为正确。,True,success,"req_id: 5f3640b616 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,12.22
+57,Where is the main stalling site in the 5'-end of genes in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,1: The transcription start site,1,正确选项是0，但agent选择了1（The transcription start site），与正确选项不一致，因此评估为错误。,False,1: The transcription start site,1,"The correct answer is option 0, but the agent selected option 1, which is incorrect.",False,success,"req_id: 30ac24a5a2 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.02
+58,"Angiosperms have multiple phytochrome photoreceptors (phyA, phyB, ...). Do their functions differ during seedling de-etiolation?","Arabidopsis thaliana, Solanum lycopersicum",ENVIRONMENT - LIGHT AND TEMPERATURE,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,"2: phyA is the primary phytochrome triggering de-etiolation in response to far-red light, while phyB is the primary phytochrome triggering de-etiolation in response to red light.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,8.13
+59,Where is the major site of action of phytochromes in angiosperms?,"Arabidopsis thaliana, Marchantia polymorpha",ENVIRONMENT - LIGHT AND TEMPERATURE,2,2: The primary site of action of light activated phyA and phyB is in the nucleus,2,模型输出与正确选项一致，均为选项2。,True,2: The primary site of action of light activated phyA and phyB is in the nucleus,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.74
+60,Which of the following events is a key for subsequent signalling following cryptochrome light activation?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"Cryptochromes are blue light photoreceptors involved in regulating various light-dependent processes in plants, such as photomorphogenesis and the circadian clock. Upon light activation, cryptochromes undergo conformational changes that lead to their activation.
+
+Key known mechanisms include:
+- Cryptochromes absorb blue light via their flavin-containing chromophore.
+- Light absorption leads to reduction of the flavin cofactor and conformational change.
+- Activated cryptochromes interact with signaling partners like COP1 and SPA proteins.
+- In Arabidopsis, CRY1 and CRY2 accumulate in the nucleus upon light exposure.
+- Importantly, activated cryptochromes form complexes (dimers or multimers) and this oligomerization is associated with their active state.
+
+Evidence from multiple studies shows that:
+- Cryptochrome 2 (CRY2) forms photobodies in the nucleus upon blue light exposure, which involves protein-protein interaction and oligomerization.
+- These nuclear foci are sites of active signaling and degradation.
+- Monomerisation is not a reported activation mechanism; instead, dimerization/multimerization is linked to activation.
+
+Thus, option 0 (""Cryptochromes dimerise or multimerise following light activation"") is correct.
+
+Answer: 0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0: Cryptochromes dimerise or multimerise following light activation,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,16.53
+61,How do plant phototropins initiate light signalling cascades?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,1,"phototropins are blue light receptors that belong to the family of Ser/Thr protein kinases. Upon light activation, they autophosphorylate and regulate various physiological responses such as phototropism, chloroplast movement, and stomatal opening. They are not known to directly interact with PIF transcription factors (which are primarily involved in phytochrome signaling), nor do they translocate to the nucleus to initiate signaling—instead, they act primarily at the plasma membrane.
+
+Correct answer: **1**",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1: phototropins are light activated Ser/Thr protein kinases,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,10.13
+62,"Which gene is the master regulator of heat stress response in tomato, how is it maintained inactive under control conditions, and to which cis-elements does it bind during heat stress?",Solanum lycopersicum,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+Multiple studies confirm that **HSFA1a** is the master regulator of heat stress response in tomato. Under normal conditions, it is kept inactive through interactions with **HSP70 and HSP90**. Upon heat stress, HSFA1a is released, forms **homo-oligomeric complexes**, translocates to the nucleus, and binds to **Heat Shock Elements (HSEs)** in the promoters of heat stress-induced genes.
+
+This mechanism is supported by multiple publications:
+- HSFA1a directly activates expression of heat shock proteins and BAG genes under heat stress.
+- It interacts with chaperones like HSP70/HSP90 and is regulated by co-factors such as BAG2 and BAG5b.
+- The transcriptional activation involves binding to HSEs, not SREs.
+
+Thus, option 0 is correct.
+
+答案：0",0,模型输出的选项与正确选项一致，且回答内容准确描述了HSFA1a作为番茄热应激反应的主调控因子、在正常条件下通过HSP70和HSP90保持失活状态以及在热应激时结合Heat Shock Elements (HSEs)的机制。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.81
+63,Which ethylene-related factors are involved in the induction of HSFA2 in Arabidopsis thaliana and how does this mechanism affect thermotolerance,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+根据文献摘要，HSFA2的诱导是通过乙烯信号通路中的ERF95和ERF97实现的，这两个转录因子受EIN3调控，并在基础耐热性中起重要作用。因此正确选项是：
+
+0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,19.42
+64,"How does alternative splicing of the second intron of tomato HSFA2 affect the function, localization, and stability of its protein isoforms during heat stress, and what role do these isoforms play in acquired thermotolerance?",Solanum lycopersicum,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+0",,模型选择的选项与正确选项一致。,True,0,0,模型输出的选项与正确选项一致。,True,success,,0,12.33847
+65,"How does HSFA2 regulate thermomemory in Arabidopsis thaliana, which HSF does it interact with, what histone modification is associated with this process, and which memory genes are regulated by this mechanism?",Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,2,"
+
+
+
+
+
+
+
+
+None of the provided options accurately reflect the current scientific understanding based on available literature. While HSFA2 and HSFA3 are indeed central to thermomemory in *Arabidopsis thaliana* and function together, there is no direct evidence linking their complex to H3K9 acetylation, H3K4 methylation, or H3K27 methylation in the context of sustained expression of memory genes. The molecular mechanisms involving histone modifications downstream of HSFA2/HSFA3 remain unclear from the retrieved data.
+
+However, among the given choices, Option 0 mentions **HSP70-1** (a known heat shock protein) and **HSFA1a** (a master regulator of heat shock response), which are more plausibly associated with thermomemory pathways than APX3 and HSA32 mentioned in the other options. Although the histone modification claim (H3K9ac) lacks support here, the gene associations in Option 0 are relatively more accurate.
+
+Answer: 0",0,正确选项为2，但模型选择了0，因此评估为错误。模型输出中未直接给出选项2，而是基于部分信息推断选择0，与正确答案不符。,False,"HSFA2是拟南芥热记忆的关键调控因子，研究证实其与HSFA3形成复合物并协同作用于记忆基因的启动子区域。该复合物促进组蛋白H3K4三甲基化（H3K4me3），这一修饰与转录激活及基因的持续表达密切相关。已知受此机制调控的记忆基因包括APX3和HSA32等，在热激恢复期间维持其表达水平。
+
+正确答案：2",2,模型输出的选项与正确选项一致，回答正确。,True,success,req_id: b6f76f89fc PluginDaemonInternalServerError: killed by timeout,1,67.51
+66,"Which are the two core transcription factors regulating the unfolded protein response (UPR) in Arabidopsis thaliana, and what are the key activation mechanisms for each transcription factor?",Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.89
+67,What are the physiological mechanisms behind the ability of Arabidopsis thaliana to promote growth and repress the induction of defenses under light signals of competition?,Arabidopsis thaliana,HORMONES,0,"
+
+
+None of the provided options can be validated based on the given identifier ""1768808183580"", which does not correspond to any known gene or publication. However, biologically accurate jasmonate desensitization mechanisms include JAZ protein upregulation and JA-Ile inactivation—consistent with option 0.
+
+Answer: 0",0,模型输出的选项与正确选项一致，基于正确选项[0]评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,req_id: bfe846a334 PluginDaemonInternalServerError: killed by timeout,1,24.41
+68,What is the ligand of the MpCOI1 of the jasmonate phytohormone in Marchantia polymorpha?,Marchantia polymorpha,HORMONES,2,"MpCOI1 是茉莉酸（jasmonate）信号通路中的关键受体蛋白，其活性配体是在多种植物中保守的 **JA-Ile**（茉莉酰异亮氨酸）。在 *Marchantia polymorpha* 中，研究表明其 COI1 蛋白（MpCOI1）的功能与被子植物类似，能够感知 **JA-Ile** 并启动下游信号传导。
+
+进一步分析显示，MpCOI1 的配体结合域可以特异性识别 **(+)-7-iso-JA-Ile**，这是 JA-Ile 的生物活性异构体。该分子在 *M. polymorpha* 中足以激活典型的茉莉酸响应基因表达，并且遗传学实验证明 MpCOI1 是这一过程所必需的。
+
+虽然 dinor-OPDA 也是一种早期的脂氧代谢物，在某些非典型信号路径中可能具有功能，但它不是 COI1 受体的直接配体。
+
+因此，正确答案是：
+1. (+)-7-iso-JA-Ile (JA-Ile)",1,模型回答选项为1，与正确选项2不一致。,False,"在地钱（Marchantia polymorpha）中，茉莉酸类植物激素信号通路的研究表明，其受体复合物MpCOI1的配体是活性形式的茉莉酰异亮氨酸。研究表明，MpCOI1识别的是**JA-Ile**，即茉莉酰-L-异亮氨酸。
+
+尽管(+)-7-iso-JA-Ile是JA-Ile的生物活性异构体并在高等植物中起关键作用，但在Marchantia中，功能研究显示其直接配体为**JA-Ile**，而非dinor-OPDA（后者是JA合成前体，不直接结合COI1）。
+
+正确答案：0. JA-Ile",0,模型回答选择了选项0（JA-Ile），而正确选项是2，因此回答错误。,False,success,,0,12.807143
+69,What is the chemical origin for the bioactive jasmonic acid in Marchantia polymorpha?,Marchantia polymorpha,HORMONES,1,"
+
+
+
+Bioactive jasmonic acid in *Marchantia polymorpha* originates from C18 and C16 fatty acids, as it utilizes dn-OPDA (dinor-12-oxo-phytodienoic acid), a C18-derived compound, through the octadecanoid pathway.  
+
+正确答案：2. C18 and C16",1,模型回答与正确选项不一致,False,2. C18 and C16,2,模型回答选项为2，与正确选项1不一致，因此错误。,False,success,,0,29.380243
+70,"What was the physiological impact of using the dCas9-Suntag-DRM2 strategy on Arabidopsis thaliana, targeting genes involved in flowering time (FWA)?",Arabidopsis thaliana,PLANT BIOTECHNOLOGY,0,"
+
+
+
+The dCas9-Suntag-DRM2 strategy (or similar nSpCas9-DNA methylation enzyme fusions) induces de novo DNA methylation at the FWA promoter, leading to suppression of FWA expression and early flowering in Arabidopsis. This epigenetic change results in a stable early-flowering phenotype, particularly observed when using methylation-inducing fusions like nSpCas9-MQ1v in hypomethylated fwa mutants.
+
+正确答案是：0。",,模型回答与正确选项一致，均为0。,True,"0. The dCas9-Suntag-DRM2 strategy induced DNA methylation at the FWA gene promoter, leading to early flowering in Arabidopsis. This epigenetic modification was stable and passed on to the next generation, resulting in a consistent early flowering phenotype.
+
+正确答案：0",0,模型输出的选项与正确选项一致。,True,success,,0,30.119814
+71,"What was the physiological impact of using the dCas9-Suntag-TET1 strategy on Arabidopsis thaliana, targeting genes involved in flowering time (FWA) and what epigenetic modification was responsible for this effect?",Arabidopsis thaliana,PLANT BIOTECHNOLOGY,1,"
+
+
+
+
+
+
+FWA基因在野生型拟南芥中通常被DNA甲基化沉默，其启动子区域的甲基化维持了正常开花时间。研究表明，FWA基因的去甲基化会导致其异位表达，从而引起晚花表型（如PMID: 12520338和21457364所示）。dCas9-Suntag-TET1系统是一种靶向DNA去甲基化的工具，TET1具有去甲基化酶活性，因此该策略会诱导FWA启动子特异性去甲基化，导致晚花，并且这种表观遗传状态可遗传。
+
+选项1正确描述了这一机制。
+
+答案：1",1,模型回答正确，正确选项为1，模型输出选项与正确选项一致。,True,"1: The dCas9-Suntag-TET1 strategy induced specific DNA demethylation of the FWA gene promoter, which led to late flowering phenotypes in Arabidopsis. The demethylation was responsible for the altered flowering time, which was inherited by subsequent plant generations.
+
+Correct answer: 1",1,模型输出的选项与正确选项一致，评估为正确。,True,success,req_id: d744b9661b PluginDaemonInternalServerError: no proper instance,2,43.85
+72,What is the subcellular localization of Arabidopsis thaliana P5CS1 and is its localization changed by drought or salt stress?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,2,"
+
+
+
+根据UniProt和文献数据，P5CS1在拟南芥中定位于细胞质（cytoplasm），并且有研究通过GFP融合蛋白证实其在细胞质中特异性定位。尽管早期曾提出其可能在胁迫下进入叶绿体，但最新研究表明它仍保留在细胞质中。
+
+正确答案是：2",2,模型输出与正确选项一致，均选择选项2，表明P5CS1在拟南芥中定位于细胞质，且其定位在干旱或盐胁迫下未改变。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,req_id: cb6d9caa77 PluginDaemonInternalServerError: no proper instance,1,32.31
+73,What cellular functions of NPH3-domain proteins are important for drought resistance in Arabidopsis thaliana?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,2,"
+
+
+The correct answer is:
+
+2: The NPH3-domain protein NRL5 is essential for drought resistance and also has roles in intracellular trafficking. Correct trafficking is needed to maintain the composition of the cell wall and plasma membrane so that the plant can correctly sense and respond to drought stress.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项[2]与正确选项[2]一致，因此评估为正确。,True,success,req_id: 77e02c8ded PluginDaemonInternalServerError: no proper instance,1,22.02
+74,Which type 2C protein phosphatases control growth and osmotic adjustment during drought stress in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+
+
+根据文献摘要（PMID: 34865106），EGR型2C蛋白磷酸酶在中度干旱胁迫下通过调控生长调节蛋白MASP1的磷酸化来限制根分生组织活性和细胞伸长，表现为负调控因子。同时，EGR过表达减少根细胞大小，而egr突变体表现出增强的根细胞大小和分生组织活性，说明其抑制生长。该机制与选项0描述一致。
+
+正确答案：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了EGR型2C蛋白磷酸酶在干旱胁迫下控制生长和渗透调节的作用。,True,"正确答案是：0
+
+The EGR type 2C protein phosphatases act as negative regulators to restrict growth during moderate severity drought stress by controlling phosphorylation of the growth-regulatory protein MASP1. The HAI1 type 2C protein phosphatase restricts growth and hai1 mutants have increased growth maintenance along with greater solute accumulation (lower osmotic potential) indicative of increased osmotic adjustment and improved turgor maintenance.
+
+答案：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,req_id: 0d38183d14 PluginDaemonInternalServerError: no proper instance,1,34.8
+75,Why do EGR protein phosphatases have a strong effect on growth during drought stress in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+根据最新研究（PMID: 38095247），EGR1和EGR2作为蛋白磷酸酶，通过去磷酸化SnRK2.2的Ser31位点来**正向调控ABA信号通路**。在egr1 egr2突变体中，植物对ABA敏感性降低，表现为种子萌发、子叶变绿和ABI5积累减少。
+
+选项分析：
+- 选项0错误地描述EGR为负调控因子，并声称其释放导致ABA不敏感。
+- 选项1和2讨论细胞分裂与扩展，但未涉及核心的ABA-SnRK2机制。
+
+正确答案是：**0**（尽管表述有瑕疵，但它是唯一提及ABA和SnRK2机制的选项，且最新研究证实EGR确实在ABA信号中起作用）。",0,正确选项为1，但agent基于错误分析选择了0，导致评估为错误。,False,"0: EGR protein phosphatases have a strong effect on growth during drought and salt stress in Arabidopsis thaliana because they control phosphorylation of SnRK2 kinases and increase sensitivity to Abscisic Acid (ABA). When EGR control of SnRK2 phosphorylation is released, such as in the egr1-1egr2-1 mutant, Arabidopsis plants are insensitive to ABA and grow more during moderate severity low water potential (drought) stress.
+
+Answer: 0",0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,87.44
+76,How does AHK1 act as a drought sensor in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,6.3
+77,Through what mechanisms regulates TFIIS the plant stress adaptation?,"Arabidopsis thaliana, Hordeum vulgare",GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+TFIIS是RNAPII的延伸辅助因子，在常温下看似不必要，但在亚致死高温下对拟南芥和大麦至关重要。热应激时TFIIS被转录诱导并正向自调控，结合热激诱导基因位点，促进适应性转录重编程。该功能在单细胞绿藻到单子叶和双子叶植物中保守。  
+正确答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,30.65
+78,How is NDX regulating chromatin structure in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - EPIGENETICS AND TGS,0,"
+
+
+
+
+
+
+根据文献分析，NDX是一种主要结合于着丝粒周围异染色质的核蛋白。其失活会导致异染色质siRNA积累异常、CHH和CHG低甲基化，并引起高级染色质结构变化，表现为着丝粒区域染色体内相互作用减少，KNOT形成区域相互作用增加，与DNA甲基化突变体表型相似。因此，NDX是染色质压缩和可及性的关键调控因子。
+
+正确答案：0",0,模型输出的选项与正确选项一致，均为0，表明NDX通过调控异染色质结构和DNA甲基化来影响染色质压缩和可及性。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,42.09
+79,What is the role of Non-stop decay (NSD) in plants?,"Arabidopsis thaliana, Nicotiana benthamiana",GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,1,1,1,模型输出的选项[1]与正确选项[1]一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.98
+80,"In tomato, rin mutant lines exhibit a failure to ripen, characterized by the absence of color development and the lack of an ethylene burst. What is the established role of this transcription factor in regulating the ripening process in tomatoes? ",Solanum lycopersicum,GENE REGULATION - TRANSCRIPTION,0,2,2,模型选择的选项[2]与正确选项[0]不一致，因此评估为错误。,False,2,2,正确选项为0，模型输出选项2，两者不一致，因此评估为错误。,False,success,,0,5.45
+81,What is the current molecular model that explains inhibition of SnRK1 from Arabidopsis thaliana by trehalose-6-phosphate?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.87
+82,How does trehalose-6-phosphate regulate axillary bud outgrowth in Arabidopsis thaliana?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,1,0,0,模型输出的选项[0]与正确选项[1]不一致，因此评估为错误。,False,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.67
+83,How does trehalose-6-phosphate coordinate organic and amino acid metabolism with carbon availability in Arabidopsis thaliana?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,1,1,正确选项为2，agent的选项为1，两者不一致，因此agent的回答错误。,False,"Trehalose-6-phosphate (T6P) is a key signaling molecule in plants that reflects carbon availability and regulates metabolism accordingly. In *Arabidopsis thaliana*, high T6P levels signal sufficient carbon status, promoting growth and inhibiting processes that consume carbon for biosynthesis when carbon is abundant. T6P suppresses nitrate assimilation and the production of organic acids via inhibition of key enzymes such as nitrate reductase (NR) and phosphoenolpyruvate carboxylase (PEPC), thereby reducing anaplerotic reactions and redirecting carbon flux toward sucrose accumulation rather than amino acid synthesis.
+
+Option 0 is incorrect because low T6P does not stimulate nitrate assimilation through activation of nitrite reductase and PEPCK—this pathway is more associated with nitrogen metabolism under specific conditions, but not directly linked to T6P-mediated regulation in this manner.
+
+Option 1 correctly describes that high T6P reduces nitrate assimilation and organic acid synthesis by inhibiting nitrate reductase and PEPC, thus conserving carbon for sucrose accumulation instead of diverting it to amino acid synthesis.
+
+Option 2 contradicts itself: high T6P decreasing sucrose while stimulating nitrogen assimilation is inconsistent with established T6P function.
+
+Correct answer: **1**",1,"Agent's choice is 1, but the correct choice is 2. The agent's explanation incorrectly identifies option 1 as correct, while the correct answer is option 2 based on the provided context.",False,success,,0,9.6
+84,Which are the sugar transporters involved in sucrose phloem loading in Arabidopsis thaliana leaves?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,"
+
+
+
+
+
+
+AtSWEET11 和 AtSWEET12 是定位于韧皮部薄壁细胞质膜上的蔗糖外排转运蛋白，通过单向运输机制将蔗糖释放到质外体。随后，质子/蔗糖共转运蛋白（如 SUC2/SUT1）利用质子梯度将蔗糖主动转运进伴胞或筛管分子复合体中，该质子梯度由质膜 H+-ATPase 提供。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,62.02
+85,Do the different members of Nuclear Speckle RNA-binding proteins family in Arabidopsis thaliana exert the same conserved function?,Arabidopsis thaliana,EVOLUTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项[2]与正确选项[2]一致，因此评估为正确。,True,success,,0,5.32
+86,Does the Gly mutation has an impact on plant development?,Arabidopsis thaliana,EVOLUTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,5.72
+87,"re the zinc-finger proteins SHOOT GRAVITROPISM 5 (SGR5) and TRANSPARENT TESTA 1(TT1), members of the Indeterminate Domain subfamily in Arabidopsis thaliana?",Arabidopsis thaliana,EVOLUTION,0,"
+
+
+
+
+
+SGR5（AT2G01940）属于IDD家族（InterPro: IPR055187），而TT1（AT1G34790）属于WIP亚家族（InterPro: IPR043584）。两者均为C2H2型锌指转录因子，但系统发育分析表明SGR5属于IDD谱系，TT1属于WIP亚家族且为IDD的姐妹群。选项0正确。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,43.87
+88,Which is the role of HAT7 and GTL1 in brassinosteroid signaling in the roots of Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+HAT7 and GTL1 are brassinosteroid-responsive transcription factors that regulate cell elongation, especially in the cortex. Brassinosteroid signaling activates BES1 and BZR1 transcription factors, which direct gene regulatory networks to control thousands of genes. BES1 and GTL1 interact and control a common set of targets induced by brassinosteroids including the activation of cell wall-related genes, promoting cell elongation.  
+Answer: 0",,,True,0,0,模型输出的选项与正确选项一致。,True,success,,0,13.326185
+89,Which is the biological role of Coronatine toxin in Arabidopsis thaliana pathogenic Pseudomonas syringae pv tomato DC3000?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,1,2,2,模型选择了选项2，但正确答案是选项1，因此回答错误。,False,0,0,模型输出选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,5.52
+90,What is the biological function of ELF18-INDUCED LONG-NONCODING RNA1 in the antibacterial defense of Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,0,"
+
+选项0正确描述了ELENA1的功能：它是一个由Elf18诱导的长链非编码RNA，作为植物免疫反应的正调控因子，通过与MED19a和FIB2（即FIBRILLARIN 2）相互作用，解除FIB2对PR1基因的抑制，从而增强抗病性。该机制与文献（PMID: 30307032）中的研究结果一致。
+
+答案：0",0,模型输出的选项与正确选项一致，正确描述了ELENA1在拟南芥抗菌防御中的生物学功能。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,19.76
+91,What is the role of the longin domain of Arabidopsis thaliana VAMP721 protein ?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,1,"
+
+
+
+
+
+
+
+
+
+
+
+根据文献PMID: 37659090的摘要，VAMP721的Longin结构域具有自抑制机制，其中R-SNARE结构域回折到Longin结构域上，阻止其与伴侣SNARE相互作用。此外，该结构域还参与调控亚细胞定位和蛋白稳定性，但磷酸化模拟突变导致蛋白不稳定并被靶向至裂解性液泡降解。
+
+正确选项是：**1**（The Longin domain of VAMP721 has a dual role. VAMP721 has an autoinhibitory mechanism where the R-SNARE domain backfolds into the Longin domain, preventing VAMP721 interaction with its partner SNAREs. On the other side, it is important for VAMP721 recycling and reuse and for its subcellular localization.）
+
+尽管部分功能涉及降解，但核心机制为自抑制与定位调控，且“recycling and reuse”更符合正常生理功能描述。
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，表明模型正确识别了VAMP721 Longin结构域的自抑制机制和调控功能。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,72.68
+92,What is the main molecular function of VAMP721 protein in Arabidopsis thaliana?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,2,"
+
+
+
+
+
+VAMP721 forms SNARE complexes with 2 or 3 Q-SNAREs and provides the mechanical energy for membrane fusion. It acts in the fusion between secretory vesicles and the plasma membrane, participates in cell plate formation, and plays a key role in endocytic vesicle fusion with the trans-Golgi network.
+
+答案：2",2,模型输出与正确选项一致，回答正确。,True,2,2,模型输出的选项[2]与正确选项[2]一致，因此评估为正确。,True,success,,0,37.11
+93,What is the function of Arabidopsis thaliana VAMP721 phosphorylation and where is it phosphorylated?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,"
+
+
+
+
+
+
+
+根据文献PMID: 37659090的研究，VAMP721在Longin结构域的Y57位点发生磷酸化，该修饰可调节其SNARE功能。Y57位点的磷酸化是短暂的，模拟磷酸化的Y57D突变体会导致蛋白不稳定并被液泡降解，且表现出显性负效应，干扰分泌和细胞分裂，形成大囊泡聚集。这表明Y57磷酸化是一种调控VAMP721活性的关键翻译后修饰。
+
+正确选项为：0",0,模型回答与正确选项一致，均选择选项0，内容基于文献PMID: 37659090描述了VAMP721在Y57位点的磷酸化功能。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,50.58
+94,How is how is Arabidopsis thaliana VAMP721 endocytosis achieved for its recycling? Compare to the endocytic recycling of human VAMP7.,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,"
+
+0",,,True,0,0,模型输出的选项与正确选项一致。,True,success,,0,16.874731
+95,"What are TRANS-SNARE and CIS-SNARE complexes, and how are they formed in Arabidopsis? What is their role?",Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.01
+96,Which is the family of immune related proteins whose splicing is affected by SM like PROTEIN 4 (LSM4 ) arginine methylation in Arabidopsis thaliana plants?,Arabidopsis thaliana,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,2,"
+
+'article details fetched, analyzing content to match with options'",0,"Agent did not provide a valid choice number; defaulting to 0 for evaluation, which does not match the correct option 2.",False,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,15.22
+97,Which Arabidopsis PRMT5 targets are strongly symmetrically dimethylated in their arginines residues in vitro by the addition of nitrosogluthathione (GSNO)?,Arabidopsis thaliana,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,2,"
+
+
+
+
+
+
+根据文献 PMID: 28757206《Nitric Oxide Regulates Protein Methylation during Stress Responses in Plants》中的摘要内容：“NO positively regulates the PRMT5 activity through S-nitrosylation at Cys-125 during stress responses”，以及相关研究指出PRMT5介导的底物包括SM蛋白和组蛋白。
+
+结合选项分析：
+- LSM4（SM-LIKE PROTEIN 4）是PRMT5的已知底物（见PMID: 38518124）。
+- 文献明确指出GSNO（NO供体）增强PRMT5活性，并影响其对LSM4和组蛋白H4的甲基化修饰。
+- 选项中只有 **2** 同时包含“histone4”和“LSM4”，符合生物学事实。
+
+正确答案是：2",2,模型输出的选项[2]与正确选项[2]一致，因此评估为正确。,True,1: GSNO enhanced PRMT5 activity and arginine methylation of Arabidopsis SmD3 and LSM4 substrates,1,模型选择的选项[1]与正确选项[2]不一致，因此评估为错误。,False,success,,0,47.22
+98,Which are the biological processes affected in Arabidopsis thaliana GRP7 mutant variants with non methylated R141 residue?,Arabidopsis thaliana,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,0,"
+
+
+
+
+
+
+
+
+
+
+
+Based on the available information and lack of direct evidence linking R141 methylation to auxin or flowering phenotypes, but with literature support connecting histone arginine methylation and germination regulation, the most plausible answer is:
+
+0: Mutants variants with non methylated R141 residue are affected in abscisic acid sensitivity during germination.",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,1,1,模型输出的选项为1，与正确选项0不一致，因此评估为错误。,False,success,,0,62.85
+99,Which is the effect of PRMT5 - mediated arginine methylation of Arabidopsis thaliana Argonaute2 (AGO2) at the protein level?,Arabidopsis thaliana,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,2,1,1,正确选项为2，但agent选择了1，因此回答错误。,False,2: Arginine methylation leads to AGO2 degradation by the proteasome,2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,6.08
+100,Which Argonaute (AGO) proteins are symmetricallly dimethylated in arginines residues (SDMA) of their N-terminal extension in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - POST-TRANSLATIONAL MODIFICATIONS,1,"
+
+
+根据文献分析，AGO1在拟南芥中经历对称性二甲基化（sDMA）修饰，并且该修饰由PRMT5酶催化。此外，在动物中，dPRMT5也介导Ago3和Aub的sDMA修饰。但题目关注的是植物中的AGO蛋白。
+
+从PMID 38321923的摘要可知：**AGO1** 是唯一被证实同时具有对称（sDMA）和不对称（aDMA）二甲基化的植物AGO蛋白，并受到PRMT5和其他I型PRMT的双重调控。目前没有直接证据表明 AGO2、AGO3、AGO5 和 AGO10 在植物中也经历 SDMA 修饰。
+
+因此，正确答案是仅 **AGO1** 经历 SDMA 修饰，但选项中无此精确匹配。最接近且包含确切证据的是选项 **0**，尽管它提到了 AGO2 而缺乏支持。
+
+然而，综合现有信息，只有 **AGO1** 的 SDMA 修饰有明确植物实验证据。
+
+答案：0",0,正确选项为1，但agent选择了0，因此评估为错误。,False,正确的答案是：0: AGO1 and AGO2 undergo SDMA postranslational modification,0,"The correct answer is option 1, but the agent's response indicates option 0, which does not match the correct option.",False,success,,0,28.95
+101,What are the differences between AGO1 and AGO7 subcellular localization in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - PTGS,1,"
+
+
+
+
+
+根据现有基因信息，AGO1和AGO7均为细胞质蛋白，参与RNA诱导的沉默复合体（RISC），但功能分工不同。AGO1主要结合miRNA和siRNA，调控基因表达，并涉及抗病毒防御；AGO7则特异性结合miR390，参与ta-siRNA通路，影响叶片发育时序。两者均定位于细胞质，未见明确证据支持其进入细胞核或特异性定位于P-bodies、Stress granules或D-bodies。
+
+选项中关于“AGO1穿梭至细胞核”、“定位D-bodies”或“AGO7在siRNA bodies”等说法缺乏直接文献支持。最接近事实的是：AGO1和AGO7主要存在于细胞质，可能参与生物分子凝聚体（如P-bodies），但具体分区尚不明确。
+
+正确答案应为：**0**（尽管部分描述仍存疑，但相较而言，选项0中“AGO7在P-bodies”、“AGO1在Stress granules和P-bodies”更接近一般认知，而“AGO1穿梭入核”虽有间接推测但非共识）。然而，严格依据当前工具返回数据，**无足够证据支持任一选项完全正确**。
+
+但必须选择一项时，基于AGO1更广泛的互作与调控功能，其进入核内参与miRNA加载的可能性高于AGO7，故选：
+
+0",0,正确选项为1，但agent选择了0，因此评估为错误。,False,"选项0中存在明显错误（“AGO7 and AGO7”重复，且描述AGO1在应激颗粒和P-bodies中缺乏广泛支持）；  
+选项2错误地声称AGO7穿梭入核并与D-bodies相互作用，这与已知文献不符；  
+选项1正确指出：AGO1和AGO7均可存在于细胞质及生物分子 condensates 中，AGO7定位于siRNA小体，AGO1定位于siRNA小体和P-bodies，AGO1可穿梭至细胞核与D-bodies相互作用以装载miRNA，而AGO7为胞质限制性。
+
+正确答案：1",1,模型输出的选项与正确选项一致，正确描述了AGO1和AGO7在拟南芥中的亚细胞定位差异。,True,success,,0,57.83
+102,What are the key components in Arabidopsis SGS3 that enable the nucleation of siRNA bodies?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,2,"
+
+无法获取SGS3基因的详细信息，服务器返回502错误。基于现有知识，正确答案是：SGS3含有两个朊病毒样结构域，分别位于两端；删除这些结构域后，蛋白仍能与RDR6互作但定位于细胞核，无法形成细胞质焦点；C端结构域对siRNA小体的成核最为关键。  
+答案：0",,agent选项为0，正确选项为2，不一致,False,2,2,,True,success,,0,13.116283
+103,What is the result of blocking the module of AGO7/miR390/TAS3 in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - PTGS,0,"
+
+
+
+
+
+
+
+
+
+
+
+0",0,agent的选项与正确选项一致，因此回答正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,103.85
+104,Which are the transporters with higher affinity cytokinins in Arabidopsis thaliana?,Arabidopsis thaliana,HORMONES,0,2,2,模型选择的选项[2]与正确选项[0]不一致，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,8.13
+105,Which gene has been identified to act downstream of EXO70A3 to regulate root depth in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+无法识别的基因标识符或无效查询。请提供正确的基因名称或有效信息。
+
+答案：0",0,正确选项为2，但模型输出为0，两者不一致，因此评估为错误。,False,1: PIN7,1,正确答案是选项2，但agent选择了选项1（PIN7），因此回答不正确。,False,success,,0,20.75
+106,Degradation of which protein is responsible for shutting down the iron deficiency responses during treatment with flagellin in Arabidopsis thaliana?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,1,"
+BTS 和 BTSL1 均为已知基因，而 IMA1 无搜索结果。根据已有信息，正确答案应为：2: BTSL1。",2,正确选项为1，但agent的选项为2，因此评估为错误。agent的回答中提到了BTS和BTSL1，但未指定正确选项1的具体内容，且agent错误地选择了2。,False,0: BTS,0,正确答案为选项1，但模型选择了选项0（BTS），因此回答错误。,False,success,,0,19.03
+107,Which transcription factor balances ROS homeostasis in the root meristem to regulate the balance between cell proliferation and differentiation in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+所有三个基因（ARR1、PER39、UPB1）均存在于拟南芥中，但根据描述：
+
+- **ARR1** 是细胞分裂素信号通路中的响应调节因子。
+- **PER39** 是过氧化物酶家族蛋白。
+- **UPB1** 是转录因子 UPBEAT 蛋白，参与根发育调控。
+
+问题未明确具体提问内容，但从选项和常见考题推断，可能考察的是与“转录因子”或特定功能相关的基因。**UPB1** 明确被描述为“transcription factor UPBEAT protein”，而其他两个不是典型转录因子。
+
+因此正确答案是：2: UPB1",2,模型输出的选项与正确选项一致，因此评估为正确。,True,2: UPB1,2,模型输出的选项[2]与正确选项[2]一致，因此判断为正确。,True,success,,0,18.68
+108,What proteins sequester SHR in the nucleus in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+SCR和RBR均有明确基因信息，而CYCD6;1因匹配过多结果无法精确定位。根据常见植物生物学知识，SCR（SCARECROW）是调控根发育的关键转录因子，符合题目语境。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此判断为正确。,True,"SCR与SHR在内皮层细胞核中相互作用，共同调控根发育。研究表明，SCR蛋白能够与SHR蛋白结合，将SHR限制在内皮层的细胞核中，从而实现组织特异性功能。
+
+正确答案是：0: SCR",0,模型输出正确，SCR蛋白在拟南芥中负责将SHR隔离在细胞核内。,True,success,"Failed to transform agent message: req_id: 0d5ffea22a PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,19.88
+109,How does the denitrification process of Azospirillum baldaniorum Sp245 contribute to bacterial plant growth-promoting capacity when inoculated in tomato?,Solanum lycopersicum,ENVIRONMENT - PLANT-SYMBIONTS,0,"
+
+
+根据文献分析，Azospirillum brasilense Sp245（与A. baldaniorum密切相关）在反硝化过程中产生一氧化氮（NO），作为中间产物。该NO可作为植物生长调节分子，通过促进侧根形成来调控番茄根系发育。实验证明，当NO被清除时，根分支的诱导作用被抑制，表明NO在此过程中起关键作用。
+
+因此，正确选项是：  
+0",0,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.32
+110,Which mechanism uses Pseudomonas fluorescens G20-18 to induce drought tolerance in tomato plants and to control P. syringae infection in Arabidopsis?,"Solanum lycopersicum, Arabidopsis thaliana",ENVIRONMENT - PLANT-SYMBIONTS,1,"
+
+根据文献摘要，研究使用了细胞分裂素缺陷型突变株CNT1和CNT2来验证Pseudomonas fluorescens G20-18产生细胞分裂素在诱导植物抗旱性和防御反应中的关键作用。因此正确选项是：
+
+1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"1: By using the cytokinin-defective isogenic mutant strains CNT1 and CNT2, it has been demonstrated that cytokinin production is a key mechanism of Pseudomonas fluorescens G20-18 that induces drought tolerance and pathogen defense responses in plants.",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,,0,17.15
+111,How does microRNA169 regulate heat stress tolerance in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,2,"
+
+
+
+
+根据文献证据（PMID: 36050841），在拟南芥中，热激转录因子HSFA2在热胁迫下被诱导，进而转录激活miR169d的表达。上调的miR169d通过转录后切割其靶标NF-YA2 mRNA，降低NF-YA2蛋白水平。由于NF-YA2是热响应基因（如HSFA7b）的负调控因子，其水平下降可解除对这些基因的抑制，从而增强植物的耐热性。
+
+因此，正确选项是：  
+**2**",2,模型输出的选项与正确选项一致，基于文献证据（PMID: 36050841）确认了miR169d通过NF-YA2调控耐热性的机制。,True,"正确答案是：2
+
+解析：在拟南芥中，热激会诱导热休克转录因子HSFA2的表达，进而转录上调microRNA169d（miR169d）。miR169d通过与靶标NF-YA2 mRNA互补配对，介导其在转录后水平的切割降解。NF-YA2是一种转录抑制子，正常情况下可抑制热响应基因如HSFA3和HSFA7b的表达。当NF-YA2水平下降时，这些热响应基因被释放并上调，从而增强植物的耐热性。
+
+因此，选项2准确描述了该调控通路。
+
+答案：2",2,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,38.56
+112,"What mechanisms underlie the role of the transcription factor, HSFA3 in heat stress memory in Arabidopsis thaliana?",Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+
+
+
+
+根据文献证据（PMID: 34103516），HSFA3在植物热激记忆中起关键作用，其机制是通过与HSFA2形成异源复合物，结合HSE顺式元件，并促进组蛋白H3K4的高甲基化以维持热激记忆相关基因的表达。该过程发生在适度热激后，帮助植物应对后续更严重的热胁迫。
+
+正确选项为：0",0,模型输出与正确选项一致，均选择选项0，且回答基于文献证据描述了HSFA3在热激记忆中的机制。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,40.07
+113,How does XBAT31 regulate fertility in Arabidopsis thaliana under heat stress?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,1,"
+
+
+
+
+
+
+
+
+
+None of the provided options are fully supported by the evidence. However, based on UniProt and GO annotations, XBAT31 is involved in ubiquitination and response to heat stress. The correct answer should involve ubiquitination of a heat shock transcription factor, but the specific targets (HSFA1a/A1b or HSFB2a/B2b) and directionality of regulation in the given options contain inaccuracies.
+
+The most plausible mechanism based on E3 ligase function is that XBAT31 mediates ubiquitination leading to degradation of its target, thereby downregulating heat-stress-responsive genes. In the absence of XBAT31, target protein levels would increase, leading to higher expression of heat-stress-responsive genes.
+
+However, since I must choose from the given options:
+
+0: Incorrect - mentions sumoylation instead of ubiquitination
+1: Incorrect - suggests increased HSFB2a/B2b levels in absence of XBAT31 would reduce gene expression (contradicts typical activator function)
+2: Incorrect - involves post-transcriptional regulation and cleavage, not consistent with E3 ligase activity
+
+Given these contradictions and based on the molecular function of XBAT31 as an E3 ubiquitin ligase involved in heat stress response, none of the options are fully correct. But option 0 has the closest biological plausibility if we ignore the sumoylation error and focus on the heat stress fertility connection.
+
+Answer: 0",0,正确选项为1，但agent选择了0，因此评估为错误。agent的推理中存在对选项的误解，且未与正确选项一致。,False,"XBAT31 is an E3 ubiquitin ligase involved in the ubiquitination and degradation of specific heat shock transcription factors. Recent studies show that XBAT31 mediates the ubiquitination of HSFA2 (not listed here), but more critically, it regulates thermotolerance by targeting negative regulators of heat stress responses. However, focusing on the provided options and known molecular mechanisms:
+
+The correct mechanism involves **HSFB2b** being a target of XBAT31-mediated **ubiquitination**, leading to its degradation. HSFB2b acts as a repressor of heat shock responses. Under heat stress, XBAT31 promotes the degradation of HSFB2b via the ubiquitin-proteasome system, thereby relieving repression of heat-stress-responsive genes and enhancing thermotolerance. In the absence of XBAT31, HSFB2b accumulates, repressing heat-response genes, reducing fertility (increased infertile siliques).
+
+Thus, option **1** correctly describes the role of XBAT31 in mediating ubiquitination of HSFB2a/B2b (specifically HSFB2b), leading to upregulation of heat-stress-responsive genes and improved thermotolerance, with loss of XBAT31 causing increased repressor levels, reduced gene expression, and infertility.
+
+Answer: 1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,,0,62.51
+114,"In Arabidopsis thaliana, which heat stress transcription factor has an antisense long non-coding RNA and how does it affect the expression of its sense coding gene?",Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+
+选项0正确。文献摘要明确指出：HSFB2a的表达受一个热诱导的天然长链反义RNA（asHSFB2a）调控；HSFB2a过表达导致asHSFB2a完全敲低，反之亦然；这种“阴阳”关系影响拟南芥的营养和配子体发育。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"正确答案是：0
+
+理由：在拟南芥中，HSFB2a 基因座上存在一个热诱导的天然反义长链非编码RNA（asHSFB2a），其表达与正义链HSFB2a呈相互抑制的“阴阳关系”。过表达HSFB2a会抑制asHSFB2a的表达，反之亦然。这种调控关系已被实验证实，并影响植物的营养和配子体发育。选项0准确描述了这一分子机制及其生物学意义。
+
+答案：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,24.29
+115,"In maize (Zea mays), the transcription factor HSF20 binds to the promoters of which genes to regulate heat stress tolerance?",Zea mays,ENVIRONMENT - ABIOTIC STRESS,1,"
+
+
+根据文献摘要，ZmHSF20作为热胁迫响应的负调控因子，结合到Cellulose synthase A2 (ZmCesA2) 和包括ZmHsf4在内的三个Class A Hsf基因的启动子上，抑制其表达。同时，ZmHSF4促进ZmCesAs的表达，而热处理在ZmHSF20和ZmHSF4依赖的方式下进一步降低纤维素含量。
+
+正确选项是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.37
+116,What is the locus identified by GWAS as associated with Tyramine levels in Arabidopsis and how significant was this association?,Arabidopsis thaliana,GENOME AND GENOMICS,0,"
+
+
+
+
+
+AT4G28680编码的TyrDC是催化酪氨酸生成酪胺的关键酶，且该基因被证实受胁迫诱导表达。文献PMID:19450582明确指出其功能为将L-酪氨酸转化为酪胺，与选项0描述完全一致。
+
+答案：0",0,模型输出明确选择了选项0，与正确选项一致。,True,"0: Tyramine was significantly associated with SNP m154079 (p = 1.28 × 10−9, LOD = 8.89), located at locus AT4G28680, that encodes a stress-induced tyrosine decarboxylase (TyrDC)",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,,0,42.62
+117,"How many metabolic traits showed an association found by GWAS with the locus in Chromosome 4 of Arabidopsis thaliana, harboring ACD6 (ACCELERATED CELL DEATH6)? ",Arabidopsis thaliana,GENOME AND GENOMICS,2,1,1,正确选项为2，agent的选项为1，两者不一致，因此评估为错误。,False,1,1,模型输出的选项为[1]，与正确选项[2]不一致，因此评估为错误。,False,success,,0,5.39
+118,Which gene has been identified by GWAS associated with 22 polyunsaturated triacylglycerol species (puTAGs) in Arabidopsis thaliana grown under stress conditions?,Arabidopsis thaliana,GENOME AND GENOMICS,2,"
+
+
+
+
+1",1,正确选项为2，agent的选项为1，两者不一致，因此agent的回答错误。,False,1,1,模型输出的选项为1，与正确选项2不一致，因此评估为错误。,False,success,,0,34.32
+119,Which locus has been associated by GWAS with root hair growth at moderate-low temperatures in Arabidopsis thaliana?,Arabidopsis thaliana,GENOME AND GENOMICS,2,"
+
+
+
+
+根据文献PMID: 35288564的摘要，Genome Wide Association Study (GWAS) 鉴定了**PEROXIDASE 62 (PRX62)** 和 PRX69 是在适度低温胁迫下调控根毛生长的关键蛋白。虽然两者均被提及，但明确指出 **PRX62 是主要作用蛋白（""PRX62, and to a lesser extent PRX69""）**。
+
+因此，正确选项是：
+2: Genome Wide Association Studies (GWAS) on Arabidopsis thaliana identified the uncharacterized PEROXIDASE 62 (PRX62: AT5G39580) as a key protein that regulates the conditional growth under moderate low temperature stress.",2,agent的选项与正确选项一致，均指向PRX62作为GWAS鉴定的关键蛋白。,True,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,,0,42.16
+120,"What are the phenotypes of the hypocotyls in dark-grown seedlings of the wild type and of the phyB, cop1, hy5 single mutants, the cop1 hy5 mutant and the phyB cop1 mutant?",Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,1,"无法通过提供的工具解答此问题，因为问题涉及植物突变体表型（如phyB、hy5、cop1等）在不同遗传背景下的下胚轴长度比较，而没有提供具体的基因名称或可用于查询的分子信息。该问题需要基于已知的植物光信号转导知识进行推理。
+
+根据植物生物学中对光敏色素和信号通路的理解：
+
+- **phyB** 是主要的红光受体，其突变导致下胚轴伸长（避荫反应增强）。
+- **hy5** 是转录因子，促进光形态建成，突变后下胚轴稍长。
+- **cop1** 是光形态建成的负调控因子（抑制光响应），突变后表现为组成型光形态建成，即下胚轴**短**。
+- 因此，**cop1** 单突变及与 **phyB** 或 **hy5** 的双突变均表现出短下胚轴。
+
+正确模式应为：
+- wild type: 正常
+- phyB: 下胚轴长
+- hy5: 下胚轴长
+- cop1: 下胚轴短（关键判别点）
+- cop1 hy5: 由于cop1是强效突变，掩盖hy5表型，仍为短
+- phyB cop1: cop1主导，下胚轴短
+
+因此，选项中只有 **2** 正确描述了：wild type, phyB, hy5 长；cop1, cop1 hy5, phyB cop1 短。
+
+答案：2",2,正确选项为1，但agent选择了2，因此评估为错误。,False,"在黑暗中生长的幼苗下胚轴表型分析如下：
+
+- 野生型（wild type）：由于缺乏光，下胚轴伸长，呈黄化现象，因此是**长下胚轴**。
+- phyB突变体：phyB是光敏色素B，感受红光。在暗处，phyB本就不活跃，因此phyB突变体在暗处与野生型类似，表现为**长下胚轴**。
+- hy5突变体：HY5是促进光形态建成的转录因子，但在黑暗中被COP1降解。hy5突变体在暗处仍表现为**长下胚轴**（因为黑暗中HY5本就不起作用）。
+- cop1突变体：COP1是抑制光形态建成的关键蛋白，在暗处活跃，降解HY5等促进光形态的蛋白。cop1突变体在暗处失去功能，导致光形态建成“去抑制”，即表现为短下胚轴、展开子叶等——即**短下胚轴**（类似光照下的表型）。
+- cop1 hy5双突变：cop1的短下胚轴表型依赖于HY5的活性，因为COP1的作用是通过降解HY5实现的。若同时缺失HY5，则cop1的“去黄化”表型被抑制，因此cop1 hy5双突变恢复为**长下胚轴**。
+- phyB cop1双突变：cop1突变主导表型，即使phyB缺失，在暗处仍表现为**短下胚轴**，因为COP1失活导致组成性光形态建成。
+
+综上：
+- 野生型：长
+- phyB：长
+- hy5：长
+- cop1：短
+- cop1 hy5：长（关键！不是短）
+- phyB cop1：短
+
+因此选项0错误（因说cop1 hy5短），选项1错误（说cop1 hy5长但又说cop1和phyB cop1短，逻辑混乱且cop1 hy5应为长），但根据上述分析，cop1 hy5应为长，而选项2说cop1 hy5是短——也错？
+
+再核对：
+
+正确表型应为：
+- 长下胚轴：WT, phyB, hy5, cop1 hy5
+- 短下胚轴：cop1, phyB cop1
+
+但cop1 hy5双突变实际是**长下胚轴**，因为HY5是COP1下游，没有HY5，COP1无法发挥作用，所以cop1的短下胚轴表型需要HY5存在。当hy5突变时，cop1的短下胚轴表型被抑制，即**cop1 hy5 是长下胚轴**。
+
+因此，**cop1 hy5 是长**，不是短。
+
+看选项：
+
+0: WT长，phyB、hy5更长，cop1、cop1 hy5、phyB cop1短 → 错（cop1 hy5应为长）
+
+1: WT、phyB、hy5、cop1 hy5长，cop1和phyB cop1短 → 错（cop1本身是短，但cop1 hy5是长，这句矛盾？不，它说cop1 hy5长，cop1短，是对的？等等）
+
+仔细读选项1：
+
+""Wild type, phyB, hy5 and cop1 hy5 seedlings are long, whereas cop1 and phyB cop1 seedlings are short.""
+
+→ 意思是：WT、phyB、hy5、cop1 hy5 都是长；cop1 和 phyB cop1 是短。
+
+但cop1单突变是**短**（正确），phyB cop1也是短（正确），cop1 hy5是长（正确），WT、phyB、hy5都是长（正确）。
+
+所以这个选项似乎正确？
+
+但注意：cop1单突变在暗处是短下胚轴（去黄化），正确。
+
+而cop1 hy5双突变：COP1作用的靶点，当HY5缺失，COP1无法发挥其促进降解的作用，因此cop1突变的“去黄化”表型（短下胚轴）依赖于HY5的存在。实际上，**cop1 hy5 双突变体在暗处表现为长下胚轴**，即恢复为黄化表型。
+
+因此，**cop1 hy5 是长**，正确。
+
+而选项1说：cop1 hy5 是长，cop1 是短 —— 正确。
+
+选项2说：cop1, cop1 hy5, phyB cop1 都是短 —— 错在 cop1 hy5 是短。
+
+选项0也错在 cop1 hy5 是短。
+
+因此只有选项1正确。
+
+答案：1",1,模型输出分析正确识别了cop1 hy5双突变体在暗处为长下胚轴，与正确选项1一致。,True,success,,0,23.4
+121,"What of the following differences between phytochromes A and B are correct, the genes that encode them, the chromophore that they attach, their photo-interconvertible forms, the waveband of maximum activity, their effect on seed germination (promotion or inhibition). ",Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"
+
+
+
+
+
+
+
+
+根据分析，phytochrome（光敏色素）的特性包括：编码它们的基因、它们结合的发色团（chromophore）、它们可相互转换的光异构形式（Pr和Pfr）、最大活性波段（红光和远红光），以及它们对种子萌发的影响（PHYB促进萌发，PHYA在特定条件下也参与调控）。这些信息均来自NCBI和UniProt数据库中PHYA和PHYB的基因与蛋白功能注释。
+
+因此，最完整的描述应包含所有上述属性。
+
+答案：2",2,正确选项为0，但agent选择了2，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,61.35
+122,Which protein has been identified as a molecular marker for ferroptosis in Arabidopsis thaliana and how is its response?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,1,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+根据文献（PMID: 21326210）信息，Kiss of death (KOD) 是一个编码25个氨基酸肽的基因，在拟南芥中诱导程序性细胞死亡。其表达可由生物和非生物胁迫诱导，在热激等胁迫下显著上调，并在GSH耗竭和ROS积累下游发挥作用。
+
+正确选项是：  
+**1**",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,76.65
+123,Which receptors of Brassinosteroids (BRs) have been identified in Arabidopsis thaliana and how are they activated in the presence of BRs?,Arabidopsis thaliana,HORMONES,0,"
+
+
+
+BRs are perceived by the plasma membrane-localized receptor BRI1, which forms a heterodimer with co-receptors BAK1 or SERK1 upon binding of brassinolide (BL). This heterodimerization is essential for BRI1 activation. Three functional BR receptors—BRI1, BRL1, and BRL3—are known in Arabidopsis, and BAK1's function is redundant with SERK1 in BR signaling.
+
+答案：0",0,模型回答正确，选项与正确选项一致，且内容准确描述了拟南芥中BR受体（BRI1、BRL1、BRL3）及其激活机制。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,47.89
+124,How do brassinosteroids (BRs) regulate Arabidopsis root development and how is the interaction between BRs and auxins in this process?,Arabidopsis thaliana,HORMONES,1,"
+
+
+
+
+BR signaling in Arabidopsis roots establishes a gradient along the longitudinal axis, with higher levels in the meristematic zone promoting cell division and lower levels in the elongation zone allowing for cell expansion. BR interacts with auxin by promoting auxin signaling (e.g., via PIN regulation) while inhibiting its biosynthesis, which is critical for maintaining meristem size and coordinated root growth.
+
+答案：0",0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,34.6
+125,How is the translational control of the translational control of the mRNA encoding transcription factor TL1-1 Binding Factor 1 (TBF1) in Arabidopsis thaliana in response to Pseudomonas syringae?,Arabidopsis thaliana,GENE REGULATION - TRANSLATION,0,"
+
+
+
+
+
+
+
+
+
+
+
+根据文献（PMID: 28514448）信息，TBF1的翻译调控机制涉及其mRNA前导序列中的两个上游开放阅读框（uORF1和uORF2），在正常情况下抑制主开放阅读框（mORF）的翻译。当受到病原菌（如Pseudomonas syringae）侵染时，这种抑制被解除，核糖体能够重新起始mORF的翻译。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，且解释符合文献PMID: 28514448中描述的TBF1翻译调控机制。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,76.74
+126,How is DYSFUNCTIONAL TAPETUM1 involved in pollen development in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+
+1",1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,30.58
+127,How are RALF peptides and LRX proteins involved in pollen tube growth in Arabidopsis?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+
+
+
+
+
+
+
+
+
+根据文献（PMID: 29242234）中的信息，RALF4和RALF19肽由花粉管分泌，并被BUPS1/2和ANXUR1/2受体感知，以维持花粉管完整性。而雌性来源的RALF34与RALF4/19竞争相同的受体，诱导花粉管破裂。
+
+正确答案是：0",0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,"2: Pollen tube growth is regulated during the process of fertilization by the interactions of extracellular signaling molecules (RALF peptides) with receptors of the LRX protein family at the pollen tube surface. RALF4 and RALF19 peptides, secreted by the pollen tube, are sensed by LRX proteins BUPS1/2 and ANXUR1/2, and are required to maintain pollen tube integrity. On the other hand, female-derived RALF34, which competes with RALF4/19 peptides for the same receptors, induces pollen tube bursting, leading to pollen tube rupture and sperm release.
+
+正确答案：2",2,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,89.06
+128,How are RHO OF PLANT and BDR8/9 proteins involved in pollen development in Arabidopsis?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+根据文献摘要，ROP蛋白在花粉萌发过程中起关键作用，BDR8和BDR9是ROP的效应因子，在成熟花粉粒中分布于细胞质和营养核中，并在萌发位点重新定位到质膜。BDR8和BDR9向质膜的再分布依赖于ROP，而不是相反。这支持了ROP-BDR8/BDR9信号通路在建立极性中的作用。
+
+选项0正确描述了这一过程：ROP在萌发位点与BDR8和BDR9相互作用，且BDR8/BDR9的重分布依赖于ROP激活。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，表明ROP和BDR8/9蛋白在花粉发育中的作用描述正确。,True,"正确答案是：0
+
+理由：在拟南芥花粉发育过程中，RHO OF PLANT (ROP) 蛋白是建立极性并启动花粉萌发的关键调控因子。研究表明，活性ROP蛋白在萌发位点的质膜上富集，早于萌发过程。随后，ROP招募BDR家族蛋白BDR8和BDR9，使其从细胞质和营养核重新定位到萌发位点的质膜。这与选项0的描述一致。而选项1提到的是花粉管破裂，与实际功能不符；选项2错误地将BDR8/9置于上游（先于ROP定位），与实验证据中ROP为初始极性信号、招募BDR蛋白的结果相悖。
+
+答案：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,22.34
+129,How is the microRNA OsmiR159 involved in pollen development in rice,Oryza sativa,GROWTH AND DEVELOPMENT,0,"
+
+
+
+根据文献摘要，OsmiR159通过靶向OsSPEAR2调控花粉中的淀粉生物合成。OsSPEAR2在成熟花粉中表达并定位于细胞核，与多个OsTCP蛋白（包括OsTCP14）相互作用。OsTCP14直接抑制淀粉合成关键基因OsUGP2的表达，而OsSPEAR2能够缓解这种抑制作用。当OsmiR159表达升高时，OsSPEAR2水平下降，导致OsTCP14对OsUGP2的抑制增强，从而降低淀粉含量，引起雄性不育。
+
+这与选项0描述一致。
+
+答案：0",0,模型输出的选项与正确选项一致，均选择0，表明OsmiR159通过靶向OsSPEAR2调控花粉中的淀粉生物合成，导致雄性不育。,True,"正确答案是：0
+
+理由：OsmiR159通过调控OsSPEAR2的表达影响水稻花粉发育。OsSPEAR2在成熟花粉中表达，定位于细胞核，与多个OsTCP转录因子（如OsTCP14）相互作用。OsTCP14抑制淀粉合成关键基因OsUGP2的表达，而OsSPEAR2与OsTCP14的互作可缓解这种抑制。当OsmiR159高表达时，OsSPEAR2被降解，导致OsTCP14对OsUGP2的抑制增强，淀粉积累减少，从而引起雄性不育。这一机制与选项0描述完全一致。
+
+答案：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,32.67
+130,How are BNP and VOZ1/2 involved in male gametophyte development in Arabidopsis?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+根据文献摘要，BINUCLEATE POLLEN (BNP) 蛋白在花粉发育中起关键作用，其缺失导致无法完成有丝分裂II，停滞在双细胞阶段。BNP与转录因子VOZ1和VOZ2相互作用，并促进它们通过内体系统组装并转运至细胞核，从而发挥转录调控功能。该过程涉及将VOZ1/2从prevacuolar compartments（前液泡区室）或multivesicular bodies（多泡体）转运至细胞核。
+
+因此，正确选项是：
+
+2: The DC1 domain protein BINUCLEATE POLLEN (BNP) is required to complete male gametophyte development, as its absence causes an arrest at the bicellular pollen stage. At this stage, BNP interacts with the transcription factors VOZ1 and VOZ2 in prevacuolar compartments or multivesicular bodies and facilitates their nuclear translocation, which is necessary to promote the transcriptional changes associated with the transition from the bicellular stage to the mature pollen stage.",2,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,"The agent's choice [0] does not match the correct option [2], indicating an incorrect response.",False,success,,0,24.32
+131,"Which transposable element family from tomato has been shown to be activated by drought stress, abscisic acid, and which epigenetic pathway is involved in its control?",Solanum lycopersicum,GENOME AND GENOMICS,2,"
+
+根据文献摘要，Rider转座元件在番茄中由干旱胁迫和脱落酸（abscisic acid）信号通路激活，其转录水平上升并与胞外DNA的积累相关，且该过程受RNA依赖的DNA甲基化途径调控。
+
+正确选项是：2",2,模型输出的选项与正确选项一致，均为2，表明模型正确识别了番茄中转座元件Rider在干旱胁迫和脱落酸激活下受RNA依赖的DNA甲基化途径调控的信息。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,21.98
+132,"Beyond tomato, in how many Solanaceae species has the Rider transposable element been detected, and which ones?",Solanum lycopersicum,GENOME AND GENOMICS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,"根据现有研究，Rider转座元件最初在番茄（Solanum lycopersicum）中被发现，并在其他茄科物种中进行了检测。研究表明，Rider元件不仅存在于番茄中，还被发现在包括Solanum pimpinellifolium、Solanum arcanum、Solanum pennellii、Solanum habrochaites、Solanum tuberosum（马铃薯）和Capsicum annuum（辣椒）等物种中。
+
+因此，除番茄外，Rider元件已在六个其他茄科物种中被检测到。
+
+正确答案是：2",2,模型回答的选项为2，与正确选项1不一致，因此评估为错误。模型回答中提到了六个其他物种，但正确选项指定为1，可能表示问题有特定计数或上下文，应以正确选项为准。,False,success,,0,7.93
+133,How many structural variants have been detected in the tomato panSV-genome and which superfamilies of transposable elements are contributing the most to structural variation?,Solanum lycopersicum,GENOME AND GENOMICS,0,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.56
+134,How does UV-B radiation increase Arabidopsis immunity against certain fungal pathogens?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项[0]与正确选项[1]不一致，因此判断为错误。,False,success,,0,6.17
+135,Which previously unidentified CLE peptide is responsible for repressing phloem differentiation in Arabidopsis thaliana?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,5.56
+136,What are the main differences in the secondary structural pattern from Arabidopsis thaliana miR171a compared to miR171c precursors?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,1,"None of the provided options can be verified as correct based on the available tools and information. The question pertains to structural features of miRNA precursors (specifically miR171a and miR171c), but no tool output or database query related to these miRNAs or their secondary structures was returned. Without access to RNAfold predictions, comparative sequence analysis, or specific annotations of miRNA precursor structures, the correctness of statements about ""conserved dsRNA regions above or below the miRNA/miRNA* duplex"" cannot be determined.
+
+Correct answer: **Insufficient data to determine correct option**.",0,模型未输出有效选项，正确选项为1，因此评估为错误。,False,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,11.57
+137,What happens to the MIR157c precursor in Arabidopsis thaliana when you replace the terminal branched loop with a small loop of 4 nt?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,2,"
+
+
+
+
+
+MIR157c is a microRNA that regulates vegetative phase change by targeting SPL genes (SPL3, SPL4, SPL5), which are key regulators of developmental timing and leaf development. The efficiency of miRNA processing from its precursor is influenced by the secondary structure of the hairpin loop. A smaller loop typically enhances Dicer-like enzyme recognition and processing efficiency, leading to higher levels of mature miRNA. Increased MIR157c activity results in stronger repression of SPL genes, delaying the juvenile-to-adult transition and reducing leaf number at flowering.
+
+Thus, a small loop in MIR157c would be processed more efficiently than the wild-type branched loop, leading to decreased leaf number upon flowering.
+
+Answer: 0",0,正确选项为2，模型输出选项为0，两者不一致。,False,1: MIR157c with the small loop will be processed much less efficiently and will cause a significant decrease in leaf number upon flowering compared to the wild-type branched loop version,1,模型选择的选项[1]与正确选项[2]不一致，因此评估为错误。,False,success,,0,43.72
+138,What is the impact of the C-C mismatches within miRNA/miRNA* duplexes on miRNA biogenesis in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,0,"
+
+
+
+
+
+Based on the abstracts of relevant literature, mismatches (unpaired nucleotides) in miRNA precursors significantly affect DCL1-mediated processing. Specifically, mismatches influence cleavage efficiency and precision, with certain mismatch positions being important for proper cleavage. C-C mismatches, as a type of mismatch, would impair proper base pairing and thus negatively affect miRNA processing.
+
+Answer: 0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"0: C-C mismatches consistently impair miRNA processing efficiency, as they disrupt DCL1-mediated cleavage, leading to reduced mature miRNA levels.",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,,0,41.42
+139,What structural diversity is exhibited by the COOLAIR lncRNA isoforms in Arabidopsis thaliana under warm conditions?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,0,"
+
+
+
+
+根据文献（PMID: 35978193）《In vivo single-molecule analysis reveals COOLAIR RNA structural diversity》的研究，拟南芥中主要的远端多聚腺苷酸化COOLAIR异构体在温暖条件下表现出三种主要的结构构象，这些构象的变化主要发生在与FLC转录起始位点互补的高变区H4-H6区域。
+
+因此，正确选项是：0。",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了COOLAIR lncRNA异构体在温暖条件下的结构多样性。,True,"正确答案是：0
+
+在拟南芥中，COOLAIR长链非编码RNA的远端多聚腺苷酸化主要异构体在温暖条件下表现出三种主要的结构构象，这些构象的变化主要发生在高度可变的H4-H6区域，该区域与FLC转录起始位点互补。这一结构多样性可能影响其对FLC基因的反义调控功能。
+
+答案：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,36.13
+140,Which are the most structurally stable regions of MIR319a sequential precursors in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,正确答案是：0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,5.54
+141,"What is the primary outcome, regarding chromatin organization, of the insertion of an inverted repeat (IR) near a gene in Plants?",Arabidopsis thaliana,GENE REGULATION - PTGS,2,"
+
+
+
+2",2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,29.57
+142,How does the Ea-IR inverted repeat regulate EFR expression in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - PTGS,1,"
+
+
+
+
+根据文献摘要，Ea-IR（EFR-associated IR）在EFR和XI-k基因之间形成一个抑制性染色质环，在无病原感染时抑制EFR表达，防止过度免疫反应。同时，该环结构阻止RNA聚合酶II在XI-k基因终止子后的通读。因此正确选项是：
+
+1",1,模型输出的选项与正确选项一致，均为1，表明模型正确识别了Ea-IR通过形成抑制性染色质环来调节EFR表达的机制。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,35.06
+143,"In Arabidopsis thaliana, where in the cell does ethylene bind to its receptor? What other genes are essential for the receptor to function correctly in the ethylene signaling pathway? ",Arabidopsis thaliana,HORMONES,2,"
+
+服务器暂时无法访问，但根据已知植物生物学知识：  
+拟南芥乙烯受体ETR1定位于内质网膜（endoplasmic reticulum membrane），通过其N端跨膜结构域感知乙烯。信号传导关键基因为RTE1、CTR1、EIN2和EIN3。RTE1是调控ETR1功能的重要因子，与ETR1共定位并可能相互作用。
+
+正确答案为：**2**。",2,,True,1,1,模型选择的选项1与正确选项2不一致,False,success,,0,17.414297
+144,What is the function of the peptides of the LURE family during Arabidopsis thaliana pollen tube growth and what are the pollen genes involved in this process?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,7.75
+145,What is the function of ethylene during fertilization in Arabidopsis thaliana and why is important for the establishment of a pollen tube block?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+根据文献证据（PMID: 23673332），受精过程激活了依赖于EIN3和EIN2的乙烯信号级联反应，该反应对于助细胞死亡和花粉管阻断的建立是必需的。这表明乙烯信号通路在防止多精入卵、确保正常有性生殖中起关键作用。
+
+正确答案：1",1,模型输出的选项与正确选项一致，均为1，表明模型正确识别了乙烯在拟南芥受精过程中的功能及其对花粉管阻断建立的重要性。,True,"1: The ethylene-response cascade is activated during fertilization, thus preventing the entry of a second pollen tube into the ovule and ensuring normal sexual fertilization. The process of fertilization activates two ethylene-activated genes, EIN3 and EIN2, that are necessary for the second synergid cell death and then the establishment of a pollen tube block.
+
+正确答案：1",1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,50.81
+146,How is negative signal transduction established as the hormonal and light signaling pathways in Arabidopsis thaliana?,Arabidopsis thaliana,HORMONES,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.61
+147,What is function of the homeotic genes in Arabidopsis thaliana flower development?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,8.1
+148,How is the NLP7 transcription factor involved in the regulation of hundreds of genes in the dynamic response of Arabidopsis thaliana roots to nitrate treatments?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+NLP7 is rapidly retained in the nucleus upon nitrate treatment and directly binds to promoters of early nitrate-responsive genes, initiating a transcriptional cascade. This mechanism amplifies the response through secondary transcription factors regulating a larger set of late-responsive genes. Option 0 correctly describes this process.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 98b58fdbc4 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,30.4
+149,How does the NLP7 transcription factor act as a nitrate sensor in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,0,"
+
+
+
+
+NLP7 acts as a nitrate sensor via its conserved NreA domain (aa 395–438), where nitrate binding induces conformational change, derepression, and nuclear retention upon phosphorylation by calcium-dependent kinases, enabling activation of nitrate-responsive genes through NRE elements.  
+正确答案是：0",,模型输出的选项与正确选项一致，均为0。,True,0,0,模型选项与正确选项一致。,True,success,,0,30.116008
+150,How Arabidopsis thaliana adapt its transcriptome and growth to different doses of nitrogen?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,0,"
+The correct answer is option 0. Despite technical issues with tool access, established knowledge in plant biology confirms that NRT1.1 (a nitrate transceptor) senses nitrogen levels and modulates TGA1 expression in roots, leading to dose-dependent regulation of nitrogen-responsive genes via a Michaelis-Menten-like transcriptional activation model, thereby coordinating transcriptome changes and growth.
+
+Answer: 0",,模型输出的选项与正确选项一致,True,0,0,,True,success,,0,26.221057
+151,"How is the transcriptomic response to nitrate coordinated across different root cell types, and what are the main regulatory proteins controlling cell-specific responses in Arabidopsis thaliana roots?",Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,1,"
+
+
+ABF2和ABF3是拟南芥根内皮层中硝酸盐响应的关键转录因子，调控细胞类型特异性反应。选项1正确。
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 3e75c95da5 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,27.21
+152,How to identify directly regulated genes by a transcription factor at genome scale?,Arabidopsis thaliana,GENOME AND GENOMICS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 93d79923b2 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.2
+153,Which is the sequence of symetric and asymetric division that determines stomatal patterning in Arabidopsis?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,"正确答案是：2
+
+在拟南芥中，气孔谱系起始于未分化的表皮前体细胞——小分生组织母细胞（MMC），该细胞进行不对称分裂，产生两个具有不同命运的子细胞：一个为普通表皮细胞（ pavement cell ），另一个为小分生组织细胞（meristemoid）。小分生组织细胞经历多轮不对称分裂以扩增细胞数量，随后分化为圆形的保卫母细胞（GMC），最后GMC通过一次对称分裂生成成对的保卫细胞，形成气孔复合体。
+
+因此，正确的选项是：2",2,模型输出的选项与正确选项一致，评估为正确。,True,success,"req_id: 15387aba6f PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.96
+154,What transcription factor regulate the key transitions on the process of differentiation from protodermal cells into guard cells in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 52b5c20e8d PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,7.94
+155,Which are the components of the peptide signaling process that controls the fate decision within stomatal linage in plants?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.99
+156,How is the signaling pathway triggered by peptide ligands that governs stomatal development in plants?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,"正确答案是：1
+
+理由：在拟南芥中，EPF1和EPF2作为信号肽与ER-TMM-SERK受体复合物结合，激活下游的YDA-MKK4/5-MPK3/6级联反应。MPK3/6通过磷酸化SPCH蛋白促使其降解，从而负调控SPCH（SPEECHLESS），抑制气孔发育。选项1准确描述了受体复合物组成（ER-TMM-SERK）和信号通路顺序（YDA-MKK4/5-MPK3/6），且正确指出对SPCH的负调控。而选项2错误地表述为“正调控”，选项0错误地将YDA置于受体复合物中（YDA是下游激酶，不参与受体复合物）。因此，正确选项是1。",1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,9.05
+157,How is the protein BASL involved in stomatal development in plants?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,0,0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.16
+158,How is the transcription factor TCP15 involved in the thermomorphogenic response in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,1,"
+
+我无法通过工具获取TCP15的详细信息，但基于已有的植物生物学知识，TCP15是参与拟南芥高温形态建成（thermomorphogenesis）的关键转录因子。它在高温下促进下胚轴和叶柄的伸长，调控生长相关基因的表达，并与PIF4协同作用于GA20ox1和HBI1等基因，促进赤霉素合成和细胞扩展。
+
+正确答案是：1.",1,模型回答与正确选项一致,True,1,1,,True,success,,0,13.308558
+159,Which processes are regulated by the transcription factor MIB2 during thermomorphogenesis in tomato?,Solanum lycopersicum,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"
+
+MIB2 is a transcription factor that regulates inflorescence branching in response to high temperature in tomato. It accumulates in meristems under elevated temperatures and activates SlCOL1 expression by binding to the G-box motif, thereby promoting inflorescence plasticity. Overexpression of SlCOL1 rescues the reduced branching phenotype of mib2 mutants, confirming the MIB2-SlCOL1 module's role in thermomorphogenesis. MIB2 does not regulate flowering, despite being expressed in all meristems.
+
+正确答案是：0。",,模型回答正确选择了选项0，与正确选项一致。,True,0,0,,True,success,,0,17.383229
+160,How TCP transcription factors interact with PIF4 in Arabidopsis thaliana and in which process is this relevant?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+PIF4 and class I TCPs interact to regulate thermomorphogenesis in Arabidopsis thaliana, particularly under high temperature. TCPs enhance PIF4 activity by binding to promoters of shared target genes and promoting hypocotyl and petiole elongation. The interaction between PIF4 and TCP15 was validated via BiFC and yeast two-hybrid assays. This process is essential for thermomorphogenic growth.
+
+Answer: 2",2,模型回答内容与正确选项一致。,True,2,2,模型选项与正确选项一致。,True,success,,0,24.135951
+161,Which lncRNA is involved in the thermomorphogenic response in Arabidopsis thaliana and how?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,6.41
+162,"The N-end rule pathway regulates protein destruction through the recognition of N-terminal degradation sequences (N-degrons) in target proteins, which promote their ubiquitylation by speciﬁc E3 ligases. Which Arabidopsis PCR2 subunit Is regulated by the N-end rule pathway?",Arabidopsis thaliana,GENE REGULATION - EPIGENETICS AND TGS,1,"
+
+The abstract of the article with PMID 30575749 clearly states that the plant PRC2 subunit VERNALIZATION 2 (VRN2) is regulated by the N-end rule pathway via its N-degron. This matches option 1.
+
+Answer: 1",1,,True,1. The plant PRC2 subunit VRN2 as a substrate of the N-end rule pathway via its conserved N-terminal Cys2 residue.,1,模型选项与正确选项一致,True,success,,0,16.468448
+163,How does the gene network regulated by the gene FLOWERING LOCUS C (FLC) works in Arabidopsis thaliana to regulate flowering time?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+FLC is a central repressor of flowering in Arabidopsis thaliana, activated by FRIGIDA (FRI) and the FRI-complex, which promotes expression of FLC to delay flowering. FLC then represses key floral integrators such as FT, SOC1, and FD. Upon vernalization, cold induces VIN3 and VRN2, leading to epigenetic silencing of FLC via chromatin modifications. This repression allows derepression of FT, SOC1, and FD, thereby inducing flowering. Option 1 correctly describes this regulatory network.
+
+答案：1",1,模型回答内容与正确选项一致，均描述了FLC作为开花抑制因子及其在春化作用下的调控机制。,True,1,1,模型输出的选项与正确选项一致，均为1。,True,success,,0,34.018997
+164,What is the pleiotropic effect of the gene FLOWERING LOCUS C (FLC) in the life cycle of Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+The gene FLOWERING LOCUS C (FLC) is a well-known repressor of flowering in *Arabidopsis thaliana*, and its expression is downregulated by vernalization. FLC also influences seed germination in a pleiotropic manner, where functional FLC and FRIGIDA (FRI) alleles reduce germination propensity in progeny of vernalized plants. Disruption of FLC enhances germination response under these conditions, indicating its repressive role. This reflects divergent regulatory pathways for flowering and germination.
+
+Correct answer: 2.",2,模型回答内容与正确选项一致，均指出FLC在开花和种子萌发中的多效性作用。,True,0,0,模型输出选项0，与正确选项2不一致,False,success,,0,16.081591
+165,How is FLOWERING LOCUS C (FLC) expression reset during the reproductive stage in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+根据文献（PMID: 35234936）的摘要，FLC在胚胎发育过程中被ABSCISIC ACID-INSENSITIVE 3 (ABI3)重新激活。ABI3结合FLC启动子上的顺式作用元件CME，并在胚胎发育后期将FLC染色质重置为活跃状态。此外，ABI3的功能依赖于早期胚胎中LEAFY COTYLEDON 1 (LEC1)对远端CCAAT基序的结合。ABI3招募FRIGIDA复合物，增加H3K4me3并减少H3K27me3修饰，从而重置FLC表达。
+
+正确选项是：1。",1,模型回答内容与正确选项1一致，描述了FLC在胚胎发育过程中被ABI3重新激活的机制。,True,1,1,模型输出的选项与正确选项一致。,True,success,,0,23.773281
+166,How does FLOWERING LOCUS T (FT) induces flowering in Arabidopsis plants?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+0",,模型选择的选项0与正确选项2不一致,False,0,0,模型选择的选项0与正确选项2不一致,False,success,,0,11.626578
+167,"What are the number of the overlapping up-regulated genes under heat stress in Arabidopsis thaliana, Nothofagus pumilio and Populus tomentosa leaves, and which are the overrepresented Gene Ontology biological processes promoted by heat stress in common to the three species?","Nothofagus pumilio, Arabidopsis thaliana, Populus tomentosa",ENVIRONMENT - ABIOTIC STRESS,0,"
+
+
+The provided articles do not contain information about overlapping up-regulated genes or shared Gene Ontology (GO) biological processes under heat stress in *Arabidopsis thaliana*, *Nothofagus pumilio*, and *Populus tomentosa*. The first article focuses on *Clematis* species, while the second discusses universal stress proteins without comparative multi-species analysis. None of the options can be fully validated from the retrieved data. However, Option 0 includes GO terms highly consistent with known heat stress responses—such as ""response to heat,"" ""protein folding,"" ""response to unfolded protein,"" and ""cellular response to stress""—which are evolutionarily conserved across plant species and most plausibly represent common overrepresented biological processes. Additionally, 68 common genes is a biologically reasonable number for cross-species conservation under heat stress.
+
+Thus, the most accurate answer based on biological knowledge and partial evidence is:
+
+**0**",,模型回答选择了选项0，与正确选项一致。,True,0,0,,True,success,,0,28.756609
+168,How is the transcription factors AREB1 involved in the response to drought stress in populus trichocarpa?,Populus trichocarpa,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+
+0",,模型选项与正确选项一致,True,0,0,模型输出的选项与正确选项一致。,True,success,,0,17.67898
+169,What is the distribution pattern of heterochromatic and euchromatic marks at the periphery of tomato nuclei?,Solanum lycopersicum,GENOME AND GENOMICS,2,"1768808183580.quetion 似乎是无效的查询内容，可能是错误或乱码。基于问题本身是关于番茄（tomato）细胞核外围染色质状态的选择题，应查找与“tomato nuclear periphery chromatin heterochromatin euchromatin”相关的科学文献证据。
+
+使用 PubMed 搜索相关关键词：
+
+
+无相关文献返回，但根据植物细胞核结构的一般知识，在多数真核细胞中，异染色质（heterochromatin）通常富集于核膜边缘（nuclear periphery），而常染色质（euchromatin）多位于核中央。这一规律在植物如拟南芥和番茄中也得到证实。
+
+因此，正确答案应为：  
+**2: chromatin that carries heterochromatic marks is highly enriched at the nuclear periphery in tomato nuclei, while euchromatic marks are depleted.**
+
+答案：2",2,模型输出选项与正确选项一致，基于植物细胞核结构的一般知识推断正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: ca5c9ed5fb PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,20.3
+170,What changes do telomeres undergo in the Arabidopsis nuc1 mutant?,Arabidopsis thaliana,GENOME AND GENOMICS,2,"
+
+
+根据文献摘要，nuc1突变体表现出缩短的端粒，并且端粒与核仁的关联减少。因此正确选项是：
+
+2: The nuc1 mutants exhibit shortened telomeres compared to wild-type Arabidopsis. In addition, telomeres in nuc1 mutants are no longer clustered in the nucleolus.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,"2: The nuc1 mutants exhibit shortened telomeres compared to wild-type Arabidopsis. In addition, telomeres in nuc1 mutants are no longer clustered in the nucleolus.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,"req_id: 17419266d5 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,27.57
+171,"In Arabidopsis thaliana, how is the expression of TFL1 switched off in floral primordia?",Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+Based on the provided information, particularly from PMID 28873010, APETALA1 (AP1), a MADS-box transcription factor, suppresses TFL1 transcription in floral primordia. This suppression ensures that TFL1 is not expressed where flowers are forming. Therefore, the correct answer is:
+
+0",,,True,0,0,,True,success,,0,24.280743
+172,How post-transcriptional and/or post-translational mechanisms are involved in circadian clock regulation in Arabidopsis thaliana and Drosophila through the action of PROTEIN-ARGININE-METHYL-TRANSFERASE 5?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+选项2正确。PRMT5通过甲基化剪接因子调控PRR9和PER的剪接，影响植物和果蝇的生物钟，突变体表现出广泛的剪接缺陷。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 95d9a21f9b PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,32.68
+173,How does the circadian clock function in individual cells of Arabidopsis? Are all cell types having the same phase of gene expression ?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+
+
+
+
+
+
+
+0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 5c1c59c1bc PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",2,52.78
+174,"Photoperiodic flowering response mechanism can be described by a coincidence model, in which the photoperiodic response is driven by the coincidence of the external light signal and the internal rhythms. In Arabidopsis, which are the main genes that explain this model on photoperiodic flowering and how they are interacting?  ",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+Based on the provided options and scientific understanding of photoperiodic flowering in Arabidopsis:
+
+- The coincidence model involves both internal circadian rhythms and external light signals.
+- Key genes include **CONSTANS (CO)**, **FLOWERING LOCUS T (FT)**, **FKF1**, and photoreceptors like **PHYTOCHROME A** and **CRYPTOCHROMES**.
+- **CO** expression is regulated by the circadian clock, peaking in the evening.
+- In long days, this peak coincides with light, allowing photoreceptors to stabilize CO protein.
+- Stabilized CO activates **FT**, which promotes flowering.
+- In short days, CO peaks during darkness, leading to its degradation and no FT activation.
+
+Option 0 incorrectly states that PHYB activates CO and cryptochromes promote degradation — in fact, **PHYA and cryptochromes stabilize CO in blue/far-red light**, while **PHYB actually represses flowering** under some conditions.
+
+Option 2 downplays the role of day-length and light in flowering, which is incorrect — photoperiod is central to the process.
+
+Option 1 accurately describes:
+- Circadian regulation of FKF1,
+- Light-dependent stabilization of CO by PHYA and cryptochromes,
+- Activation of FT only when CO expression coincides with light (long days),
+- Lack of activation in short days due to dark-phase CO expression.
+
+Thus, the correct answer is:
+
+**1**",1,,True,1,1,模型输出的选项与正确选项一致。,True,success,,0,37.03198
+175,"In the circadian timing system, time-of-day-dependent activity of the core oscillator genes involves chromatin-based regulation. How epigenetic mechanisms shape TOC1 rhythmic expression in Arabidopsis thaliana and which are the genes involved.",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+TOC1 mRNA peaks at dusk, not dawn. H3Ac (histone H3 acetylation) is a hallmark of active transcription and positively correlates with TOC1 expression. CCA1 binding reduces H3Ac levels, leading to repression of TOC1. Option 1 correctly describes these molecular events.
+
+1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"正确的选项是：**1**
+
+理由如下：
+- TOC1表达在黄昏（dusk）达到峰值，而非黎明（dawn），因此选项0错误（它说TOC1在dawn峰值）。
+- H3Ac（组蛋白H3乙酰化）是活跃转录的标志，应在TOC1表达前升高，出现在黄昏前，与mRNA峰值一致——选项1正确描述了这一点。
+- CCA1结合TOC1启动子后，招募组蛋白去乙酰化酶，导致H3Ac水平下降，从而抑制TOC1表达——这与文献中CCA1介导转录抑制的机制一致。
+- SSRP1作为FACT复合物成分，确实在昼夜节律中与TOC1启动子结合，模式与TOC1 mRNA振荡同步。
+- 选项2错误地将H3K3me和H3K4me混用（H3K3me不存在或无关），且H3K27me通常为抑制标记，但在此上下文中并非主要机制；而H3Ac动态变化才是关键。
+
+综上，正确答案是：
+
+**1**",1,模型输出的选项与正确选项一致，评估为正确。,True,success,"Failed to transform agent message: req_id: 560bb8a91a PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",2,36.62
+176,What is the role of the SOG1 transcription factor in the Arabidopsis thaliana DNA damage response and what processes its target genes are involved in?,Arabidopsis thaliana,GENOME AND GENOMICS,2,"
+
+
+
+
+SOG1 is a NAC transcription factor and a major regulator of the DNA damage response. It promotes cell cycle arrest, programmed cell death, and DNA repair to maintain genome stability. SOG1 directly activates hundreds of genes involved in DNA damage-associated processes. This is supported by gene annotation (NAC domain), functional data (GO:77 DNA damage checkpoint signaling), and literature showing SOG1's role in activating DNA repair genes like BRCA1 and RAD54.
+
+答案：2",2,模型输出的选项与正确选项一致，评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: 2990018e23 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,38.96
+177,"In Arabidopsis thaliana, what are the proteins depositing and removing the monoubiquitination of histone H2B and what are the phenotypes of the corresponding mutants?",Arabidopsis thaliana,GENE REGULATION - EPIGENETICS AND TGS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,"正确答案是：0
+
+解析：在拟南芥（Arabidopsis thaliana）中，组蛋白H2B的单泛素化由E3泛素连接酶HUB1和HUB2以及E2泛素结合酶UBC1、UBC2和UBC3催化完成。去泛素化则由去泛素化酶UBP22和UBP26负责。HUB1、HUB2及UBC1/2/3突变体植株可存活，表现出较轻微的表型缺陷，包括种子休眠、细胞周期、生物钟和开花时间调控等方面。UBP22突变体无明显表型，而UBP26突变体表现为早花和高频率的种子败育，这与选项0描述一致。
+
+其他选项存在关键错误：选项1错误地将HUB1/HUB2归为E2酶，并称突变体不存活，与事实不符；选项2错误地将去泛素化酶列为UBP5/12/13，而非UBP22/26。
+
+答案：0",0,模型输出的选项与正确选项一致，基于正确选项[0]评估为正确。,True,success,"Failed to transform agent message: req_id: b4b5d1ba77 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,8.98
+178,What chromatin modifications are deposited or removed around a double strand break in Arabidopsis thaliana?,Arabidopsis thaliana,GENOME AND GENOMICS,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.04
+179,How UV-induced DNA damage is repaired in Arabidopsis thaliana?,Arabidopsis thaliana,GENOME AND GENOMICS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,6.13
+180,What photoreceptors are found in Arabidopsis thaliana plants and what are their subcellular localizations?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.23
+181,Which proteins reside in siRNA-bodies of Arabidopsis thaliana cells and what is the impact of depleting these proteins?,Arabidopsis thaliana,GENE REGULATION - PTGS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,7.96
+182,What type of RNA binds to the plant protein SUPPRESSOR OF GENE SILENCING 3 (SGS3)?,Arabidopsis thaliana,GENE REGULATION - PTGS,2,"
+
+SGS3 binds to double-stranded RNA with long 5’ overhang.
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,0: SGS3 binds to single-stranded RNA,0,正确答案是选项2，但模型选择了选项0，因此回答错误。,False,success,"Failed to transform agent message: req_id: 431faaaecd PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,21.12
+183,"In Arabidopsis thaliana, light regulates alternative splicing of RS31. How does light quality and quantity affect this regulation of alternative splicing? ",Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"
+
+
+根据文献摘要，RS31是参与光依赖性选择性剪接调控的SR蛋白家族成员之一。研究显示，光信号会引发植物体内广泛的转录组重编程，包括对多个基因（如光信号和光合作用相关基因）的选择性剪接（AS）进行精细调控。该过程与磷酸化信号有关，并且RS蛋白在光诱导的AS中起关键作用。
+
+虽然摘要未直接说明“splicing index”的变化方向，但结合上下文及植物生物学常识：**在光照下，植物启动光形态建成（photomorphogenesis），此时RS蛋白被激活并调控特定基因的剪接模式以适应光环境**。因此，**光照通常促进功能性剪接事件的发生，导致成熟mRNA多样性增加或功能增强，即剪接指数（splicing index）上升**。
+
+此外，RS蛋白的功能具有冗余性和特异性，且其活性受光质影响。已有研究表明蓝光（470 nm）通过隐花色素强烈影响剪接调控，而红光（660 nm）也通过光敏素发挥作用，两者均可引起类似白光的效果。
+
+综上所述，正确选项应为：
+
+**0**",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"根据已知研究，拟南芥中RS31的可变剪接受光调控，其剪接指数（splicing index）在光照下增加，并且这种变化依赖于光强——即光强越高，剪接指数越高。此外，蓝光（470 nm）能够有效诱导该变化，而红光（660 nm）的影响较小或无效，说明该过程主要由蓝光受体（如隐花色素）介导。
+
+因此，正确答案是：  
+**1**",0,模型回答中提到了光强和蓝光的影响，但错误地选择了选项1，而正确选项为0，因此评估为不正确。,False,success,,0,35.92
+184,What is the light photosensory pathway that regulates RS31 alternative splicing in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,1,"
+
+
+Based on the absence of direct literature evidence linking RS31 to phytochrome/cryptochrome or chloroplast retrograde signaling in the context of alternative splicing, and given the known roles of these pathways:
+
+Phytochromes and cryptochromes are well-established photoreceptors mediating light-regulated gene expression and alternative splicing. Mutants in these pathways typically show disrupted light-responsive splicing. Chloroplast retrograde signaling primarily regulates nuclear gene expression related to photosynthesis but is less commonly associated with systemic alternative splicing changes.
+
+The most consistent biological model is that light sensed by phytochromes mediates alternative splicing responses, including systemic effects from leaves to roots.
+
+Answer: 0",0,模型选择的选项为0，与正确选项1不一致，因此评估为错误。,False,"正确的答案是：1
+
+理由：研究表明，RS31的可变剪接对光/暗周期的响应在光敏色素和隐花色素信号突变体中未受影响，说明该过程不依赖于这些经典的光感受器。相反，光被叶绿体感知，并触发叶绿体逆行信号（chloroplast retrograde signaling），该信号可在植物体内移动，并介导根部的可变剪接变化，表明存在从叶片到根的长距离信号传递。这支持选项1的描述。
+
+答案：1",1,模型输出与正确选项一致，评估为正确。,True,success,,0,27.68
+185,What is the impact of RNA Pol II elongation in the regulation of alternative splicing by light in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.17
+186,"In Arabidopsis thaliana, which is the signaling molecule that regulates alternative splicing by light in roots?",Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,"
+
+
+
+根据文献PMID: 24763593的摘要，光通过叶绿体逆行信号调控拟南芥核内选择性剪接，且该效应在根中仅当与光合组织的通信未被中断时才发生。这表明信号分子在植物体内传递，并依赖于功能正常的叶绿体。
+
+正确选项是：  
+**1**",1,正确选项为2，但agent的选项为1，两者不一致，因此agent的回答错误。,False,0,0,正确答案是选项2，但agent选择了选项0，因此回答错误。,False,success,"Failed to transform agent message: req_id: 0f3ba5ce86 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",2,30.05
+187,"In Arabidopsis thaliana, what is the regulation of alternative splicing by light in leaves and roots?",Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,"
+
+
+根据文献摘要，光通过叶绿体感知并启动光合作用，合成的糖作为移动信号通过韧皮部运输到根部。在根中，糖代谢激活线粒体中的TOR激酶，进而调控选择性剪接。在叶片中，尽管存在来自光合电子传递的逆行信号调节剪接，但TOR激酶也参与调控。
+
+正确选项是：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: 6a0844d4fe PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",2,25.74
+188,What is the effect of nitrogen (N) on the control of flowering time in Arabidopsis thaliana and what are the key genes involved in this process?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+
+
+Low nitrogen conditions accelerate flowering in Arabidopsis, as supported by the study with PMID 33963081. This contradicts option 0 (high N accelerates flowering) and supports the first part of options 1 and 2. However, option 2 includes additional nuance — that extreme N deficiency delays flowering — which aligns with known physiological trade-offs. Moreover, SOC1, CO, and FT are well-established floral integrators under nutrient signaling, while VRN2 is more associated with vernalization rather than direct N regulation.
+
+Correct answer: **2**",2,模型输出的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,"req_id: b7127ee972 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,47.79
+189,What is the cellular mechanism involved in the growth of the hypocotyl in Arabidopsis thaliana? What are the hormonal pathways participating in this process?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: d06fb11432 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,6.16
+190,What is the impact of Nitrate (N) in Arabidopsis thaliana auxin homeostasis during lateral root development and what are the key genes involved in this process?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+根据文献（PMID: 20142497）信息，硝酸盐诱导miR393表达，而miR393通过转录后调控调节AFB3水平。AFB3是生长素受体，参与硝酸盐响应的侧根发育调控。选项1正确描述了这一机制。
+
+答案：1",1,模型输出的选项与正确选项一致，均选择选项1，且解释符合文献PMID: 20142497中描述的硝酸盐通过miR393调控AFB3影响拟南芥侧根发育的机制。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 9eddee33c2 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,36.85
+191,What is the effect of nitrogen on the root hair development in Arabidopsis thaliana and what are the key genes involved in this process?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,"1: In Arabidopsis thaliana, nitrate and not a product of nitrate reduction is able to stimulate root hair initiation. In response to nitrate, NRT1.1 transceptor and TGA1/TGA4 transcription factor regulates expression of the CPC root hair cell specification gene affecting root hair density.",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,,0,6.15
+192,How are the transcription factors TGA involved in the nitrate response of Arabidopsis thaliana roots?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+TGA1 and TGA4 are key transcription factors in Arabidopsis thaliana roots that regulate nitrate uptake in response to shoot-derived signals. They bind to promoters of nitrate transporter genes like NRT2.1/2.2, where CEPD peptides act as coactivators to enhance nitrate uptake under deficiency, while GrxS proteins act as corepressors under sufficiency. Double mutants of TGA1/TGA4 show impaired regulation of lateral root development and nitrate acquisition under fluctuating nitrogen conditions.
+
+正确答案是：2。",2,,True,2,2,模型选项与正确选项一致。,True,success,,0,19.315461
+193,Which genes encoding transcription factors have been identified as bona fide direct targets of the Arabidopsis thaliana transcription factor BRC1?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+0",0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,81.11
+194,What is the role of the TCP transcription factor BRANCHED1 in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+BRC1抑制腋芽生长，作用于局部并导致细胞生长停滞。正确选项是：2。",2,模型输出的选项与正确选项一致，均为2。,True,2: BRC1 acts locally inside the buds as an integrator of signals suppressing bud outgrowth and translates them into a response of cell growth arrest.,2,模型输出的选项与正确选项一致，均为2，因此判断为正确。,True,success,,0,31.67
+195,Which protein acts as the receptor of strigolactones in Arabidopsis thaliana?,Arabidopsis thaliana,HORMONES,2,"
+
+
+
+
+
+AT3G03990基因编码α/β-水解酶超家族蛋白，别名为D14或AtD14。UniProt信息明确指出其为独脚金内酯受体（strigolactone receptor），具有水解独脚金内酯并形成共价中间体的能力，从而启动信号传导。该蛋白属于α/β-水解酶折叠结构域（InterPro: IPR000073, Pfam: PF12697），具备典型的催化三联体机制。
+
+选项0中的GAI和选项1中的KAI2均非此基因的正确名称。正确答案是选项2：The receptor of strigolactones in Arabidopsis thaliana is AtD14, D14, AT3G03990。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,"2: The receptor of strigolactones in Arabidopsis thaliana is AtD14, D14, AT3G03990.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,"Failed to transform agent message: req_id: e2a013aba5 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,44.42
+196,Which hormone accumulates in Arabidopsis thaliana dormant axillary buds in response to the activity of BRANCHED1?,Arabidopsis thaliana,HORMONES,0,"
+
+
+
+
+
+BRANCHED1 (TCP15) 是调控植物侧芽休眠的关键转录因子。已有研究表明，ABA 在侧芽休眠中起促进作用，而 BRANCHED1 的活性与 ABA 信号通路密切相关。
+
+正确答案是：0: Abscisic acid (ABA) accumulates in dormant axillary buds in response to the activity of BRANCHED1
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，对应Abscisic acid (ABA)。,True,0: Abscisic acid (ABA) accumulates in dormant axillary buds in response to the activity of BRANCHED1,0,模型输出的选项与正确选项一致，均为0，因此判断为正确。,True,success,"Failed to transform agent message: req_id: a2fe4ee141 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,39.76
+197,What is the impact of low levels of nitrates in Arabidopsis thaliana during root hair development and what are the key genes involved in this process?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,1,"
+
+
+
+
+
+根据文献摘要（PMID: 37699396），低氮通过上调TAA1和YUCCA8增强生长素在根尖的积累，生长素通过AUX1和PIN2运输到根毛区，激活ARF6/8，进而促进RHD6-LRL3模块，驱动根毛伸长。
+
+正确选项是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 9531a8d842 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,44.45
+198,How  receptor FERONIA and TOR kinase pathway control in Arabidopsis thaliana root hair growth under low temperature condition?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,"
+
+根据文献摘要，低温（10°C）通过FERONIA和TOR激酶通路诱导拟南芥根毛（RH）显著伸长。FERONIA感知由低温导致的营养受限，并激活TOR下游组分以触发RH生长。ROP2参与该过程并连接FER与TOR。此外，氮营养受限可通过NRT1.1依赖的方式模拟低温下的RH生长反应。
+
+正确选项为：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了FERONIA和TOR激酶通路在低温条件下控制拟南芥根毛生长的机制。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: ea8f8a399e PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,22.58
+199,How the long non-coding RNA APOLO is able to control root hair growth under cold in Arabidopsis thaliana and which are the genes involved?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,1,"
+
+
+
+
+根据文献摘要，APOLO是一种长链非编码RNA（lncRNA），它识别根毛主调控因子RHD6的基因座并调节其转录活性，导致在低温下通过激活转录因子基因RSL4促进根毛伸长。此外，APOLO与转录因子WRKY42相互作用，并调节其与RHD6启动子的结合。
+
+正确选项是：1",1,模型输出的选项与正确选项一致，均为1，表明模型正确识别了APOLO通过调节RHD6和RSL4等基因来控制根毛生长的机制。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: c963bc35d8 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,37.51
+200,How auxin control ROS homeostasis and Root hair growth in Arabidopsis thaliana and which are the genes involved?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,1,"
+
+根据文献摘要（PMID: 28461488），RSL4 是由 auxin 通过多个 ARFs 转录调控的转录因子，auxin 通过激活 RSL4 来控制 ROS 介导的极性生长，而 RSL4 进一步上调编码 NADPH 氧化酶和 III 类过氧化物酶的基因表达，从而催化 ROS 的产生。
+
+正确选项是：**1**。",1,模型回答正确，正确选项为1，模型输出与正确选项一致。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 6663ff7c71 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,21.3
+201,How RALF1-FERONIA regulates specific mRNA translation in root hairs in Arabidopsis thaliana and which are the genes involved in this process?,Arabidopsis thaliana,GENE REGULATION - TRANSLATION,2,"
+
+根据文献摘要（PMID: 31904511），RALF1 是一种细胞外肽，通过其受体 FERONIA 受体激酶促进根毛顶端生长。RALF1 促进 FERONIA 介导的 eIF4E1 磷酸化，而磷酸化的 eIF4E1 增强 mRNA 亲和力，从而调节 mRNA 翻译和蛋白质合成。该模块影响的 mRNA 包括 ROP2 和 RSL4，它们是根毛细胞极性和生长的重要调控因子。
+
+正确选项为：**2**。",2,模型输出与正确选项一致，均选择选项2，且解释符合文献摘要内容。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 288dbd6eb0 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,22.5
+202,"In Arabidopsis thaliana, which transcription factors control DNA Damage Response genes in response to replication stress together with SOG1 ? Do they function cooperatively or antagonistically to control the expression of genes involved in cell cycle progression ?",Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,"
+
+根据文献摘要，E2FA和E2FB与SOG1共享许多靶基因，并参与植物对复制应激的响应。E2FB可在某些情况下拮抗或协同SOG1发挥作用，且能作为正或负调控因子调节共享靶基因，特别是抑制细胞周期停滞相关基因以促进细胞周期进程。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了E2FA和E2FB作为与SOG1共同控制DNA损伤响应基因的转录因子，并描述了它们的功能关系。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,19.87
+203,"How does the ATR-WEE1 module control SOG1 expression in response to replication stress in Arabidopsis thaliana, and what are the key proteins involved in this regulatory mechanism?",Arabidopsis thaliana,GENE REGULATION - TRANSLATION,1,"
+
+根据文献摘要（PMID: 37159556），在拟南芥中，ATR-WEE1激酶模块通过磷酸化GCN20并促进其降解，从而抑制GCN20-GCN1复合物的翻译抑制功能，最终**促进SOG1的翻译**。这与选项1描述一致。
+
+正确答案是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,0,0,模型输出的选项[0]与正确选项[1]不一致，因此评估为错误。,False,success,,0,22.42
+204,"In Arabidopsis thaliana, how does TSK recognized newly replicated chromatin ?  How does it mediate genomic instability in atxr5 atxr6 mutants?",Arabidopsis thaliana,GENOME AND GENOMICS,0,"
+
+根据文献摘要（PMID: 35298257），TSK通过其TPR结构域特异性识别组蛋白变体H3.1，并在DNA复制后依赖于ATXR5/ATXR6催化的H3K27单甲基化来调控基因组稳定性。在atxr5 atxr6突变体中，H3.1未被甲基化，导致TSK持续结合并促进同源重组，引发异染色质扩增和基因组不稳定。
+
+正确选项是：0",0,模型输出的选项与正确选项一致，基于文献摘要（PMID: 35298257）正确描述了TSK通过TPR结构域识别H3.1、依赖ATXR5/ATXR6的H3K27单甲基化调控基因组稳定性，以及在突变体中导致基因组不稳定的机制。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: c035be23ef PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,24.4
+205,"How does SMR1 control leaf epidermis development at the cellular level in Arabidopsis thaliana, and how does it contribute to the plant’s response to environmental conditions? ",Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,1,"
+
+
+
+
+SMR1（即LGO）是细胞周期抑制蛋白，抑制CYCA-CDKB1复合物活性，从而抑制细胞分裂。在干旱条件下，SMR1被上调，抑制叶生长，减少蒸发表面，提高抗旱性。因此正确选项为：
+
+1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"SMR1 (SIAMESE-RELATED 1) is a plant-specific cell cycle inhibitor that regulates the transition from cell proliferation to differentiation in Arabidopsis. In leaf epidermis development, SMR1 acts by inhibiting cyclin-dependent kinase complexes such as CYCA-CDKB1, thereby restraining excessive cell division in the stomatal lineage. It promotes the exit from the cell cycle, allowing stomatal lineage ground cells to differentiate into pavement cells or other epidermal cell types. This inhibition of proliferation ensures proper spacing and density of stomata.
+
+Under drought stress, SMR1 is up-regulated. Increased SMR1 expression reduces the stomatal index by limiting the amplifying divisions of stomatal precursor cells, thus decreasing stomatal density. Lower stomatal index reduces transpirational water loss, enhancing drought tolerance.
+
+Therefore, SMR1 inhibits self-renewal (proliferation) of stomatal lineage cells by suppressing CYCA-CDKB1 activity and promotes their differentiation. Drought-induced up-regulation of SMR1 leads to reduced stomatal index and improved drought tolerance.
+
+Correct answer: **1**",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,"Failed to transform agent message: req_id: c89afebb45 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,33.23
+206,"Which kinase plays the most prominent role in Double-Strand Break repair in maize, and what is it's role during development?",Zea mays,CELL BIOLOGY AND CELL SIGNALING,0,"
+
+
+根据文献摘要，玉米中ATR是维持基因组稳定性的关键激酶，在籽粒发育过程中防止早熟内复制起始和细胞死亡。ATR的缺失导致籽粒变小、蛋白质和淀粉含量减少以及籽粒随机死亡，而ATM可以部分补偿这一过程。这表明在玉米中，ATR在应对双链断裂和正常籽粒发育中起主要作用，而ATM作用较小。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,2,2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。,False,success,"req_id: db4d11bcb2 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,26.99
+207,Members of two families of transcription factors regulate gene expression during the phases of the mitotic cell cycle in Arabidopsis thaliana. What is the name of these transcription factors? which phase of the cell cycle is controlled by each of them?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.45
+208,"How many genes coding for cyclin-dependent kinase inhibitor proteins of the SIM/SMR family can be found in the Arabidopsis thaliana genome? Name them. Of those, which are regulated by the SCL28 transcription factor.",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+
+
+There are 17 genes coding for SIM/SMR cyclin-dependent kinase inhibitor proteins named SIAMESE (SIM) and SIAMESE-RELATED1 (SMR1) to SMR16. SCL28 activates the expression of SMR2, SMR6, SMR9, SMR13 and SMR14.
+0",,模型回答与正确选项一致。,True,"0. There are 17 genes coding for SIM/SMR cyclin-dependent kinase inhibitor proteins named SIAMESE (SIM) and SIAMESE-RELATED1 (SMR1) to SMR16. SCL28 activates the expression of SMR2, SMR6, SMR9, SMR13 and SMR14.",0,模型选项与正确选项一致。,True,success,,0,28.691075
+209,Arabidopsis thaliana coiled-coil (CC)–NLR HOPZ-ACTIVATED RESISTANCE 1 (ZAR1) immune receptor protein forms a structure named resistosome upon activation. How many ZAR1 monomers are required to assemble a functional resistosome and what is its final localization inside the plant cell?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.64
+210,How does the bacterial effector proteins HopM1 and AvrE1 induce water-soaking lesions in Arabidopsis thaliana during Pseudomonas syringae infection?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,2,"
+
+根据文献摘要，细菌效应子HopM1和AvrE1通过诱导拟南芥转录组重编程，触发脱落酸（ABA）信号通路，增加保卫细胞中ABA的积累，导致气孔关闭、叶片蒸腾减少并形成水浸病斑。此外，保卫细胞特异性的ABA转运蛋白ABCG40对HopM1诱导水浸病斑是必需的。
+
+正确选项为：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 9568bf666d PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,20.36
+211,What is the role of DDM1 in tomato ?,Solanum lycopersicum,GENOME AND GENOMICS,1,"
+
+
+
+
+
+
+
+根据文献分析，DDM1在植物中是维持DNA甲基化和组蛋白修饰的关键染色质重塑因子。在番茄中，ddm1突变体表现为**低甲基化**，尤其是在异染色质区域的转座元件中，且该基因由两个拷贝（Slddm1a 和 Slddm1b）编码。双突变体在CG和CHG背景下显著低甲基化，而RNA介导的DNA甲基化（RdDM）途径则作为补偿机制，在CHH背景下重新甲基化着丝粒周围区域。
+
+正确选项为：**1**",1,模型回答与正确选项一致，均选择选项1，表明DDM1在番茄中起维持DNA甲基化的作用。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 90fd206aa1 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,53.6
+212,What is the role of IBM1 in plants ?,Arabidopsis thaliana,GENE REGULATION - EPIGENETICS AND TGS,2,"
+
+
+
+IBM1 is a histone demethylase that removes H3K9me2 marks, preventing heterochromatic silencing in gene bodies. In ibm1 mutants, H3K9me and CHG methylation accumulate in coding regions, leading to developmental defects. Mutants like ibm2, edm2, and aipp1 affect IBM1 transcription. Option 2 correctly describes this.
+
+答案：2",2,模型回答正确描述了IBM1的功能，并选择了正确选项2。,True,2,2,模型输出的选项与正确选项一致。,True,success,,0,24.950436
+213,"What is the link between TCP15, auxins and cytokinins (CK) during gynoecium development in Arabidopsis thaliana?",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+
+根据文献分析，TCP15是细胞分裂素（cytokinin）和生长素（auxin）信号通路之间的关键连接因子。研究表明，细胞分裂素诱导TCP15的表达，而TCP15作为转录因子抑制生长素生物合成基因（如YUCCA1和YUCCA4）的表达，从而调节生长素稳态，确保雌蕊内部组织的正常发育。因此，正确的描述应为：gynoecium发育是一个复杂过程，依赖于多个转录因子和生长素梯度的建立，且细胞分裂素的作用依赖于生长素水平。
+
+正确答案是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: 25e484e51a PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,35.65
+214,Which is the role of Class I TCP transcription factors in the stamen filament elongation in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+
+
+
+
+0",0,模型输出的选项与正确选项一致，均为0，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: d219900427 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,49.74
+215,What is the mechanism by which strigolactones (SL) regulate flowering time in Arabidopsis thaliana?,Arabidopsis thaliana,HORMONES,2,"
+
+TOE1 is an AP2 family transcription factor. In SL-deficient mutants, SMXL7 degradation releases TOE1 to bind and repress the FT locus, leading to reduced flowering time. When SL is present, it promotes SMXL7 degradation via AtD14-SCFMAX2, releasing TOE1 to inhibit FT expression and delay flowering.
+
+Correct answer: 2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,"正确答案是：2
+
+解析：在拟南芥中，独脚金内酯（strigolactones, SL）通过其信号通路调控开花时间。SL 信号通过受体 AtD14 感知，与 SCF^MAX2 复合物相互作用，导致 SMXL7 蛋白的泛素化和降解。在 SL 缺陷突变体中，SMXL7 积累，与 TOE1（属于 AP2 家族的转录因子）互作，阻止 TOE1 结合到 FT 基因位点，从而解除对 FT 的抑制，导致 FT 表达上升，促进开花（早花）。当 SL 存在时，SMXL7 被降解，TOE1 被释放，可结合并抑制 FT 表达，从而延迟开花，实现正常开花时间。
+
+因此，选项 2 正确描述了该机制。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,30.04
+216,What is the main gene regulated by strigolactones (SL) to control shoot branching in Arabidopsis thaliana and how does it regulate it?,Arabidopsis thaliana,HORMONES,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: b7e19e7e65 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,6.25
+217,How is D14 receptor stability regulated in the strigolactone (SL) signalling pathway?,Arabidopsis thaliana,HORMONES,1,"
+
+根据文献摘要内容，正确的描述是：  
+SL信号通路需要激素、D14受体、E3泛素连接酶SCFMAX2和转录共抑制因子SMXL6/7/8形成复合物，SMXL被泛素化并由蛋白酶体降解，从而诱导SL依赖性细胞反应。随后，D14受体被去稳定化，作为对SL感知的负反馈机制。D14的降解是SL依赖性的，但不完全依赖于SCFMAX2，不需要SMXLs的降解，并可能涉及蛋白酶体非依赖性机制。
+
+这与选项1完全一致。
+
+答案：1",1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"Failed to transform agent message: req_id: 6d412dab52 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,20.77
+218,"Can phytochrome B function as a thermosensor in the presence of light, or is this function limited to darkness in Arabidopsis?",Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,1,"
+
+
+1: Yes, phytochrome B activity is regulated by temperature and has an effect on plant development both during the night as well as during the light period.",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,"1: Yes, phytochrome B activity is regulated by temperature and has an effect on plant development both during the night as well as during the light period.",1,模型输出的选项与正确选项一致，均为1，表明phytochrome B在光照下也能作为温度传感器。,True,success,"req_id: 9cf548aca9 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,24.11
+219,Which photoreceptors phosphorylate the protein PHYTOCHROME KINASE SUBSTRATE 4 in response to blue light in Arabidopsis?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"
+
+文献分析显示，phytochromes 和 phototropins 均参与光信号传导并协同调控植物的向光性生长。例如，phytochrome B 在遮荫条件下通过控制 PIFs 转录因子促进 phototropin 介导的向光性（PMID: 27889263）；phytochrome A 可增强 phototropin 1 介导的蓝光向光性反应（PMID: 27014313）；且存在 phytochrome/phototropin 嵌合光受体共同调控生长（PMID: 38189579）。因此，正确答案是两者均涉及。
+
+答案：2",2,正确选项为0，但agent选择了2，与正确选项不一致，因此评估为错误。,False,0: Phototropins,0,模型输出的选项[0]与正确选项[0]一致，因此评估为正确。,True,success,"req_id: 7b0cee32d9 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,23.23
+220,Which are the hormonal and cellular mechanisms linking unilateral light perception and positive phototropism in Arabidopsis hypocotyls?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,1,1,模型输出的选项为1，与正确选项2不一致，因此判断为错误。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.07
+221,What are the two strategies that can be used to develop a synthetic trans-acting siRNA (syn-tasiRNA)-based system for fine-tuning the gene expression in Arabidopsis thaliana and Nicotiana benthamiana plants?,"Arabidopsis thaliana, Nicotiana benthamiana",PLANT BIOTECHNOLOGY,0,0,0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.2
+222,What is the shortest MIR390-based precursor designed for artificial micro-RNA (amiRNA) expression in Arabidopsis thaliana and Nicotiana benthamiana?,"Arabidopsis thaliana, Nicotiana benthamiana",PLANT BIOTECHNOLOGY,0,"None of the provided options can be verified as correct without additional context or access to external information, but based on current knowledge in plant biology and artificial microRNA (amiRNA) design:
+
+The most accurate and scientifically supported approach involves using a **chimeric MIR390-based scaffold** to generate short artificial miRNAs. Studies have demonstrated that minimal functional amiRNA precursors can be constructed by combining key structural elements from natural MIR390 genes, particularly from *Arabidopsis thaliana* (AtMIR390a) and *Oryza sativa* (OsMIR390), resulting in efficient and precise processing.
+
+Key features include:
+- A shortened precursor (~89 nt),
+- Inclusion of the **basal stem region without ssRNA overhangs**,
+- Use of the **distal stem-loop from OsMIR390**,
+- Small deletions (e.g., 2 nucleotides) to optimize structure.
+
+Thus, **Option 0** aligns best with published evidence.
+
+Answer: 0",0,agent的选项与正确选项一致，评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"req_id: d3972bca67 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",2,12.94
+223,Which are the photorreceptors essential for the germinatin of Arabidopsis seeds?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,0,"
+
+
+
+
+
+The query appears to be corrupted or non-specific (""1768808183580.quetion""), but based on the context of plant photoreceptors and literature retrieval, the correct answer relates to known photoreceptor families. From the retrieved publications:
+
+- PMID 41544907 discusses **phytochromes** (ScPhyB) in light signaling.
+- PMID 41402284 highlights **PHYTOCHROME A** in submergence escape.
+- PMID 41410382 refers to a **cryptochrome/photolyase family** protein.
+
+Among the options, **phytochromes** are clearly central to multiple studies as red/far-red light photoreceptors regulating development, shade avoidance, and submergence responses.
+
+Answer: 0",0,"Agent correctly identified option 0 as the answer, matching the correct option provided.",True,0: The phytochromes,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,"req_id: 988e52498f PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,40.61
+224,Which are the proteins that interact with MED25 and promote its degradation by the Proteasome in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,"
+
+根据基因搜索结果，MBR1 和 MBR2 均存在（分别对应基因ID AT2G15530 和 AT4G34040），而 MBRL1 和 MBRL2 无匹配结果。因此正确选项是：
+
+0: MBR1 and MBR2",0,模型输出的选项与正确选项一致，均为0，表示MBR1 and MBR2。,True,正确答案是：0: MBR1 and MBR2,0,模型输出的选项与正确选项一致，均为0，因此判断为正确。,True,success,"req_id: 8b2f5db036 PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,29.02
+225,Why a mutation that affects the Arabidopsis DNA Polymerase delta leads to early flowering in Arabidopsis?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+
+
+
+
+
+CO是开花促进因子，FLC是开花抑制因子。过表达CO会促进开花，而过表达FLC会抑制开花。SEP3也是开花促进因子。
+
+正确答案是：0: Because it leads to the overexpression of CO, a promotor of flowering
+
+答案：0",0,模型输出的选项为0，但正确选项为1，因此评估为错误。,False,"DNA Polymerase delta mutations in Arabidopsis have been linked to changes in epigenetic regulation and gene expression fidelity. FLC (FLOWERING LOCUS C) is a key repressor of flowering, not a promoter. Overexpression of FLC would delay flowering, not cause early flowering. CO (CONSTANS) promotes flowering under long-day conditions, but it is not the primary target of DNA polymerase delta-related epigenetic changes. SEP3 (SEPALLATA3) is involved in floral organ identity but not a major upstream regulator of flowering time.
+
+However, mutations in DNA polymerase delta can lead to reduced FLC expression due to impaired epigenetic silencing mechanisms, thereby releasing repression of flowering. But the question states that the mutation leads to *overexpression* of a flowering promoter.
+
+Crucially, early flowering in DNA polymerase delta mutants is associated with misregulation of MADS-box genes, and studies show that *SEP3* overexpression can drive early flowering.
+
+Therefore, the correct answer is:
+
+1: Because it leads to the overexpression of SEP3, a promotor of flowering
+
+Answer: 1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,success,"req_id: 7ea7bd870d PluginInvokeError: {""args"":{},""error_type"":""ValueError"",""message"":""{'message': 'You exceeded your current quota, please check your plan and billing details. For details, see: https:",1,59.2
+226,Which subunit of the Mediator complex of Arabidopsis is essential for early embryo development while expressed in the male gametophyte?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+所有选项均为有效的植物基因，但根据常见模式生物拟南芥（Arabidopsis thaliana）的基因命名和功能注释，MED25（AT1G25540）是中介体复合物中与光敏色素和开花时间调控相关的明确基因。因此选择：
+
+答案：1: MED25",1,正确答案的选项是0，但agent选择了1，因此不正确。,False,2: MED31,2,正确答案是选项0，但模型选择了选项2（MED31），因此回答错误。,False,success,"Failed to transform agent message: req_id: 25217200c4 PluginInvokeError: {""args"":{},""error_type"":""Exception"",""message"":""invoke llm model failed: request failed with status code: 400 and respond with: ",1,18.13
+227,Which transcription factors are expressed in the apical cells of the gametophytic meristem of the liverwort Marchantia polymorpha ?,Marchantia polymorpha,EVOLUTION,0,"
+
+
+
+
+根据文献摘要，MpARF2在干细胞中激活了YUCCA（MpYUC2）生长素生物合成酶，表明**MpYUC2在配子体分生组织的顶端细胞中特异性表达**。
+
+正确答案是：1",1,正确选项为0，但agent选择了1，因此回答错误。,False,"0: MpERF20, also known as MpLAXR, is specifically expressed in the apical cell of the gametophytic meristem.",0,模型输出的选项与正确选项一致，均为0，因此判断为正确。,True,success,,0,37.34
+228,Which cell type is homologous to root hairs in the liverwort Marchantia polymorpha? Which genetic evidence supports this observation?,"Marchantia polymorpha, Arabidopsis thaliana",EVOLUTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,"2: Liverworts like Marchantia polymorpha do not display roots but has tip-growing cells in the gametophyte called rhizoids that are equivalent to root hairs. The bHLH transcription factor MpRSL1 regulate both cell types, suggesting that both cell-types are homologues.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,success,,0,6.78
+229,Are the transcription factors controlling the vegetative meristem of land plants conserved among the gametophyte and the sporophyte?,"Physcomitrella patens, Arabidopsis thaliana",EVOLUTION,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,正确答案是2，但agent选择了1，因此回答错误。,False,success,,0,6.05
+230,Are abscisic acid-mediated gene regulation conserved among land plants?,Marchantia polymorpha,EVOLUTION,1,"
+
+
+
+
+
+
+
+
+
+
+
+1",1,模型输出的选项与正确选项一致，均为1，因此判断为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,59.37
+231,How are Arabidopsis thaliana long intergenic noncoding RNAs conserved among Angiosperms in term of sequences compared to other sequence type?,Arabidopsis thaliana,GENOME AND GENOMICS,2,"
+
+
+
+
+
+
+
+根据文献PMID: 23132786的研究结果，拟南芥（Arabidopsis thaliana）的长基因间非编码RNA（lincRNA）大多数表现出与随机选择的非转录基因间序列相似的选择压力。这表明它们大多不是功能性的，而是可能来源于“垃圾”DNA的背景或噪声转录本。然而，有少数（如237个ITFs）显示出较强的选择约束，可能是新型基因的一部分。
+
+因此，这些lincRNAs在进化保守性上处于中间水平：比蛋白编码基因保守性低，但高于假基因和转座元件。其通过PhastCons评分测量的选择压力也低于蛋白编码基因，而高于假基因和转座元件。
+
+正确答案是：  
+2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,56.08
+232,How are long noncoding RNAs expressed between the different accessions of Arabidopsis thaliana?,Arabidopsis thaliana,GENOME AND GENOMICS,2,"None of the provided options can be verified as correct without additional context or access to the specific study or data referenced (e.g., PMID 1768808183580, which appears invalid or fabricated). However, based on current biological knowledge from published studies on *Arabidopsis thaliana* lncRNAs:
+
+- Long non-coding RNAs (lncRNAs) in *Arabidopsis* are often lowly expressed and show higher tissue-specificity or condition-specificity.
+- Comparative studies across accessions (e.g., Col-0 vs. others) indicate that many lncRNAs exhibit variable expression between accessions, with a large proportion being lowly or inconsistently expressed, and only a subset conserved or consistently expressed.
+
+Thus, **Option 0** aligns best with evidence: many lncRNAs are lowly but consistently expressed across accessions.
+
+Answer: 0",0,模型选择了选项0，但正确选项为2，因此评估为错误。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,12.04
+233,Is there any bias of conservation among Arabidopsis thaliana long noncoding RNAs?,Arabidopsis thaliana,GENOME AND GENOMICS,2,"None of the provided options can be verified or addressed using the available tools, as the question pertains to evolutionary conservation and selective pressure on long noncoding RNAs in *Arabidopsis thaliana*, which requires comparative genomics and phylogenetic analysis beyond the scope of gene lookup, structure, or functional annotation tools offered. No tool here supports lncRNA conservation analysis across species or taxonomic groups.
+
+However, based on existing biological knowledge, option **2** is most likely correct:
+
+- Studies have shown that *Arabidopsis thaliana* lncRNAs with homologs in the Brassicaceae family tend to be under stronger purifying selection compared to those without close homologs, indicating higher conservation within this lineage.
+- Conservation signals are generally weak outside closely related species, making broad conservation across all angiosperms (option 1) less likely.
+- Option 0 contradicts evidence showing that some lncRNAs do exhibit conservation bias.
+
+Thus, the best-supported answer is:
+
+**2**",2,模型正确选择了选项2，与正确答案一致，并提供了基于生物学知识的合理推理。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,12.73
+234,Is there any bias of expression for Arabidopsis thaliana long noncoding RNAs according to specific condition or tissue?,Arabidopsis thaliana,GENOME AND GENOMICS,0,1,1,模型选择的选项[1]与正确选项[0]不一致，因此评估为错误。,False,0,0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,7.75
+235,How is the long noncoding RNA MARS involved in the control of the expression of the marneral cluster in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - EPIGENETICS AND TGS,1,"None of the provided options can be verified as correct without additional context or evidence regarding the MARS lncRNA, its interaction with LHP1 or CLF, and its role in regulating the marneral gene cluster in response to Auxin or ABA. However, based on known mechanisms of lncRNA-mediated epigenetic regulation in plants:
+
+- LHP1 (LIKE HETEROCHROMATIN PROTEIN 1) is involved in maintaining repressive chromatin states, often associated with H3K27me3 marks deposited by PRC2.
+- lncRNAs can act as scaffolds or decoys to recruit or sequester chromatin modifiers.
+- ABA signaling often involves epigenetic regulation through PRC2 and H3K27me3.
+
+Option **2** describes a plausible and mechanistically coherent scenario:  
+MARS acts as a decoy for CLF (a component of PRC2), preventing it from binding to the marneral cluster and allowing gene expression under control conditions. Upon ABA treatment, reduced MARS levels free CLF/PRC2 to bind and deposit H3K27me3, silencing MRN1.
+
+This aligns with established models of lncRNA-mediated derepression via PRC2 sequestration.
+
+Answer: 2",2,正确选项为1，但agent选择了2，因此评估为错误。,False,"正确答案是：0
+
+MARS通过表观遗传机制调控marneral基因簇的表达，响应生长素（Auxin）信号。在对照条件下，MARS不表达，marneral基因正常表达；在Auxin处理下，MARS表达上升，结合LHP1并将其招募至marneral位点，导致染色质环结构解聚，使增强子远离MRN1，从而抑制其表达。该过程涉及染色质构象改变和LHP1的招募，符合选项0的描述。
+
+答案：0",0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,16.72
+236,"In a natural environment, most plants form symbioses with arbuscular mycorrhizal (AM) fungi to survive in nutrient-poor regions. The fungi secrete effector molecules to initiate the symbiosis, altering, among other things, alternative splicing in the host. How does the Glomeromycotina-specific SP7 effector family influence alternative splicing in Arabidopsis thaliana?",Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,2,"
+
+
+
+根据文献摘要，SP7和SP7-like效应子与剪接因子SR45以及核心剪接蛋白U1-70K和U2AF35相互作用，从而影响植物的可变剪接。
+
+正确答案是：2",2,模型输出的选项与正确选项一致，基于文献摘要，SP7效应子家族通过相互作用影响可变剪接。,True,2: SP7 and SP7-like effectors interact with the splicing factor SR45 and the core splicing proteins U1-70K and U2AF35.,2,模型输出的选项与正确选项一致，均为选项2，因此评估为正确。,True,success,,0,26.64
+237,"Which EPF peptides participate in stomatal development, and what is the effect of each of them on this process in Arabidopsis? ",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,0,"
+
+EPF1和EPF2是气孔发育的负调控因子，其中EPF2调控meristemoid中SPEECHLESS的量及其命运，而EPF1主要通过阻止非气孔细胞重新进入气孔谱系来执行单细胞间距规则。EPFL9由叶肉细胞产生，与EPF1/EPF2竞争结合受体，促进气孔发育，是正调控因子。选项0正确。
+
+答案：0",0,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项为2，与正确选项0不一致，因此评估为错误。,False,success,,0,19.47
+238,How does the peptide EPF2 mediate the effect of CO2 on stomatal development in Arabidopsis?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+根据文献（PMID: 25043023）摘要内容：
+
+- CO₂ 感知由 **stomatal precursor cells** 中的 **carbonic anhydrases 1 and 4** 介导；
+- 高CO₂诱导表达一种分泌型蛋白酶 **CRSP**；
+- CRSP 能够切割前体肽 **EPF2**，从而激活其功能；
+- 成熟的 **EPF2** 抑制气孔发育，通过与受体激酶结合并激活MAPK级联反应，最终导致SPEECHLESS降解。
+
+因此，正确描述是选项 **2**。
+
+答案：2",2,模型输出的选项与正确选项一致，基于文献PMID: 25043023，EPF2在高CO₂下被CRSP切割激活，抑制气孔发育。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,27.99
+239,How does BASL protein controls cell fate during stomatal development in Arabidopsis?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+BASL is polarly localized during stomatal development and coordinates cell size and fate asymmetry. Pre-division BASL guides division orientation, while post-division BASL ensures proper cell fate commitment. The smaller daughter cell inherits SPEECHLESS and differentiates into a stoma, whereas the larger stomatal lineage ground cell inherits BASL, which helps regulate signaling for fate determination.
+
+Answer: 2",2,模型输出的选项与正确选项一致，评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,18.06
+240,"What is the role of the transcription factors SPEECHLESS, MUTE and FAMA in stomatal development in Arabidopsis?",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+SPEECHLESS, MUTE, and FAMA are basic helix-loop-helix transcription factors that regulate stomatal development. SPEECHLESS controls the transition of protodermal cells to meristemoid mother cells, MUTE regulates the transition to guard mother cells, and FAMA governs the symmetric division into guard cells. Evidence shows post-transcriptional regulation (e.g., epigenetic stabilization via H3K27me3 for FAMA), supporting regulation at both transcriptional and post-transcriptional levels.
+
+Answer: 2",2,模型输出的选项与正确选项一致，回答正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,38.83
+241,What is the role of receptors PANGLOSS1 and PANGLOSS2 in stomatal development in maize?,Zea mays,GROWTH AND DEVELOPMENT,1,"
+
+
+
+PANGLOSS1 (PAN1) and PANGLOSS2 (PAN2) are LRR-RLKs that regulate polarization of subsidiary mother cell (SMC) division in maize. PAN2 acts upstream of PAN1, guiding polarized localization during stomatal development. Both proteins accumulate at the site of guard mother cell contact, but PAN2 is required for PAN1's polarized localization, while PAN2 localizes independently. There is no evidence of direct interaction between PAN2 and PAN1, though PAN2 can self-interact.
+
+Correct answer: **0** – although the exact interacting partners mentioned (PLC, BRIK, MAP kinase 3) are not confirmed in the retrieved data, only option 0 correctly identifies the biological role in subsidiary cell formation adjacent to stomata. Options 1 and 2 incorrectly associate the process with guard cells or mention unverified interactors like WPR proteins or TMM (not known in maize). The correct context is subsidiary cell polarity via PAN1/PAN2 complex.
+
+Answer: 0",0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,"正确答案是：0
+
+PANGLOSS1 和 PANGLOSS2 是LRR受体，与PLC和BRIK形成极性定位复合物，指导副卫母细胞的极性，从而产生成对的副卫细胞，这些副卫细胞位于气孔旁，参与气孔的开闭过程。PANGLOSS2 还与MAP激酶3相互作用，而MAP激酶3对于副卫细胞的正常形成是必需的。该描述与已知研究中PANGLOSS受体在玉米气孔发育中的信号机制一致。
+
+答案：0",0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,,0,39.62
+242,How do mutations in the LNK2 gene impact circadian rhythms and domestication in tomato?,Solanum lycopersicum,GROWTH AND DEVELOPMENT,0,"
+
+
+
+
+
+根据文献摘要，番茄中LNK2基因（Solyc01g068560）在驯化过程中出现的突变导致其昼夜节律周期和相位延迟。该突变存在于所有栽培番茄品种和一些地方品种中，但在起源于赤道地区的野生番茄中缺失，表明该突变为正向选择。虽然摘要未直接说明长周期对高纬度产量有益，但结合选项内容与已知事实：突变导致**长周期**（delayed period），出现在栽培种，缺失于野生种（赤道起源），且被正向选择——这与选项0描述一致。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,45.1
+243,How does the GEMIN2 protein affect alternative splicing and circadian rhythms in response to temperature changes in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - ALTERNATIVE SPLICING,1,"
+
+
+
+根据文献分析，GEMIN2 是剪接体组装的关键调控因子，主要在低温条件下调节替代剪接。研究（PMID: 26170331）表明，GEMIN2 突变体表现出短的昼夜节律和早花表型，并且该现象与温度对剪接的影响减弱有关。此外，低温增强了 gemin2 突变体中的分子缺陷，说明其在低温响应中起重要作用。
+
+正确选项是：**1**。",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,0,0,模型输出的选项[0]与正确选项[1]不一致，因此判断为错误。,False,success,,0,30.3
+244,"How is PRMT5 involved in the regulation of circadian rhythms, light responses, and pre-mRNA splicing in Arabidopsis?",Arabidopsis thaliana,GENE REGULATION - ALTERNATIVE SPLICING,1,"
+
+
+
+
+
+PRMT5 is a symmetric dimethyl arginine transferase that regulates circadian rhythms by affecting alternative splicing of core clock genes such as PRR9. Mutations in prmt5 lengthen the circadian period and disrupt splicing, consistent with option 1.
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,success,"Failed to transform agent message: req_id: 6287808d03 PluginInvokeError: {""args"":{},""error_type"":""KeyError"",""message"":""'fetch_gene_search'""}",1,39.11
+245,"What is the molecular function of the protein encoded by the EDS4 gene, involved in immune responses in Arabidopsis, and which other physiological processes are affected in eds4 mutant plants?",Arabidopsis thaliana,GROWTH AND DEVELOPMENT,2,"
+
+
+
+
+
+None of the provided options correctly describe EDS4. According to literature (PMID: 10796016), EDS4 is involved in salicylic acid-dependent defense responses and systemic acquired resistance, but there is no evidence supporting its role as a MYB transcription factor, cysteine proteinase, or nucleoporin 205 orthologue, nor are flowering time, hypocotyl length, or circadian phenotypes reported. Therefore, all options contain incorrect information.
+
+答案：无正确选项",0,模型回答指出无正确选项，但正确选项为2，因此评估为错误。模型应基于正确选项[2]判断，而非自行评估选项内容。,False,0,0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,success,,0,37.68
+246,How does light regulate alternative splicing in plants and what is the role of phytochrome photoreceptors in this process?,Arabidopsis thaliana,ENVIRONMENT - LIGHT AND TEMPERATURE,2,"
+
+
+
+根据文献证据（PMID: 26575044），在五重光敏色素突变体（quintuple phytochrome mutant）中，红光对剪接因子编码基因的可变剪接调控作用并未受损，这明确表明光敏色素并非红光调控可变剪接的主要途径。因此，光敏色素在此过程中的作用是间接且次要的。
+
+正确答案是：0",0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。模型回答基于文献证据，但选项选择有误。,False,"正确答案是：0
+
+理由：选项0准确描述了光调控植物选择性剪接的两种机制。第一，光通过经典光感受器（如光敏色素）影响转录因子（如PIF3/4），进而因共转录调控而间接影响剪接；第二，叶绿素感知光后启动光合作用，产生的代谢物（如糖）可直接调节剪接。关键证据在于：五重光敏色素突变体虽对红光不敏感发育反应，但仍保留大量红光调控的剪接事件，说明光敏色素的作用是间接且非主导的。这与选项1和2中“phytochromes play a predominant role”或直接互作splicing factors的说法矛盾，已被实验证伪。
+
+答案：0",0,模型输出的选项为0，与正确选项2不一致，因此评估为错误。,False,success,,0,30.81
+247,"Which rice HD-Zip I transcription factor changes its expression at low ABA concentrations, influencing leaf angle opening in 9-day-old plant?",Oryza sativa,GENE REGULATION - TRANSCRIPTION,1,"
+
+
+
+无法找到支持任一选项的文献证据，所有选项均缺乏数据支持。",0,模型输出无法解析为有效选项，且与正确选项1不一致，因此判定为错误。,False,"2: Low ABA concentration induced the expression of OsHOX22, increasing the leaf angle of 9-day-old rice plants.",2,正确选项为1，但agent选择了2，因此回答错误。,False,success,,0,26.0
+248,Which rice HD-Zip I transcription factor appears to be involved in the brassinosteroid biosynthetic pathway?,Oryza sativa,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+
+Based on the provided options and lack of direct evidence from literature linking either OsHOX22 or OsHOX24 to changes in brassinosteroid biosynthetic pathway transcripts, the most conservative conclusion is that neither gene edition modified the expression of related transcripts.
+
+Answer: 2",2,正确选项为0，但agent选择了2，因此回答错误。,False,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,41.86
+249,How does SHY2 influence the balance between auxin and cytokinin to regulate root meristem size in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,0,"
+
+
+
+SHY2 activation in the root influences auxin transport through the downregulation of PIN expression.  
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"SHY2 (SHORT HYPOCOTYL 2) is a key regulator in the crosstalk between auxin and cytokinin signaling in the root meristem of *Arabidopsis thaliana*. It is known that SHY2, which is induced by auxin and repressed by cytokinin, functions to maintain root meristem size by modulating auxin distribution. Specifically, SHY2 negatively regulates the expression of PIN-FORMED (PIN) genes, which encode auxin efflux carriers. Downregulation of PIN proteins reduces auxin transport and accumulation in specific root zones, thereby influencing meristem activity.
+
+This mechanism links cytokinin signaling to auxin transport: high cytokinin levels repress SHY2, leading to increased PIN expression and altered auxin flow, ultimately reducing meristem size. Conversely, SHY2 activation suppresses PIN expression, limiting auxin transport and helping maintain meristem size.
+
+Therefore, the correct answer is:
+
+0: SHY2 activation in the root influences auxin transport through the downregulation of PIN expression.  
+
+答案：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,25.95
+250,How do plants sense nitrate availability in soil?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,0,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.47
+251,Which plant hormone is closely linked to nitrate signaling?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项[2]与正确选项[2]一致，因此判断为正确。,True,success,,0,7.97
+252,What role does the protein NRT2.1 play in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,0,"
+
+
+
+NRT2.1 is involved in high-affinity nitrate uptake and regulates root architecture in response to nitrate levels, including acting as a repressor of lateral root initiation. This is supported by gene function data and confirmed by key literature (PMID: 16415211), which shows NRT2.1 has a dual role: regulating root development both through nitrate uptake and directly influencing lateral root initiation.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,30.2
+253,How does phosphorylation affect NRT1.1 function in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,1,"
+
+
+1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,19.42
+254,How does nitrate influence the expression of microRNAs (miRNAs) in plants?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.05
+255,Has the crystal structure of NRT1.1 been resolved and what was the implication of knowing the structure for nitrate transport in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,1,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+选项1正确。NRT1.1的晶体结构已在两项独立研究中报道：一项解析了非磷酸化状态下的同源二聚体结构，揭示了Thr101磷酸化调控其寡聚状态和双亲和力转运机制（PMID: 24572362, DOI: 10.1038/nature13074）；另一项报告了其apo和硝酸盐结合状态的结构，阐明了His356在硝酸盐结合中的关键作用及磷酸化对结构灵活性的影响（PMID: 24572366, DOI: 10.1038/nature13116）。这些研究共同揭示了NRT1.1如何通过磷酸化调控实现硝酸盐的双模式感知与转运。
+
+答案：1",1,模型输出的选项与正确选项一致，且回答内容准确描述了NRT1.1晶体结构的研究和意义。,True,1,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,90.86
+256,What is the role of protein phosphatases in nitrate signaling in Arabidopsis thaliana?,Arabidopsis thaliana,ENVIRONMENT - NUTRIENTS,2,2,2,模型输出的选项[2]与正确选项[2]一致，因此回答正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.71
+257,How long non-coding RNAs can affect alternative splicing in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - ALTERNATIVE SPLICING,0,0,0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,5.57
+258,Which splicing regulators control also post-transcriptional gene silencing in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - ALTERNATIVE SPLICING,1,"
+
+
+PRP39 and SMD1b have been shown to affect Posttranscriptional gene silencing through small RNAs as well as alternative splicing patterns in the corresponding mutants. The abstract confirms their roles in both splicing and posttranscriptional silencing (S-PTGS), with distinct effects on alternative splicing and noncoding RNAs, supporting option 1.
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1: PRP39 and SMD1b have been shown to affect Posttrascriptional gene silencing through small RNAs as well as alternative splicing patterns in the corresponding mutants,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,24.96
+259,Which transcription factors participate in the negative regulation of the DELAY OF GERMINATION 1 (DOG1) gene by ABI5-BINDING PROTEIN 2 (AFP2) during seed maturation in Arabidopsis thaliana?,Arabidopsis thaliana,GROWTH AND DEVELOPMENT,1,"
+
+
+
+根据文献（PMID: 36653950）内容，WRKY36通过与AFP2相互作用，识别DOG1启动子中的W-BOX元件来抑制其表达。AFP2作为适配器招募转录共抑制子TPR2，降低DOG1位点的组蛋白乙酰化水平，从而介导对DOG1表达的抑制，最终打破种子休眠。在发育过程中，WRKY36和AFP2水平逐渐升高，导致DOG1被逐步沉默。
+
+选项1正确描述了这一机制：WRKY36水平低时无法抑制DOG1，大量DOG1转录本积累维持休眠；随着成熟种子中WRKY36水平上升，通过AFP2招募TPR2和HDAC，最终抑制DOG1表达并解除休眠。
+
+答案：1",1,模型输出的选项与正确选项一致，均选择1，因此评估为正确。,True,"正确的答案是：**1**
+
+解析：根据题干要求，需找出在拟南芥种子成熟过程中，由AFP2介导的对DOG1基因表达负调控所涉及的转录因子。选项1正确描述了WRKY36作为转录因子，通过招募TPR2/HDAC复合物进行组蛋白去乙酰化，从而抑制DOG1表达；且其表达水平在种子成熟或后熟过程中上升，与DOG1下调和休眠解除一致。同时，AFP2作为适配器促进该抑制复合物的作用。这与已知研究结果相符。
+
+选项0提到BEE2和HBI1参与BR信号通路，但无直接证据表明它们通过AFP2调控DOG1。  
+选项2逻辑错误：若WRKY36水平高时仍积累DOG1，则无法解释其为抑制因子，且说其水平下降却仍导致DOG1被抑制，矛盾。
+
+因此，正确选项是：**1**",1,模型输出的选项与正确选项一致，且解析支持了该选择。,True,success,,0,29.8
+260,How is the gene ETHYLENE INSENSITIVE 2 (EIN2) involved on the ABA response In Arabidopsis thaliana?,Arabidopsis thaliana,HORMONES,1,"
+
+根据文献摘要，EIN2通过抑制HLS1功能来负调控ABA响应，且该过程独立于经典的乙烯信号通路。EIN2直接与HLS1相互作用，从而影响ABI3和ABI5位点的组蛋白乙酰化水平，进而调节ABA响应。此机制不依赖于EIN3或EIL1。
+
+正确选项是：**1**",1,模型输出的选项与正确选项一致，均为1。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,17.98
+261,How are the transcription factors SISCZ and SIEXO1 involved in the lignification in the inner cortical layer in Solanum lycopersicum?,Solanum lycopersicum,GROWTH AND DEVELOPMENT,2,"
+
+
+None of the provided options can be verified due to lack of gene and literature evidence for SlEXO1, SlSCZ, and SlMYB92 in public databases. No supporting publications or gene records were found. Further experimental validation is required.
+
+Answer: 0",0,正确选项为2，但agent输出0，因此不正确。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,33.44
+262,How are the IncRNAs called PUPPIES involved in Arabidopsis thaliana seed germination delay upon salt stress conditions?,Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,1,"
+
+
+根据文献摘要，DOG1基因在盐胁迫下被诱导表达，导致种子萌发延迟。其启动子区域广泛转录产生名为PUPPIES的长链非编码RNA（lncRNA），这些共方向转录的PUPPIES通过增加RNA聚合酶II的暂停和转录爆发，从而促进DOG1的表达。
+
+正确选项是：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.11
+263,How is the susceptibility of Arabidopsis plants to viral infections affected by a combination of heat and drought stress?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,2,"
+
+
+无法通过现有文献检索确定具体答案，但根据植物抗逆性研究的普遍规律，非生物胁迫（如热、干旱）通常会影响植物对病毒的敏感性。已有研究表明，热胁迫可抑制TuMV在拟南芥中的积累，表现为P3蛋白水平下降，从而降低感病性。
+
+正确选项是：0",0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,0,0,模型输出的选项[0]与正确选项[2]不一致，因此评估为错误。,False,success,,0,23.05
+264,How is the evolution of Turnip mosaic potyvirus (TuMV) affected by severe drought conditions and what are the salicylic acid (SA) levels in plants infected with standard- and drought-evolved viruses?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,2,"None of the provided options can be confirmed as correct based on the tools available to me. The question appears to be about virus evolution under drought conditions and effects on salicylic acid levels in plants, but no specific gene or molecular target was provided for analysis using the biological databases. Without a gene name, identifier, or related molecular context, I cannot retrieve data to evaluate the accuracy of these statements.
+
+However, since I must choose one option as correct:
+
+Answer: 0",0,"The correct option is 2, but the agent selected option 0, which does not match the correct answer.",False,"根据植物病毒在非生物胁迫（如干旱）下的进化规律以及水杨酸（SA）在植物抗病毒防御中的作用，干旱条件通常会影响病毒的突变积累模式，并改变宿主的防御激素水平。研究表明，干旱胁迫下进化的芜菁花叶病毒（TuMV）突变较少，且突变并非随机分布，倾向于集中在特定功能区域如VPg（病毒基因组连接蛋白）编码区，该蛋白与病毒致病性和宿主适应性密切相关。此外，病毒感染通常会激活SA介导的防御通路，导致SA水平上升。
+
+因此，正确答案是：
+
+2",2,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,10.11
+265,Which is the role of the Cucumber mosaic virus (CMV) protein 2b in the response to drought stress in Arabidopsis thaliana and how does it affect abscisic acid (ABA)-mediated signaling?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,0,"
+
+
+Based on known molecular mechanisms of Cucumber Mosaic Virus (CMV) 2b protein:  
+The CMV 2b protein enhances drought tolerance in infected Arabidopsis by suppressing ABA signaling, not by altering ABA levels. It inhibits ABA-responsive gene expression, including that of the key stress-responsive gene *RD29A*. Studies show that while ABA levels remain unchanged or slightly reduced, the responsiveness of ABA-dependent pathways is impaired due to 2b-mediated interference with ABA signaling components. Consequently, *RD29A* induction under drought stress is attenuated in CMV-infected plants compared to mock-treated controls.
+
+Correct answer: **0**",0,模型输出的选项与正确选项一致，均为0，且解释符合已知分子机制。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.8
+266,What was the first example of a long noncoding RNA capturing a miRNA by target mimicry in any living organism and what is it involved in? Indicate the corresponding organism and describe the associated molecular mechanism.,Arabidopsis thaliana,GENE REGULATION - PTGS,1,"
+
+
+
+
+
+
+
+
+
+The correct answer is option 1: The first example of a lncRNA exerting a role as a miRNA target mimicry was INDUCED BY PHOSPHATE STARVATION 1 (IPS1) from Arabidopsis thaliana. It is a transcript recognized by miRNA399, including a mismatch in the 11th position. As a result, the miRNA remains paired to IPS1 without cleavage, and miRNA399 is titered and blocked. IPS1 is induced in response to phosphate starvation, blocking miRNA and increasing the transcript levels of the miRNA399 target PHO2 gene.
+
+Note: There is a typo in the original statement (""paired to IPS2"" should be ""IPS1""), but the core scientific facts about IPS1, miRNA399, phosphate starvation, and PHO2 regulation are correct in option 1.
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,61.46
+267,How does the lncRNA APOLO regulate the locus of the RHD6 gene in Arabidopsis thaliana in response to low temperatures?,Arabidopsis thaliana,GENE REGULATION - EPIGENETICS AND TGS,2,"
+
+
+
+
+根据文献摘要，APOLO在低温下通过与转录因子WRKY42相互作用，调控其结合到RHD6启动子区域，从而激活RHD6的转录。这导致根毛细胞伸长增强，并涉及染色质结构的改变和R-loop的维持。关键点包括：
+
+- APOLO水平在低温下**增加**
+- APOLO**招募/调节WRKY42**对RHD6启动子的结合（而非“decoy away”）
+- 导致**RHD6转录激活**，促进根毛伸长
+- 涉及染色质三维结构变化
+
+选项2描述为：“APOLO参与招募WRKY42至RHD6启动子”，且“APOLO水平上升，导致LHP1被诱离，打开染色质环，激活RHD6转录”——虽然部分机制细节可能存在偏差，但整体方向正确：APOLO上调 → 调控WRKY42结合 → 激活RHD6 → 促进根毛发育。
+
+而选项0说APOLO减少、并“诱离WRKY42”是错误的；选项1提到FRIGIDA和CLF无文献支持。
+
+因此正确答案是：
+2",2,模型输出选项与正确选项一致，均为2，表明APOLO在低温下通过招募WRKY42激活RHD6转录，与文献摘要相符。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,40.59
+268,What proteins have been identified as molecular partners of the Arabidopsis lncRNA ASCO? In what molecular mecanism are they all involved in?,Arabidopsis thaliana,GENE REGULATION - ALTERNATIVE SPLICING,0,"
+
+
+
+
+The proteins identified so far as interactors of the lncRNA ASCO are NSRa, PRP8 and SmD1b, which are involved in splicing.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"The correct answer is: 0: The proteins identified so far as interactors of the lncRNA ASCO are NSRa, PRP8 and SmD1b, which are involved in splicing.",0,模型输出的选项与正确选项一致，均为0，且回答内容正确描述了蛋白质和分子机制。,True,success,,0,30.24
+269,What is the molecular mechanism that leads to nitrate-dependent regulation of transcription by the NLP7 transcription factor in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+
+
+Nitrate resupply triggers the nuclear accumulation of NLP7 via a nuclear retention mechanism. Following nitrate signaling, NLP7 is retained in the nucleus where CDKs phosphorylate it to prevent export. Direct binding of nitrate to NLP7 activates its function as a transcription factor.
+
+答案：2",2,模型输出的选项与正确选项一致，评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,32.89
+270,The transcription factors NLP7 and NLP2 are major players for the response of A. thaliana to nitrate availability. What are the main differences in the metabolic phenotypes of loss-of-function mutants of either of these proteins?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+
+
+Based on the abstracts, NLP2 and NLP7 are key regulators of nitrate response and vegetative growth. The nlp2 and nlp7 mutants show reduced shoot growth under nitrate, with NLP7 involved in nitrate assimilation (recovery with ammonium/glutamine) and NLP2 having broader regulatory roles. However, there is no direct evidence supporting specific modifications in glycolysis or TCA cycle intermediates for either mutant.
+
+Correct answer: 1",1,模型输出的选项为1，但正确选项为2，因此评估为错误。模型回答中未提供与正确选项2一致的信息。,False,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,29.86
+271,What are the physiological and developmental processes that are regulated by NLP8 in Arabidopsis?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,"
+
+
+
+
+
+
+NLP8 is involved in the regulation of nitrate-regulated seed germination. In the absence of NLP8, ABA degradation by CYP707A2 is reduced because nitrate induction of CYP707A2 transcript accumulation is regulated by NLP8. This is supported by the finding that NLP8 directly binds to the promoter of CYP707A2 and reduces abscisic acid levels in a nitrate-dependent manner, which promotes seed germination.
+
+正确答案是：2",2,模型输出的选项与正确选项一致，评估为正确。,True,2,2,模型输出的选项[2]与正确选项[2]一致，因此评估为正确。,True,success,,0,44.75
+272,What is the impact of transposon activity in regulating vitamin E (tocopherols) biosynthesis in tomato fruits?,Solanum lycopersicum,GENOME AND GENOMICS,0,"
+
+
+
+根据文献摘要，SINE转座元件插入VTE3(1)基因启动子区域会导致该区域的DNA甲基化，并通过表观遗传机制抑制基因表达。这种甲基化状态可自发逆转，形成不同的表观等位基因（epialleles），从而影响VTE3(1)的表达和维生素E含量。
+
+因此，正确选项是：0",0,模型输出的选项与正确选项一致，均选择0，表明模型正确理解了转座子活动通过表观遗传机制调控番茄果实中维生素E生物合成的影响。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,27.18
+273,Which mechanism/s impact environmental conditions through on vitamin E content of tomato fruits?,Solanum lycopersicum,GENOME AND GENOMICS,1,"
+
+
+根据文献摘要（PMID: 24967512），SINE转座元件在VTE3(1)基因启动子区域的甲基化状态可自发逆转，导致不同表观等位基因（epialleles）的产生，从而影响VTE3(1)的表达和番茄果实中维生素E的含量。该研究并未直接指出环境条件控制与否导致去甲基化，而是强调自然发生的表观遗传变异。
+
+但结合题干选项与论文核心发现：**开放田间（uncontrolled environmental conditions）更可能引发这种自然发生的表观遗传变化（如DNA去甲基化）**，进而激活VTE3(1)转录并提高生育酚水平。
+
+因此正确答案是：
+1",1,模型回答的选项与正确选项一致，基于文献摘要（PMID: 24967512），SINE转座元件在VTE3(1)基因启动子区域的甲基化状态自发逆转影响维生素E含量，且开放田间环境条件可能引发这种自然发生的表观遗传变化。,True,"正确答案是：1
+
+解析：研究表明，番茄果实中维生素E（主要是生育酚）的含量受环境条件影响。在非控制环境（如露天田间）条件下，一个插入VTE3(1)基因启动子区的SINE型转座元件（TE）发生DNA胞嘧啶去甲基化（demethylation），导致该基因转录激活，从而提高生育酚水平。而去甲基化通常与基因激活相关。
+
+选项0错误，因为温室（控制条件）未引起该去甲基化效应。  
+选项2错误，因为它提到甲基化却导致基因激活，这与表观遗传规律矛盾（甲基化通常抑制转录）。  
+只有选项1正确描述了“开放田间条件 → 去甲基化 → 基因激活 → 维生素E增加”的机制。
+
+答案：1",1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,29.25
+274,"In Arabidopsis, are TEs inserted randomly or towards distinct sets of genes and associated with specific chromatin states? ",Arabidopsis thaliana,GENOME AND GENOMICS,0,"
+
+
+Based on known plant genomics literature, ATCOPIA93 (an LTR retrotransposon) and DNA transposons like ATENSPM3 and VANDAL21 show preferential integration into euchromatic regions. Specifically, ATCOPIA93 insertions are enriched in gene bodies marked by the H2A.Z histone variant, which is associated with active chromatin states.
+
+Correct answer: 0",0,模型回答的选项与正确选项一致，均为0，表明模型正确识别了转座子在拟南芥中倾向于插入特定基因和染色质状态。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,24.35
+275,Which transcription factor has been found to be requiered for chromatin spatial reorganization in response to heat stress in tomato?,Solanum lycopersicum,GENE REGULATION - TRANSCRIPTION,0,"
+
+根据文献摘要，HSFA1a被证明是热胁迫下染色质空间重排所必需的。因此正确答案是：
+
+0: HSFA1A was demonstrated to be required for chromatin spatial reorganization in response to heat stress in tomato",0,"Agent's response correctly identifies HSFA1a as the required transcription factor for chromatin spatial reorganization in response to heat stress in tomato, matching the correct option 0.",True,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,18.27
+276,What is the impact of an ectopic deposition of H3K9ac on TAD-like boundaries in tomato?,Solanum lycopersicum,GENE REGULATION - EPIGENETICS AND TGS,1,1: The ectopic deposition of H3K9ac triggered a reorganization of the 3D chromatin structure and plays a major role in the determination of TAD-like boundaries,1,模型输出的选项与正确选项一致，均为1。,True,1: The ectopic deposition of H3K9ac triggered a reorganization of the 3D chromatin structure and plays a major role in the determination of TAD-like boundaries,1,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,8.62
+277,Which histone demethylase controls H3K27me1 homeostasis in Arabidopsis thaliana euchromatin?,Arabidopsis thaliana,GENE REGULATION - EPIGENETICS AND TGS,0,"
+
+
+
+
+REF6 controls H3K27me1 homeostasis in euchromatin.  
+答案：0",0,模型输出选项与正确选项一致，均为0，表明REF6是控制拟南芥常染色质中H3K27me1稳态的组蛋白去甲基化酶。,True,0: REF6 controls H3K27me1 homeostasis in euchromatin,0,模型输出的选项与正确选项一致，因此判断为正确。,True,success,,0,44.56
+278,How GCN5 modulates salicylic acid homeostasis?,Arabidopsis thaliana,GENE REGULATION - TRANSCRIPTION,2,"
+
+根据文献摘要，GCN5通过调节其靶基因5'和3'端的H3K14ac水平来调控水杨酸稳态。正确答案是：
+
+2: GCN5 modulates salicylic acid homeostasis by regulating H3K14ac levels at the 5' and 3' ends of its target genes",2,模型输出与正确选项一致，均为选项2。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,20.34
+279,What viruses are linked to the corn leafhopper (Dalbulus maidis)?,Zea mays,ENVIRONMENT - BIOTIC STRESS,1,0,0,模型输出的选项为0，与正确选项1不一致，因此评估为错误。,False,0,0,模型输出的选项[0]与正确选项[1]不一致，因此评估为错误。,False,success,,0,7.5
+280,Which membrane proteins have been involved in the transport of UDP-xylose during the biosynthesis of xylan?,Arabidopsis thaliana,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.02
+281,How does the biosynthesis of the rhamnogalacturonan backbone structure is made in the Golgi apparatus?,Arabidopsis thaliana,CELL BIOLOGY AND CELL SIGNALING,0,0,0,模型输出的选项与正确选项一致，因此判断为正确。,True,"正确答案是：0
+
+理由：在高尔基体中，鼠李糖半乳糖醛酸聚糖（rhamnogalacturonan I, RG-I）骨架的生物合成依赖于活化的核苷酸糖前体，即UDP-半乳糖醛酸（UDP-galacturonic acid）和UDP-鼠李糖（UDP-rhamnose）。这些底物被特定的糖基转移酶——鼠李糖基转移酶（RRT）和RG-I-半乳糖醛酸基转移酶（RGGAT）——依次交替添加，形成RG-I的重复二糖骨架结构（→2)-α-L-Rha-(1→4)-α-D-GalA-(1→）。这一过程需要两种独立但协同作用的酶，分别识别并添加相应的单糖单位。
+
+选项1错误地暗示存在一种单一的、能交替转移两种糖的酶，目前无证据支持这种双功能酶的存在。  
+选项2错误在于它未指明使用的是活化的核苷酸糖形式（如UDP-），而仅说“sugars rhamnose and galacturonic acid”，这是不准确的，因为糖基转移反应必须依赖活化的核苷酸糖供体。
+
+因此，正确选项是：0",0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,9.35
+282,Softening of fruits is a trait that is highly appreciated in certain fuit such as tomatos. Understanding this process can be a way to extend shelf life of these fruits. On these regard what are the genes involved in this process that may be putative targets for creating new varieties?,Solanum lycopersicum,PLANT BIOTECHNOLOGY,1,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.6
+283,"Plants appear to be an alternative for the massive production of N-glycoproteins of pharmaceutical interest. However, sialic acid is a critical sugar in animal N-glycoproteins that is not present in plant N-glycoproteins. Why do plants not have sialic acid in their N-glycoproteins?",Arabidopsis thaliana,PLANT BIOTECHNOLOGY,1,1,1,模型回答的选项与正确选项一致，因此评估为正确。,True,"1: Plants synthesize glycoproteins and the modifications that occur in the N-glycan structure in the Golgi apparatus do not include sialic acid because the substrate is not produced in plants, therefore plant N-glycoproteins cannot receive this critical modification needed in animal cells.",1,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,6.68
+284,How many YTHDF proteins are there in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,1,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+根据文献分析，特别是PMID为37816028的文章摘要中明确指出：“In land plants, the YTHDF clade has expanded from one member in basal lineages to eleven so-called EVOLUTIONARILY CONSERVED C-TERMINAL REGION1-11 (ECT1-11) proteins in Arabidopsis thaliana”，说明拟南芥中有11个YTHDF蛋白，称为ECT1-ECT11。
+
+此外，工具查询结果显示ECT1存在（AT3G03950），但ECT12不存在；CPSF30虽有YTH结构域，但属于不同的功能蛋白，并非YTHDF家族成员。
+
+因此正确选项是：
+1: There are 11 YTHDF proteins in Arabidopsis, called ECT1-ECT11.",1,模型回答正确，基于文献PMID:37816028确认拟南芥中有11个YTHDF蛋白（ECT1-ECT11），与正确选项一致。,True,"正确答案是：2: There are 12 YTHDF proteins in Arabidopsis, called ECT1-ECT12.",2,正确选项是1，但模型输出选项2，因此判断为错误。,False,success,,0,107.04
+285,Which biological functions of m6A have been ascribed to the different YTHDF proteins in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,1,"
+
+
+
+
+根据文献摘要信息，ECT2是拟南芥中最受研究的YTHDF蛋白，与ECT3和ECT4共同调控多种器官的形态发生，并且ECT2、ECT3、ECT4和ECT5对抵抗RNA病毒（如苜蓿花叶病毒AMV）至关重要。选项0正确描述了这些功能，而选项1错误地将病毒类型泛化为“至少一种RNA病毒”，且混淆了ECT8和ECT1参与的信号通路。选项2则错误地将ECT3作为主要研究对象。
+
+因此，正确答案是：0",0,根据正确选项[1]，模型回答的选项[0]与正确选项不一致，因此评估为错误。,False,0,0,模型输出的选项[0]与正确选项[1]不一致，因此评估为错误。,False,success,,0,39.25
+286,Which protein(s) interact with the m6A reader ECT2 in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,0,"
+
+
+
+
+
+
+
+根据文献分析，Arabidopsis thaliana ECT2 通过 YTH 结构域识别 m6A 修饰的 RNA，并与 ALBA 蛋白家族和 PABP（poly(A)-binding protein）家族相互作用以调节 mRNA 稳定性。最新研究（PMID: 39613967, 38009565）证实了 ECT2 与 ALBA 和 PABP 的功能关联。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,52.0
+287,Is HAKAI essential for m6A deposition and development in Arabidopsis thaliana?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,0,"
+
+
+HAKAI is a subunit of the m6A methyltransferase complex in Arabidopsis, but its deficiency does not severely affect m6A deposition or embryo development. According to the study (PMID: 36890720), HAKAI has little effect on the protein abundance or localization of core subunits MTA and MTB, explaining why homozygous HAKAI mutants remain viable and phenotypically similar to wild type. This supports option 0.
+
+答案：0",0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,28.78
+288,How does ECT8 regulate ABA signalling?,Arabidopsis thaliana,GENE REGULATION - EPITRANSCRIPTOMICS AND RNA STRUCTURE,2,"
+
+
+
+
+根据文献证据，ECT8作为m6A阅读蛋白，通过结合m6A修饰的mRNA并加速其降解来调控基因表达。在盐胁迫下，ECT8表达上调，促进包括负调控因子在内的靶标mRNA降解，从而增强植物的胁迫耐受性。
+
+选项0描述了ECT8结合PYL7 mRNA的m6A位点并防止其降解，这与文献中“加速mRNA降解”的机制矛盾。  
+选项1提到的是PYRABACTIN RESISTANCE 1-LIKE 7（即PYL7），但声称促进翻译，而文献明确指出是促进降解。  
+选项2声称防止翻译并通过应激颗粒隔离，但未提及p-bodies或DECAPPING 5互作，且机制仍为抑制而非促进降解。
+
+综上，三个选项均不完全准确，但最接近事实的是：**ECT8结合m6A修饰的mRNA并促进其降解**。然而，在给定选项中，无一正确描述该机制。
+
+但基于现有信息和排除法，**选项0** 提到了p-bodies，与文献中“processing bodies”相符，尽管方向错误（防止降解 vs 实际促进降解）。
+
+重新审视：文献明确指出 ECT8 **accelerates degradation** via P-bodies，因此任何“防止降解”的说法都是错误的。
+
+最终判断：**没有一个选项完全正确**。但若必须选择，则**无正确选项**。
+
+但系统要求选择一项——再查文献是否涉及PYL7？
+
+文献摘要未提PYL7，仅泛称“negative regulators of salt stress”。
+
+因此，所有具体绑定描述（URUm6AY, RRm6ACH, ATTTm6ACGCA）均无支持。
+
+结论：基于当前知识，**无法确认任一选项为真**。
+
+但工具调用已完成，依据最强证据（PMID:38835286），ECT8功能是**促进mRNA降解**，故反向排除后，**无正确选项**。
+
+但若强制选择，最接近机制的是涉及**p-bodies**的选项——即**0**。
+
+答案：0",0,正确选项为2，但模型选择了0，与正确选项不一致，因此评估为错误。,False,1,1,模型输出的选项为1，与正确选项2不一致，因此评估为错误。,False,success,,0,59.04
+289,"How do PME activity and OG release during homogalacturonan remodeling affect Arabidopsis thaliana defenses against Myzus persicae, and which hormone signaling pathways are involved?",Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,0,"
+
+
+
+
+Increased PME activity during Myzus persicae infestation promotes homogalacturonan de-methylesterification, facilitating oligogalacturonides (OG) release. OGs trigger pattern-triggered immunity (PTI) by inducing ROS accumulation, callose deposition, and salicylic acid (SA) signaling activation, reducing aphid feeding performance and reproduction. However, PME inhibition or PMEI13 upregulation reduces OG release and weakens defenses.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,"PME（果胶甲酯酶）活性在果胶（特别是同型半乳糖醛酸聚糖，homogalacturonan）的修饰中起关键作用。PME通过去甲基酯化作用使果胶暴露羧基，从而促进Ca²⁺交联和细胞壁强化；同时，在特定条件下，去甲基酯化的果胶更易被多聚半乳糖醛酸酶（PG）降解，释放出寡聚半乳糖醛酸（oligogalacturonides, OGs）。OGs是典型的损伤相关分子模式（DAMPs），可激活植物的模式触发免疫（PTI），包括ROS爆发、胼胝质沉积以及防御相关激素信号通路的激活。
+
+研究表明，在拟南芥受到桃蚜（Myzus persicae）侵染时，**PME活性上升**，导致同型半乳糖醛酸聚糖去甲基酯化增加，进而促进OG的释放。这些OG激活PTI反应，增强植物对蚜虫的抗性，表现为抑制蚜虫取食和繁殖。相反，当PME被抑制或其抑制蛋白PMEI13过表达时，OG释放减少，PTI反应减弱，植物抗性下降。
+
+此外，OG诱导的防御反应主要依赖于**水杨酸（SA）信号通路**，而非JA或ET主导的路径。SA信号激活下游PR基因表达，协同ROS和胼胝质沉积，限制病原/害虫侵害。
+
+因此，正确描述为：  
+**Increased PME activity during Myzus persicae infestation promotes homogalacturonan de-methylesterification, facilitating OG release. OGs trigger PTI via ROS, callose, and SA signaling, reducing aphid performance. PME inhibition or PMEI13 upregulation reduces OG release and weakens defenses.**
+
+这与选项0完全一致。
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,success,,0,35.0
+290,"How do the dynamics of Pectin Methylesterases activity and OG-triggered defenses influence the interaction between Arabidopsis thaliana and Myzus persicae, and what molecular mechanisms mediate these effects?",Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,0,"
+
+
+根据文献（PMID: 31126981）摘要内容，Pectin Methylesterases (PMEs) 在蚜虫侵染早期被激活，导致同型半乳糖醛酸聚糖（homogalacturonan, HG）去甲酯化增加，从而促进寡聚半乳糖醛酸（OGs）的释放。这些OGs作为损伤相关分子模式（DAMPs），激活植物的模式触发免疫（PTI），表现为ROS积累、胼胝质沉积和水杨酸（SA）信号通路激活，增强对桃蚜（Myzus persicae）的抗性。抑制PME活性或过表达PME抑制剂PMEI13会削弱这一防御反应，导致植物更易感。
+
+因此，正确选项是：  
+0",0,模型输出的选项与正确选项一致，基于文献PMID:31126981，PMEs活性增加促进OGs释放，激活PTI防御，增强抗性。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,28.31
+291,"How the transcription factors WRKY7, WRKY11 and WRKY17 act during the interaction between Arabidopsis thaliana and Pseudomonas syringae pv. tomato (Pst) DC3000 and which hormone signaling pathways are mainly involved?",Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,0,"
+
+根据文献摘要，WRKY7、WRKY11和WRKY17在拟南芥中作为对Pseudomonas syringae pv. tomato (Pst) DC3000的负向防御调节因子，并在感染后期（24 hpi）**诱导**与茉莉酸（JA）途径生物合成和信号传导相关的基因表达。
+
+因此，正确选项是：  
+0: In Arabidopsis thaliana, the transcription factors WRKY7, WRKY11 and WRKY17 act as negative defence regulators against Pseudomonas syringae pv. tomato (Pst) DC3000. These transcription factors induce genes related to the biosynthesis and signalling of the jasmonic acid (JA) pathway.",0,模型回答与正确选项一致，准确描述了WRKY7、WRKY11和WRKY17作为负向防御调节因子在拟南芥与Pst DC3000互作中的作用，并涉及茉莉酸（JA）途径。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,20.43
+292,How the root specific syntaxin 123 (SYP123) is involved in the Arabidopsis thaliana defense response?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,0,"
+
+
+
+根据文献摘要，SYP123参与了PRP3蛋白和细胞壁多糖在生长根毛中的极性定位，并且这一活动有助于建立有效的植物防御反应。因此正确选项是：
+
+0: The syntaxin SYP123 is involved in the polarized localization of PRP3 protein and polysaccharides in growing root hairs and this activity contribute to the establishment of effective plant defense responses.",0,模型输出的选项与正确选项一致，均为0，且描述内容与正确选项相符。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,34.19
+293,What is an oligogalacturonide and its function during the feeding performance and population of Myzus persicae over Arabidopsis thaliana? Which mechanisms are involved?,Arabidopsis thaliana,ENVIRONMENT - BIOTIC STRESS,1,"
+
+
+Oligogalacturonides (OGs) are pectin-derived molecules that enhance resistance in Arabidopsis thaliana against Myzus persicae by reducing offspring number and feeding performance. This resistance involves callose and reactive oxygen species accumulation and activation of the salicylic acid signaling pathway.
+
+正确答案是：1",1,模型输出的选项与正确选项一致，回答正确。,True,"1: Oligogalacturonides (OGs) are pectin-derived molecules. OG treatments of Arabidopsis thaliana increase their resistance to Myzus persicae infestation by reducing the number of offspring and feeding performance. Furthermore, this enhanced resistance was related to a substantial accumulation of callose and reactive oxygen species and activation of the salicylic acid signaling pathway.",1,模型输出的选项与正确选项一致，均为1，因此判断为正确。,True,success,,0,26.94
+294,How does the mitochondrial protein AtOXR2 influence plant growth and biomass production in Arabidopsis thaliana?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+
+
+
+根据文献（PMID: 30945737）摘要内容，AtOXR2的过表达通过影响活性氧（ROS）水平，提高光合作用效率并诱导对氧化应激的耐受性，从而促进植物生长和生物量积累。虽然未明确指出ROS是增加还是减少，但结合“oxidation resistance”功能及缓解氧化应激敏感性的表型，表明AtOXR2可能降低有害ROS水平以增强耐受性。
+
+正确选项为：  
+0: Constitutively overexpression of AtOXR2 in Arabidopsis plants decreases basal ROS levels, which act as signalling molecules, improve the efficiency of photosynthesis and elicit tolerance to oxidative stress, allowing improved plant growth and biomass production.",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,1,1,模型输出的选项为1，与正确选项2不一致，因此评估为错误。,False,success,,0,34.77
+295,How does CYTc deficiency affect mitochondrial function and TOR-pathway activation in plants?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,0,"
+
+根据文献摘要，CYTc缺陷植物表现出线粒体膜电位降低和ATP含量减少，即使在碳源存在的情况下也是如此。CYTc缺陷会降低TOR通路的激活，导致S6K和RPS6A的磷酸化水平下降以及总S6K蛋白水平降低，这是由于通过蛋白酶体和自噬途径的蛋白质降解增加所致。因此，CYTc缺陷植物通过下调TOR通路的激活来协调其代谢和能量可用性，作为一种预防信号以调整生长，预示着能量耗竭。
+
+正确选项是：0",0,模型输出的选项与正确选项一致，均为0，表明CYTc缺陷会降低线粒体功能和TOR通路激活，符合正确选项的描述。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,19.35
+296,"How does cytochrome c deficiency affect seed germination, and the sensitivity to ABA in Arabidopsis?",Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,0,"
+
+
+根据文献摘要，细胞色素c（CYTC-2）的表达受ABA负调控，且其作用位于转录因子ABI4的下游。ABI4结合到CYTC-2启动子区域介导ABA对其表达的抑制。
+
+正确答案是：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，评估为正确。,True,success,,0,23.72
+297,How does reduced levels of CYTc in Arabidopsis affect the stability and function of mitochondrial respiratory complexes?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+
+
+
+
+
+
+
+Reduced cytochrome c levels impair Complex IV assembly and stability, which in turn affects the function of other respiratory complexes and reduces mitochondrial respiration. This is supported by studies showing that disruption of cytochrome c or its interacting partners leads to defective Complex IV assembly and reduced oxidative phosphorylation.
+
+Answer: 1",1,正确选项为2，但agent输出选项为1，两者不一致，因此评估为错误。,False,1,1,模型输出的选项[1]与正确选项[2]不一致，因此评估为错误。,False,success,,0,54.13
+298,What is the mechanism by which overexpression of the OXR2 protein induces a basal defense against hemibiotrophic pathogens?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,0,"
+
+
+
+
+AtOXR2 affects NPR1 nuclear localization and enhances disease resistance through activation of the SA pathway, with increased glutathione levels and a more oxidized cytosol. The correct description matches option 0.
+
+答案：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,"Failed to transform agent message: req_id: 37c52dc1f3 PluginInvokeError: {""args"":{},""error_type"":""JSONDecodeError"",""message"":""Expecting ',' delimiter: line 1 column 48 (char 47)""}",1,34.97
+299,"What is the role of lncRNA DANA1 in Arabidopsis thaliana responses to drought stress, and what proteins have been identified as its molecular partners?",Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+根据文献摘要，DANA1 是一种干旱诱导的长链非编码RNA，与L1p/L10e家族蛋白DIP1相互作用，两者均促进拟南芥的抗旱性。DANA1和DIP1通过增强HDA9对CYP707A1和CYP707A2位点的结合，降低这些基因的表达，从而减少ABA的降解，提高ABA含量，增强抗旱能力。因此，DANA1是抗旱性的正调控因子，且DIP1为L1p/L10e家族蛋白，而非转录因子。
+
+正确选项为：0",0,模型回答的选项与正确选项一致，均为0，表明模型正确识别了DANA1在拟南芥干旱响应中的角色及其分子伙伴DIP1。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.01
+300,"What is the role of lncRNA DANA2 in Arabidopsis thaliana responses to drought stress, and what proteins have been identified as its molecular partners?",Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,1,"
+
+根据文献摘要，LncRNA DANA2通过与AP2/ERF转录因子ERF84相互作用，正向调控JMJ29的表达，从而增强拟南芥对干旱胁迫的耐受性。JMJ29通过H3K9me2去甲基化正向调控ERF15和GOLS2的表达，这两个基因参与气孔关闭和干旱应答。
+
+正确选项是：  
+1: LncRNA DANA2 positively regulates drought stress responses through JMJ29 in Arabidopsis thaliana, and JMJ29 can positively regulate the expression of two positve regulators of stomatal closure and drought stress response, ERF15 and GOLS2. ERF84, an AP2/ERF transcription factor, not only binds specifically to DANA2, but also promotes the transcription of JMJ29 by binding to its promoter.
+
+答案：1",1,模型输出的选项与正确选项一致，均为1，因此评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,23.52
+301,"What is the role of lncRNA ARTA in abscisic acid (ABA) response in Arabidopsis thaliana, and what proteins have been identified as its molecular partners?",Arabidopsis thaliana,ENVIRONMENT - ABIOTIC STRESS,0,"
+
+根据文献摘要，正确描述为：ABA诱导的lncRNA ARTA通过与importin β-like蛋白SAD2相互作用，阻断转录因子MYB7的核输入，从而正向调控ABI5的表达。ARTA缺失导致ABI5表达受抑制，对ABA脱敏。
+
+因此正确选项是：
+0",0,模型输出的选项与正确选项一致，均为0，表明模型正确识别了lncRNA ARTA在ABA响应中的角色及其分子伙伴。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,18.95
+302,What are the roles of miR396e and miR396f in controlling rice architecture?,Oryza sativa,PLANT BIOTECHNOLOGY,0,"
+
+根据文献摘要，正确的描述是：突变的miR396e和miR396f导致水稻形态结构改变，叶片延长但节间缩短，尤其是最上部节间。mir396ef突变通过增加赤霉素（GA）前体甲瓦龙酸的水平来促进叶片伸长，从而促进GA生物合成。而mir396ef突变体中的节间伸长则通过降低CYP96B4表达来抑制，并非通过GA途径。
+
+正确选项为：0",0,模型输出的选项与正确选项一致，均为0，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,21.49
+303,"Which proteins were identified as part of the Arabidopsis Target of Rapamycin (TOR) complex?
+",Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,"
+
+
+
+
+
+植物中的TOR复合物（TORC1）包含TOR激酶、Raptor和Lst8蛋白。基因与蛋白分析证实：TOR（AT1G50030）、Raptor（如AT3G08850）和LST8-1（AT3G18140）在拟南芥中共同构成该复合物，且文献支持其功能关联。
+
+答案：2",2,模型输出的选项与正确选项一致，均为2，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,64.35
+304,How does the Arabidopsis ribosomal protein S6 Kinase (S6K) accumulate in seedlings grown in 1% sucrose plates during short day (8h light / 16h dark) and long day (16h light / 8h dark) conditions?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,0,0,模型选择了选项0，但正确选项为2，因此回答错误。,False,0,0,正确选项为2，但模型输出选项为0，两者不一致，因此评估为错误。,False,success,,0,7.99
+305,What is the half life of Arabidopsis S6K protein and which regulators control its stability?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,1,1,1,模型输出的选项与正确选项一致，评估为正确。,True,1,1,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.3
+306,"What are the main differences between the root extension patterns of wild type (Col-0) and raptor mutant seedlings grown under long day conditions? 
+",Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,2,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,2,2,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,5.96
+307,How does the TOR pathway regulate lateral root formation in Arabidopsis thaliana?,Arabidopsis thaliana,PHYSIOLOGY AND METABOLISM,0,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,0,0,模型输出的选项与正确选项一致，因此评估为正确。,True,success,,0,6.92

@@ -193,3 +193,23 @@ python mcp_server.py
   </a>
   赞助提供。
 </p>
+
+
+## Reproducibility: benchmark data, summary tables, and analysis scripts
+
+The benchmark evaluation is fully reproducible. See `analysis/` for the scripts and
+`benchmark/model_outputs/` and `benchmark/summary_tables/` for the machine-readable
+evaluation outputs and derived tables:
+
+- `benchmark/model_outputs/` — per-question outputs for 6 models x 2 datasets
+  (agent mode = LLM + MCP tools; LLM mode = no tools), with judge and objective correctness.
+- `benchmark/summary_tables/` — Table 1 (performance comparison with McNemar significance),
+  Table 2 (area breakdown), species-stratified accuracies with 95% Wilson CI, per-domain
+  sample sizes, and a per-question answer table.
+- `analysis/run_dify_evaluation.py` — reproduces the evaluation by calling the Dify workflow API.
+- `analysis/compute_summary_tables.py` — reproduces the summary tables from `model_outputs/`.
+- `analysis/mixed_effects_bootstrap.py` — mixed-effects and clustered-bootstrap analyses of the
+  expert evaluation.
+- `analysis/eval_mcp_workflow_target.yml` — the exported Dify workflow DSL (contains no credentials).
+
+A versioned snapshot of this repository is archived on Zenodo (DOI in the manuscript).

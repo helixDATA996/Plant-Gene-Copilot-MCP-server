@@ -1,0 +1,253 @@
+﻿Dataset,Species,Model,n,Agent_correct,Agent_acc_%,Agent_CI95,LLM_correct,LLM_acc_%,LLM_CI95
+target,Arabidopsis thaliana,DeepSeek-V3.2,260,243,93.46,89.8–95.9,200,76.92,71.4–81.6
+target,Arabidopsis thaliana,Grok-4.1-Fast,260,209,80.38,75.1–84.8,182,70.00,64.2–75.2
+target,Arabidopsis thaliana,Doubao-1.8,260,237,91.15,87.1–94.0,231,88.85,84.4–92.1
+target,Arabidopsis thaliana,MiMo-V2-Flash,260,235,90.38,86.2–93.4,192,73.85,68.2–78.8
+target,Arabidopsis thaliana,Qwen3-235B,260,207,79.62,74.3–84.1,208,80.00,74.7–84.4
+target,Arabidopsis thaliana,Gemini-3-Flash-High,260,248,95.38,92.1–97.3,243,93.46,89.8–95.9
+target,Solanum lycopersicum,DeepSeek-V3.2,17,16,94.12,73.0–99.0,15,88.24,65.7–96.7
+target,Solanum lycopersicum,Grok-4.1-Fast,17,15,88.24,65.7–96.7,16,94.12,73.0–99.0
+target,Solanum lycopersicum,Doubao-1.8,17,17,100.00,81.6–100.0,16,94.12,73.0–99.0
+target,Solanum lycopersicum,MiMo-V2-Flash,17,16,94.12,73.0–99.0,12,70.59,46.9–86.7
+target,Solanum lycopersicum,Qwen3-235B,17,15,88.24,65.7–96.7,15,88.24,65.7–96.7
+target,Solanum lycopersicum,Gemini-3-Flash-High,17,15,88.24,65.7–96.7,16,94.12,73.0–99.0
+target,Oryza sativa,DeepSeek-V3.2,10,6,60.00,31.3–83.2,7,70.00,39.7–89.2
+target,Oryza sativa,Grok-4.1-Fast,10,7,70.00,39.7–89.2,7,70.00,39.7–89.2
+target,Oryza sativa,Doubao-1.8,10,9,90.00,59.6–98.2,8,80.00,49.0–94.3
+target,Oryza sativa,MiMo-V2-Flash,10,6,60.00,31.3–83.2,5,50.00,23.7–76.3
+target,Oryza sativa,Qwen3-235B,10,6,60.00,31.3–83.2,6,60.00,31.3–83.2
+target,Oryza sativa,Gemini-3-Flash-High,10,9,90.00,59.6–98.2,9,90.00,59.6–98.2
+target,Marchantia polymorpha,DeepSeek-V3.2,4,3,75.00,30.1–95.4,2,50.00,15.0–85.0
+target,Marchantia polymorpha,Grok-4.1-Fast,4,1,25.00,4.6–69.9,1,25.00,4.6–69.9
+target,Marchantia polymorpha,Doubao-1.8,4,4,100.00,51.0–100.0,4,100.00,51.0–100.0
+target,Marchantia polymorpha,MiMo-V2-Flash,4,3,75.00,30.1–95.4,1,25.00,4.6–69.9
+target,Marchantia polymorpha,Qwen3-235B,4,1,25.00,4.6–69.9,2,50.00,15.0–85.0
+target,Marchantia polymorpha,Gemini-3-Flash-High,4,2,50.00,15.0–85.0,3,75.00,30.1–95.4
+target,Zea mays,DeepSeek-V3.2,4,4,100.00,51.0–100.0,2,50.00,15.0–85.0
+target,Zea mays,Grok-4.1-Fast,4,3,75.00,30.1–95.4,0,0.00,0.0–49.0
+target,Zea mays,Doubao-1.8,4,4,100.00,51.0–100.0,3,75.00,30.1–95.4
+target,Zea mays,MiMo-V2-Flash,4,3,75.00,30.1–95.4,1,25.00,4.6–69.9
+target,Zea mays,Qwen3-235B,4,2,50.00,15.0–85.0,1,25.00,4.6–69.9
+target,Zea mays,Gemini-3-Flash-High,4,4,100.00,51.0–100.0,4,100.00,51.0–100.0
+target,"Arabidopsis thaliana, Nicotiana benthamiana",DeepSeek-V3.2,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+target,"Arabidopsis thaliana, Nicotiana benthamiana",Grok-4.1-Fast,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+target,"Arabidopsis thaliana, Nicotiana benthamiana",Doubao-1.8,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+target,"Arabidopsis thaliana, Nicotiana benthamiana",MiMo-V2-Flash,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+target,"Arabidopsis thaliana, Nicotiana benthamiana",Qwen3-235B,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+target,"Arabidopsis thaliana, Nicotiana benthamiana",Gemini-3-Flash-High,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+target,"Arabidopsis thaliana, Physcomitrella patens",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Physcomitrella patens",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Physcomitrella patens",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Physcomitrella patens",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Physcomitrella patens",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Physcomitrella patens",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Hordeum vulgare, Arabidopsis thaliana",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Hordeum vulgare, Arabidopsis thaliana",Grok-4.1-Fast,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+target,"Hordeum vulgare, Arabidopsis thaliana",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Hordeum vulgare, Arabidopsis thaliana",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Hordeum vulgare, Arabidopsis thaliana",Qwen3-235B,1,0,0.00,0.0–79.3,1,100.00,20.7–100.0
+target,"Hordeum vulgare, Arabidopsis thaliana",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Solanum lycopersicum",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Solanum lycopersicum",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Solanum lycopersicum",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Solanum lycopersicum",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Solanum lycopersicum",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Solanum lycopersicum",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Marchantia polymorpha",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Marchantia polymorpha",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Marchantia polymorpha",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Marchantia polymorpha",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Marchantia polymorpha",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Marchantia polymorpha",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Hordeum vulgare",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Hordeum vulgare",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Hordeum vulgare",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Hordeum vulgare",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Hordeum vulgare",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Arabidopsis thaliana, Hordeum vulgare",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Solanum lycopersicum, Arabidopsis thaliana",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Solanum lycopersicum, Arabidopsis thaliana",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Solanum lycopersicum, Arabidopsis thaliana",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Solanum lycopersicum, Arabidopsis thaliana",MiMo-V2-Flash,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+target,"Solanum lycopersicum, Arabidopsis thaliana",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Solanum lycopersicum, Arabidopsis thaliana",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Nothofagus pumilio, Arabidopsis thaliana, Populus tomentosa",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Nothofagus pumilio, Arabidopsis thaliana, Populus tomentosa",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Nothofagus pumilio, Arabidopsis thaliana, Populus tomentosa",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Nothofagus pumilio, Arabidopsis thaliana, Populus tomentosa",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Nothofagus pumilio, Arabidopsis thaliana, Populus tomentosa",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Nothofagus pumilio, Arabidopsis thaliana, Populus tomentosa",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,Populus trichocarpa,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,Populus trichocarpa,Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,Populus trichocarpa,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,Populus trichocarpa,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,Populus trichocarpa,Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,Populus trichocarpa,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Marchantia polymorpha, Arabidopsis thaliana",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Marchantia polymorpha, Arabidopsis thaliana",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Marchantia polymorpha, Arabidopsis thaliana",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Marchantia polymorpha, Arabidopsis thaliana",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Marchantia polymorpha, Arabidopsis thaliana",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Marchantia polymorpha, Arabidopsis thaliana",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Physcomitrella patens, Arabidopsis thaliana",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Physcomitrella patens, Arabidopsis thaliana",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Physcomitrella patens, Arabidopsis thaliana",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Physcomitrella patens, Arabidopsis thaliana",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+target,"Physcomitrella patens, Arabidopsis thaliana",Qwen3-235B,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+target,"Physcomitrella patens, Arabidopsis thaliana",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,non-specific,DeepSeek-V3.2,167,137,82.04,75.5–87.1,139,83.23,76.8–88.1
+nontarget,non-specific,Grok-4.1-Fast,167,133,79.64,72.9–85.0,130,77.84,71.0–83.5
+nontarget,non-specific,Doubao-1.8,167,155,92.81,87.9–95.8,150,89.82,84.3–93.5
+nontarget,non-specific,MiMo-V2-Flash,167,138,82.63,76.2–87.6,132,79.04,72.3–84.5
+nontarget,non-specific,Qwen3-235B,167,135,80.84,74.2–86.1,143,85.63,79.5–90.1
+nontarget,non-specific,Gemini-3-Flash-High,167,154,92.22,87.1–95.4,155,92.81,87.9–95.8
+nontarget,Medicago truncatula,DeepSeek-V3.2,24,24,100.00,86.2–100.0,20,83.33,64.1–93.3
+nontarget,Medicago truncatula,Grok-4.1-Fast,24,21,87.50,69.0–95.7,18,75.00,55.1–88.0
+nontarget,Medicago truncatula,Doubao-1.8,24,21,87.50,69.0–95.7,20,83.33,64.1–93.3
+nontarget,Medicago truncatula,MiMo-V2-Flash,24,22,91.67,74.2–97.7,18,75.00,55.1–88.0
+nontarget,Medicago truncatula,Qwen3-235B,24,19,79.17,59.5–90.8,18,75.00,55.1–88.0
+nontarget,Medicago truncatula,Gemini-3-Flash-High,24,24,100.00,86.2–100.0,20,83.33,64.1–93.3
+nontarget,Fragaria ananassa,DeepSeek-V3.2,10,10,100.00,72.2–100.0,8,80.00,49.0–94.3
+nontarget,Fragaria ananassa,Grok-4.1-Fast,10,10,100.00,72.2–100.0,6,60.00,31.3–83.2
+nontarget,Fragaria ananassa,Doubao-1.8,10,10,100.00,72.2–100.0,9,90.00,59.6–98.2
+nontarget,Fragaria ananassa,MiMo-V2-Flash,10,9,90.00,59.6–98.2,7,70.00,39.7–89.2
+nontarget,Fragaria ananassa,Qwen3-235B,10,9,90.00,59.6–98.2,7,70.00,39.7–89.2
+nontarget,Fragaria ananassa,Gemini-3-Flash-High,10,10,100.00,72.2–100.0,8,80.00,49.0–94.3
+nontarget,Nicotiana benthamiana,DeepSeek-V3.2,9,9,100.00,70.1–100.0,8,88.89,56.5–98.0
+nontarget,Nicotiana benthamiana,Grok-4.1-Fast,9,7,77.78,45.3–93.7,5,55.56,26.7–81.1
+nontarget,Nicotiana benthamiana,Doubao-1.8,9,9,100.00,70.1–100.0,8,88.89,56.5–98.0
+nontarget,Nicotiana benthamiana,MiMo-V2-Flash,9,9,100.00,70.1–100.0,7,77.78,45.3–93.7
+nontarget,Nicotiana benthamiana,Qwen3-235B,9,6,66.67,35.4–87.9,9,100.00,70.1–100.0
+nontarget,Nicotiana benthamiana,Gemini-3-Flash-High,9,9,100.00,70.1–100.0,9,100.00,70.1–100.0
+nontarget,Helianthus annuus,DeepSeek-V3.2,6,5,83.33,43.6–97.0,6,100.00,61.0–100.0
+nontarget,Helianthus annuus,Grok-4.1-Fast,6,6,100.00,61.0–100.0,5,83.33,43.6–97.0
+nontarget,Helianthus annuus,Doubao-1.8,6,6,100.00,61.0–100.0,6,100.00,61.0–100.0
+nontarget,Helianthus annuus,MiMo-V2-Flash,6,6,100.00,61.0–100.0,6,100.00,61.0–100.0
+nontarget,Helianthus annuus,Qwen3-235B,6,5,83.33,43.6–97.0,6,100.00,61.0–100.0
+nontarget,Helianthus annuus,Gemini-3-Flash-High,6,5,83.33,43.6–97.0,5,83.33,43.6–97.0
+nontarget,Glycine max,DeepSeek-V3.2,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Glycine max,Grok-4.1-Fast,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Glycine max,Doubao-1.8,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Glycine max,MiMo-V2-Flash,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Glycine max,Qwen3-235B,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Glycine max,Gemini-3-Flash-High,5,5,100.00,56.6–100.0,4,80.00,37.6–96.4
+nontarget,Lotus japonicus,DeepSeek-V3.2,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Lotus japonicus,Grok-4.1-Fast,5,4,80.00,37.6–96.4,5,100.00,56.6–100.0
+nontarget,Lotus japonicus,Doubao-1.8,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Lotus japonicus,MiMo-V2-Flash,5,5,100.00,56.6–100.0,5,100.00,56.6–100.0
+nontarget,Lotus japonicus,Qwen3-235B,5,4,80.00,37.6–96.4,5,100.00,56.6–100.0
+nontarget,Lotus japonicus,Gemini-3-Flash-High,5,5,100.00,56.6–100.0,4,80.00,37.6–96.4
+nontarget,Phaseolus vulgaris,DeepSeek-V3.2,4,3,75.00,30.1–95.4,3,75.00,30.1–95.4
+nontarget,Phaseolus vulgaris,Grok-4.1-Fast,4,3,75.00,30.1–95.4,4,100.00,51.0–100.0
+nontarget,Phaseolus vulgaris,Doubao-1.8,4,4,100.00,51.0–100.0,3,75.00,30.1–95.4
+nontarget,Phaseolus vulgaris,MiMo-V2-Flash,4,4,100.00,51.0–100.0,2,50.00,15.0–85.0
+nontarget,Phaseolus vulgaris,Qwen3-235B,4,3,75.00,30.1–95.4,3,75.00,30.1–95.4
+nontarget,Phaseolus vulgaris,Gemini-3-Flash-High,4,3,75.00,30.1–95.4,3,75.00,30.1–95.4
+nontarget,Arachis hypogaea,DeepSeek-V3.2,4,3,75.00,30.1–95.4,3,75.00,30.1–95.4
+nontarget,Arachis hypogaea,Grok-4.1-Fast,4,1,25.00,4.6–69.9,3,75.00,30.1–95.4
+nontarget,Arachis hypogaea,Doubao-1.8,4,3,75.00,30.1–95.4,3,75.00,30.1–95.4
+nontarget,Arachis hypogaea,MiMo-V2-Flash,4,4,100.00,51.0–100.0,3,75.00,30.1–95.4
+nontarget,Arachis hypogaea,Qwen3-235B,4,2,50.00,15.0–85.0,4,100.00,51.0–100.0
+nontarget,Arachis hypogaea,Gemini-3-Flash-High,4,4,100.00,51.0–100.0,4,100.00,51.0–100.0
+nontarget,Solanum tuberosum,DeepSeek-V3.2,3,3,100.00,43.8–100.0,1,33.33,6.1–79.2
+nontarget,Solanum tuberosum,Grok-4.1-Fast,3,1,33.33,6.1–79.2,1,33.33,6.1–79.2
+nontarget,Solanum tuberosum,Doubao-1.8,3,3,100.00,43.8–100.0,2,66.67,20.8–93.9
+nontarget,Solanum tuberosum,MiMo-V2-Flash,3,2,66.67,20.8–93.9,1,33.33,6.1–79.2
+nontarget,Solanum tuberosum,Qwen3-235B,3,2,66.67,20.8–93.9,2,66.67,20.8–93.9
+nontarget,Solanum tuberosum,Gemini-3-Flash-High,3,3,100.00,43.8–100.0,2,66.67,20.8–93.9
+nontarget,Triticum aestivum,DeepSeek-V3.2,3,3,100.00,43.8–100.0,2,66.67,20.8–93.9
+nontarget,Triticum aestivum,Grok-4.1-Fast,3,3,100.00,43.8–100.0,1,33.33,6.1–79.2
+nontarget,Triticum aestivum,Doubao-1.8,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+nontarget,Triticum aestivum,MiMo-V2-Flash,3,3,100.00,43.8–100.0,2,66.67,20.8–93.9
+nontarget,Triticum aestivum,Qwen3-235B,3,2,66.67,20.8–93.9,3,100.00,43.8–100.0
+nontarget,Triticum aestivum,Gemini-3-Flash-High,3,3,100.00,43.8–100.0,3,100.00,43.8–100.0
+nontarget,Medicago sativa,DeepSeek-V3.2,2,2,100.00,34.2–100.0,1,50.00,9.5–90.5
+nontarget,Medicago sativa,Grok-4.1-Fast,2,2,100.00,34.2–100.0,1,50.00,9.5–90.5
+nontarget,Medicago sativa,Doubao-1.8,2,1,50.00,9.5–90.5,1,50.00,9.5–90.5
+nontarget,Medicago sativa,MiMo-V2-Flash,2,2,100.00,34.2–100.0,1,50.00,9.5–90.5
+nontarget,Medicago sativa,Qwen3-235B,2,1,50.00,9.5–90.5,1,50.00,9.5–90.5
+nontarget,Medicago sativa,Gemini-3-Flash-High,2,2,100.00,34.2–100.0,2,100.00,34.2–100.0
+nontarget,Nothofagus pumilio,DeepSeek-V3.2,2,2,100.00,34.2–100.0,2,100.00,34.2–100.0
+nontarget,Nothofagus pumilio,Grok-4.1-Fast,2,1,50.00,9.5–90.5,1,50.00,9.5–90.5
+nontarget,Nothofagus pumilio,Doubao-1.8,2,2,100.00,34.2–100.0,1,50.00,9.5–90.5
+nontarget,Nothofagus pumilio,MiMo-V2-Flash,2,1,50.00,9.5–90.5,2,100.00,34.2–100.0
+nontarget,Nothofagus pumilio,Qwen3-235B,2,1,50.00,9.5–90.5,1,50.00,9.5–90.5
+nontarget,Nothofagus pumilio,Gemini-3-Flash-High,2,2,100.00,34.2–100.0,2,100.00,34.2–100.0
+nontarget,Capsicum annuum,DeepSeek-V3.2,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Capsicum annuum,Grok-4.1-Fast,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Capsicum annuum,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Capsicum annuum,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Capsicum annuum,Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Capsicum annuum,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Lactuca sativa,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Lactuca sativa,Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Lactuca sativa,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Lactuca sativa,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Lactuca sativa,Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Lactuca sativa,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Solanum tuberosum, Glycine max, Chrysanthemum",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Solanum tuberosum, Glycine max, Chrysanthemum",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Solanum tuberosum, Glycine max, Chrysanthemum",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Solanum tuberosum, Glycine max, Chrysanthemum",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Solanum tuberosum, Glycine max, Chrysanthemum",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Solanum tuberosum, Glycine max, Chrysanthemum",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Prunus persica,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Prunus persica,Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Prunus persica,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Prunus persica,MiMo-V2-Flash,1,0,0.00,0.0–79.3,1,100.00,20.7–100.0
+nontarget,Prunus persica,Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Prunus persica,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Pisum sativum,DeepSeek-V3.2,1,0,0.00,0.0–79.3,1,100.00,20.7–100.0
+nontarget,Pisum sativum,Grok-4.1-Fast,1,0,0.00,0.0–79.3,0,0.00,0.0–79.3
+nontarget,Pisum sativum,Doubao-1.8,1,0,0.00,0.0–79.3,1,100.00,20.7–100.0
+nontarget,Pisum sativum,MiMo-V2-Flash,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Pisum sativum,Qwen3-235B,1,0,0.00,0.0–79.3,0,0.00,0.0–79.3
+nontarget,Pisum sativum,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Hordeum vulgare,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Hordeum vulgare,Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Hordeum vulgare,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Hordeum vulgare,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Hordeum vulgare,Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Hordeum vulgare,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Sorghum bicolor,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Sorghum bicolor,Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Sorghum bicolor,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Sorghum bicolor,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Sorghum bicolor,Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Sorghum bicolor,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Triticum aestivum, Hordeum vulgare",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Triticum aestivum, Hordeum vulgare",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Triticum aestivum, Hordeum vulgare",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Triticum aestivum, Hordeum vulgare",MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Triticum aestivum, Hordeum vulgare",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Triticum aestivum, Hordeum vulgare",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Parasponia andersonii,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Parasponia andersonii,Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Parasponia andersonii,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Parasponia andersonii,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Parasponia andersonii,Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Parasponia andersonii,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Medicago truncatula, Lotus japonicus",DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Medicago truncatula, Lotus japonicus",Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Medicago truncatula, Lotus japonicus",Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Medicago truncatula, Lotus japonicus",MiMo-V2-Flash,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,"Medicago truncatula, Lotus japonicus",Qwen3-235B,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,"Medicago truncatula, Lotus japonicus",Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Antirrhinum majus,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Antirrhinum majus,Grok-4.1-Fast,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Antirrhinum majus,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Antirrhinum majus,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Antirrhinum majus,Qwen3-235B,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Antirrhinum majus,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Citrus trifoliata,DeepSeek-V3.2,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Citrus trifoliata,Grok-4.1-Fast,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Citrus trifoliata,Doubao-1.8,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Citrus trifoliata,MiMo-V2-Flash,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Citrus trifoliata,Qwen3-235B,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Citrus trifoliata,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
+nontarget,Welwitschia mirabilis,DeepSeek-V3.2,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Welwitschia mirabilis,Grok-4.1-Fast,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Welwitschia mirabilis,Doubao-1.8,1,1,100.00,20.7–100.0,0,0.00,0.0–79.3
+nontarget,Welwitschia mirabilis,MiMo-V2-Flash,1,0,0.00,0.0–79.3,0,0.00,0.0–79.3
+nontarget,Welwitschia mirabilis,Qwen3-235B,1,0,0.00,0.0–79.3,1,100.00,20.7–100.0
+nontarget,Welwitschia mirabilis,Gemini-3-Flash-High,1,1,100.00,20.7–100.0,1,100.00,20.7–100.0
