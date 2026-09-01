@@ -210,6 +210,6 @@ evaluation outputs and derived tables:
 - `analysis/compute_summary_tables.py` — reproduces the summary tables from `model_outputs/`.
 - `analysis/mixed_effects_bootstrap.py` — mixed-effects and clustered-bootstrap analyses of the
   expert evaluation.
-- `analysis/eval_mcp_workflow_target.yml` — the exported Dify workflow DSL (contains no credentials).
+- `analysis/eval_mcp_workflow_target.yml` — the exported Dify workflow DSL.
 
 A versioned snapshot of this repository is archived on Zenodo (DOI in the manuscript).
