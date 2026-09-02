@@ -235,13 +235,7 @@ asyncio.run(main())
 This manuscript evaluates PGCopilot with **two complementary experiments**, and
 this repository makes both fully reproducible.
 
-*Automated evaluation* measures whether adding the MCP
-tool layer improves the accuracy of six LLMs on 565 expert-written plant-biology
-multiple-choice questions (308 "target-plant" + 257 "non-target" subsets).
-*Expert evaluation* then checks that this improvement is not just answer-key
-accuracy, by having 15 plant researchers blind-score the full agent on 10
-open-ended questions. Both rely only on the files under `workflow_evaluation/`
-and `expert_evaluation/`.
+*Automated evaluation* measures whether adding the MCP tool layer improves the accuracy of six LLMs on 565 expert-written plant-biology multiple-choice questions (308 "target-plant" + 257 "non-target" subsets). *Expert evaluation* then checks that this improvement is not just answer-key accuracy, by having 15 plant researchers blind-score the full agent on 10 open-ended questions. Both rely only on the files under `workflow_evaluation/` and `expert_evaluation/`.
 =======
 - `benchmark/model_outputs/` — per-question outputs for 6 models x 2 datasets
   (agent mode = LLM + MCP tools; LLM mode = no tools), with judge and objective correctness.
@@ -253,7 +247,7 @@ and `expert_evaluation/`.
 - `analysis/mixed_effects_bootstrap.py` — mixed-effects and clustered-bootstrap analyses of the
   expert evaluation.
 - `analysis/eval_mcp_workflow_target.yml` — the exported Dify workflow DSL.
->>>>>>> 23d431cd883a8ca58cee8ac36a34fe0b6bbab959
+
 
 ### 1) Automated workflow evaluation — `workflow_evaluation/`
 
