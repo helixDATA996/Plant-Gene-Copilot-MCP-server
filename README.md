@@ -315,11 +315,3 @@ python mixed_effects_bootstrap.py
 ```
 
 Outputs are written to `expert_evaluation/results/`.
-
-### Notes
-
-- Only **anonymized** expert ratings are distributed; the raw workbook holding
-  real rater identities is not published, consistent with the double-blind
-  design.
-- A versioned snapshot of this repository is archived on Zenodo (DOI in the
-  manuscript).
