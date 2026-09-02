@@ -234,7 +234,7 @@ asyncio.run(main())
 
 PGCopilot's conversational agent interface is deployed on **Dify** (version 1.16.1, <https://github.com/langgenius/dify>), an open-source platform for building and operating LLM-based applications through a graphical, no-code interface. In PGCopilot, Dify serves as the agent frontend that hosts the conversational workflow and registers the MCP tools provided by this repository (`mcp_server.py`), enabling end users to query plant-genomics databases through natural language without writing code. The hosted agent interface is available at <https://web.plantgenecopilot.top/>.
 
-Because the agent frontend (Dify) and the MCP tool layer (this repository) are decoupled, PGCopilot is defined as a **tool-layer + prompt framework that is independent of the underlying LLM**; any model supported by Dify can be used as the reasoning backbone. For the benchmark reported in the manuscript we used DeepSeek-V3.2 as an example backbone model.
+ PGCopilot is defined as a tool-layer + prompt framework that is independent of both the underlying LLM and the specific client. It can be used with Dify as well as any other MCP-compatible client, and any model supported by the client can serve as the reasoning backbone. For the benchmark reported in the manuscript we used DeepSeek-V3.2 as an example backbone model.
 
 ## Benchmark & Reproducibility
 
