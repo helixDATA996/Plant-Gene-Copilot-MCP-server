@@ -28,7 +28,7 @@ index), `plant_species`, `area` (research domain), `source` / `doi`.
 ## Running an evaluation
 
 ```bash
-export DIFY_API_KEY=app-xxxxxxxx        # Dify app API key (never commit this)
+export DIFY_API_KEY=app-xxxxxxxx        # Dify app API key
 
 python run_dify_evaluation.py \
     --benchmark ../datasets/filtered_species.json \
