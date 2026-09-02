@@ -1,0 +1,556 @@
+app:
+  description: "<instruction>\nYou are a professional plant biology AI Agent, specializing\
+    \ in General Biology, gene information retrieval and interpretation for model\
+    \ and crop species. \nFor foundational inquiries, suc..."
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  icon_type: emoji
+  mode: agent-chat
+  name: pgc
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/deepseek:0.0.20@850efe73fb62bbe7ab2229116086596596297a77174fb86f73e1363b99a24116
+    version: null
+kind: app
+model_config:
+  agent_mode:
+    enabled: true
+    max_iteration: 99
+    prompt: null
+    strategy: function_call
+    tools:
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_homology
+      tool_name: string_homology
+      tool_parameters:
+        proteins: null
+        species: null
+        species_b: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_interaction_evidence
+      tool_name: string_interaction_evidence
+      tool_parameters:
+        identifier_a: null
+        identifiers_b: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_enrichment_image_url
+      tool_name: string_enrichment_image_url
+      tool_parameters:
+        category: null
+        identifiers: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_ppi_enrichment
+      tool_name: string_ppi_enrichment
+      tool_parameters:
+        identifiers: null
+        required_score: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: 9b6c5773-0751-4d12-a475-651c1ed54a4d
+      provider_name: 知识库
+      provider_type: workflow
+      tool_label: 知识库
+      tool_name: Knowledge_DB
+      tool_parameters:
+        input: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: gene_search
+      tool_name: gene_search
+      tool_parameters:
+        extended_search: null
+        gene_name: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_gene_id
+      tool_name: fetch_gene_id
+      tool_parameters:
+        gene_name: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: entrezgene_id
+      tool_name: entrezgene_id
+      tool_parameters:
+        gene_id: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_ExternalDBs
+      tool_name: fetch_ExternalDBs
+      tool_parameters:
+        compact: null
+        gene_id: null
+        max_results: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_gff_annotation
+      tool_name: fetch_gff_annotation
+      tool_parameters:
+        gene_id: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_ncbi_info
+      tool_name: fetch_ncbi_info
+      tool_parameters:
+        entrezgene_id: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_gene_structure_details
+      tool_name: fetch_gene_structure_details
+      tool_parameters:
+        entrezgene_id: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_kegg_info
+      tool_name: fetch_kegg_info
+      tool_parameters:
+        kegg_id: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_uniprot_entry
+      tool_name: fetch_uniprot_entry
+      tool_parameters:
+        extentional_search: null
+        gene_id: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_uniprot_details
+      tool_name: fetch_uniprot_details
+      tool_parameters:
+        entries: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_interpro
+      tool_name: fetch_interpro
+      tool_parameters:
+        interpro: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_pfam
+      tool_name: fetch_pfam
+      tool_parameters:
+        pfam: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_pmid
+      tool_name: fetch_pmid
+      tool_parameters:
+        max_results: null
+        query: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: pubmed_advanced_search
+      tool_name: pubmed_advanced_search
+      tool_parameters:
+        article_type: null
+        date_from: null
+        date_to: null
+        page: null
+        query: null
+        sort: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: fetch_details
+      tool_name: fetch_details
+      tool_parameters:
+        pmid: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_resolve_proteins
+      tool_name: string_resolve_proteins
+      tool_parameters:
+        proteins: null
+        show_sequence: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_interactions_query_set
+      tool_name: string_interactions_query_set
+      tool_parameters:
+        extend_network: null
+        network_type: null
+        proteins: null
+        required_score: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_all_interaction_partners
+      tool_name: string_all_interaction_partners
+      tool_parameters:
+        identifiers: null
+        network_type: null
+        required_score: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_enrichment
+      tool_name: string_enrichment
+      tool_parameters:
+        proteins: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_functional_annotation
+      tool_name: string_functional_annotation
+      tool_parameters:
+        identifiers: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_query_species
+      tool_name: string_query_species
+      tool_parameters:
+        species_text: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_visual_network
+      tool_name: string_visual_network
+      tool_parameters:
+        extend_network: null
+        hide_disconnected_nodes: null
+        network_flavor: null
+        network_type: null
+        proteins: null
+        required_score: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_network_link
+      tool_name: string_network_link
+      tool_parameters:
+        extend_network: null
+        hide_disconnected_nodes: null
+        network_flavor: null
+        network_type: null
+        proteins: null
+        required_score: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_proteins_for_term
+      tool_name: string_proteins_for_term
+      tool_parameters:
+        species: null
+        term_text: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_sequence_search
+      tool_name: string_sequence_search
+      tool_parameters:
+        sequences: null
+        species: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: string_help
+      tool_name: string_help
+      tool_parameters:
+        topic: null
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: mcp
+      provider_name: mcp
+      provider_type: mcp
+      tool_label: check_initialization
+      tool_name: check_initialization
+      tool_parameters: {}
+  annotation_reply:
+    embedding_model:
+      embedding_model_name: text-embedding-v4
+      embedding_provider_name: langgenius/tongyi/tongyi
+    enabled: true
+    id: 91543e21-ec17-4b4b-94f9-863bc5dab33d
+    score_threshold: 0.97
+  chat_prompt_config:
+    prompt:
+    - role: system
+      text: ''
+  completion_prompt_config:
+    conversation_histories_role:
+      assistant_prefix: ''
+      user_prefix: ''
+    prompt:
+      text: ''
+  dataset_configs:
+    datasets:
+      datasets: []
+    metadata_filtering_mode: automatic
+    metadata_model_config:
+      completion_params:
+        enable_thinking: false
+        temperature: 0.7
+      mode: chat
+      name: qwen3-30b-a3b
+      provider: langgenius/tongyi/tongyi
+    reranking_enable: true
+    reranking_mode: reranking_model
+    reranking_model:
+      reranking_model_name: gte-rerank
+      reranking_provider_name: langgenius/tongyi/tongyi
+    retrieval_model: multiple
+    top_k: 4
+  dataset_query_variable: ''
+  external_data_tools: []
+  file_upload:
+    allowed_file_extensions:
+    - .JPG
+    - .JPEG
+    - .PNG
+    - .GIF
+    - .WEBP
+    - .SVG
+    - .MP4
+    - .MOV
+    - .MPEG
+    - .WEBM
+    allowed_file_types: []
+    allowed_file_upload_methods:
+    - remote_url
+    - local_file
+    enabled: true
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+    number_limits: 3
+  model:
+    completion_params:
+      stop: []
+      temperature: 0.3
+      thinking: false
+    mode: chat
+    name: deepseek-v4-flash
+    provider: langgenius/deepseek/deepseek
+  more_like_this:
+    enabled: false
+  opening_statement: Welcome！
+  pre_prompt: "<instruction>\nYou are a professional plant biology AI Agent, specializing\
+    \ in General Biology, gene information retrieval and interpretation for model\
+    \ and crop species. \nFor foundational inquiries, such as those concerning plant\
+    \ anatomical organization or other biological questions, the knowledge base may\
+    \ be consulted. If a gene name corresponds to multiple possible gene IDs (whether\
+    \ within the same species or across different species), immediately pause the\
+    \ process and request explicit clarification from the user regarding the intended\
+    \ species or exact gene ID before proceeding. Do not guess or infer the target\
+    \ gene without user confirmation.\nIf the gene name refers to one unique gene\
+    \ with no ambiguity or alternative mappings, continue assisting until the user's\
+    \ query is fully resolved, and only conclude your turn after confirming that all\
+    \ parts of the problem have been addressed to the user's satisfaction.\nPlease\
+    \ proceed in a step-by-step manner, addressing the user’s research question according\
+    \ to the following sequence:\n1. First, carefully analyze the user’s specific\
+    \ question to clarify the research objectives and the scientific problems to be\
+    \ solved.\n2. Based on the question type, select appropriate databases and tools\
+    \ for a systematic search, paying special attention to gene name homonyms!\n3.\
+    \ During the search, note:\n  - Use numeric bracket citations throughout, and\
+    \ include at the end a complete reference list matching the labels exactly:[number]\
+    \ Authors et al., Journal, Year. Title. https://pubmed.ncbi.nlm.nih.gov/PMID/\n\
+    \   - You can only cite the literature you find! Don’t make up literature yourself!\n\
+    \   -If extended gene search yields no results, try using fetch_ExternalDBs to\
+    \ obtain gene names or ids. Then search genes you find again at once. \n   - Consistency\
+    \ and accuracy of gene names.\n   - Query relevant data in one go to reduce token\
+    \ consumption.\n   - After obtaining UniProt information, you must further query\
+    \ Pfam and InterPro information.\n   - After obtaining the GeneID, you can: -\
+    \ Retrieve GFF annotation for GENOMIC LOCATION (chromosome position, neighbors)\
+    \ using fetch_gff_annotation - Retrieve NCBI information for GENE STRUCTURE (exon-intron\
+    \ architecture, transcripts) using fetch_ncbi_info - Use entrezgene_id() to convert\
+    \ Gene_ID to Entrezgene ID before calling fetch_ncbi_info\"\n4. For questions\
+    \ involving protein–protein interactions, you must retrieve detailed information\
+    \ from the STRING database and be sure to provide an image.\n5. When organizing\
+    \ and analyzing data:\n   - Use tables to summarize gene/protein information.\n\
+       - Ensure the diagrams include only the correct names of genes or proteins.\n\
+    6. When writing the response:\n   - Present information with rich styling.\n   -\
+    \ Explain each step of the research process and findings in detail.\n   - Use\
+    \ [numeric] labels for citations.\n   - In your answer, ensure that all citations\
+    \ appear with numeric bracket labels [number], and include at the end a complete\
+    \ reference list that matches these labels one-to-one in the format: [number]\
+    \ Authors et al., Journal Name, Year. Title. https://pubmed.ncbi.nlm.nih.gov/{pmid}/.\
+    \ Do not omit or invent any references.\n7. Provide research outlook and reflections\
+    \ in the final section of the answer.\n8. If the user asks questions unrelated\
+    \ to academia, reply directly with the following sentence: “Don't ask unrelated\
+    \ questions; funds are limited!”.\n9. Do not include any XML tags in the final\
+    \ output, and at the end of the answer guide the user on how to obtain further\
+    \ information.\n10. In cases where data is missing or cannot be verified, explicitly\
+    \ state 'Information not available' in the conclusion, and refrain from any speculation\
+    \ or fabrication.\n11.If the user requests sequences, provide the relevant links\
+    \ instead of directly replying with the sequences.\nWhen answering, you must only use\
+    \ the information provided in the RAG context. \nIf the RAG context provides a\
+    \ PMID, use it exactly as given and verify that the content matches the source.\
+    \ \nIf there is no PMID, clearly state that no PubMed reference is available,\
+    \ and do not invent one. If literature information is involved, ensure you have\
+    \ used  at least one PubMed tool.\nDo not fabricate, guess, or assume any paper\
+    \ titles, authors, journal names, publication years, or URLs beyond what is explicitly\
+    \ provided.\nIf unsure or incomplete, say \"Information not available in the provided\
+    \ data\" instead of creating content.\nYour goal is to ensure all references match\
+    \ the actual PubMed page and avoid any hallucinated citations or mismatched data.\
+    \ You are prohibited from recalling or generating any literature citations from\
+    \ your training data. \n \n</instruction>\n \n<output_format>\nThe answer may\
+    \ include the following sections:\n1. Analysis of the research question\n2. Data\
+    \ retrieval strategy and step-by-step description\n3. Main findings (use tables\
+    \ and schematics)\n4. Explanation of molecular mechanisms (if exist) and a one-paragraph\
+    \ summary of results reported in the literature. （if exist. Don’t list things\
+    \ you haven’t seen!）\n5. Reference list cited in your answer. （if exist. Don’t\
+    \ list items you haven’t seen!）\n6. Research outlook and reflections\n7. Final\
+    \ results or answers \n8. Suggestions\n9.Additional links you find. (if exist.\
+    \ Don’t fabricate web links you haven’t seen!).\n</output_format>"
+  prompt_type: simple
+  retriever_resource:
+    enabled: true
+  sensitive_word_avoidance:
+    config:
+      inputs_config:
+        enabled: true
+        preset_response: '404'
+      keywords: 猫娘
+      outputs_config:
+        enabled: true
+        preset_response: '404'
+    enabled: true
+    type: keywords
+  speech_to_text:
+    enabled: false
+  suggested_questions:
+  - ERF4 基因功能？
+  - QUESTION2
+  - '3'
+  - '4'
+  suggested_questions_after_answer:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form: []
+version: 0.6.0
