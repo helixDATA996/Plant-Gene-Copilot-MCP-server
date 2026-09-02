@@ -235,8 +235,7 @@ asyncio.run(main())
 This manuscript evaluates PGCopilot with **two complementary experiments**, and
 this repository makes both fully reproducible.
 
-<<<<<<< HEAD
-**The short version:** *Automated evaluation* measures whether adding the MCP
+*Automated evaluation* measures whether adding the MCP
 tool layer improves the accuracy of six LLMs on 565 expert-written plant-biology
 multiple-choice questions (308 "target-plant" + 257 "non-target" subsets).
 *Expert evaluation* then checks that this improvement is not just answer-key
