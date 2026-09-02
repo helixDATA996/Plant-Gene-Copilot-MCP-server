@@ -35,6 +35,12 @@ The backend MCP server (not included unless you add it) bridges MCP tool calls t
 
 ## Tool List (MCP Functions)
 
+The tools below are grouped by function. Names shown in `code` are the
+friendly/logical names; the exact names registered with the MCP client are the
+Python function names in `mcp_server.py`, which use `snake_case`
+(e.g. `geneSearch` below is exposed as `gene_search`). Verify against the
+`@mcp.tool()` decorated functions in the source before scripting.
+
 ### 1) Gene lookup & identifier normalization
 
 - **`geneSearch(gene_name, extended_search=false)`**  
@@ -148,42 +154,71 @@ The backend MCP server (not included unless you add it) bridges MCP tool calls t
   Whether the backend services are initialized and reachable.
 
 ## Quick Start
-Create a virtual environment with `uv` and install `requirements.txt`
+
+The server needs **Python 3.10+**. It talks to an existing backend API
+(`http://api.plantgenecopilot.top`, overridable in `config/server.config`) plus
+the public STRING and NCBI E-utilities services.
+
+### 1. Install dependencies
+
+Using `uv` (recommended):
 
 ```bash
-# 1) Install uv
-# macOS / Linux
-curl -LsSf https://astral.sh/uv/install.sh | sh
-# Windows (PowerShell)
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-#Using pip
-pip install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh        # macOS / Linux
+# or: powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-# 2) Go to your project directory
-cd /path/to/your/project
+Or with `pip` + `venv` (no extra tooling):
 
-# 3) Create a virtual environment (defaults to .venv)
-uv venv
+```bash
+python -m venv .venv
+source .venv/bin/activate          # macOS / Linux
+# .venv\Scripts\Activate.ps1        # Windows (PowerShell)
+pip install -r requirements.txt
+```
 
-# 4) Activate the environment
-# macOS / Linux
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
+### 2. Configure API access
 
-# 5) Install dependencies
-uv pip install -r requirements.txt
+Edit `config/server.config` before running:
 
-# 6) Verify
-python -V
-python -c "import sys; print(sys.executable)"
+- `ncbi_config.email` — a valid email (required by NCBI E-utilities policy).
+- `ncbi_config.api_key` — your NCBI API key (optional, raises rate limits).
+  Obtainable at <https://www.ncbi.nlm.nih.gov/account/settings/>.
+- `api_base_url` — backend API address. Change it if you run your own backend
+  instead of the hosted one. The `base_url`, `server_port` and `timeout`
+  entries tune the STRING service.
 
-# 7)Configration
-Config your NCBI api key
+### 3. Run
 
-# 8)Run
+```bash
 python mcp_server.py
 ```
+
+The server starts over **HTTP transport** on `0.0.0.0:1154` (see the log
+output). Point any MCP-compatible client (Claude Desktop, Dify, or a FastMCP
+client) at that endpoint to begin querying plant-genomics tools. Press `q`
+to stop.
+
+### Calling a tool from your own code
+
+With a FastMCP/anyio MCP client, connect to the endpoint and call a tool by
+its registered name, for example `gene_search(gene_name="AtDCL1")`:
+
+```python
+import asyncio
+from fastmcp import Client
+
+async def main():
+    async with Client("http://localhost:1154") as client:
+        resp = await client.call_tool("gene_search", {"gene_name": "AtDCL1"})
+        print(resp)
+
+asyncio.run(main())
+```
+
+> Note: tool names use `snake_case` as registered in `mcp_server.py`
+> (e.g. `gene_search`, `fetch_gene_id`, `fetch_pmid`). The full annotated
+> tool list is in the next section.
 
 
 <p>
