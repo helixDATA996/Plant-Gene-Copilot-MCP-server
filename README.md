@@ -230,43 +230,90 @@ asyncio.run(main())
 </p>
 
 
-## Reproducibility
+## Benchmark & Reproducibility
 
-The two evaluation components of the manuscript are separated into
-`workflow_evaluation/` (automated multi-choice benchmark) and
-`expert_evaluation/` (human expert panel).
+This manuscript evaluates PGCopilot with **two complementary experiments**, and
+this repository makes both fully reproducible.
 
-### Automated workflow evaluation — `workflow_evaluation/`
+**The short version:** *Automated evaluation* measures whether adding the MCP
+tool layer improves the accuracy of six LLMs on 565 expert-written plant-biology
+multiple-choice questions (308 "target-plant" + 257 "non-target" subsets).
+*Expert evaluation* then checks that this improvement is not just answer-key
+accuracy, by having 15 plant researchers blind-score the full agent on 10
+open-ended questions. Both rely only on the files under `workflow_evaluation/`
+and `expert_evaluation/`.
 
-Machine-readable benchmark and per-question outputs, fully reproducible:
+### 1) Automated workflow evaluation — `workflow_evaluation/`
 
-- `datasets/` — the Expert MoBiPlant benchmark as JSON:
-  `expert_mobi.json` (full 565 questions), `filtered_species.json`
-  (308-question target-plant subset), `other_species.json` (257-question
-  non-target subset). Each entry: `question`, `options` (3 choices),
-  `answer`, `plant_species`, `area` (domain), `source`/`doi`.
-- `model_outputs/` — per-question outputs for 6 models x 2 datasets
-  (agent mode = LLM + MCP tools; LLM mode = no tools), with judge and
-  objective correctness.
-- `summary_tables/` — Table 1 (performance comparison with McNemar
-  significance), Table 2 (area breakdown), species-stratified accuracies
-  with 95% Wilson CI, per-domain sample sizes, and a per-question answer
-  table.
-- `analysis/` — scripts: `run_dify_evaluation.py` (runs the benchmark via
-  the Dify workflow API), `eval_mcp_workflow_target.yml` (exported Dify
-  workflow DSL, contains no credentials), `compute_summary_tables.py`
-  (recomputes the summary tables from `model_outputs/`), and `make_fig2.py`
-  / `make_fig3.py`.
+**What it measures.** Each model runs each question in two modes — *agent mode*
+(LLM + MCP tools) and *plain LLM mode* (no tools) — and we compare accuracy.
+The questions come from the Expert MoBiPlant benchmark (Burda et al., 2025),
+written and reviewed by plant biologists.
 
-### Human expert evaluation — `expert_evaluation/`
+**Inputs & outputs (machine-readable, no guessing):**
 
-- `system/` — the web-based double-blind scoring system used by the 15
-  expert assessors (Flask + MySQL).
-- `data/expert_scores_anonymized.xlsx` — the full set of 1,050 anonymized
-  ratings (15 raters x 10 questions x 7 metrics), with the ICC,
-  significance-test, and rubric sheets.
-- `analysis/mixed_effects_bootstrap.py` — mixed-effects and clustered
-  bootstrap analyses of the expert ratings.
+- `datasets/` — the benchmark as JSON. `expert_mobi.json` (all 565), plus the
+  two subsets used in the paper: `filtered_species.json` (308 questions on
+  model/species covered by PGCopilot's databases) and `other_species.json`
+  (257 non-target/species-specific questions). Every entry carries the full
+  question, the 3 answer choices, the correct-answer index, the target species,
+  research area, and its provenance (`source`/`doi`/journal/year/citations).
+- `model_outputs/` — one CSV per model × dataset with the raw per-question
+  response and correctness in both modes (6 models × 2 datasets = 12 files).
+- `summary_tables/` — the derived tables used in the paper: overall performance
+  with McNemar significance, per-research-area and per-species accuracies with
+  95% Wilson confidence intervals, per-domain sample sizes, and a merged
+  per-question answer table.
+- `analysis/` — the scripts that reproduce the whole pipeline.
 
-A versioned snapshot of this repository is archived on Zenodo (DOI in the
-manuscript).
+**To re-run a model** (requires a Dify app with your own LLM key):
+
+```bash
+cd workflow_evaluation/analysis
+python run_dify_evaluation.py \
+    --benchmark ../datasets/filtered_species.json \
+    --dataset target \
+    --model-label DeepSeek-V3.2 \
+    --output ../model_outputs/DeepSeek-V3.2_target.csv
+```
+
+**To regenerate every summary table** from the raw outputs (no API calls):
+
+```bash
+cd workflow_evaluation/analysis
+python compute_summary_tables.py --inputs ../model_outputs/ --outdir ../summary_tables/
+```
+
+### 2) Human expert evaluation — `expert_evaluation/`
+
+**What it measures.** 15 plant researchers (PIs, PhD and master's students)
+scored PGCopilot and three comparison systems on 10 open-ended questions,
+across 7 criteria (relevance, factual accuracy, completeness, citation
+verifiability, evidence support, hallucination control, research utility) on a
+0–10 scale — 1,050 ratings in total. The panel was blinded to which system
+produced each answer.
+
+- `system/` — the Flask + MySQL web app that collected the (blinded) ratings.
+- `data/expert_scores_anonymized.xlsx` — all 1,050 ratings, rater identities
+  replaced by `Rater01`–`Rater15`, plus the ICC, significance-test, scoring
+  rubric and benchmark-question sheets.
+- `analysis/mixed_effects_bootstrap.py` — mixed-effects + clustered-bootstrap
+  analysis of the model contrasts (Table S11 in the manuscript).
+
+**To re-run the statistics** (reads the anonymized workbook, writes a table +
+forest plot):
+
+```bash
+cd expert_evaluation/analysis
+python mixed_effects_bootstrap.py
+```
+
+Outputs are written to `expert_evaluation/results/`.
+
+### Notes
+
+- Only **anonymized** expert ratings are distributed; the raw workbook holding
+  real rater identities is not published, consistent with the double-blind
+  design.
+- A versioned snapshot of this repository is archived on Zenodo (DOI in the
+  manuscript).

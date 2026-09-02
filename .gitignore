@@ -13,6 +13,11 @@ venv/
 **/original_data.xlsx
 **/*_raw_scores*.xlsx
 
+# Script-generated analysis outputs (reproduce via the scripts instead)
+expert_evaluation/results/
+**/Table S11 *.xlsx
+**/Table S11 forest plot.png
+
 # OS / editor
 .DS_Store
 Thumbs.db
