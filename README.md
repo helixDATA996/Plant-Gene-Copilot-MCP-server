@@ -195,21 +195,43 @@ python mcp_server.py
 </p>
 
 
-## Reproducibility: benchmark data, summary tables, and analysis scripts
+## Reproducibility
 
-The benchmark evaluation is fully reproducible. See `analysis/` for the scripts and
-`benchmark/model_outputs/` and `benchmark/summary_tables/` for the machine-readable
-evaluation outputs and derived tables:
+The two evaluation components of the manuscript are separated into
+`workflow_evaluation/` (automated multi-choice benchmark) and
+`expert_evaluation/` (human expert panel).
 
-- `benchmark/model_outputs/` — per-question outputs for 6 models x 2 datasets
-  (agent mode = LLM + MCP tools; LLM mode = no tools), with judge and objective correctness.
-- `benchmark/summary_tables/` — Table 1 (performance comparison with McNemar significance),
-  Table 2 (area breakdown), species-stratified accuracies with 95% Wilson CI, per-domain
-  sample sizes, and a per-question answer table.
-- `analysis/run_dify_evaluation.py` — reproduces the evaluation by calling the Dify workflow API.
-- `analysis/compute_summary_tables.py` — reproduces the summary tables from `model_outputs/`.
-- `analysis/mixed_effects_bootstrap.py` — mixed-effects and clustered-bootstrap analyses of the
-  expert evaluation.
-- `analysis/eval_mcp_workflow_target.yml` — the exported Dify workflow DSL (contains no credentials).
+### Automated workflow evaluation — `workflow_evaluation/`
 
-A versioned snapshot of this repository is archived on Zenodo (DOI in the manuscript).
+Machine-readable benchmark and per-question outputs, fully reproducible:
+
+- `datasets/` — the Expert MoBiPlant benchmark as JSON:
+  `expert_mobi.json` (full 565 questions), `filtered_species.json`
+  (308-question target-plant subset), `other_species.json` (257-question
+  non-target subset). Each entry: `question`, `options` (3 choices),
+  `answer`, `plant_species`, `area` (domain), `source`/`doi`.
+- `model_outputs/` — per-question outputs for 6 models x 2 datasets
+  (agent mode = LLM + MCP tools; LLM mode = no tools), with judge and
+  objective correctness.
+- `summary_tables/` — Table 1 (performance comparison with McNemar
+  significance), Table 2 (area breakdown), species-stratified accuracies
+  with 95% Wilson CI, per-domain sample sizes, and a per-question answer
+  table.
+- `analysis/` — scripts: `run_dify_evaluation.py` (runs the benchmark via
+  the Dify workflow API), `eval_mcp_workflow_target.yml` (exported Dify
+  workflow DSL, contains no credentials), `compute_summary_tables.py`
+  (recomputes the summary tables from `model_outputs/`), and `make_fig2.py`
+  / `make_fig3.py`.
+
+### Human expert evaluation — `expert_evaluation/`
+
+- `system/` — the web-based double-blind scoring system used by the 15
+  expert assessors (Flask + MySQL).
+- `data/expert_scores_anonymized.xlsx` — the full set of 1,050 anonymized
+  ratings (15 raters x 10 questions x 7 metrics), with the ICC,
+  significance-test, and rubric sheets.
+- `analysis/mixed_effects_bootstrap.py` — mixed-effects and clustered
+  bootstrap analyses of the expert ratings.
+
+A versioned snapshot of this repository is archived on Zenodo (DOI in the
+manuscript).

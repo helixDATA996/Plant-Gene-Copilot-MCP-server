@@ -15,8 +15,8 @@ Reproducible evaluation pipeline for the manuscript
 
 ## Benchmark data
 
-`benchmark/datasets/` (repo root) contains the machine-readable benchmark
-(Expert MoBiPlant, Burda et al. 2025):
+`../datasets/` (i.e. `workflow_evaluation/datasets/`) contains the
+machine-readable benchmark (Expert MoBiPlant, Burda et al. 2025):
 
 * `expert_mobi.json` – full 565-question benchmark
 * `filtered_species.json` – 308-question target-plant subset
@@ -31,10 +31,10 @@ index), `plant_species`, `area` (research domain), `source` / `doi`.
 export DIFY_API_KEY=app-xxxxxxxx        # Dify app API key (never commit this)
 
 python run_dify_evaluation.py \
-    --benchmark ../benchmark/datasets/filtered_species.json \
+    --benchmark ../datasets/filtered_species.json \
     --dataset target \
     --model-label DeepSeek-V3.2 \
-    --output model_outputs/DeepSeek-V3.2_target.csv
+    --output ../model_outputs/DeepSeek-V3.2_target.csv
 ```
 
 One Dify app = one evaluated LLM. To evaluate a different model, import the
@@ -53,7 +53,7 @@ locally as `choice == correct_answer`.
 ## Reproducing the summary tables
 
 ```bash
-python compute_summary_tables.py --inputs model_outputs/ --outdir ../summary_tables/
+python compute_summary_tables.py --inputs ../model_outputs/ --outdir ../summary_tables/
 ```
 
 Produces:

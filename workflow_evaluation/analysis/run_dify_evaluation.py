@@ -33,10 +33,10 @@ Usage
 # 1. Full run (all questions of one dataset, one model per Dify app):
 export DIFY_API_KEY=app-xxxxxxxx
 python run_dify_evaluation.py \
-    --benchmark ../../benchmark/datasets/filtered_species.json \
+    --benchmark ../datasets/filtered_species.json \
     --dataset target \
     --model-label DeepSeek-V3.2 \
-    --output outputs/DeepSeek-V3.2_target.csv
+    --output ../model_outputs/DeepSeek-V3.2_target.csv
 
 # 2. Resume a crashed run, retrying failed rows only:
 python run_dify_evaluation.py --output outputs/DeepSeek-V3.2_target.csv ...

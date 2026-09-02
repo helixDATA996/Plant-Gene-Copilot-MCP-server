@@ -31,9 +31,13 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-XLSX = r'C:\Users\a1835\Desktop\mcp\又又又重投\NP-R1\data\Supplementary Data1_anonymized.xlsx'
-OUT_XLSX = r'C:\Users\a1835\Desktop\mcp\又又又重投\NP-R1\data\Table S11 Mixed-effects estimates.xlsx'
-OUT_PNG = r'C:\Users\a1835\Desktop\mcp\又又又重投\NP-R1\data\Table S11 forest plot.png'
+import os
+_HERE = os.path.dirname(os.path.abspath(__file__))
+XLSX = os.path.join(_HERE, '..', 'data', 'expert_scores_anonymized.xlsx')
+_OUT = os.path.join(_HERE, '..', 'results')
+os.makedirs(_OUT, exist_ok=True)
+OUT_XLSX = os.path.join(_OUT, 'Table S11 Mixed-effects estimates.xlsx')
+OUT_PNG = os.path.join(_OUT, 'Table S11 forest plot.png')
 
 REF = 'Full PGC Agent'
 OTHERS = ['PlantGPT', 'Ablated General LLM', 'PGC Agent without System Prompt']

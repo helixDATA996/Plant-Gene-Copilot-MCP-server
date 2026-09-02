@@ -1,0 +1,19 @@
+# Environment & secrets
+.env
+*.local
+.env.example.actual
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data that must never be published (contains rater identities)
+**/original_data.xlsx
+**/*_raw_scores*.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*
