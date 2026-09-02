@@ -1,0 +1,19 @@
+﻿Scope,Question,Metric,Targets,Raters,"ICC(2,1)","ICC(2,k)"
+Overall,All,All,280,15,0.827,0.986
+By metric,All,M1,40,15,0.908,0.993
+By metric,All,M2,40,15,0.849,0.988
+By metric,All,M3,40,15,0.852,0.989
+By metric,All,M4,40,15,0.689,0.971
+By metric,All,M5,40,15,0.792,0.983
+By metric,All,M6,40,15,0.71,0.973
+By metric,All,M7,40,15,0.897,0.992
+By question,Q1,All,28,15,0.897,0.992
+By question,Q2,All,28,15,0.708,0.973
+By question,Q3,All,28,15,0.694,0.971
+By question,Q4,All,28,15,0.83,0.987
+By question,Q5,All,28,15,0.81,0.985
+By question,Q6,All,28,15,0.862,0.989
+By question,Q7,All,28,15,0.756,0.979
+By question,Q8,All,28,15,0.898,0.992
+By question,Q9,All,28,15,0.674,0.969
+By question,Q10,All,28,15,0.645,0.965

@@ -1,4 +1,4 @@
-# Plant-Gene-Copilot-MCP-server
+﻿# Plant-Gene-Copilot-MCP-server
 
 A lightweight, open-source MCP (Model Context Protocol) frontend for structured plant genomics research.  
 It connects to a backend MCP server that provides unified function-style tools for gene lookup, identifier normalization, multi-source annotation retrieval (NCBI/UniProt/KEGG/InterPro/Pfam), genome localization (GFF-derived), and literature search (PubMed), enabling LLM agents to access plant genomic knowledge in a consistent and reproducible way.
@@ -229,6 +229,12 @@ asyncio.run(main())
   赞助提供。
 </p>
 
+
+## Deployment & User Interface
+
+PGCopilot's conversational agent interface is deployed on **Dify** (version 1.16.1, <https://github.com/langgenius/dify>), an open-source platform for building and operating LLM-based applications through a graphical, no-code interface. In PGCopilot, Dify serves as the agent frontend that hosts the conversational workflow and registers the MCP tools provided by this repository (`mcp_server.py`), enabling end users to query plant-genomics databases through natural language without writing code. The hosted agent interface is available at <https://web.plantgenecopilot.top/>.
+
+Because the agent frontend (Dify) and the MCP tool layer (this repository) are decoupled, PGCopilot is defined as a **tool-layer + prompt framework that is independent of the underlying LLM**; any model supported by Dify can be used as the reasoning backbone. For the benchmark reported in the manuscript we used DeepSeek-V3.2 as an example backbone model.
 
 ## Benchmark & Reproducibility
 

@@ -1,0 +1,4 @@
+﻿Model A,Model B,N paired ratings,Mean A,Mean B,Mean difference A-B,Wilcoxon statistic,Wilcoxon p,Paired t statistic,Paired t-test p,Cohen's dz,A higher than B,Tie,A lower than B
+Full PGC Agent,PlantGPT,1050,8.292,4.488,3.805,1120.0,7.621607774762519e-167,56.465,2.749e-320,1.743,999,37,14
+Full PGC Agent,Ablated General LLM,1050,8.292,6.884,1.409,18920.5,1.96977313750566e-116,31.534,4.6423753213077206e-154,0.973,782,201,67
+Full PGC Agent,PGC Agent without System Prompt,1050,8.292,7.859,0.433,43732.5,5.482326697813791e-34,12.614,4.562561859739191e-34,0.389,467,436,147
